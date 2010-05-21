@@ -1,0 +1,1 @@
+﻿/** * Document Class *  **/ package {		import com.ipnotica.Body;		import flash.display.MovieClip;	public class Main extends MovieClip {				public var body:Body;   			/**< container for all components */				public function Main() { }					}}

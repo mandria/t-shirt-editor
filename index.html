@@ -1,0 +1,29 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
+<html>
+	<head>
+    	<title>Personalize your t-shirt</title>
+	    <script language="javascript" type="text/javascript" src="assets/javascripts/swfobject.js"></script>
+	    <script language="javascript" type="text/javascript" src="assets/javascripts/flashvars.js"></script>
+		<link rel="stylesheet" href="assets/stylesheets/reset.css" type="text/css" media="screen"/>
+		<link rel="stylesheet" href="assets/stylesheets/layout.css" type="text/css" media="screen"/>
+		<!--[if gte IE 6]>
+	  		<link rel="stylesheet" href="assets/stylesheets/ie.css" type="text/css" media="screen"/>
+		<![endif]-->
+  	</head>
+  	<body>        
+	    <div id="container">
+		    <script type="text/javascript">
+			    var params = {wmode: "window", scale: "noborder"};
+			    var attributes = {};
+			    attributes.id = "menu";
+			    swfobject.embedSWF("tshirt.swf?r" + new Date().getTime(), "tshirt", "1000", "600", "10.0.0", "expressInstall.swf", flashvars, params, attributes);
+		    </script>
+			<div id="content">
+				<div id="tshirt">
+			        <!-- TODO: define a nice page for anybody who has not Flash Player-->
+				 	<a href="http://www.adobe.com/go/getflashplayer"></a>
+		   		</div>
+			</div>
+		</div>
+	</body>
+</html>
