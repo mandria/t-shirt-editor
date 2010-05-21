@@ -23,6 +23,11 @@ package com.ipnotica.footer {
 		
 		public function Footer() {
 			super();
+			init();
+		}
+		
+		private function init():void {
+			stop();
 		}
 		
 	}

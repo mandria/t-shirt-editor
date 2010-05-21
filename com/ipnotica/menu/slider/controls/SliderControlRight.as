@@ -17,6 +17,7 @@ package com.ipnotica.menu.slider.controls {
 		}
 		
 		private function init():void {
+			stop();
 			buttonMode = true;
 		}
 		

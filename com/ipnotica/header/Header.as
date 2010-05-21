@@ -5,18 +5,17 @@
 
 package com.ipnotica.header {
 	
-	import com.ipnotica.header.buttons.HeaderBaseButton;
-	import com.ipnotica.utils.CustomEvents;
+	import com.ipnotica.header.buttons.ImagesButton;
+	import com.ipnotica.header.buttons.ProductsButton;
+	import com.ipnotica.header.buttons.TextButton;
 	
 	import flash.display.MovieClip;
-	import flash.events.Event;
-	import flash.events.MouseEvent;
 
 	public class Header extends MovieClip {
 		
-		public var products:HeaderBaseButton;			/**< Show list of available products (tshirt, hat, cup, ...) */
-		public var images:HeaderBaseButton;				/**< Show list of available movieclips and images */
-		public var text:HeaderBaseButton;				/**< Show list of available fonts */
+		public var products:ProductsButton;			/**< Show list of available products (tshirt, hat, cup, ...) */
+		public var images:ImagesButton;				/**< Show list of available movieclips and images */
+		public var text:TextButton;					/**< Show list of available fonts */
 		
 		public function Header() {
 			super();
@@ -24,17 +23,20 @@ package com.ipnotica.header {
 		}
 		
 		private function init():void {
-			initStructure();
+			
 		}
 		
 		
+		/** samples */
+		
 		/** Structure handling **/
 		
+		/*
 		private function initStructure():void {
 			products.label.text = "PRODUCTS";
 			images.label.text   = "IMAGES";
 			text.label.text     = "TEXT";
-		}
+		}*/
 		
 		
 		/** Events handling **/
