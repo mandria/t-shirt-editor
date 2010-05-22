@@ -10,6 +10,8 @@ package com.ipnotica.header {
 	import com.ipnotica.header.buttons.ImagesButton;
 	import com.ipnotica.header.buttons.ProductsButton;
 	import com.ipnotica.header.buttons.TextButton;
+	import com.ipnotica.utils.Config;
+	import com.ipnotica.utils.Utils;
 	
 	import flash.display.MovieClip;
 	import flash.events.Event;
@@ -28,9 +30,13 @@ package com.ipnotica.header {
 		}
 		
 		private function init():void {
+			Utils.setConfig(this);
 			initEvents();
+			initSelectedButton();
 		}
 		
+		
+		/** Handle arrow movements */
 		private function initEvents():void {
 			products.addEventListener(MouseEvent.CLICK, moveArrow);
 			images.addEventListener(MouseEvent.CLICK, moveArrow);
@@ -41,6 +47,14 @@ package com.ipnotica.header {
 			var newX:uint = e.currentTarget.x + 45;
 			TweenLite.to(arrow, 0.4, {x: newX, ease: Quad.easeOut});
 		}
+		
+		
+		/** Define the selected button in the hader */ 
+		private function initSelectedButton():void {
+			TweenLite.delayedCall(0, function():void { Config.body.menu.onClickImages(null) }); // Trick. If we do not do so, the menu is still null
+			images.dispatchEvent(new MouseEvent(MouseEvent.CLICK));    
+		}
+		
 		
 		/** samples */
 		

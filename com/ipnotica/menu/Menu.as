@@ -30,20 +30,14 @@ package com.ipnotica.menu {
 		}
 		
 		
-		/** 
-		 * Events  
-		 * 
-		 **/
+		/** Events **/
 		
 		private function initEvents():void {
 			
 		}
 		
 		
-		/**
-		 * Header menu buttons click (products, images or text)
-		 * 
-		 **/
+		/** Listen when menu buttons are clicked **/
 		   
 		private function initListeners():void {
 			Config.body.header.products.addEventListener(MouseEvent.CLICK, onClickProducts);
@@ -51,16 +45,16 @@ package com.ipnotica.menu {
 			Config.body.header.text.addEventListener(MouseEvent.CLICK, onClickText);
 		}
 		
-		private function onClickProducts(e:Event):void {
-			trace("The menu has seen that you clicked the *products* selection");
+		public function onClickProducts(e:Event):void {
+			trace("You clicked the *products* selection");
 		}
 		
-		private function onClickImages(e:Event):void {
-			trace("The menu has seen that you clicked the *images* selection");
+		public function onClickImages(e:Event):void {
+			trace("You clicked the *images* selection");
 		}
 		
-		private function onClickText(e:Event):void {
-			trace("The menu has seen that you clicked the *text* selection");
+		public function onClickText(e:Event):void {
+			trace("You clicked the *text* selection");
 		}	
 	}
 }            
