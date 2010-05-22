@@ -5,17 +5,22 @@
 
 package com.ipnotica.header {
 	
+	import com.greensock.TweenLite;
+	import com.greensock.easing.Quad;
 	import com.ipnotica.header.buttons.ImagesButton;
 	import com.ipnotica.header.buttons.ProductsButton;
 	import com.ipnotica.header.buttons.TextButton;
 	
 	import flash.display.MovieClip;
+	import flash.events.Event;
+	import flash.events.MouseEvent;
 
 	public class Header extends MovieClip {
 		
 		public var products:ProductsButton;			/**< Show list of available products (tshirt, hat, cup, ...) */
 		public var images:ImagesButton;				/**< Show list of available movieclips and images */
 		public var text:TextButton;					/**< Show list of available fonts */
+		public var arrow:MovieClip;					/**< Give a visual feedback of the selected item */
 		
 		public function Header() {
 			super();
@@ -23,9 +28,19 @@ package com.ipnotica.header {
 		}
 		
 		private function init():void {
-			
+			initEvents();
 		}
 		
+		private function initEvents():void {
+			products.addEventListener(MouseEvent.CLICK, moveArrow);
+			images.addEventListener(MouseEvent.CLICK, moveArrow);
+			text.addEventListener(MouseEvent.CLICK, moveArrow);
+		}
+		
+		private function moveArrow(e:Event):void {
+			var newX:uint = e.currentTarget.x + 45;
+			TweenLite.to(arrow, 0.4, {x: newX, ease: Quad.easeOut});
+		}
 		
 		/** samples */
 		
