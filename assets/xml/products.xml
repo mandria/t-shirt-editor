@@ -1,0 +1,19 @@
+<?xml version="1.0"?>
+<products>
+	<product id="1" description="T-Shirt">
+		<views>
+			<view id="1" description="Front"/>
+			<view id="2" description="Back"/>
+			<view id="3" description="Side SX"/>
+			<view id="4" description="Side DX"/>
+		</views>                          
+		<price>10</price>
+	</product>
+	<product id="2" description="Cup">
+		<views>
+			<view id="5" description="Front"/>
+			<view id="6" description="Back"/>			
+		</views>                          
+		<price>10</price>
+	</product>
+</products>

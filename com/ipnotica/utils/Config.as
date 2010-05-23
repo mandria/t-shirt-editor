@@ -1,20 +1,1 @@
-package com.ipnotica.utils {
-	
-	import com.ipnotica.Body;
-	
-	public class Config {
-		
-		
-		/** Variables **/
-		public static var body:Body;						/**< main container (here are attached header, footer, content and menu) */
-		
-		
-		/** Constants **/
-		public static const THUMBS_IN_A_ROW:uint = 4;		
-		
-			
-		public function Config() { }
-
-	}
-}
-          
+﻿package com.ipnotica.utils {		import com.ipnotica.Body;		public class Config {						/** Structure **/		public static var doc:Main;							/**< document class **/		public static var body:Body;						/**< main container (here are attached header, footer, content and menu) **/				/** Flashvars **/		public static var flashvars:Object					/**< params passed throug javascript **/				/** Products **/		public static var products:XML;						/**< XML products **/		public static var product:XML;						/**< XML single selected product **/		public static var productID:String = "1";			/**< id of the product loaded in the editor **/						/** Constants **/		public static const THUMBS_IN_A_ROW:uint = 4;		/**< number of thums visible in a row in the right menu **/							public function Config() { }	}}          

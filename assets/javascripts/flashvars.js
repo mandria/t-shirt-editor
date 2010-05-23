@@ -2,7 +2,7 @@
 var baseUrl = location.href.substring(0,location.href.indexOf('/', 8)) +  "/";
 
 // Initialize flashvars
-var flashvars = { "serverLocation": baseUrl, "secureServerLocation": baseUrl, "assetsPrefix": "assets/", "assetsXML": "xml/" };
+var flashvars = { "serverLocation": baseUrl, "secureServerLocation": baseUrl, "assets": "assets/", "xml": "xml/" };
 
 // Secure server definition
 switch (flashvars.serverLocation) {

@@ -78,15 +78,15 @@ package com.ipnotica.header {
 		}
 		
 		private function onClickProduct(e:Event):void {
- 			products.dispatchEvent(new CustomEvents(CustomEvents.HEADER_CLICK, {type: "products"}));
+ 			products.dispatchEvent(new CustomEvents(CustomEvents.BUTTON_HEADER_CLICK, {type: "products"}));
 		}
 		
 		private function onClickImages(e:Event):void {
-			images.dispatchEvent(new CustomEvents(CustomEvents.HEADER_CLICK, {type: "images"}));	
+			images.dispatchEvent(new CustomEvents(CustomEvents.BUTTON_HEADER_CLICK, {type: "images"}));	
 		}
 		
 		private function onClickText(e:Event):void {
-			text.dispatchEvent(new CustomEvents(CustomEvents.HEADER_CLICK, {type: "text"}));			
+			text.dispatchEvent(new CustomEvents(CustomEvents.BUTTON_HEADER_CLICK, {type: "text"}));			
 		}
 		*/
 		

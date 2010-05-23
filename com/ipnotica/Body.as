@@ -36,9 +36,9 @@ package com.ipnotica {
 		// Example usage CustomEvents
 		/*
 		private function initEvents():void {
-			header.products.addEventListener(CustomEvents.HEADER_CLICK, onButtonHeaderClick);
-			header.images.addEventListener(CustomEvents.HEADER_CLICK, onButtonHeaderClick);
-			header.text.addEventListener(CustomEvents.HEADER_CLICK, onButtonHeaderClick);
+			header.products.addEventListener(CustomEvents.BUTTON_HEADER_CLICK, onButtonHeaderClick);
+			header.images.addEventListener(CustomEvents.BUTTON_HEADER_CLICK, onButtonHeaderClick);
+			header.text.addEventListener(CustomEvents.BUTTON_HEADER_CLICK, onButtonHeaderClick);
 		}
 		
 		private function onButtonHeaderClick(e:CustomEvents):void {

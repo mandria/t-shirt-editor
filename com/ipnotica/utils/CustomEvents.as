@@ -14,8 +14,8 @@ package com.ipnotica.utils {
 		/** PERSONALIZED EVENTS **/
 		/*************************/
 		
-		// Button Header
-		public static const HEADER_CLICK:String = "buttonHeaderClick";
+		// XML Product
+		public static const PRODUCTS_LOADED:String = "productsLoaded";
 		
 		
 		
