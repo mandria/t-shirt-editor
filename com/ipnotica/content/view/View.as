@@ -7,15 +7,22 @@
  * 
  **/
 
-package com.ipnotica.content.preview
-{
+package com.ipnotica.content.view {
+	
 	import flash.display.MovieClip;
 
-	public class Preview extends MovieClip
-	{
-		public function Preview()
-		{
+	public class View extends MovieClip {
+		
+		public var id:String;
+		
+		public function View(id:String) {
 			super();
+			this.id = id;
+			init();
+		}
+		
+		private function init():void {
+			
 		}
 		
 	}

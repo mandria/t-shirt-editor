@@ -2,9 +2,9 @@ package com.ipnotica.content
 {
 	import flash.display.MovieClip;
 
-	public class ProductContainer extends MovieClip
+	public class EditorContainer extends MovieClip
 	{
-		public function ProductContainer()
+		public function EditorContainer()
 		{
 			super();
 		}
