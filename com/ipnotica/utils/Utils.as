@@ -2,6 +2,7 @@ package com.ipnotica.utils {
 	import com.ipnotica.Body;
 	
 	import flash.display.MovieClip;
+	import flash.events.IOErrorEvent;
 	
 	
 	public class Utils {
@@ -19,6 +20,7 @@ package com.ipnotica.utils {
 		 * 
 		 * @implementation The object passed as Param is iterated
 		 * on its parent until the Body object is found out.
+		 * 
 		 **/ 
 		 
 		public static function setConfig(obj:MovieClip):void {
@@ -31,11 +33,23 @@ package com.ipnotica.utils {
 		/** 
 		 * Give back the structure of a specific product passing 
 		 * its unique ID.
+		 * 
 		 **/
 		
 		public static function findProduct(id:String):XML {
 			return Config.products.product.(id == id)[0];   
 		}
+		
+		
+		/** 
+		 * IO Error handling 
+		 * 
+		 **/
+		
+		public static function onIOError(e:IOErrorEvent):void {
+			trace("IO Error:", e);
+		}
+		
 
 	}
 }

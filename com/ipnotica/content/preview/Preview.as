@@ -11,9 +11,9 @@ package com.ipnotica.content.preview
 {
 	import flash.display.MovieClip;
 
-	public class TShirtPreview extends MovieClip
+	public class Preview extends MovieClip
 	{
-		public function TShirtPreview()
+		public function Preview()
 		{
 			super();
 		}

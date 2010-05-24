@@ -9,9 +9,9 @@
  	
 	import flash.display.MovieClip;
 
-	public class TShirtPreviewSelector extends MovieClip {
+	public class PreviewSelector extends MovieClip {
 		
-		public function TShirtPreviewSelector() {
+		public function PreviewSelector() {
 			super();
 		}
 		
