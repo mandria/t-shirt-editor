@@ -14,6 +14,7 @@ package com.ipnotica.content.blackboard.views.view {
 	public class View extends MovieClip {
 		
 		public var id:String;
+		public var image:ViewImage;
 		
 		public function View(id:String) {
 			super();
@@ -22,7 +23,7 @@ package com.ipnotica.content.blackboard.views.view {
 		}
 		
 		private function init():void {
-			
+			image.addImage(id);
 		}
 		
 	}

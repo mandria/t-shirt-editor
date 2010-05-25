@@ -52,6 +52,5 @@
 			getChildByName(Config.viewID).visible = true;
 		}
 		
-		
 	}
 }
