@@ -3,7 +3,7 @@
  * 
  **/
  
- package com.ipnotica.content.product {
+ package com.ipnotica.content.blackboard.producs.product {
  	
 	import com.ipnotica.utils.Config;
 	import com.ipnotica.utils.Utils;
@@ -20,17 +20,13 @@
 		
 		public var id:String;
 		
-		public function ProductImage(id:String) {
+		public function ProductImage() {
 			super();
+		}
+				
+		// load image with specific ID
+		public function addImage(id:String):void {
 			this.id = id;
-			init();
-		}
-		
-		private function init():void {
-			addImage();
-		}
-		
-		public function addImage():void {
 			var url:String = Config.flashvars.httpDomain + Config.flashvars.assets + "images/products/normals/" + id + ".png";
 			var loader:Loader = new Loader();
 			loader.load(new URLRequest(url));

@@ -7,7 +7,7 @@
  * 
  **/
 
-package com.ipnotica.content.items {
+package com.ipnotica.content.blackboard.producs.product.item {
 	
 	import flash.display.MovieClip;
 

@@ -1,1 +1,0 @@
-﻿/** * Background TShirt thumb image *  **/ package com.ipnotica.content.view{	import flash.display.MovieClip;	public class ViewImage extends MovieClip	{		public function ViewImage()		{			super();		}			}}

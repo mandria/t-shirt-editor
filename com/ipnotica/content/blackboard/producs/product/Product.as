@@ -5,7 +5,7 @@
  * 
  **/
 
-package com.ipnotica.content.product {
+package com.ipnotica.content.blackboard.producs.product {
 	
 	import flash.display.MovieClip;
 
@@ -22,18 +22,7 @@ package com.ipnotica.content.product {
 		}
 		
 		private function init():void {
-			initImage()
-			initItems();
-		}
-		
-		private function initImage():void {
-			image = new ProductImage(id);
-			addChild(image);
-		}
-		
-		private function initItems():void {
-			items = new ProductItems();
-			addChild(items);
+			image.addImage(id);
 		}
 		
 	}

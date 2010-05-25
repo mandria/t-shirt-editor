@@ -4,14 +4,18 @@
  * 
  **/
 
-package com.ipnotica.content.view {
+package com.ipnotica.content.blackboard.views {
 	
 	import flash.display.MovieClip;
 
-	public class ViewContainer extends MovieClip {
+	public class Views extends MovieClip {
 		
-		public function ViewContainer() {
+		public function Views() {
 			super();
+		}
+		
+		public function addViews():void {
+			
 		}
 		
 	}
