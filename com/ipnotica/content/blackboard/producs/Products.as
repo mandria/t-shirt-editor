@@ -22,7 +22,7 @@
 		public function addProducts():void {
 			for (var i:uint=0; i<Config.views.length(); i++) 
 				addProduct(Config.views[i].@id);
-			showSelectedProductView();
+			showSelectedView();
 		}
 		
 		// Add a single product view
@@ -35,7 +35,8 @@
 		
 		
 		/** Show the selected view (settled up in Config.viewID) */
-		public function showSelectedProductView():void {
+		public function showSelectedView():void {
+			trace("Going to show", Config.visibleProductID);
 			hideAllViews();
 			showProductView();
 		}
@@ -49,7 +50,7 @@
 		
 		// Show the selected one
 		private function showProductView():void {
-			getChildByName(Config.viewID).visible = true;
+			getChildByName(Config.visibleProductID).visible = true;
 		}
 		
 	}

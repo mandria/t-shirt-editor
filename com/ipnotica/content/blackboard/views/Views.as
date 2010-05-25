@@ -25,7 +25,7 @@ package com.ipnotica.content.blackboard.views {
 			for (var i:uint=0; i<Config.views.length(); i++) 
 				addView(Config.views[i].@id);
 			showSelectedView();
-			swapUpSelector();
+			showSelector();
 		}
 		
 		// Add a single product view
@@ -39,6 +39,7 @@ package com.ipnotica.content.blackboard.views {
 		
 		/** Show the selected view (settled up in Config.viewID) */
 		public function showSelectedView():void {
+			trace("Going to show", Config.visibleViewID);
 			hideAllViews();
 			showView();
 		}
@@ -52,11 +53,13 @@ package com.ipnotica.content.blackboard.views {
 		
 		// Show the selected one
 		private function showView():void {
-			getChildByName(Config.viewID).visible = true;
+			getChildByName(Config.visibleViewID).visible = true;
 		}
 		
-		private function swapUpSelector():void {
+		/** Init the selector to navigate between views */
+		private function showSelector():void {
 			addChild(selector);
+			selector.init();
 		}
 		
 	}

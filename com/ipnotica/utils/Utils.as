@@ -1,55 +1,1 @@
-package com.ipnotica.utils {
-	import com.ipnotica.Body;
-	
-	import flash.display.MovieClip;
-	import flash.events.IOErrorEvent;
-	
-	
-	public class Utils {
-		
-		public function Utils() { }
-		
-		
-		/**
-		 * Makes Config.doc and Config.body available to all instances.
-		 *  
-		 * @description This is necessary because flash access to 
-		 * some MovieClips (like menu) before the Main can have been 
-		 * initialized. So in the menu we need to call this function
-		 * to be able to navigate everywhere.
-		 * 
-		 * @implementation The object passed as Param is iterated
-		 * on its parent until the Body object is found out.
-		 * 
-		 **/ 
-		 
-		public static function setConfig(obj:MovieClip):void {
-			while (!(obj is Body)) { obj = MovieClip(obj.parent); }
-			Config.body = Body(obj);
-			Config.doc  = Main(obj.parent)
-		}
-		
-		
-		/** 
-		 * Give back the structure of a specific product passing 
-		 * its unique ID.
-		 * 
-		 **/
-		
-		public static function findProduct(id:String):XML {
-			return Config.products.product.(id == id)[0];   
-		}
-		
-		
-		/** 
-		 * IO Error handling 
-		 * 
-		 **/
-		
-		public static function onIOError(e:IOErrorEvent):void {
-			trace("IO Error:", e);
-		}
-		
-
-	}
-}
+﻿package com.ipnotica.utils {	import com.ipnotica.Body;		import flash.display.MovieClip;	import flash.events.IOErrorEvent;			public class Utils {				public function Utils() { }						/**		 * Makes Config.doc and Config.body available to all instances.		 *  		 * @description This is necessary because flash access to 		 * some MovieClips (like menu) before the Main can have been 		 * initialized. So in the menu we need to call this function		 * to be able to navigate everywhere.		 * 		 * @implementation The object passed as Param is iterated		 * on its parent until the Body object is found out.		 * 		 **/ 		 		public static function setConfig(obj:MovieClip):void {			while (!(obj is Body)) { obj = MovieClip(obj.parent); }			Config.body = Body(obj);			Config.doc  = Main(obj.parent)		}						/** 		 * Give the structure of a specific product passing 		 * its unique ID.		 * 		 **/				public static function findProduct(id:String):XML {			return Config.products.product.(id == id)[0];   		}						/**		 * Gives back a selected view 		 * 		 * @implementation This is an alternative implementation 		 * <code>Config.product..*.(hasOwnProperty("@id") && @id=="2"));</code>		 * 		 **/		 		public static function findView(id:String):XML {			return Config.product.views.view.(@id == id)[0];		}						/** 		 * IO common error handling 		 * 		 **/				public static function onIOError(e:IOErrorEvent):void {			trace("IO Error:", e);		}			}}

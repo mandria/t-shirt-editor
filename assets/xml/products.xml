@@ -2,10 +2,10 @@
 <products>
 	<product id="1" description="T-Shirt">
 		<views>
-			<view id="1" description="Front"/>
-			<view id="2" description="Back"/>
-			<view id="3" description="Side SX"/>
-			<view id="4" description="Side DX"/>
+			<view id="1" description="Frontal view"/>
+			<view id="2" description="Back view"/>
+			<view id="3" description="Side SX view"/>
+			<view id="4" description="Side DX view"/>
 		</views>                          
 		<price>10</price>
 	</product>
