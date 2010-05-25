@@ -11,14 +11,34 @@ package com.ipnotica.content.blackboard.views {
 	import com.ipnotica.utils.Config;
 	
 	import flash.display.MovieClip;
+	import flash.events.Event;
+	import flash.events.MouseEvent;
 
 	public class Views extends MovieClip {
 		
 		public var selector:Selector;
 		
+		private var outOpacity:Number = 0.35;
+		private var overOpacity:Number = 0.85;
+		
 		public function Views() {
 			super();
+			init();
 		}
+		
+		private function init():void {
+			selector.alpha = outOpacity;
+			initEvents();
+		}
+		
+		private function initEvents():void {
+			addEventListener(MouseEvent.MOUSE_OVER, onOverViews);
+			addEventListener(MouseEvent.MOUSE_OUT, onOutViews);
+		}
+		
+		private function onOverViews(e:Event):void { selector.alpha = overOpacity; }
+		private function onOutViews(e:Event):void  { selector.alpha = outOpacity;  }
+		
 		
 		/** Add all product view */
 		public function addViews():void {
@@ -39,7 +59,7 @@ package com.ipnotica.content.blackboard.views {
 		
 		/** Show the selected view (settled up in Config.viewID) */
 		public function showSelectedView():void {
-			trace("Going to show", Config.visibleViewID);
+			trace("Going to show view with ID", Config.visibleViewID);
 			hideAllViews();
 			showView();
 		}
