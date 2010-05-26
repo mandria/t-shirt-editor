@@ -6,6 +6,7 @@
 
 package com.ipnotica.content.blackboard.views {
 	
+	import com.ipnotica.content.blackboard.views.message.ViewMessage;
 	import com.ipnotica.content.blackboard.views.selector.Selector;
 	import com.ipnotica.content.blackboard.views.view.View;
 	import com.ipnotica.utils.Config;
@@ -17,6 +18,7 @@ package com.ipnotica.content.blackboard.views {
 	public class Views extends MovieClip {
 		
 		public var selector:Selector;
+		public var message:ViewMessage;
 		
 		private var outOpacity:Number = 0.35;
 		private var overOpacity:Number = 0.85;
@@ -40,7 +42,7 @@ package com.ipnotica.content.blackboard.views {
 		private function onOutViews(e:Event):void  { selector.alpha = outOpacity;  }
 		
 		
-		/** Add all product view */
+		/** Add all views */
 		public function addViews():void {
 			for (var i:uint=0; i<Config.views.length(); i++) 
 				addView(Config.views[i].@id);
@@ -59,7 +61,7 @@ package com.ipnotica.content.blackboard.views {
 		
 		/** Show the selected view (settled up in Config.viewID) */
 		public function showSelectedView():void {
-			trace("Going to show view with ID", Config.visibleViewID);
+			trace("Going to show view with ID", Config.viewVisibleID);
 			hideAllViews();
 			showView();
 		}
@@ -73,13 +75,14 @@ package com.ipnotica.content.blackboard.views {
 		
 		// Show the selected one
 		private function showView():void {
-			getChildByName(Config.visibleViewID).visible = true;
+			getChildByName(Config.viewVisibleID).visible = true;
 		}
 		
 		/** Init the selector to navigate between views */
 		private function showSelector():void {
 			addChild(selector);
 			selector.init();
+			addChild(message);
 		}
 		
 	}

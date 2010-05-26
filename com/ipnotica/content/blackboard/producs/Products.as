@@ -18,7 +18,7 @@
 		}
 
 
-		/** Add all product view */
+		/** Add all products view */
 		public function addProducts():void {
 			for (var i:uint=0; i<Config.views.length(); i++) 
 				addProduct(Config.views[i].@id);
@@ -34,9 +34,9 @@
 		}
 		
 		
-		/** Show the selected view (settled up in Config.viewID) */
+		/** Show the selected view (settled up in Config.) */
 		public function showSelectedView():void {
-			trace("Going to show product with ID", Config.visibleProductID);
+			//trace("Going to show product with ID", Config.visibleProductID);
 			hideAllViews();
 			showProductView();
 		}
@@ -50,7 +50,7 @@
 		
 		// Show the selected one
 		private function showProductView():void {
-			getChildByName(Config.visibleProductID).visible = true;
+			getChildByName(Config.productVisibleID).visible = true;
 		}
 		
 	}
