@@ -8,16 +8,19 @@
  * 
  **/
 
-package com.ipnotica.menu.slider.controls {
+package com.ipnotica.menu.content.slider.navigation {
+	
+	import com.ipnotica.menu.content.slider.navigation.controls.SliderControlLeft;
+	import com.ipnotica.menu.content.slider.navigation.controls.SliderControlRight;
 	
 	import flash.display.MovieClip;
 
-	public class SliderControls extends MovieClip {
+	public class SliderNavigation extends MovieClip {
 		
 		public var left:SliderControlLeft;			/**< Move to previous elements */
 		public var right:SliderControlRight;      	/**< Move to next elements */
 		
-		public function SliderControls() {
+		public function SliderNavigation() {
 			super();
 		}
 		

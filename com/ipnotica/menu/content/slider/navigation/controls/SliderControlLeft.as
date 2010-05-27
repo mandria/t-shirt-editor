@@ -3,7 +3,7 @@
  * 
  **/
 
-package com.ipnotica.menu.slider.controls {
+package com.ipnotica.menu.content.slider.navigation.controls {
 	
 	import flash.display.MovieClip;
 

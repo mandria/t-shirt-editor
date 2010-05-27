@@ -6,11 +6,16 @@
  * 
  **/
  
- package com.ipnotica.menu {
+ package com.ipnotica.menu.content {
 	
-	import com.ipnotica.menu.slider.Slider;
+	import com.ipnotica.menu.content.slider.Slider;
+	import com.ipnotica.utils.Config;
+	import com.ipnotica.utils.CustomEvents;
 	
 	import flash.display.MovieClip;
+	import flash.events.Event;
+	import flash.net.URLLoader;
+	import flash.net.URLRequest;
 
 	public class MenuContent extends MovieClip {
 		
@@ -19,8 +24,6 @@
 		public function MenuContent() {
 			super();
 		}
-		
-		
 		
 	}
 }

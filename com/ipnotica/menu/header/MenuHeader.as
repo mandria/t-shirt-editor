@@ -6,7 +6,7 @@
  * 
  **/
  
- package com.ipnotica.menu {
+ package com.ipnotica.menu.header {
 	
 	import flash.display.MovieClip;
 

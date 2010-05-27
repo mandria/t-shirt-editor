@@ -1,3 +1,0 @@
-﻿/** * List of items navigable through a slider system. *  **/ package com.ipnotica.menu.slider {		import com.ipnotica.menu.slider.controls.SliderControls;
-	
-	import flash.display.MovieClip;	public class Slider extends MovieClip {				public var content:SliderContent;			/**< Containter for movieclips, images and text */		public var controls:SliderControls;			/**< Controls to move between content */				public function Slider() {			super();		}			}}
