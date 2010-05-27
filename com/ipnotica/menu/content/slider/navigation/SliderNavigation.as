@@ -1,28 +1,1 @@
-/**
- * Contains all controls to move the slider items
- * 
- * @implementationNote This class will control the items
- * visualized through usage of dots and usage of arrows.
- * Dots will be dinamically added, arrows are placed by 
- * default and changed in theyr state  
- * 
- **/
-
-package com.ipnotica.menu.content.slider.navigation {
-	
-	import com.ipnotica.menu.content.slider.navigation.controls.SliderControlLeft;
-	import com.ipnotica.menu.content.slider.navigation.controls.SliderControlRight;
-	
-	import flash.display.MovieClip;
-
-	public class SliderNavigation extends MovieClip {
-		
-		public var left:SliderControlLeft;			/**< Move to previous elements */
-		public var right:SliderControlRight;      	/**< Move to next elements */
-		
-		public function SliderNavigation() {
-			super();
-		}
-		
-	}
-}
+﻿/** * Contains all controls to move the slider items *  * @implementationNote This class will control the items * visualized through usage of dots and usage of arrows. * Dots will be dinamically added, arrows are placed by  * default and changed in theyr state   *  **/package com.ipnotica.menu.content.slider.navigation {		import com.greensock.TweenLite;	import com.ipnotica.menu.content.slider.Slider;	import com.ipnotica.menu.content.slider.navigation.controls.PageNext;	import com.ipnotica.menu.content.slider.navigation.controls.PageNumber;	import com.ipnotica.menu.content.slider.navigation.controls.PagePrevious;	import com.ipnotica.utils.Config;	import com.ipnotica.utils.CustomEvents;	import com.ipnotica.utils.Utils;		import flash.display.MovieClip;	public class SliderNavigation extends MovieClip {				public var prev:PagePrevious;			/**< Move to previous elements */		public var next:PageNext;     		 	/**< Move to next elements */				private var begin:Number;		private var space:Number;				public function SliderNavigation() {			super();		}				public function update():void {			(Utils.numberOfPages()>1) ? updateButtons() : hideButtons();		}						/** Create navigation buttons system **/		private function updateButtons():void {			updatePageButtons();			updatePrev();			updateNext();			initFirstPage();		}				/** Create a page button **/		private function updatePageButtons():void {			for (var i:uint=1; i<=Utils.numberOfPages(); i++) {				var pageNumber:PageNumber = new PageNumber(i);				addChild(pageNumber);				placePageNumber(pageNumber);				pageNumber.addEventListener(CustomEvents.PAGE_CHANGED, changePage);			}		}				/** Place a page button */		private function placePageNumber(pageNumber:PageNumber):void {			// calculate the space that the page buttons will occupy			space = Utils.numberOfPages() * pageNumber.width + (Config.spaceBetweenButtons * (Utils.numberOfPages()-1));			// calculate the x where the first page button will be placed 			begin = (width/2) - (space/2);			// calculate the x for the specifi page button			pageNumber.x = begin + (pageNumber.width * pageNumber.page) + (Config.spaceBetweenButtons * pageNumber.page);  		}				// Place the prev buttton		private function updatePrev():void {			prev.x = begin - prev.width - Config.spaceBetweenButtons;			prev.enable();			prev.addEventListener(CustomEvents.PAGE_CHANGED, changePage);		}				// Place the next buotton		private function updateNext():void {			next.x = begin + space + Config.spaceBetweenButtons;			next.enable();			next.addEventListener(CustomEvents.PAGE_CHANGED, changePage);		}				private function initFirstPage():void {			Config.currentPage = 0;			setPrev();			setNext();			setPageNumbers();		}				/**		 * Hide navigation buttons system		 **/		private function hideButtons():void {			prev.disable();			next.disable();		}						/**		 * Change to Config.currentPage page		 **/				public function changePage(e:CustomEvents):void {			trace("Going to change page", Config.currentPage);			Slider(this.parent).changePage();		}				public function setPrev():void {			(Config.currentPage == 0) ? prev.disable() : prev.enable()		}				public function setNext():void {			(Config.currentPage == (Utils.numberOfPages() - 1)) ? next.disable() : next.enable();		}				public function setPageNumbers():void {			for (var i:uint=0; i<Utils.numberOfPages(); i++) {				var pageNumber:PageNumber = PageNumber(getChildByName("page"+i));				(i == Config.currentPage) ? pageNumber.deactivate() : pageNumber.activate();			}		}			}}

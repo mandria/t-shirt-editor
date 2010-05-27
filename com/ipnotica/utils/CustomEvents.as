@@ -19,6 +19,7 @@ package com.ipnotica.utils {
 		
 		// XML Menu
 		public static const MENU_DATA_LOADED:String = "menuDataLoaded";
+		public static const PAGE_CHANGED:String = "pageChanged";
 		
 		
 		/******************/
