@@ -25,7 +25,7 @@ package com.ipnotica.menu.content.slider.thumb {
 		public function addImage(id:String):void {
 			this.id = id;
 			
-			var url:String = Config.flashvars.httpDomain + Config.flashvars.assets + "images/swf/" + id + ".swf";
+			var url:String = Config.flashvars.httpDomain + Config.flashvars.assets + "images/customizations/swfs/" + id + ".swf";
 			var loader:Loader = new Loader();
 			loader.load(new URLRequest(url));
 			

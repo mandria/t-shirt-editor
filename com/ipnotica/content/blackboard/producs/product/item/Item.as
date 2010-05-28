@@ -13,8 +13,12 @@ package com.ipnotica.content.blackboard.producs.product.item {
 
 	public class Item extends MovieClip {
 		
-		public function Item() {
+		public var structure:Object;
+		
+		public function Item(structure:Object) {
 			super();
+			this.structure = structure;
+			buttonMode = true;
 		}
 		
 	}

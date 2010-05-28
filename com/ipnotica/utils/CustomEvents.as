@@ -15,11 +15,12 @@ package com.ipnotica.utils {
 		/*************************/
 		
 		// XML Product
-		public static const PRODUCTS_LOADED:String = "productsLoaded";
+		public static const PRODUCTS_LOADED:String  = "productsLoaded";
 		
 		// XML Menu
 		public static const MENU_DATA_LOADED:String = "menuDataLoaded";
-		public static const PAGE_CHANGED:String = "pageChanged";
+		public static const PAGE_CHANGED:String     = "pageChanged";
+		public static const THUMB_CLICKED:String    = "thumbClicked";
 		
 		
 		/******************/
