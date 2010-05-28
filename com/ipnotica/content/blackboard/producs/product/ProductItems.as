@@ -49,7 +49,7 @@ package com.ipnotica.content.blackboard.producs.product {
 		
 		/** Set a specific item as selected */
 		private function setSelectedItem(item:Item):void {
-			Config.currentItemMC = item;
+			Config.currentItem = item;
 			Config.body.footer.update();
 		}
 		

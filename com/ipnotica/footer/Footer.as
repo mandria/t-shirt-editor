@@ -9,18 +9,14 @@
 
 package com.ipnotica.footer {
 	
-	import com.ipnotica.footer.groups.ImageEditGroup;
-	import com.ipnotica.footer.groups.MovieClipEditGroup;
-	import com.ipnotica.footer.groups.TextFieldEditGroup;
+	import com.ipnotica.footer.content.FooterContent;
 	import com.ipnotica.utils.Config;
 	
 	import flash.display.MovieClip;
 
 	public class Footer extends MovieClip {
 		
-		public var imageGroup:ImageEditGroup;				/**< Image editing functionalities */
-		public var movieClipGroup:MovieClipEditGroup;		/**< MovieClip editing functionalities */
-		public var textFieldGroup:TextFieldEditGroup;		/**< TextField editing functionalities */
+		public var content:FooterContent;
 		
 		public function Footer() {
 			super();
@@ -32,7 +28,8 @@ package com.ipnotica.footer {
 		}
 		
 		public function update():void {
-			trace("Updating footer. The selected element is",Config.currentItemMC.structure.id);
+			trace("Updating footer. The selected element is",Config.currentItem.structure.id);
+			content.update();
 		}
 		
 	}

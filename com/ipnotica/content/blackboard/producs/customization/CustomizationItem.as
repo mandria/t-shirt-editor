@@ -34,9 +34,9 @@ package com.ipnotica.content.blackboard.producs.customization {
 		// init its structure
 		private function initStructure():Object {
 			var structure:Object = { "id": id, "type": type };
-			if (type == "swf")   { structure.structure = Config.swfStructure   };
-			if (type == "image") { structure.structure = Config.imageStructure };
-			if (type == "text")  { structure.structure = Config.textStructure  };
+			if (type == "swf")   { structure.values = Config.swfStructure   };
+			if (type == "image") { structure.values = Config.imageStructure };
+			if (type == "text")  { structure.values = Config.textStructure  };
 			return structure;
 		}
 		
