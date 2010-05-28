@@ -26,10 +26,5 @@ package com.ipnotica.content.blackboard.producs.customization {
 			return customizationItem.item;
 		}
 		
-		public function setSelectedItem(item:Item):void {
-			selectedItem = item;
-			Config.body.footer.update();
-		}
-		
 	}
 }

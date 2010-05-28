@@ -12,6 +12,7 @@ package com.ipnotica.footer {
 	import com.ipnotica.footer.groups.ImageEditGroup;
 	import com.ipnotica.footer.groups.MovieClipEditGroup;
 	import com.ipnotica.footer.groups.TextFieldEditGroup;
+	import com.ipnotica.utils.Config;
 	
 	import flash.display.MovieClip;
 
@@ -31,7 +32,7 @@ package com.ipnotica.footer {
 		}
 		
 		public function update():void {
-			trace("Updating footer content");
+			trace("Updating footer. The selected element is",Config.currentItemMC.structure.id);
 		}
 		
 	}
