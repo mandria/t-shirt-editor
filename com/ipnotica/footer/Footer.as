@@ -30,5 +30,9 @@ package com.ipnotica.footer {
 			stop();
 		}
 		
+		public function update():void {
+			trace("Updating footer content");
+		}
+		
 	}
 }

@@ -26,18 +26,30 @@ package com.ipnotica.content.blackboard.producs.product {
 			initListeners();
 		}
 		
+		/** If a thumb is clicked the pruduct item is populated with a new item */
 		private function initListeners():void {
 			Config.body.menu.addEventListener(CustomEvents.THUMB_CLICKED, onThumbClicked);
 		}
 		
+		// if the current product view is the selected one, add the product
 		private function onThumbClicked(e:CustomEvents):void {
 			var product:Product = Product(this.parent);
 			if (product.id == Config.productVisibleID) {
-				trace("Catched event on one of the view", product.id ,". The type is", e.data.type, "and its id", e.data.id);
-				var item:Item = customization.addItem(e.data.id, e.data.type);
-				addChild(item);
+				var item:Item = addItem(e.data.id, e.data.type);
+				setSelectedItem(item);
 			}
-
+		}
+		
+		/** Create and add the new item **/
+		private function addItem(id:String, type:String):Item {
+			var item:Item = customization.addItem(id, type);
+			addChild(item);
+			return item
+		}
+		
+		/** Set a specific item as selected */
+		private function setSelectedItem(item:Item):void {
+			customization.setSelectedItem(item);
 		}
 		
 	}

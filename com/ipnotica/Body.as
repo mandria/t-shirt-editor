@@ -26,24 +26,7 @@ package com.ipnotica {
 		
 		public function Body() {
 			super();
-			init();
 		}
-		
-		private function init():void {
-			//initEvents();
-		}
-		
-		// Example usage CustomEvents
-		/*
-		private function initEvents():void {
-			header.products.addEventListener(CustomEvents.BUTTON_HEADER_CLICK, onButtonHeaderClick);
-			header.images.addEventListener(CustomEvents.BUTTON_HEADER_CLICK, onButtonHeaderClick);
-			header.text.addEventListener(CustomEvents.BUTTON_HEADER_CLICK, onButtonHeaderClick);
-		}
-		
-		private function onButtonHeaderClick(e:CustomEvents):void {
-			trace(e.data.type);
-		}*/
 		
 	}
 }

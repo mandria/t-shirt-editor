@@ -6,12 +6,14 @@
 package com.ipnotica.content.blackboard.producs.customization {
 	
 	import com.ipnotica.content.blackboard.producs.product.item.Item;
+	import com.ipnotica.utils.Config;
 	
 	import flash.display.MovieClip;
 
 	public class Customization extends MovieClip {
 		
 		public var items:Array = [];
+		public var selectedItem:Item;
 		
 		public function Customization() {
 			super();
@@ -22,6 +24,11 @@ package com.ipnotica.content.blackboard.producs.customization {
 			var customizationItem:CustomizationItem = new CustomizationItem(id, type);
 			items.push(customizationItem.item);
 			return customizationItem.item;
+		}
+		
+		public function setSelectedItem(item:Item):void {
+			selectedItem = item;
+			Config.body.footer.update();
 		}
 		
 	}

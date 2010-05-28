@@ -1,6 +1,24 @@
 /**
  * Personalized Event Handling 
  * 
+ * 
+ * Example usage CustomEvents
+ * 
+ * 		// From Header.as 
+ * 		...
+ * 		header.dispatchEvent(new CustomEvents(CustomEvents.THUMB_CLICKED, {type: item.@type, id: id})); 
+ * 		...
+ * 
+ * 		// From everywhere
+ * 		...	
+ * 		private function initEvents():void {
+ *			header.addEventListener(CustomEvents.BUTTON_HEADER_CLICK, onButtonHeaderClick);
+ * 		}
+ *		...
+ *		private function onButtonHeaderClick(e:CustomEvents):void {
+ *			trace(e.data.type);
+ *		}
+ * 		...
  **/    
 
 package com.ipnotica.utils {
