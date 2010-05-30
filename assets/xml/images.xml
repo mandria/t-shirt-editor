@@ -1,153 +1,129 @@
 <?xml version="1.0"?>
 <images>
-	<image id="mouth" category="fun" type="swf">
+	<image id="1" category="fun" type="swf">
+		<description>Drunk face</description>
+		<layers>
+			<layer id="circle">Psico Circle</layer>
+		</layers>
+	</image>
+	<image id="2" category="fun" type="swf">
 		<description>Drunk face</description>
 		<layers>
 			<layer id="mouth">Drunk mouth</layer>
 		</layers>
 	</image>
-	<image id="mouth" category="fun" type="swf">
-		<description>Baby face</description>
-		<layers>
-			<layer id="mouth">Drunk mouth</layer>
-		</layers>
-	</image>
-	<image id="mouth" category="fun" type="swf">
-		<description>Billy face</description>
-		<layers>
-			<layer id="mouth">Drunk mouth</layer>
-		</layers>
-	</image>
-	<image id="mouth" category="fun" type="swf">
-		<description>Pippo face</description>
-		<layers>
-			<layer id="mouth">Drunk mouth</layer>
-		</layers>
-	</image>
-	<image id="mouth" category="fun" type="swf">
-		<description>Reggie face</description>
-		<layers>
-			<layer id="mouth">Drunk mouth</layer>
-		</layers>
-	</image>
-	<image id="mouth" category="fun" type="swf">
+	<image id="3" category="fun" type="swf">
 		<description>Drunk face</description>
 		<layers>
-			<layer id="mouth">Drunk mouth</layer>
+			<layer id="circle">Psico Circle</layer>
 		</layers>
 	</image>
-	<image id="mouth" category="fun" type="swf">
-		<description>Baby face</description>
-		<layers>
-			<layer id="mouth">Drunk mouth</layer>
-		</layers>
-	</image>
-	<image id="mouth" category="fun" type="swf">
-		<description>Billy face</description>
-		<layers>
-			<layer id="mouth">Drunk mouth</layer>
-		</layers>
-	</image>
-	<image id="mouth" category="fun" type="swf">
-		<description>Pippo face</description>
-		<layers>
-			<layer id="mouth">Drunk mouth</layer>
-		</layers>
-	</image>
-	<image id="mouth" category="fun" type="swf">
-		<description>Reggie face</description>
-		<layers>
-			<layer id="mouth">Drunk mouth</layer>
-		</layers>
-	</image>
-	<image id="mouth" category="fun" type="swf">
+	<image id="4" category="fun" type="swf">
 		<description>Drunk face</description>
 		<layers>
-			<layer id="mouth">Drunk mouth</layer>
+			<layer id="circle">Psico Circle</layer>
 		</layers>
 	</image>
-	<image id="mouth" category="fun" type="swf">
-		<description>Baby face</description>
-		<layers>
-			<layer id="mouth">Drunk mouth</layer>
-		</layers>
-	</image>
-	<image id="mouth" category="fun" type="swf">
-		<description>Billy face</description>
-		<layers>
-			<layer id="mouth">Drunk mouth</layer>
-		</layers>
-	</image>
-	<image id="mouth" category="fun" type="swf">
-		<description>Pippo face</description>
-		<layers>
-			<layer id="mouth">Drunk mouth</layer>
-		</layers>
-	</image>
-	<image id="mouth" category="fun" type="swf">
-		<description>Reggie face</description>
-		<layers>
-			<layer id="mouth">Drunk mouth</layer>
-		</layers>
-	</image>		
-	<image id="mouth" category="fun" type="swf">
+	<image id="5" category="fun" type="swf">
 		<description>Drunk face</description>
 		<layers>
-			<layer id="mouth">Drunk mouth</layer>
+			<layer id="circle">Psico Circle</layer>
 		</layers>
 	</image>
-	<image id="mouth" category="fun" type="swf">
-		<description>Baby face</description>
-		<layers>
-			<layer id="mouth">Drunk mouth</layer>
-		</layers>
-	</image>
-	<image id="mouth" category="fun" type="swf">
-		<description>Billy face</description>
-		<layers>
-			<layer id="mouth">Drunk mouth</layer>
-		</layers>
-	</image>
-	<image id="mouth" category="fun" type="swf">
-		<description>Pippo face</description>
-		<layers>
-			<layer id="mouth">Drunk mouth</layer>
-		</layers>
-	</image>
-	<image id="mouth" category="fun" type="swf">
-		<description>Reggie face</description>
-		<layers>
-			<layer id="mouth">Drunk mouth</layer>
-		</layers>
-	</image>
-	<image id="mouth" category="fun" type="swf">
+	<image id="6" category="fun" type="swf">
 		<description>Drunk face</description>
 		<layers>
-			<layer id="mouth">Drunk mouth</layer>
+			<layer id="circle">Psico Circle</layer>
 		</layers>
 	</image>
-	<image id="mouth" category="fun" type="swf">
-		<description>Baby face</description>
+	<image id="7" category="fun" type="swf">
+		<description>Drunk face</description>
 		<layers>
-			<layer id="mouth">Drunk mouth</layer>
+			<layer id="circle">Psico Circle</layer>
 		</layers>
 	</image>
-	<image id="mouth" category="fun" type="swf">
-		<description>Billy face</description>
+	<image id="8" category="fun" type="swf">
+		<description>Drunk face</description>
 		<layers>
-			<layer id="mouth">Drunk mouth</layer>
+			<layer id="circle">Psico Circle</layer>
 		</layers>
 	</image>
-	<image id="mouth" category="fun" type="swf">
-		<description>Pippo face</description>
+	<image id="9" category="fun" type="swf">
+		<description>Drunk face</description>
 		<layers>
-			<layer id="mouth">Drunk mouth</layer>
+			<layer id="circle">Psico Circle</layer>
 		</layers>
 	</image>
-	<image id="mouth" category="fun" type="swf">
-		<description>Reggie face</description>
+	<image id="10" category="fun" type="swf">
+		<description>Drunk face</description>
 		<layers>
-			<layer id="mouth">Drunk mouth</layer>
+			<layer id="circle">Psico Circle</layer>
 		</layers>
-	</image>	
+	</image>
+	<image id="11" category="fun" type="swf">
+		<description>Drunk face</description>
+		<layers>
+			<layer id="circle">Psico Circle</layer>
+		</layers>
+	</image>
+	<image id="12" category="fun" type="swf">
+		<description>Drunk face</description>
+		<layers>
+			<layer id="circle">Psico Circle</layer>
+		</layers>
+	</image>
+	<image id="13" category="fun" type="swf">
+		<description>Drunk face</description>
+		<layers>
+			<layer id="circle">Psico Circle</layer>
+		</layers>
+	</image>
+	<image id="14" category="fun" type="swf">
+		<description>Drunk face</description>
+		<layers>
+			<layer id="circle">Psico Circle</layer>
+		</layers>
+	</image>
+	<image id="15" category="fun" type="swf">
+		<description>Drunk face</description>
+		<layers>
+			<layer id="circle">Psico Circle</layer>
+		</layers>
+	</image>
+	<image id="16" category="fun" type="swf">
+		<description>Drunk face</description>
+		<layers>
+			<layer id="circle">Psico Circle</layer>
+		</layers>
+	</image>
+	<image id="17" category="fun" type="swf">
+		<description>Drunk face</description>
+		<layers>
+			<layer id="circle">Psico Circle</layer>
+		</layers>
+	</image>
+	<image id="18" category="fun" type="swf">
+		<description>Drunk face</description>
+		<layers>
+			<layer id="circle">Psico Circle</layer>
+		</layers>
+	</image>
+	<image id="19" category="fun" type="swf">
+		<description>Drunk face</description>
+		<layers>
+			<layer id="circle">Psico Circle</layer>
+		</layers>
+	</image>
+	<image id="20" category="fun" type="swf">
+		<description>Drunk face</description>
+		<layers>
+			<layer id="circle">Psico Circle</layer>
+		</layers>
+	</image>
+	<image id="21" category="fun" type="swf">
+		<description>Drunk face</description>
+		<layers>
+			<layer id="circle">Psico Circle</layer>
+		</layers>
+	</image>
 </images>

@@ -35,14 +35,14 @@ package com.ipnotica.content.blackboard.producs.product {
 		private function onThumbClicked(e:CustomEvents):void {
 			var product:Product = Product(this.parent);
 			if (product.id == Config.productVisibleID) {
-				var item:Item = addItem(e.data.id, e.data.type);
+				var item:Item = addItem(e.data.id, e.data.type, e.data.item);
 				setSelectedItem(item);
 			}
 		}
 		
 		/** Create and add the new item **/
-		private function addItem(id:String, type:String):Item {
-			var item:Item = customization.addItem(id, type);
+		public function addItem(id:String, type:String, itemXML:XML):Item {
+			var item:Item = customization.addItem(id, type, itemXML);
 			addChild(item);
 			return item
 		}

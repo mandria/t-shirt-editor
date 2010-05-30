@@ -43,8 +43,7 @@ package com.ipnotica.footer.buttons.horizontalbuttons {
 			if (moveRight) { Config.currentItem.x++; }
 			if (moveLeft)  { Config.currentItem.x--; }
 			// change structure values (to future storage)
-			Config.currentItem.structure.values.x = Config.currentItem.x;
-			//Utils.initStructureItem(Config.currentItem); 
+			Config.currentItem.structure.properties.x = Config.currentItem.x;
 		}
 		
 	}

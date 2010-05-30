@@ -37,14 +37,13 @@ package com.ipnotica.footer.buttons.verticalbuttons {
 			down.addEventListener(MouseEvent.MOUSE_UP,   function():void  { moveDown = false; });
 			addEventListener(Event.ENTER_FRAME, moveItem);
 		}
-				
+		
 		private function moveItem(e:Event):void {
 			// cahnge real item values
 			if (moveUp) { Config.currentItem.y--; }
 			if (moveDown)  { Config.currentItem.y++; }
 			// change structure values (to future storage)
-			Config.currentItem.structure.values.y = Config.currentItem.y;
-			//Utils.initStructureItem(Config.currentItem); 
+			Config.currentItem.structure.properties.y = Config.currentItem.y;
 		}
 				
 	}

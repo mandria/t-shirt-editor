@@ -39,10 +39,8 @@
 		}
 		
 		private function onClickThumb(e:Event):void {
-			Config.body.menu.dispatchEvent(new CustomEvents(CustomEvents.THUMB_CLICKED, {type: item.@type, id: id}));
-			
-			trace("Clicked to thumb", id);
-			trace(item);
+			// catched up from ProductItems
+			Config.body.menu.dispatchEvent(new CustomEvents(CustomEvents.THUMB_CLICKED, {type: item.@type, id: id, item: item}));
 		}
 		
 	}

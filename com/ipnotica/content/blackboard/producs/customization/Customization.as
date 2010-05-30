@@ -6,7 +6,6 @@
 package com.ipnotica.content.blackboard.producs.customization {
 	
 	import com.ipnotica.content.blackboard.producs.product.item.Item;
-	import com.ipnotica.utils.Config;
 	
 	import flash.display.MovieClip;
 
@@ -20,8 +19,8 @@ package com.ipnotica.content.blackboard.producs.customization {
 		}
 		
 		// Add a new item to the items list
-		public function addItem(id:String, type:String):Item {
-			var customizationItem:CustomizationItem = new CustomizationItem(id, type);
+		public function addItem(id:String, type:String, itemXML:XML, properties:Object = null):Item {
+			var customizationItem:CustomizationItem = new CustomizationItem(id, type, itemXML, properties);
 			items.push(customizationItem.item);
 			return customizationItem.item;
 		}

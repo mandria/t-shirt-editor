@@ -38,7 +38,7 @@ package com.ipnotica.menu.content.slider.thumb {
 			swf = MovieClip(LoaderInfo(e.target).content);
 			swf.width = swf.height = height;
 			addChild(swf);
-			TweenLite.to(swf.mouth, 10, {tint:0x99ff66});
+			//TweenLite.to(swf.mouth, 10, {tint:0x99ff66});
 		}     
 		
 	}
