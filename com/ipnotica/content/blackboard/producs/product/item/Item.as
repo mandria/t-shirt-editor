@@ -81,6 +81,9 @@ package com.ipnotica.content.blackboard.producs.product.item {
 		
 		private function setColor():void {
 			// set the colors to the MovieClip
+			
+			//var layer:MovieClip = Config.currentItem.content[layers.layer[i].@id];
+			//TweenLite.to(layer, 0, {tint: colors[i].color})
 		}
 
 	}
