@@ -4,6 +4,8 @@ package com.ipnotica.menu.content.slider.content {
 
 	public class SliderContent extends MovieClip {
 		
+		public var c:RealContent 
+		
 		public function SliderContent() {
 			super();
 		}

@@ -25,5 +25,13 @@
 			super();
 		}
 		
+		public function clear():void {
+			slider.clear();
+		}
+
+		public function update():void {
+			slider.update();
+		}
+		
 	}
 }
