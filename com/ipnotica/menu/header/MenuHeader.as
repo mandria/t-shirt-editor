@@ -16,5 +16,9 @@
 			super();
 		}
 		
+		public function update():void {
+			
+		}
+		
 	}
 }
