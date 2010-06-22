@@ -20,10 +20,11 @@ package com.ipnotica.footer {
 		
 		public function Footer() {
 			super();
+			
+			
 		}
 		
 		public function update():void {
-			trace("Updating footer. The selected element is",Config.currentItem.structure.id);
 			clear();
 			content.update();
 		}
