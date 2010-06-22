@@ -9,13 +9,8 @@
  package com.ipnotica.menu.content {
 	
 	import com.ipnotica.menu.content.slider.Slider;
-	import com.ipnotica.utils.Config;
-	import com.ipnotica.utils.CustomEvents;
 	
 	import flash.display.MovieClip;
-	import flash.events.Event;
-	import flash.net.URLLoader;
-	import flash.net.URLRequest;
 
 	public class MenuContent extends MovieClip {
 		
@@ -26,11 +21,17 @@
 		}
 		
 		public function clear():void {
-			slider.clear();
+			trace("-- Removing content from menu");
+			this.removeChild(slider);
+			slider = new Slider();
+			this.addChild(slider);
+			trace("-- Added new wmbpty content to menu");
 		}
 
 		public function update():void {
+			trace("-- Loading new data in it");
 			slider.update();
+			
 		}
 		
 	}

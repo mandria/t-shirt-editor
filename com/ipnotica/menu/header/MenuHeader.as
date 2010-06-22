@@ -24,10 +24,16 @@
 		}
 		
 		public function update():void {
-			if (Config.menuFamily == "images") { updateImages() };
+			if (Config.menuFamily == "images") { updateForImages() };
 		}
 		
-		private function updateImages():void {
+		
+		/**
+		 * Create the header used for the images. It consists into 
+		 * the definition of a combobox to choose between categories
+		 * and the upload button
+		 **/
+		private function updateForImages():void {
 			buildImageCombo();
 		}
 		
