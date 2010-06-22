@@ -48,9 +48,9 @@
 			combo.addEventListener(MenuEvent.SELECTED, onItemSelected);
 			
 			// positioning initialization
-			combo.x = 10; 
+			combo.x = 6; 
 			combo.y = 30;
-			combo.width = 250;
+			combo.width = 290;
 			combo.headHeight = 30;
 			combo.bodyHeight = 260;
 			combo.embedFonts = true;

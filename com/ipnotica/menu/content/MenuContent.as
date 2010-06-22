@@ -21,15 +21,12 @@
 		}
 		
 		public function clear():void {
-			trace("-- Removing content from menu");
 			this.removeChild(slider);
 			slider = new Slider();
 			this.addChild(slider);
-			trace("-- Added new wmbpty content to menu");
 		}
 
 		public function update():void {
-			trace("-- Loading new data in it");
 			slider.update();
 			
 		}
