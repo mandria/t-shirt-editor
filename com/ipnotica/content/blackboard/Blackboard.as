@@ -37,6 +37,7 @@ package com.ipnotica.content.blackboard {
 		public function loadProduct(e:CustomEvents):void {
 			products.addProducts();
 			views.addViews();
+			
 		}
 
 		

@@ -11,9 +11,9 @@
 	</product>
 	<product id="2" description="Cup">
 		<views>
-			<view id="5" description="Front"/>
-			<view id="6" description="Back"/>			
+			<view id="5" description="Front view"/>
+			<view id="6" description="Back view"/>			
 		</views>                          
-		<price>10</price>
+		<price>13</price>
 	</product>
 </products>

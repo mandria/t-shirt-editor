@@ -13,6 +13,8 @@
 
 	public class Products extends MovieClip {
 		
+		public var list:Array = [];
+		
 		public function Products() {
 			super();
 		}
@@ -31,6 +33,7 @@
 			product.visible = false;
 			product.name = id;
 			addChild(product);
+			list.push(product);
 		}
 		
 		

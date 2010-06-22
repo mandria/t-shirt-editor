@@ -39,8 +39,7 @@
 		}
 		
 		private function onClickThumb(e:Event):void {
-			// catched up from ProductItems
-			Config.body.menu.dispatchEvent(new CustomEvents(CustomEvents.THUMB_CLICKED, {type: item.@type, id: id, item: item}));
+			Config.doc.dispatchEvent(new CustomEvents(CustomEvents.THUMB_CLICKED, {type: item.@type, id: id, item: item}));
 		}
 		
 	}

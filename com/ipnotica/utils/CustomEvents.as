@@ -34,6 +34,9 @@ package com.ipnotica.utils {
 		
 		// XML Product
 		public static const PRODUCTS_LOADED:String  = "productsLoaded";
+		public static const VIEW_CHANGED:String  = "viewChanged";
+		public static const ITEM_ADDED:String  = "itemAdded";
+		
 		
 		// XML Menu
 		public static const MENU_DATA_LOADED:String = "menuDataLoaded";

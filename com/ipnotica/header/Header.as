@@ -8,16 +8,22 @@ package com.ipnotica.header {
 	import com.greensock.TweenLite;
 	import com.greensock.easing.Quad;
 	import com.ipnotica.header.buttons.ImagesButton;
+	import com.ipnotica.header.buttons.PriceBuyButton;
 	import com.ipnotica.header.buttons.ProductsButton;
 	import com.ipnotica.header.buttons.TextButton;
 	import com.ipnotica.utils.Config;
+	import com.ipnotica.utils.CustomEvents;
 	import com.ipnotica.utils.Utils;
 	
 	import flash.display.MovieClip;
 	import flash.events.Event;
 	import flash.events.MouseEvent;
+	import flash.text.TextField;
 
 	public class Header extends MovieClip {
+		
+		public var buy:PriceBuyButton;				/**< Button that will add the product to the cart */
+		public var description:TextField;			/**< Current product description */
 		
 		public var products:ProductsButton;			/**< Show list of available products (tshirt, hat, cup, ...) */
 		public var images:ImagesButton;				/**< Show list of available movieclips and images */
@@ -33,6 +39,7 @@ package com.ipnotica.header {
 			Utils.setConfig(this);
 			initEvents();
 			initSelectedButton();
+			initListeners();
 		}
 		
 		
@@ -56,39 +63,27 @@ package com.ipnotica.header {
 		}
 		
 		
-		/** samples */
-		
-		/** Structure handling **/
-		
-		/*
-		private function initStructure():void {
-			products.label.text = "PRODUCTS";
-			images.label.text   = "IMAGES";
-			text.label.text     = "TEXT";
-		}*/
-		
-		
-		/** Events handling **/
-		
-		/*
-		private function initEvents():void {
-			products.addEventListener(MouseEvent.CLICK, onClickProduct);
-			images.addEventListener(MouseEvent.CLICK, onClickImages);
-			text.addEventListener(MouseEvent.CLICK, onClickText);
+		/** Listen when products are loaded so he can update header content */
+		private function initListeners():void {
+			Config.doc.addEventListener(CustomEvents.PRODUCTS_LOADED, updateHeader);
+			Config.doc.addEventListener(CustomEvents.VIEW_CHANGED, updateDescription);
+			Config.doc.addEventListener(CustomEvents.ITEM_ADDED, updatePrice);
 		}
 		
-		private function onClickProduct(e:Event):void {
- 			products.dispatchEvent(new CustomEvents(CustomEvents.BUTTON_HEADER_CLICK, {type: "products"}));
+		private function updateHeader(e:CustomEvents):void {
+			updateDescription();
+			updatePrice();
 		}
 		
-		private function onClickImages(e:Event):void {
-			images.dispatchEvent(new CustomEvents(CustomEvents.BUTTON_HEADER_CLICK, {type: "images"}));	
+		private function updateDescription(e:CustomEvents = null):void {
+			description.text = Utils.productAndViewDescription();
 		}
 		
-		private function onClickText(e:Event):void {
-			text.dispatchEvent(new CustomEvents(CustomEvents.BUTTON_HEADER_CLICK, {type: "text"}));			
+		private function updatePrice(e:CustomEvents = null):void {
+			buy.price.text = Utils.totalPrice() + " euro"; 
 		}
-		*/
+		
+		
 		
 	}
 }
