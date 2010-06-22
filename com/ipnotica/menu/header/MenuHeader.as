@@ -49,7 +49,7 @@
 			
 			// positioning initialization
 			combo.x = 6; 
-			combo.y = 30;
+			combo.y = 27;
 			combo.width = 290;
 			combo.headHeight = 30;
 			combo.bodyHeight = 260;
