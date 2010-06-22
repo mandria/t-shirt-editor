@@ -20,16 +20,18 @@ package com.ipnotica.footer {
 		
 		public function Footer() {
 			super();
-			init();
-		}
-		
-		private function init():void {
-			stop();
 		}
 		
 		public function update():void {
 			trace("Updating footer. The selected element is",Config.currentItem.structure.id);
+			clear();
 			content.update();
+		}
+		
+		public function clear():void {
+			this.removeChild(content);
+			content = new FooterContent();
+			this.addChild(content);
 		}
 		
 	}
