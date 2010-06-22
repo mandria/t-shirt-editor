@@ -44,7 +44,7 @@ package com.ipnotica.header {
 		}
 		
 		private function moveArrow(e:Event):void {
-			var newX:uint = e.currentTarget.x + 45;
+			var newX:uint = e.currentTarget.x + 65;
 			TweenLite.to(arrow, 0.4, {x: newX, ease: Quad.easeOut});
 		}
 		
