@@ -32,16 +32,21 @@ package com.ipnotica.utils {
 		/** PERSONALIZED EVENTS **/
 		/*************************/
 		
+		
 		// XML Product
 		public static const PRODUCTS_LOADED:String  = "productsLoaded";
-		public static const VIEW_CHANGED:String  = "viewChanged";
-		public static const ITEM_ADDED:String  = "itemAdded";
+		public static const VIEW_CHANGED:String     = "viewChanged";
+		public static const ITEM_ADDED:String       = "itemAdded";
 		
 		
 		// XML Menu
 		public static const MENU_DATA_LOADED:String = "menuDataLoaded";
 		public static const PAGE_CHANGED:String     = "pageChanged";
 		public static const THUMB_CLICKED:String    = "thumbClicked";
+		
+		
+		// Footer
+		public static const COLOR_SELECTED:String = "colorSelected"; 
 		
 		
 		/******************/
