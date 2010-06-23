@@ -7,6 +7,7 @@ package com.ipnotica.footer.content {
 	
 	import com.ipnotica.footer.buttons.colorbuttons.ColorButton;
 	import com.ipnotica.footer.buttons.horizontalbuttons.HorizontalButtons;
+	import com.ipnotica.footer.buttons.removebuttons.RemoveButton;
 	import com.ipnotica.footer.buttons.rotationbuttons.RotationButtons;
 	import com.ipnotica.footer.buttons.scalebuttons.ScaleButtons;
 	import com.ipnotica.footer.buttons.verticalbuttons.VerticalButtons;
@@ -35,6 +36,7 @@ package com.ipnotica.footer.content {
 			for (var name:String in buttons){
 				addButton(name, buttons[name]);
 			}
+			addButton("remove", "remove element");
 		}
 		
 		/** Check which button we have to add */
@@ -45,6 +47,7 @@ package com.ipnotica.footer.content {
 				case "rotation": addRotationButtons(); break;
 				case "scale"   : addScaleButtons(); break;
 				case "color"   : addColorButtons(); break;
+				case "remove"  : addRemoveButtons(); break;
 				default:  trace ("Other buttons can be added");
 			}
 		}
@@ -88,5 +91,14 @@ package com.ipnotica.footer.content {
 			button.x = initialX;
 			initialX += button.width;
 		}
+		
+		// add delete bottons
+		private function addRemoveButtons():void {
+			var button:RemoveButton = new RemoveButton();
+			addChild(button);
+			button.x = initialX;
+			initialX += button.width;
+		}
+		
 	}
 }

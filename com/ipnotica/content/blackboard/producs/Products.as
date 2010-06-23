@@ -54,6 +54,7 @@
 		// Show the selected one
 		private function showProductView():void {
 			getChildByName(Config.productVisibleID).visible = true;
+			Config.currentProduct = Product(getChildByName(Config.productVisibleID));
 		}
 		
 	}

@@ -61,7 +61,6 @@ package com.ipnotica.content.blackboard.views {
 		
 		/** Show the selected view (settled up in Config.viewID) */
 		public function showSelectedView():void {
-			trace("Going to show view with ID", Config.viewVisibleID);
 			hideAllViews();
 			showView();
 		}
