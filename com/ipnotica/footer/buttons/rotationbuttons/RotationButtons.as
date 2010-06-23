@@ -29,15 +29,19 @@ package com.ipnotica.footer.buttons.rotationbuttons {
 			left.addEventListener(MouseEvent.MOUSE_UP,    function():void  { rotateLeft  = false; });
 			right.addEventListener(MouseEvent.MOUSE_DOWN, function():void  { rotateRight = true;  });
 			right.addEventListener(MouseEvent.MOUSE_UP,   function():void  { rotateRight = false; });
-			addEventListener(Event.ENTER_FRAME, scaleItem);
+			addEventListener(Event.ENTER_FRAME, rotateItem);
 		}
 				
-		private function scaleItem(e:Event):void {
-			// cahnge real item values
-			if (rotateRight) { Config.currentItem.rotation++; }
-			if (rotateLeft)  { Config.currentItem.rotation--; }
-			// change structure values (to future storage)
-			Config.currentItem.structure.properties.rotation = Config.currentItem.rotation;
+		// TODO: Here the rotation can not be on the item, otherwise it has some strange effects. 
+		// For this reason we act directly on the content, also if this create some problems.
+		private function rotateItem(e:Event):void {
+			if (Config.currentItem.content) {
+				// cahnge real item values
+				if (rotateRight) { Config.currentItem.content.rotation++; }
+				if (rotateLeft)  { Config.currentItem.content.rotation--; }
+				// change structure values (to future storage)
+				Config.currentItem.structure.properties.rotation = Config.currentItem.content.rotation;
+			}
 		}
 
 		
