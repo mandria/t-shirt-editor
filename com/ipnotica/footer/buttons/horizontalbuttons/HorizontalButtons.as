@@ -23,6 +23,7 @@ package com.ipnotica.footer.buttons.horizontalbuttons {
 		
 		public function HorizontalButtons() {
 			super();
+			buttonMode = true;
 			init();
 		}
 		

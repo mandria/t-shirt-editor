@@ -24,6 +24,7 @@ package com.ipnotica.footer.buttons.verticalbuttons {
 		public function VerticalButtons() {
 			super();
 			init();
+			buttonMode = true;
 		}
 		
 		private function init():void {

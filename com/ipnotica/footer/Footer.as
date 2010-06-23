@@ -32,6 +32,7 @@ package com.ipnotica.footer {
 		public function clear():void {
 			this.removeChild(content);
 			content = new FooterContent();
+			content.y = 3;
 			this.addChild(content);
 		}
 		
