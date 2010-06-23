@@ -18,6 +18,12 @@ package com.ipnotica.footer.buttons.colorbuttons {
 		
 		private function init():void {
 			initListeners();
+			initColorButton();
+		}
+		
+		private function initColorButton():void {
+			var layers:XMLList = Config.currentItem.itemXML.layers;
+			TweenLite.to(icon["color"], 1, {tint: Number(layers.layer[0].@color)}) // take the first color (think if there are more)
 		}
 		
 		private function initListeners():void {
@@ -35,7 +41,7 @@ package com.ipnotica.footer.buttons.colorbuttons {
 		
 		private function changeColorItem(color:Number):void {
 			var layers:XMLList = Config.currentItem.itemXML.layers;
-			var layer:MovieClip = Config.currentItem.content[layers.layer[0].@id];
+			var layer:MovieClip = Config.currentItem.content[layers.layer[0].@id]; // take the first color (think if there are more)
 			TweenLite.to(layer, 1, {tint: color})
 		}
 		
