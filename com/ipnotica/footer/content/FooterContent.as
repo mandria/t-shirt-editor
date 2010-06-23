@@ -8,6 +8,7 @@ package com.ipnotica.footer.content {
 	import com.ipnotica.footer.buttons.colorbuttons.ColorButton;
 	import com.ipnotica.footer.buttons.horizontalbuttons.HorizontalButtons;
 	import com.ipnotica.footer.buttons.rotationbuttons.RotationButtons;
+	import com.ipnotica.footer.buttons.scalebuttons.ScaleButtons;
 	import com.ipnotica.footer.buttons.verticalbuttons.VerticalButtons;
 	import com.ipnotica.utils.Config;
 	
@@ -42,7 +43,7 @@ package com.ipnotica.footer.content {
 				case "x"       : addHorizontalButtons(); break;
 				case "y"       : addVerticalButtons();   break;
 				case "rotation": addRotationButtons(); break;
-				//case "scale"   : addScaleButtons(); break;
+				case "scale"   : addScaleButtons(); break;
 				case "color"   : addColorButtons(); break;
 				default:  trace ("Other buttons can be added");
 			}
@@ -67,6 +68,14 @@ package com.ipnotica.footer.content {
 		// add rotation movements
 		private function addRotationButtons():void {
 			var button:RotationButtons = new RotationButtons();
+			addChild(button);
+			button.x = initialX;
+			initialX += button.width;
+		}
+		
+		// add scale movements
+		private function addScaleButtons():void {
+			var button:ScaleButtons = new ScaleButtons();
 			addChild(button);
 			button.x = initialX;
 			initialX += button.width;

@@ -29,16 +29,17 @@ package com.ipnotica.footer.buttons.rotationbuttons {
 			left.addEventListener(MouseEvent.MOUSE_UP,    function():void  { rotateLeft  = false; });
 			right.addEventListener(MouseEvent.MOUSE_DOWN, function():void  { rotateRight = true;  });
 			right.addEventListener(MouseEvent.MOUSE_UP,   function():void  { rotateRight = false; });
-			addEventListener(Event.ENTER_FRAME, moveItem);
+			addEventListener(Event.ENTER_FRAME, scaleItem);
 		}
 				
-		private function moveItem(e:Event):void {
+		private function scaleItem(e:Event):void {
 			// cahnge real item values
 			if (rotateRight) { Config.currentItem.rotation++; }
 			if (rotateLeft)  { Config.currentItem.rotation--; }
 			// change structure values (to future storage)
 			Config.currentItem.structure.properties.rotation = Config.currentItem.rotation;
 		}
+
 		
 	}
 }
