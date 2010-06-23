@@ -25,7 +25,18 @@ package com.ipnotica.footer.buttons.colorbuttons {
 		}
 		
 		private function onColorSelected(e:CustomEvents):void {
-			TweenLite.to(icon["color"], 1, {tint: e.data.color});
+			changeColorButton(e.data.color);
+			changeColorItem(e.data.color);
+		}
+		
+		private function changeColorButton(color:Number):void {
+			TweenLite.to(icon["color"], 1, {tint: color});
+		}
+		
+		private function changeColorItem(color:Number):void {
+			var layers:XMLList = Config.currentItem.itemXML.layers;
+			var layer:MovieClip = Config.currentItem.content[layers.layer[0].@id];
+			TweenLite.to(layer, 1, {tint: color})
 		}
 		
 	}
