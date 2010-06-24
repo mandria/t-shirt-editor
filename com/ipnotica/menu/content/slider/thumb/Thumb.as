@@ -35,11 +35,12 @@
 		}
 		
 		private function initEvents():void {
+			trace("CLICK CLICK CLICK")
 			addEventListener(MouseEvent.CLICK, onClickThumb);
 		}
 		
 		private function onClickThumb(e:Event):void {
-			
+			trace("--- FIRING UP EVENTS ON CLICK");
 			Config.doc.dispatchEvent(new CustomEvents(CustomEvents.THUMB_CLICKED, {type: item.@type, id: id, item: item}));
 		}
 		
