@@ -82,8 +82,7 @@
 		 **/
 		
 		public function clear():void {
-			if (combo) { this.parent.removeChild(combo); }
-			combo = null;
+			
 		}
 		
 	}

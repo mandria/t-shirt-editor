@@ -1,19 +1,30 @@
 <?xml version="1.0"?>
 <products>
 	<product id="1" description="T-Shirt">
+		<price>10</price>
 		<views>
 			<view id="1" description="Frontal view"/>
 			<view id="2" description="Back view"/>
 			<view id="3" description="Side SX view"/>
 			<view id="4" description="Side DX view"/>
 		</views>                          
-		<price>10</price>
+		<colors>
+			<color id="white">White</color>
+			<color id="green">Green</color>
+			<color id="pink">Pink</color>
+		</colors>
 	</product>
 	<product id="2" description="Cup">
-		<views>
-			<view id="5" description="Front view"/>
-			<view id="6" description="Back view"/>			
-		</views>                          
 		<price>13</price>
+		<views>
+			<view id="1" description="Front view"/>
+			<view id="2" description="Top view"/>			
+			<view id="2" description="Bottom view"/>			
+		</views>                          
+		<colors>
+			<color id="white">White</color>
+			<color id="green">Green</color>
+			<color id="pink">Pink</color>
+		</colors>
 	</product>
 </products>

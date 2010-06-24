@@ -28,7 +28,6 @@
 
 		public function update():void {
 			slider.update();
-			
 		}
 		
 	}

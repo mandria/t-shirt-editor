@@ -159,48 +159,6 @@ package ascb.util {
       return aIndices;
     }
 
-    public static function duplicate(oArray:Object, bRecursive:Boolean = false):Object {
-      var oDuplicate:Object;
-      if(bRecursive) {
-        if(oArray is Array) {
-          oDuplicate = new Array();
-          for(var i:Number = 0; i < oArray.length; i++) {
-            if(oArray[i] is Object) {
-              oDuplicate[i] = duplicate(oArray[i]);
-            }
-            else {
-              oDuplicate[i] = oArray[i];
-            }
-          }
-          return oDuplicate;
-        }
-        else {
-          var oDuplicate:Object = new Object();
-          for(var sItem:String in oArray) {
-            if(oArray[sItem] is Object && !(oArray[sItem] is String) && !(oArray[sItem] is Boolean) && !(oArray[sItem] is Number)) {
-              oDuplicate[sItem] = duplicate(oArray[sItem], bRecursive);
-            }
-            else {
-              oDuplicate[sItem] = oArray[sItem];
-            }
-          }
-          return oDuplicate;
-        }
-      }
-      else {
-        if(oArray is Array) {
-          return oArray.concat();
-        }
-        else {
-          var oDuplicate:Object = new Object();
-          for(var sItem:String in oArray) {
-            oDuplicate[sItem] = oArray[sItem];
-          }
-          return oDuplicate;
-        }
-      }
-    }
-
     static public function toString(oArray:Object, nLevel:uint = 0):String {
       var sIndent:String = "";
       for(var i:Number = 0; i < nLevel; i++) {

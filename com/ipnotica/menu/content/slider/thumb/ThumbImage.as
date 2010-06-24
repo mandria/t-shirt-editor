@@ -1,9 +1,10 @@
 package com.ipnotica.menu.content.slider.thumb {
 	
-	import com.greensock.TweenLite;
 	import com.ipnotica.utils.Config;
 	import com.ipnotica.utils.Utils;
 	
+	import flash.display.Bitmap;
+	import flash.display.BitmapData;
 	import flash.display.Loader;
 	import flash.display.LoaderInfo;
 	import flash.display.MovieClip;
@@ -15,6 +16,7 @@ package com.ipnotica.menu.content.slider.thumb {
 		
 		public var id:String;
 		public var swf:MovieClip;
+		public var product:Bitmap;
 		
 		public function ThumbImage() {
 			super();
@@ -24,8 +26,18 @@ package com.ipnotica.menu.content.slider.thumb {
 		// load image with specific ID
 		public function addImage(id:String):void {
 			this.id = id;
+			var url:String = Config.flashvars.httpDomain + Config.flashvars.assets
 			
-			var url:String = Config.flashvars.httpDomain + Config.flashvars.assets + "images/customizations/swfs/" + id + ".swf";
+			// load MovieClips or images
+			if (Config.menuFamily == "images") { 
+				url += "images/customizations/swfs/" + id + ".swf";
+			}
+			
+			// load products images
+			if (Config.menuFamily == "products") { 
+				url += "images/products/thumbs/" + Config.productID + "/" + Config.productID + "-" + Config.currentColor.@id + ".png";
+			}
+			
 			var loader:Loader = new Loader();
 			loader.load(new URLRequest(url));
 			
@@ -35,10 +47,16 @@ package com.ipnotica.menu.content.slider.thumb {
 		
 		// add background to the stage
 		private function onLoadedImage(e:Event):void {
-			swf = MovieClip(LoaderInfo(e.target).content);
-			swf.width = swf.height = height;
-			addChild(swf);
-			//TweenLite.to(swf.mouth, 10, {tint:0x99ff66});
+			if (Config.menuFamily == "images") {
+				swf = MovieClip(LoaderInfo(e.target).content);
+				swf.width = swf.height = height;
+				addChild(swf);
+			}
+			
+			if (Config.menuFamily == "products") {
+				product = Bitmap(LoaderInfo(e.target).content);
+				addChild(product);
+			}
 		}     
 		
 	}

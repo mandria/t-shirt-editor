@@ -27,7 +27,7 @@
 		// load image with specific ID
 		public function addImage(id:String):void {
 			this.id = id;
-			var url:String = Config.flashvars.httpDomain + Config.flashvars.assets + "images/products/normals/" + id + ".png";
+			var url:String = Config.flashvars.httpDomain + Config.flashvars.assets + "images/products/normals/" + Config.productID + "/" + id + "-" + Config.currentColor.@id + ".png";
 			var loader:Loader = new Loader();
 			loader.load(new URLRequest(url));
 			loader.contentLoaderInfo.addEventListener(Event.COMPLETE, onLoadedImage);
