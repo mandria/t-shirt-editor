@@ -23,9 +23,11 @@
 		public var colors:ThumbColors;				/**< List of possible colors for the product **/
 		public var selected:ColorIcon;  			/**< Actual color of the product **/
 		
-		
 		public var id:String;
 		public var item:XML;
+		
+		private var hiddenOpacity:Number = 0.2;
+		
 		
 		public function Thumb(item:XML = null) {
 			super();
@@ -36,25 +38,36 @@
 		
 		private function init():void {
 			image.addImage(id);
+			selected.alpha = hiddenOpacity;
 			initEvents();
 			initColors();
 		}
 		
 		private function initEvents():void {
 			addEventListener(MouseEvent.CLICK, onClickThumb);
+			addEventListener(MouseEvent.MOUSE_OVER, onOver);
+			addEventListener(MouseEvent.MOUSE_OUT, onOut);
 		}
 		
+		private function onOver(e:Event):void { selected.alpha = 1; }
+		private function onOut(e:Event):void  { selected.alpha = hiddenOpacity; }
+		
+		
 		private function onClickThumb(e:Event):void {
-			Config.doc.dispatchEvent(new CustomEvents(CustomEvents.THUMB_CLICKED, {type: item.@type, id: id, item: item}));
+			if (e.target.name != "content") {
+				trace("I've clicked on the image, refreshing", e.target);
+				Config.doc.dispatchEvent(new CustomEvents(CustomEvents.THUMB_CLICKED, {type: item.@type, id: id, item: item}));
+			}
 		}
 		
 		private function initColors():void {
 			if (Config.menuFamily == "products") { 
 				colors.init(item, selected);
 			} else {
-				colors.visible = false;
 				selected.visible = false;
+				colors.visible = false;
 			}
+			colors.visible = false;
 		}
 		
 	}

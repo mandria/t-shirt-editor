@@ -9,7 +9,6 @@ package com.ipnotica.menu.content.slider.thumb.colors {
 		}
 		
 		public function addColor(color:XML, i:int):ColorIcon {
-			trace("--- now adding color", color);
 			
 			// color icon definition
 			var colorIcon:ColorIcon = new ColorIcon(color);

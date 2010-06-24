@@ -9,8 +9,6 @@ package com.ipnotica.menu.content.slider.thumb.colors {
 		public var list:ThumbColorsList;			/**< list of available colors for the product **/
 		private var selected:ColorIcon;
 		
-		private var hiddenOpacity:Number = 0.2;
-		
 		public function ThumbColors() {
 			super();
 		}
@@ -26,8 +24,7 @@ package com.ipnotica.menu.content.slider.thumb.colors {
 		
 		// initial structure information 
 		private function initStructure():void {
-			list.visible = false;
-			selected.alpha = hiddenOpacity;
+			this.visible = false;
 		}
 		
 		
@@ -35,14 +32,13 @@ package com.ipnotica.menu.content.slider.thumb.colors {
 		 * Mouse Event handling
 		 **/
 		private function initEvents():void {
-			selected.addEventListener(MouseEvent.MOUSE_OVER, onOver);
-			selected.addEventListener(MouseEvent.MOUSE_OVER, onOut);
 			selected.addEventListener(MouseEvent.CLICK, onClickSelected);
 		}
 		
-		private function onOver(e:Event):void          { selected.alpha = 1; }
-		private function onOut(e:Event):void           { selected.alpha = hiddenOpacity; }
-		private function onClickSelected(e:Event):void { trace("clicked!!!"); list.visible = true; selected.visible = false; } 
+		private function onClickSelected(e:Event):void { 
+			this.visible = true; 
+			selected.visible = false; 
+		} 
 		
 		
 		/**
@@ -60,7 +56,8 @@ package com.ipnotica.menu.content.slider.thumb.colors {
 		private function onClickColor(e:Event):void {
 			var colorIcon:ColorIcon = ColorIcon(e.currentTarget);
 			trace("You have selected the color", colorIcon.color);
-			list.visible = false; selected.visible = true;
+			this.visible = false; 
+			selected.visible = true;
 		}
 		
 	}
