@@ -39,6 +39,7 @@
 		}
 		
 		private function onClickThumb(e:Event):void {
+			
 			Config.doc.dispatchEvent(new CustomEvents(CustomEvents.THUMB_CLICKED, {type: item.@type, id: id, item: item}));
 		}
 		

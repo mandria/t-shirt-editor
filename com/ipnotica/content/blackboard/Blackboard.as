@@ -12,6 +12,7 @@ package com.ipnotica.content.blackboard {
 	import com.ipnotica.utils.Utils;
 	
 	import flash.display.MovieClip;
+	import flash.events.Event;
 
 	public class Blackboard extends MovieClip {
 		
@@ -20,10 +21,10 @@ package com.ipnotica.content.blackboard {
 		
 		public function Blackboard() {
 			super();
-			init();
+			addEventListener(Event.ADDED_TO_STAGE, init);
 		}
 		
-		private function init():void {
+		private function init(e:Event):void {
 			Utils.setConfig(this);
 			initListeners();
 		}
