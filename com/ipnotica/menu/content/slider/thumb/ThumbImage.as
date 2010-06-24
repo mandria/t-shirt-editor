@@ -23,6 +23,11 @@ package com.ipnotica.menu.content.slider.thumb {
 			buttonMode = true;
 		}
 		
+		public function reload():void {
+			if (product) { removeChild(product); product = null; }
+			addImage(id);
+		}
+		
 		// load image with specific ID
 		public function addImage(id:String):void {
 			this.id = id;
@@ -35,7 +40,12 @@ package com.ipnotica.menu.content.slider.thumb {
 			
 			// load products images
 			if (Config.menuFamily == "products") { 
-				url += "images/products/thumbs/" + Config.productID + "/" + Config.productID + "-" + Config.currentColor.@id + ".png";
+				if (Thumb(parent).colors.currentColor)
+					url += "images/products/thumbs/" + Thumb(parent).item.@id + "/" + "1" + "-" + Thumb(parent).colors.currentColor.@id + ".png";
+				else 
+					url += "images/products/thumbs/" + Thumb(parent).item.@id + "/" + "1" + "-" + Thumb(parent).item.colors..color[0].@id + ".png";
+				
+				trace(">>>>>>", url)
 			}
 			
 			var loader:Loader = new Loader();

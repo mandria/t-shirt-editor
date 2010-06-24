@@ -37,10 +37,10 @@
 		}
 		
 		private function init():void {
-			image.addImage(id);
 			selected.alpha = hiddenOpacity;
 			initEvents();
 			initColors();
+			image.addImage(id);
 		}
 		
 		private function initEvents():void {
@@ -55,8 +55,13 @@
 		
 		private function onClickThumb(e:Event):void {
 			if (e.target.name != "content") {
-				trace("I've clicked on the image, refreshing", e.target);
-				colors.init(item, selected);
+				if (Config.menuFamily == "products") {
+					trace(Config.currentColor, colors.currentColor, selected)
+					Config.currentColor = (colors.currentColor == null) ? item.colors.color[0] : colors.currentColor;
+					//Config.currentColor = colors.currentColor;
+					colors.init(item, selected);
+					selected.setColor(Config.currentColor.@color);
+				}
 				Config.doc.dispatchEvent(new CustomEvents(CustomEvents.THUMB_CLICKED, {type: item.@type, id: id, item: item}));
 			}
 		}
