@@ -56,6 +56,7 @@
 		private function onClickThumb(e:Event):void {
 			if (e.target.name != "content") {
 				trace("I've clicked on the image, refreshing", e.target);
+				colors.init(item, selected);
 				Config.doc.dispatchEvent(new CustomEvents(CustomEvents.THUMB_CLICKED, {type: item.@type, id: id, item: item}));
 			}
 		}

@@ -1,5 +1,9 @@
 package com.ipnotica.menu.content.slider.thumb.colors {
 	
+	import com.ipnotica.menu.content.slider.thumb.Thumb;
+	import com.ipnotica.utils.Config;
+	import com.ipnotica.utils.CustomEvents;
+	
 	import flash.display.MovieClip;
 	import flash.events.Event;
 	import flash.events.MouseEvent;
@@ -7,6 +11,7 @@ package com.ipnotica.menu.content.slider.thumb.colors {
 	public class ThumbColors extends MovieClip {
 		
 		public var list:ThumbColorsList;			/**< list of available colors for the product **/
+		
 		private var selected:ColorIcon;
 		
 		public function ThumbColors() {
@@ -56,8 +61,15 @@ package com.ipnotica.menu.content.slider.thumb.colors {
 		private function onClickColor(e:Event):void {
 			var colorIcon:ColorIcon = ColorIcon(e.currentTarget);
 			trace("You have selected the color", colorIcon.color);
+			
 			this.visible = false; 
 			selected.visible = true;
+			
+			Config.currentColor = colorIcon.color;
+			Config.body.content.update();
+			
+			// redraw the stuff that changes based on color
+			selected.setColor(Number(Config.currentColor.@color))
 		}
 		
 	}
