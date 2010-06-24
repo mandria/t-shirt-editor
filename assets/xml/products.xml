@@ -15,11 +15,11 @@
 		</colors>
 	</product>
 	<product id="2" description="Cup">
-		<price>13</price>
+		<price>28</price>
 		<views>
 			<view id="1" description="Front view"/>
 			<view id="2" description="Top view"/>			
-			<view id="2" description="Bottom view"/>			
+			<view id="3" description="Bottom view"/>			
 		</views>                          
 		<colors>
 			<color id="white">White</color>

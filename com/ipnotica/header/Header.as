@@ -70,7 +70,7 @@ package com.ipnotica.header {
 			Config.doc.addEventListener(CustomEvents.ITEM_ADDED, updatePrice);
 		}
 		
-		private function updateHeader(e:CustomEvents):void {
+		public function updateHeader(e:CustomEvents):void {
 			updateDescription();
 			updatePrice();
 		}

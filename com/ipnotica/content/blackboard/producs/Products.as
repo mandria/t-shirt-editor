@@ -39,7 +39,6 @@
 		
 		/** Show the selected view (settled up in Config.) */
 		public function showSelectedView():void {
-			//trace("Going to show product with ID", Config.visibleProductID);
 			hideAllViews();
 			showProductView();
 		}
