@@ -40,7 +40,7 @@
 			selected.alpha = hiddenOpacity;
 			initEvents();
 			initColors();
-			image.addImage(id);
+			image.addImage(id, item.@type);
 		}
 		
 		private function initEvents():void {
@@ -58,7 +58,6 @@
 				if (Config.menuFamily == "products") {
 					trace(Config.currentColor, colors.currentColor, selected)
 					Config.currentColor = (colors.currentColor == null) ? item.colors.color[0] : colors.currentColor;
-					//Config.currentColor = colors.currentColor;
 					colors.init(item, selected);
 					selected.setColor(Config.currentColor.@color);
 				}

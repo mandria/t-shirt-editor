@@ -25,7 +25,7 @@ package com.ipnotica.footer.content {
 			super();
 		}
 		
-		/** Populate the footer with all buttons related to a specific item (MovieClip, Image, Text) */
+		/** Populate the footer with all buttons related to a specific item (swf, png, text) */
 		public function update():void {
 			buttons = Config.currentItem.structure.properties;
 			addButtons();
