@@ -16,6 +16,7 @@ package com.ipnotica.menu.content.slider.thumb {
 		public var id:String;
 		public var swf:MovieClip;
 		public var product:Bitmap;
+		public var image:Bitmap;
 		
 		private var type:String;
 		
@@ -66,9 +67,11 @@ package com.ipnotica.menu.content.slider.thumb {
 			}
 
 			// image for the customization  
-			if (Config.menuFamily == "products") {
-				product = Bitmap(LoaderInfo(e.target).content);
-				addChild(product);
+			if (Config.menuFamily == "images" && type == "png") {
+				image = Bitmap(LoaderInfo(e.target).content);
+				image.smoothing = true;   
+				image.width = image.height = height;
+				addChild(image);
 			}
 			
 			// image for the product

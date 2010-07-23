@@ -10,8 +10,11 @@ package com.ipnotica.footer.buttons.colorbuttons {
 		
 		public var icon:MovieClip;
 		
-		public function ColorButton() {
+		private var type:String;
+		
+		public function ColorButton(type:String) {
 			super();
+			this.type = type;
 			buttonMode = true;
 			init();
 		}
@@ -22,8 +25,10 @@ package com.ipnotica.footer.buttons.colorbuttons {
 		}
 		
 		private function initColorButton():void {
-			var layers:XMLList = Config.currentItem.itemXML.layers;
-			TweenLite.to(icon["color"], 1, {tint: Number(layers.layer[0].@color)}) // take the first color (think if there are more)
+			//if (type == "swf") {
+				var layers:XMLList = Config.currentItem.itemXML.layers;
+				TweenLite.to(icon["color"], 1, {tint: Number(layers.layer[0].@color)}) // take the first color (think if there are more)
+			//}
 		}
 		
 		private function initListeners():void {
@@ -40,9 +45,15 @@ package com.ipnotica.footer.buttons.colorbuttons {
 		}
 		
 		private function changeColorItem(color:Number):void {
-			var layers:XMLList = Config.currentItem.itemXML.layers;
-			var layer:MovieClip = Config.currentItem.content[layers.layer[0].@id]; // take the first color (think if there are more)
-			TweenLite.to(layer, 1, {tint: color})
+			if (type == "swf") {
+				var layers:XMLList = Config.currentItem.itemXML.layers;
+				var layer:MovieClip = Config.currentItem.content[layers.layer[0].@id]; // take the first color (think if there are more)
+				TweenLite.to(layer, 1, {tint: color})
+			} 
+			
+			if (type == "png") {
+				TweenLite.to(Config.currentItem.content, 1, {tint: color})
+			}
 		}
 		
 	}
