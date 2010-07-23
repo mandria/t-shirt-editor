@@ -40,9 +40,9 @@ package com.ipnotica.footer {
 		}
 		
 		private function clearEvents():void {
-			trace("------", "Clearing everything")
+			
+			// remove color button event (was creating some problems)
 			if (content.getChildByName("colorButton")) {
-				trace("------", "REMOVE EVENT LISTENER")
 				var colorButton:ColorButton = ColorButton(content.getChildByName("colorButton"));
 				Config.doc.removeEventListener(CustomEvents.COLOR_SELECTED, colorButton.onColorSelected);
 			}
