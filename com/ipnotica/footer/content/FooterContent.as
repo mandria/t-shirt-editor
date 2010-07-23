@@ -87,6 +87,7 @@ package com.ipnotica.footer.content {
 		// add color picker
 		private function addColorButtons():void {
 			var button:ColorButton = new ColorButton(Config.currentItem.structure.type);
+			button.name = "colorButton";
 			addChild(button);
 			button.x = initialX;
 			initialX += button.width;

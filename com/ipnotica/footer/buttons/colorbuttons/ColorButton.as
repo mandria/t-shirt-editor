@@ -35,7 +35,7 @@ package com.ipnotica.footer.buttons.colorbuttons {
 			 Config.doc.addEventListener(CustomEvents.COLOR_SELECTED, onColorSelected);
 		}
 		
-		private function onColorSelected(e:CustomEvents):void {
+		public function onColorSelected(e:CustomEvents):void {
 			changeColorButton(e.data.color);
 			changeColorItem(e.data.color);
 		}
@@ -45,6 +45,8 @@ package com.ipnotica.footer.buttons.colorbuttons {
 		}
 		
 		private function changeColorItem(color:Number):void {
+			trace("------ Changing color for", type);
+			
 			if (type == "swf") {
 				var layers:XMLList = Config.currentItem.itemXML.layers;
 				var layer:MovieClip = Config.currentItem.content[layers.layer[0].@id]; // take the first color (think if there are more)

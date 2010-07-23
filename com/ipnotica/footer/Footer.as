@@ -9,8 +9,10 @@
 
 package com.ipnotica.footer {
 	
+	import com.ipnotica.footer.buttons.colorbuttons.ColorButton;
 	import com.ipnotica.footer.content.FooterContent;
 	import com.ipnotica.utils.Config;
+	import com.ipnotica.utils.CustomEvents;
 	
 	import flash.display.MovieClip;
 
@@ -30,10 +32,20 @@ package com.ipnotica.footer {
 		}
 		
 		public function clear():void {
+			clearEvents();
 			this.removeChild(content);
 			content = new FooterContent();
 			content.y = 3;
 			this.addChild(content);
+		}
+		
+		private function clearEvents():void {
+			trace("------", "Clearing everything")
+			if (content.getChildByName("colorButton")) {
+				trace("------", "REMOVE EVENT LISTENER")
+				var colorButton:ColorButton = ColorButton(content.getChildByName("colorButton"));
+				Config.doc.removeEventListener(CustomEvents.COLOR_SELECTED, colorButton.onColorSelected);
+			}
 		}
 		
 	}
