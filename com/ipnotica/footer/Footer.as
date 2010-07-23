@@ -22,8 +22,6 @@ package com.ipnotica.footer {
 		
 		public function Footer() {
 			super();
-			
-			
 		}
 		
 		public function update():void {

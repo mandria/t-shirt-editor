@@ -20,7 +20,7 @@ package com.ipnotica.footer.buttons.alphabuttons {
 			buttonMode = true;
 			init();
 		}
-
+		
 		private function init():void {
 			initEvents();
 		}
@@ -37,7 +37,7 @@ package com.ipnotica.footer.buttons.alphabuttons {
 			// change real item values
 			var alpha:Number
 			if (Config.currentItem.myResizableMovieClip) {
-				if (alphaUp)   { if (Config.currentItem.content.alpha <= 1)  { alpha = Config.currentItem.content.alpha += 0.025; } }
+				if (alphaUp)   { if (Config.currentItem.content.alpha <= 1)    { alpha = Config.currentItem.content.alpha += 0.025; } }
 				if (alphaDown) { if (Config.currentItem.content.alpha > 0.1)   { alpha = Config.currentItem.content.alpha -= 0.025; } }
 				// change structure values (to future storage)
 				Config.currentItem.structure.properties.alpha = alpha;
