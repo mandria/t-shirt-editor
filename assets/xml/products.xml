@@ -9,7 +9,7 @@
 			<view id="4" description="Side DX view"/>
 		</views>                          
 		<colors>
-			<color id="white" color="0xffffff">White</color>
+			<color id="white" color="0xffffff" alpha="enabled">White</color>
 			<color id="green" color="0x9affc2">Green</color>
 			<color id="pink"  color="0xf2befc">Pink</color>
 		</colors>

@@ -5,6 +5,7 @@
 
 package com.ipnotica.footer.content {
 	
+	import com.ipnotica.footer.buttons.alphabuttons.AlphaButtons;
 	import com.ipnotica.footer.buttons.colorbuttons.ColorButton;
 	import com.ipnotica.footer.buttons.horizontalbuttons.HorizontalButtons;
 	import com.ipnotica.footer.buttons.removebuttons.RemoveButton;
@@ -36,6 +37,7 @@ package com.ipnotica.footer.content {
 			for (var name:String in buttons){
 				addButton(name, buttons[name]);
 			}
+			addButton("alpha", "transparence")
 			addButton("remove", "remove element");
 		}
 		
@@ -44,10 +46,11 @@ package com.ipnotica.footer.content {
 			switch (name) {
 				case "x"       : addHorizontalButtons(); break;
 				case "y"       : addVerticalButtons();   break;
-				case "rotation": addRotationButtons(); break;
-				case "scale"   : addScaleButtons(); break;
-				case "color"   : addColorButtons(); break;
-				case "remove"  : addRemoveButtons(); break;
+				case "rotation": addRotationButtons();   break;
+				case "scale"   : addScaleButtons();      break;
+				case "color"   : addColorButtons();      break;
+				case "alpha"   : addAlphaButtons();      break;
+				case "remove"  : addRemoveButtons();     break;
 				default:  trace ("Other buttons can be added");
 			}
 		}
@@ -91,6 +94,19 @@ package com.ipnotica.footer.content {
 			addChild(button);
 			button.x = initialX;
 			initialX += button.width;
+		}
+		
+		
+		// add delete bottons
+		private function addAlphaButtons():void {
+			trace("-- adding alpha", Config.product.@alpha);
+			if (Config.currentColor.@alpha == "enabled") {
+				trace("-- adding aplpha buttons");
+				var button:AlphaButtons = new AlphaButtons();
+				addChild(button);
+				button.x = initialX;
+				initialX += button.width;
+			}
 		}
 		
 		// add delete bottons

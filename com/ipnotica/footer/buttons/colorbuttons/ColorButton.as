@@ -26,8 +26,11 @@ package com.ipnotica.footer.buttons.colorbuttons {
 		
 		private function initColorButton():void {
 			var layers:XMLList = Config.currentItem.itemXML.layers;
-			var color:Number = (Config.currentItem.structure.color) ? Config.currentItem.structure.color : Number(layers.layer[0].@color)
-			TweenLite.to(icon["color"], 0, {tint: color}) // take the first color (think if there are more)
+			
+			// take the color from the structure if already present or 
+			// load the default one defined in the XML config file
+			Config.currentItem.structure.color = (Config.currentItem.structure.color) ? Config.currentItem.structure.color : Number(layers.layer[0].@color)
+			TweenLite.to(icon["color"], 0, {tint: Config.currentItem.structure.color}) 
 		}
 		
 		private function initListeners():void {
