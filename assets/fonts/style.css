@@ -1,13 +1,17 @@
 .japanese {
 	font-family:	"Arial Unicode MS";
     font-size:		15;
-	font-weight:	bold;
     color:			#CC3333;
 }
 
 .english {
 	font-family:	"Verdana";
     font-size:		15;
-	font-style:		italic;
     color:			#009966;
+}                   
+
+.reggies {
+	font-family:	"Hoefler Text";
+    font-size:		15;
+    color:			#773333;
 }
