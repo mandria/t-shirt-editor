@@ -25,12 +25,15 @@ package com.ipnotica.footer.buttons.colorbuttons {
 		}
 		
 		private function initColorButton():void {
-			var layers:XMLList = Config.currentItem.itemXML.layers;
 			
-			// take the color from the structure if already present or 
-			// load the default one defined in the XML config file
-			Config.currentItem.structure.color = (Config.currentItem.structure.color) ? Config.currentItem.structure.color : Number(layers.layer[0].@color)
-			TweenLite.to(icon["color"], 0, {tint: Config.currentItem.structure.color}) 
+			if (Config.menuFamily != "texts") {
+				var layers:XMLList = Config.currentItem.itemXML.layers;
+				// take the color from the structure if already present or load the default one defined in the XML config file
+				Config.currentItem.structure.color = (Config.currentItem.structure.color) ? Config.currentItem.structure.color : Number(layers.layer[0].@color)
+				TweenLite.to(icon["color"], 0, {tint: Config.currentItem.structure.color})
+			} else {
+				TweenLite.to(icon["color"], 0, {tint: 0x000000});
+			} 
 		}
 		
 		private function initListeners():void {
@@ -57,6 +60,9 @@ package com.ipnotica.footer.buttons.colorbuttons {
 			
 			// change of color for PNGs
 			if (type == "png") { TweenLite.to(Config.currentItem.content, 1, {tint: color}) }
+			
+			// change of color for PNGs
+			if (type == "texts") { TweenLite.to(Config.currentItem.content, 1, {tint: color}) }
 			
 			// save the color in the item structure
 			Config.currentItem.structure.color = color;

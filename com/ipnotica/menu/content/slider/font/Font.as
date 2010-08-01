@@ -1,6 +1,9 @@
 package com.ipnotica.menu.content.slider.font {
 	
+	import com.ipnotica.content.blackboard.producs.product.item.Item;
+	
 	import flash.display.MovieClip;
+	import flash.events.MouseEvent;
 	import flash.text.AntiAliasType;
 	import flash.text.TextField;
 	import flash.text.TextFieldAutoSize;
@@ -25,8 +28,8 @@ package com.ipnotica.menu.content.slider.font {
 		}
 		
 		private function init():void {
-			initLabel(styles[0].@font);
 			cover.buttonMode = true;
+			initLabel(styles[0].@font);
 			initStyles();
 		}
 		
@@ -49,6 +52,6 @@ package com.ipnotica.menu.content.slider.font {
 				trace("init " + styles[i].@type + " with font " + styles[i].@font);
 			}
 		}
-		
+				
 	}
 }

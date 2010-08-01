@@ -6,6 +6,7 @@
 package com.ipnotica.content.blackboard.producs.customization {
 	
 	import com.ipnotica.content.blackboard.producs.product.item.Item;
+	import com.ipnotica.utils.Config;
 	
 	import flash.display.MovieClip;
 
