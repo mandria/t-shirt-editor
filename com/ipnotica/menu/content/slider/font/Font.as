@@ -9,8 +9,10 @@ package com.ipnotica.menu.content.slider.font {
 	public class Font extends MovieClip {
 		
 		public var cover:MovieClip;
+		public var border:MovieClip;
 		
 		public var label:TextField = new TextField();
+		public var fontName:String;
 		public var font:XML;
 		public var styles:XMLList;
 		public var stylesList:Array = [];
@@ -29,6 +31,7 @@ package com.ipnotica.menu.content.slider.font {
 		}
 		
 		private function initLabel(font:String):void {
+			fontName = font;
 			label.x = 6; label.y = 7;
 			label.defaultTextFormat = new TextFormat(font, 12, 0);
 			label.antiAliasType = AntiAliasType.ADVANCED;
