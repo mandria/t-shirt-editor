@@ -32,7 +32,7 @@ package com.ipnotica.footer.buttons.colorbuttons {
 				Config.currentItem.structure.color = (Config.currentItem.structure.color) ? Config.currentItem.structure.color : Number(layers.layer[0].@color)
 				TweenLite.to(icon["color"], 0, {tint: Config.currentItem.structure.color})
 			} else {
-				TweenLite.to(icon["color"], 0, {tint: 0x000000});
+				TweenLite.to(icon["color"], 0, {tint: Config.fontDefaultColor});
 			} 
 		}
 		
