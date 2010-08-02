@@ -25,14 +25,13 @@ package com.ipnotica.footer.buttons.colorbuttons {
 		}
 		
 		private function initColorButton():void {
-			
-			if (Config.menuFamily != "texts") {
-				var layers:XMLList = Config.currentItem.itemXML.layers;
+			if (Config.menuFamily == "texts") {
+				TweenLite.to(icon["color"], 0, {tint: Config.fontDefaultColor});
+			} else {
 				// take the color from the structure if already present or load the default one defined in the XML config file
+				var layers:XMLList = Config.currentItem.itemXML.layers;
 				Config.currentItem.structure.color = (Config.currentItem.structure.color) ? Config.currentItem.structure.color : Number(layers.layer[0].@color)
 				TweenLite.to(icon["color"], 0, {tint: Config.currentItem.structure.color})
-			} else {
-				TweenLite.to(icon["color"], 0, {tint: Config.fontDefaultColor});
 			} 
 		}
 		
