@@ -9,12 +9,12 @@
 	</font>
 	<font font="Herculanum">
 		<styles>
-			<style type="bold" font="Herculanum"></style>   
+			<style type="regular" font="Herculanum"></style>   
 		</styles>	
 	</font>
 	<font font="Hobo">
 		<styles>
-			<style type="regular" font="Hobo Std Medium"></style>   
+			<style type="bold" font="Hobo Std Medium"></style>   
 		</styles>	
 	</font>
 </fonts>
