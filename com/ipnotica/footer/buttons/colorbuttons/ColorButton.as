@@ -30,8 +30,8 @@ package com.ipnotica.footer.buttons.colorbuttons {
 			} else {
 				// take the color from the structure if already present or load the default one defined in the XML config file
 				var layers:XMLList = Config.currentItem.itemXML.layers;
-				Config.currentItem.structure.color = (Config.currentItem.structure.color) ? Config.currentItem.structure.color : Number(layers.layer[0].@color)
-				TweenLite.to(icon["color"], 0, {tint: Config.currentItem.structure.color})
+				Config.currentItem.structure.color = (Config.currentItem.structure.properties.color) ? Config.currentItem.structure.properties.color : Number(layers.layer[0].@color)
+				TweenLite.to(icon["color"], 0, {tint: Config.currentItem.structure.properties.color})
 			} 
 		}
 		
@@ -64,7 +64,7 @@ package com.ipnotica.footer.buttons.colorbuttons {
 			if (type == "texts") { TweenLite.to(Config.currentItem.content, 1, {tint: color}) }
 			
 			// save the color in the item structure
-			Config.currentItem.structure.color = color;
+			Config.currentItem.structure.properties.color = color;
 		}
 		
 	}
