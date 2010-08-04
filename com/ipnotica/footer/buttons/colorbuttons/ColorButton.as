@@ -25,14 +25,7 @@ package com.ipnotica.footer.buttons.colorbuttons {
 		}
 		
 		private function initColorButton():void {
-			if (Config.currentItem.structure.type == "texts") {
-				TweenLite.to(icon["color"], 0, {tint: Config.fontDefaultColor});
-			} else {
-				// take the color from the structure if already present or load the default one defined in the XML config file
-				var layers:XMLList = Config.currentItem.itemXML.layers;
-				Config.currentItem.structure.color = (Config.currentItem.structure.properties.color) ? Config.currentItem.structure.properties.color : Number(layers.layer[0].@color)
-				TweenLite.to(icon["color"], 0, {tint: Config.currentItem.structure.properties.color})
-			} 
+			TweenLite.to(icon["color"], 0, {tint: Config.currentItem.structure.properties.color});
 		}
 		
 		private function initListeners():void {
