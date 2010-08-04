@@ -34,13 +34,13 @@ package com.ipnotica.footer.buttons.alphabuttons {
 		}
 				
 		private function alphaItem(e:Event):void {
-			// change real item values
-			var alpha:Number
 			if (Config.currentItem.myResizableMovieClip) {
-				if (alphaUp)   { if (Config.currentItem.content.alpha <= 1)    { alpha = Config.currentItem.content.alpha += 0.025; } }
-				if (alphaDown) { if (Config.currentItem.content.alpha > 0.1)   { alpha = Config.currentItem.content.alpha -= 0.025; } }
-				// change structure values (to future storage)
-				Config.currentItem.structure.properties.alpha = alpha;
+				var alpha:Number 
+				if (Config.currentItem.myResizableMovieClip) {
+					if (alphaUp)   { if (Config.currentItem.content.alpha <= 1)    { alpha = Config.currentItem.content.alpha += 0.025; } }
+					if (alphaDown) { if (Config.currentItem.content.alpha > 0.1)   { alpha = Config.currentItem.content.alpha -= 0.025; } }
+					Config.currentItem.structure.properties.alpha = Config.currentItem.content.alpha;
+				}
 			}
 		}		
 		
