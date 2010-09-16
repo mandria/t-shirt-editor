@@ -1,0 +1,51 @@
+<product id="1">
+	<views>
+		<view id="1">
+			<objects>
+				<object id="1" type="swf">
+					<alpha>0.5</alpha>
+					<height>200</height>
+					<width>200</width>
+					<color>0</color>
+					<x>100</x>
+					<y>100</y>
+					<rotation>0</rotation>
+				</object>
+				<object id="2" type="swf">
+					<alpha>0.8</alpha>
+					<scale>1</scale>
+					<height>200</height>
+					<width>200</width>
+					<color>0</color>
+					<x>400</x>
+					<y>100</y>
+					<rotation>0</rotation>
+				</object>
+				<object id="Hola" type="text">
+					<alpha>1</alpha>
+					<scale>1</scale>
+					<height>300</height>
+					<width>200</width>
+					<color>0</color>
+					<x>200</x>
+					<y>200</y>
+					<rotation>20</rotation>
+				</object>
+			</objects>
+		</view>
+		<view id="2">
+			<objects>
+				<object id="1" type="swf">
+					<alpha>1</alpha>
+					<scale>1</scale>
+					<height>200</height>
+					<width>200</width>
+					<color>0</color>
+					<x>100</x>
+					<y>100</y>
+					<rotation>0</rotation>
+				</object>
+			</objects>
+		</view>
+	</views>
+</product>
