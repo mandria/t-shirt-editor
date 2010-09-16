@@ -2,13 +2,13 @@
 	<views>
 		<view id="1">
 			<objects>
-				<object id="1" type="swf">
-					<alpha>0.5</alpha>
+				<object id="4" type="png">
+					<alpha>0.3</alpha>
 					<height>200</height>
 					<width>200</width>
 					<color>0</color>
-					<x>100</x>
-					<y>100</y>
+					<x>0</x>
+					<y>0</y>
 					<rotation>60</rotation>
 				</object>
 				<object id="2" type="swf">
