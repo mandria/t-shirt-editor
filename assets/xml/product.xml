@@ -13,9 +13,8 @@
 				</object>
 				<object id="2" type="swf">
 					<alpha>0.8</alpha>
-					<scale>1</scale>
-					<height>200</height>
-					<width>200</width>
+					<height>100</height>
+					<width>100</width>
 					<color>0</color>
 					<x>400</x>
 					<y>100</y>
@@ -23,9 +22,8 @@
 				</object>
 				<object id="Hola" type="text">
 					<alpha>1</alpha>
-					<scale>1</scale>
 					<height>300</height>
-					<width>200</width>
+					<width>300</width>
 					<color>0</color>
 					<x>200</x>
 					<y>200</y>
@@ -37,9 +35,8 @@
 			<objects>
 				<object id="1" type="swf">
 					<alpha>1</alpha>
-					<scale>1</scale>
-					<height>200</height>
-					<width>200</width>
+					<height>300</height>
+					<width>300</width>
 					<color>0</color>
 					<x>100</x>
 					<y>100</y>
