@@ -20,7 +20,7 @@
 					<y>100</y>
 					<rotation>120</rotation>
 				</object>
-				<object id="Hola" type="text">
+				<object id="Hola" type="texts">
 					<alpha>1</alpha>
 					<height>300</height>
 					<width>300</width>
