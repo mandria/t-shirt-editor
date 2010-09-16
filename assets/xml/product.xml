@@ -9,7 +9,7 @@
 					<color>0</color>
 					<x>100</x>
 					<y>100</y>
-					<rotation>0</rotation>
+					<rotation>60</rotation>
 				</object>
 				<object id="2" type="swf">
 					<alpha>0.8</alpha>
@@ -18,7 +18,7 @@
 					<color>0</color>
 					<x>400</x>
 					<y>100</y>
-					<rotation>0</rotation>
+					<rotation>120</rotation>
 				</object>
 				<object id="Hola" type="text">
 					<alpha>1</alpha>
