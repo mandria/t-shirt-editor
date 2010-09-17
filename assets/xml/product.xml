@@ -22,8 +22,8 @@
 				</object>
 				<object id="Hola" type="texts">
 					<alpha>1</alpha>
-					<font>Verdana</font>
-					<height>100</height>
+					<font>Herculanum</font>
+					<height>30</height>
 					<width>100</width>
 					<color>0</color>
 					<x>200</x>
@@ -35,9 +35,9 @@
 		<view id="2">
 			<objects>
 				<object id="Ciaooa bello" type="texts">
-					<alpha>1</alpha>
+					<alpha>0.5</alpha>
 					<font>Verdana</font>
-					<height>300</height>
+					<height>70</height>
 					<width>300</width>
 					<color>0</color>
 					<x>300</x>
