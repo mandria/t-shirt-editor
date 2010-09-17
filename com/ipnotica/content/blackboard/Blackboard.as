@@ -36,8 +36,12 @@ package com.ipnotica.content.blackboard {
 		
 		/** Load all the elements related to a product */
 		public function loadProduct(e:CustomEvents):void {
-			products.addProducts();
-			views.addViews();
+			if (Config.productToLoad) {
+				products.addProducts();
+				views.addViews();
+				Config.productToLoad = false;
+			}
+			
 		}
 
 		

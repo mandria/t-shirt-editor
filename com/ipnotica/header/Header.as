@@ -83,7 +83,5 @@ package com.ipnotica.header {
 			//buy.price.text = Utils.totalPrice() + " euro"; 
 		}
 		
-		
-		
 	}
 }

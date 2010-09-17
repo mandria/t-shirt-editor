@@ -29,6 +29,8 @@
 		
 		// Add a single product view
 		private function addProduct(id:String):void {
+			trace("!|!!!!!!!!!!!!!! ONCE !!!!")
+
 			var product:Product = new Product(id);
 			product.visible = false;
 			product.name = id;
