@@ -15,7 +15,7 @@
 					<alpha>0.8</alpha>
 					<height>100</height>
 					<width>100</width>
-					<color>0</color>
+					<color>13369394</color>
 					<x>400</x>
 					<y>100</y>
 					<rotation>120</rotation>
@@ -23,8 +23,8 @@
 				<object id="Hola" type="texts">
 					<alpha>1</alpha>
 					<font>Herculanum</font>
-					<height>20</height>
-					<width>50</width>
+					<height>120</height>
+					<width>250</width>
 					<color>13369394</color>
 					<x>100</x>
 					<y>100</y>

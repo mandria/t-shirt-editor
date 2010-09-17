@@ -84,5 +84,13 @@ package com.ipnotica.content.blackboard.views {
 			addChild(message);
 		}
 		
+		public function resetFirstView():void {
+			Config.body.content.blackboard.views.selector.index = 0;
+			Config.body.content.blackboard.views.selector.changeProduct();
+			Config.body.content.blackboard.views.selector.onRightClick(null);
+			Config.body.footer.clear();
+		}
+
+		
 	}
 }

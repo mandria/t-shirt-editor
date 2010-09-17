@@ -33,7 +33,7 @@ package com.ipnotica.content.blackboard.views.message {
 		private function onOverMessage(e:Event):void { alpha = overOpacity }
 		private function onOutMessage(e:Event):void  { alpha = outOpacity }
 		
-		private function onClickMessage(e:Event):void {
+		public function onClickMessage(e:Event):void {
 			Config.body.content.blackboard.views.selector.changeProduct();
 			Config.body.content.blackboard.views.selector.onRightClick(null);
 			Config.body.footer.clear();
