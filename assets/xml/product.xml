@@ -23,11 +23,11 @@
 				<object id="Hola" type="texts">
 					<alpha>1</alpha>
 					<font>Herculanum</font>
-					<height>30</height>
-					<width>100</width>
+					<height>20</height>
+					<width>50</width>
 					<color>0</color>
-					<x>200</x>
-					<y>200</y>
+					<x>100</x>
+					<y>100</y>
 					<rotation>20</rotation>
 				</object>
 			</objects>
@@ -37,8 +37,8 @@
 				<object id="Ciaooa bello" type="texts">
 					<alpha>0.5</alpha>
 					<font>Verdana</font>
-					<height>70</height>
-					<width>300</width>
+					<height>120</height>
+					<width>500</width>
 					<color>0</color>
 					<x>300</x>
 					<y>300</y>
