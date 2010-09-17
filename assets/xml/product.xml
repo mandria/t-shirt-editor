@@ -6,7 +6,7 @@
 					<alpha>0.3</alpha>
 					<height>200</height>
 					<width>200</width>
-					<color>0</color>
+					<color>23369394</color>
 					<x>0</x>
 					<y>0</y>
 					<rotation>60</rotation>
@@ -25,7 +25,7 @@
 					<font>Herculanum</font>
 					<height>20</height>
 					<width>50</width>
-					<color>0</color>
+					<color>13369394</color>
 					<x>100</x>
 					<y>100</y>
 					<rotation>20</rotation>
@@ -39,7 +39,7 @@
 					<font>Verdana</font>
 					<height>120</height>
 					<width>500</width>
-					<color>0</color>
+					<color>10009394</color>
 					<x>300</x>
 					<y>300</y>
 					<rotation>20</rotation>
