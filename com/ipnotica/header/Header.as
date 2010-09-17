@@ -22,7 +22,7 @@ package com.ipnotica.header {
 
 	public class Header extends MovieClip {
 		
-		public var buy:PriceBuyButton;				/**< Button that will add the product to the cart */
+		public var buyNow:PriceBuyButton;			/**< Button that will add the product to the cart */
 		public var description:TextField;			/**< Current product description */
 		
 		public var products:ProductsButton;			/**< Show list of available products (tshirt, hat, cup, ...) */
@@ -72,7 +72,7 @@ package com.ipnotica.header {
 		
 		public function updateHeader(e:CustomEvents):void {
 			updateDescription();
-			updatePrice();
+			//updatePrice();
 		}
 		
 		private function updateDescription(e:CustomEvents = null):void {
@@ -80,7 +80,7 @@ package com.ipnotica.header {
 		}
 		
 		private function updatePrice(e:CustomEvents = null):void {
-			buy.price.text = Utils.totalPrice() + " euro"; 
+			//buy.price.text = Utils.totalPrice() + " euro"; 
 		}
 		
 		

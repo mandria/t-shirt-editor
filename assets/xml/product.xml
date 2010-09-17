@@ -1,6 +1,6 @@
 <product id="1">
 	<views>
-		<view id="1">
+		<view id="0">
 			<objects>
 				<object id="4" type="png">
 					<alpha>0.3</alpha>
@@ -22,29 +22,35 @@
 				</object>
 				<object id="Hola" type="texts">
 					<alpha>1</alpha>
-					<font>Herculanum</font>
 					<height>120</height>
 					<width>250</width>
 					<color>13369394</color>
 					<x>100</x>
 					<y>100</y>
 					<rotation>20</rotation>
+					<font>Verdana</font>
+				</object>
+			</objects>
+		</view>
+		<view id="1">
+			<objects>
+				<object id="Ciaooa bello" type="texts">
+					<alpha>0.5</alpha>
+					<height>120</height>
+					<width>500</width>
+					<color>10009394</color>
+					<x>100</x>
+					<y>100</y>
+					<rotation>20</rotation>
+					<font>Verdana</font>
 				</object>
 			</objects>
 		</view>
 		<view id="2">
-			<objects>
-				<object id="Ciaooa bello" type="texts">
-					<alpha>0.5</alpha>
-					<font>Verdana</font>
-					<height>120</height>
-					<width>500</width>
-					<color>10009394</color>
-					<x>300</x>
-					<y>300</y>
-					<rotation>20</rotation>
-				</object>
-			</objects>
+			<objects/>
+		</view>
+		<view id="3">
+			<objects/>
 		</view>
 	</views>
 </product>
