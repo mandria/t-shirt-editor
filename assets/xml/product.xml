@@ -22,6 +22,7 @@
 				</object>
 				<object id="Hola" type="texts">
 					<alpha>1</alpha>
+					<font></font>
 					<height>300</height>
 					<width>300</width>
 					<color>0</color>
@@ -33,14 +34,15 @@
 		</view>
 		<view id="2">
 			<objects>
-				<object id="1" type="swf">
+				<object id="Ciaooa bello" type="texts">
 					<alpha>1</alpha>
+					<font></font>
 					<height>300</height>
 					<width>300</width>
 					<color>0</color>
-					<x>100</x>
-					<y>100</y>
-					<rotation>0</rotation>
+					<x>200</x>
+					<y>200</y>
+					<rotation>20</rotation>
 				</object>
 			</objects>
 		</view>
