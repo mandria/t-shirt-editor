@@ -1,0 +1,16 @@
+<images>
+	<image id="1" category="fun" type="swf">
+		<description>Drunk face</description>
+		<layers>
+			<layer id="circle">Psico Circle</layer>
+		</layers>  
+		<price>1.5</price>
+	</image>
+	<image id="2" category="fun" type="swf">
+		<description>Drunk face</description>
+		<layers>
+			<layer id="mouth">Drunk mouth</layer>
+		</layers>
+		<price>0.75</price>
+	</image>
+</images>

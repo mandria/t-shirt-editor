@@ -26,8 +26,8 @@
 			this.addChild(slider);
 		}
 
-		public function update():void {
-			slider.update();
+		public function update(kind:String = "store"):void {
+			slider.update(kind);
 		}
 		
 	}
