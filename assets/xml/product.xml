@@ -3,35 +3,45 @@
 	<views>
 		<view id="0">
 			<objects>
-				<object id="20" type="png">
+				<object id="27" type="png">
 					<alpha>1</alpha>
 					<height>200</height>
 					<width>200</width>
-					<color>3342284</color>
-					<x>103</x>
-					<y>353</y>
+					<color>3329228</color>
+					<x>117</x>
+					<y>372</y>
 					<rotation>0</rotation>
-					<path>Grafica/18-skull.png</path>
+					<path>Grafica/27-yin-yang10001.png</path>
 				</object>
-				<object id="19" type="png">
+				<object id="ciao bella" type="texts">
 					<alpha>1</alpha>
-					<height>200</height>
-					<width>200</width>
-					<color>13382194</color>
-					<x>123</x>
-					<y>211</y>
+					<height>22.95</height>
+					<width>101</width>
+					<color>9961522</color>
+					<x>114</x>
+					<y>3</y>
 					<rotation>0</rotation>
-					<path>27-yin-yang10001.png</path>
+					<font>Herculanum</font>
 				</object>
-				<object id="Reggie" type="texts">
+				<object id="Hei la!" type="texts">
 					<alpha>1</alpha>
-					<height>142</height>
-					<width>291.6</width>
-					<color>3289804</color>
-					<x>134</x>
-					<y>98</y>
+					<height>32</height>
+					<width>61.2</width>
+					<color>16763904</color>
+					<x>112</x>
+					<y>41</y>
 					<rotation>0</rotation>
-					<font>Verdana</font>
+					<font>Hobo Std Medium</font>
+				</object>
+				<object id="chulla!" type="texts">
+					<alpha>1</alpha>
+					<height>72</height>
+					<width>167.1</width>
+					<color>38962</color>
+					<x>121</x>
+					<y>130</y>
+					<rotation>0</rotation>
+					<font>Herculanum</font>
 				</object>
 			</objects>
 		</view>
@@ -42,8 +52,8 @@
 					<height>234</height>
 					<width>252.3</width>
 					<color>9830449</color>
-					<x>162</x>
-					<y>319</y>
+					<x>100</x>
+					<y>100</y>
 					<rotation>34.15419960183733</rotation>
 					<font>Verdana</font>
 				</object>
