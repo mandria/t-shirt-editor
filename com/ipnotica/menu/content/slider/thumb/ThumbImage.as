@@ -38,7 +38,7 @@ package com.ipnotica.menu.content.slider.thumb {
 			
 			var url:String = Config.flashvars.httpDomain + Config.flashvars.assets
 			//var imageName:String = id + "." + type // old style
-			var imageName:String = item.image.node.node.path.text() + item.image.node.node.filename.text(); // real style	
+			var imageName:String = item.image.node.node.path.text() + item.image.node.node.filename.text(); // real style
 				
 			// load MovieClips or images
 			if (Config.menuFamily == "images") 
@@ -46,7 +46,7 @@ package com.ipnotica.menu.content.slider.thumb {
 			
 			// load products images
 			if (Config.menuFamily == "products") { 
-				url += "images/products/thumbs/" + Thumb(parent).item.@id + "/" + "1" + "-";
+				url += "images/products/thumbs/" + Thumb(parent).item.id + "/" + "1" + "-";
 				url += (Thumb(parent).colors.currentColor) ? Thumb(parent).colors.currentColor.@id : Thumb(parent).item.colors..color[0].@id;
 				url += ".png";
 			}
