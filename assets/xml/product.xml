@@ -1,1 +1,56 @@
-<product id="2"><views><view id="0"><objects><object id="2" type="swf"><alpha>1</alpha><height>200</height><width>200</width><color>3342284</color><x>103</x><y>353</y><rotation>0</rotation></object><object id="5" type="png"><alpha>1</alpha><height>200</height><width>200</width><color>13382194</color><x>123</x><y>211</y><rotation>0</rotation></object><object id="Reggie" type="texts"><alpha>1</alpha><height>142</height><width>291.6</width><color>3289804</color><x>134</x><y>98</y><rotation>0</rotation><font>Verdana</font></object></objects></view><view id="1"><objects><object id="...." type="texts"><alpha>1</alpha><height>234</height><width>252.3</width><color>9830449</color><x>162</x><y>319</y><rotation>34.15419960183733</rotation><font>Verdana</font></object></objects></view><view id="2"><objects></objects></view></views></product>
+<?xml version="1.0"?>
+<product id="2">
+	<views>
+		<view id="0">
+			<objects>
+				<object id="20" type="png">
+					<alpha>1</alpha>
+					<height>200</height>
+					<width>200</width>
+					<color>3342284</color>
+					<x>103</x>
+					<y>353</y>
+					<rotation>0</rotation>
+					<path>Grafica/18-skull.png</path>
+				</object>
+				<object id="19" type="png">
+					<alpha>1</alpha>
+					<height>200</height>
+					<width>200</width>
+					<color>13382194</color>
+					<x>123</x>
+					<y>211</y>
+					<rotation>0</rotation>
+					<path>27-yin-yang10001.png</path>
+				</object>
+				<object id="Reggie" type="texts">
+					<alpha>1</alpha>
+					<height>142</height>
+					<width>291.6</width>
+					<color>3289804</color>
+					<x>134</x>
+					<y>98</y>
+					<rotation>0</rotation>
+					<font>Verdana</font>
+				</object>
+			</objects>
+		</view>
+		<view id="1">
+			<objects>
+				<object id="...." type="texts">
+					<alpha>1</alpha>
+					<height>234</height>
+					<width>252.3</width>
+					<color>9830449</color>
+					<x>162</x>
+					<y>319</y>
+					<rotation>34.15419960183733</rotation>
+					<font>Verdana</font>
+				</object>
+			</objects>
+		</view>
+		<view id="2">
+			<objects/>
+		</view>
+	</views>
+</product>
