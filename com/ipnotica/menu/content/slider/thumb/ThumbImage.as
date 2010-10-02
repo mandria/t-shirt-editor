@@ -17,7 +17,7 @@ package com.ipnotica.menu.content.slider.thumb {
 		public var swf:MovieClip;
 		public var product:Bitmap;
 		public var image:Bitmap;
-		
+		public var itemXML:XML
 		private var type:String;
 		
 		public function ThumbImage() {
@@ -27,19 +27,22 @@ package com.ipnotica.menu.content.slider.thumb {
 		
 		public function reload():void {
 			if (product) { removeChild(product); product = null; }
-			addImage(id, type);
+			addImage(id, itemXML);
 		}
 		
 		// load image with specific ID
-		public function addImage(id:String, type:String):void {
+		public function addImage(id:String, item:XML):void {
 			this.id = id;
-			this.type = type;
+			this.itemXML = item;
+			this.type = item.type;
 			
 			var url:String = Config.flashvars.httpDomain + Config.flashvars.assets
-			
+			//var imageName:String = id + "." + type // old style
+			var imageName:String = item.image.node.node.path.text() + item.image.node.node.filename.text(); // real style	
+				
 			// load MovieClips or images
 			if (Config.menuFamily == "images") 
-					url += "images/customizations/" + id + "." + type;
+					url += "images/customizations/" + imageName;
 			
 			// load products images
 			if (Config.menuFamily == "products") { 
