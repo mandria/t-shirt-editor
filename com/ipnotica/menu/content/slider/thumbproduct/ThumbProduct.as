@@ -15,12 +15,14 @@ package com.ipnotica.menu.content.slider.thumbproduct {
 	public class ThumbProduct extends MovieClip	{
 		
 		// VISUAL
-		public var image:ThumbProductImage;    			/**< Image container of the product **/
+		public var image:ThumbProductImage;    		/**< Image container of the product **/
 		public var colors:ColorBoxContainer;		/**< Container for all product's colors **/
 		
 		// INSTANCE
 		public var currentProduct:XML;				/**< Current product selected **/
 		public var products:XMLList;				/**< List of all products **/
+		public var currentViews:XMLList; 			/**< List of all views of the selected product **/
+		public var currentView:XML;		 			/**< Thumb visible view of the selected product **/
 		
 		
 		/***********
@@ -30,6 +32,8 @@ package com.ipnotica.menu.content.slider.thumbproduct {
 		public function ThumbProduct(item:XML) {
 			super();
 			this.currentProduct = item.node[0];
+			this.currentViews = currentProduct.viste.children();
+			this.currentView = this.currentViews[0]; 
 			this.products = item.node;
 			init();
 		}
@@ -41,9 +45,10 @@ package com.ipnotica.menu.content.slider.thumbproduct {
 		}
 		
 		private function initThumb():void {
-			var path:String = currentProduct.viste[0].node.node.path + currentProduct.viste[0].node.node.filename;
+			var path:String = currentView.node.node.path.text() + currentView.node.node.filename.text();
 			image.initImage(path);
 		}
+		
 		
 		/***********
 		 * EVENTS
