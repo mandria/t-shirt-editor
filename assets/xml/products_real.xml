@@ -1,0 +1,452 @@
+<?xml version="1.0"?>
+<products>
+	<node>
+		<node>
+			<id>12</id>
+			<nome_it>T-SHIRT UNISEX BIANCA</nome_it>
+			<prezzo>10.9</prezzo>
+			<larghezza>0</larghezza>
+			<altezza>0</altezza>
+			<peso>0</peso>
+			<lati>2</lati>
+			<chiaro>1</chiaro>
+			<ref_colore>13</ref_colore>
+			<g1>8</g1>
+			<g2>4</g2>
+			<g3>2</g3>
+			<g4>2</g4>
+			<xs>0</xs>
+			<s>1</s>
+			<m>1</m>
+			<l>1</l>
+			<xl>1</xl>
+			<regola>0</regola>
+			<unica>0</unica>
+			<cod_art>T-SHIRT UNISEX BIANCA</cod_art>
+			<descr_it>&lt;p&gt;165 g/m&amp;sup2; (bianco: 160 g/m&amp;sup2;), 100 % cotone (filato Belcoro&amp;reg;) pre-ristretto per un mantenimento ottimale della forma (ash: 99 % cotone, 1 % poliestere, heather grey: 97 % cotone, 3 % poliestere)&#xD;
+ impunture sul bordo delle maniche, sul girocollo e sulla base, tubolare.&lt;/p&gt;</descr_it>
+			<ref_tipo>12</ref_tipo>
+			<nome_en>T-SHIRT UNISEX WHITE</nome_en>
+			<descr_en>&lt;p&gt;165 gsm (White: 160 gsm), 100 % cotton (Belcoro&amp;reg; yarn), (Ash: 99 % cotton, 1 % polyester, Heather Grey: 97 % cotton, 3 % polyester),&#xD;
+neckband, double seam at sleeves, neck and hem, preshrunk tubular fabric for optimum shape retention.&lt;/p&gt;</descr_en>
+			<d_xs_it/>
+			<d_s_it>A 47.3 cm x B 69.4 cm  	 TAGLIA 44-46</d_s_it>
+			<d_m_it>A 55 cm x B 71.7 cm 	TAGLIA 48-50</d_m_it>
+			<d_l_it>A 55.5 cm x B 76.5 cm 	TAGLIA 50-52</d_l_it>
+			<d_xl_it>A 60.3 cm x B 77 cm 	TAGLIA 54-56</d_xl_it>
+			<d_unica_it/>
+			<d_regola_it/>
+			<xxl>1</xxl>
+			<xxxl>1</xxxl>
+			<d_xxl_it>A 66 cm x B 79.5 cm 	TAGLIA 56-58</d_xxl_it>
+			<d_xxxl_it>A 71.2 cm x B 79.5 cm 	TAGLIA 58-60</d_xxxl_it>
+			<d_xs_en/>
+			<d_s_en>A 47.3 cm x B 69.4 cm  U.S. SIZE 34-36</d_s_en>
+			<d_m_en>A 55 cm x B 71.7 cm 	U.S. SIZE 36-38</d_m_en>
+			<d_l_en>A 55.5 cm x B 76.5 cm 	U.S. SIZE 40-42</d_l_en>
+			<d_xl_en>A 60.3 cm x B 77 cm 	U.S. SIZE  44-46</d_xl_en>
+			<d_xxl_en>A 66 cm x B 79.5 cm 	U.S. SIZE 48</d_xxl_en>
+			<d_xxxl_en>A 71.2 cm x B 79.5 cm 	U.S. SIZE 50</d_xxxl_en>
+			<d_unica_en/>
+			<d_regola_en/>
+			<attivo>1</attivo>
+			<g_nome_it>T-SHIRT UNISEX PROVA</g_nome_it>
+			<g_nome_en>T-SHIRT UNISEX TEST</g_nome_en>
+			<g_descrizione_it>PROVA INSERIMENTO DATI</g_descrizione_it>
+			<g_descrizione_en>VUAZZ AMERICAN BOIS</g_descrizione_en>
+			<gid>12</gid>
+			<viste>
+				<fronte>
+					<node>
+						<node>
+							<id>2761</id>
+							<filename>12-Senza-titolo-10.png</filename>
+							<type>1</type>
+							<size>1432793</size>
+							<last_mod>2010-09-14 16:12:11</last_mod>
+							<path>Prodotto/</path>
+							<ref_id>2681</ref_id>
+							<no_del>0</no_del>
+							<permessi/>
+							<ref_id_ver>0</ref_id_ver>
+							<version>0</version>
+							<ref_ext/>
+						</node>
+					</node>
+				</fronte>
+				<retro>
+					<node>
+						<node>
+							<id>2762</id>
+							<filename>12-tee-bianca-retro.png</filename>
+							<type>1</type>
+							<size>1315646</size>
+							<last_mod>2010-09-14 16:12:12</last_mod>
+							<path>ProdottoBack/</path>
+							<ref_id>2691</ref_id>
+							<no_del>0</no_del>
+							<permessi/>
+							<ref_id_ver>0</ref_id_ver>
+							<version>0</version>
+							<ref_ext/>
+						</node>
+					</node>
+				</retro>
+			</viste>
+			<colore>
+				<node>
+					<node>
+						<id>2743</id>
+						<filename>13-0colore.png</filename>
+						<type>1</type>
+						<size>144</size>
+						<last_mod>2010-08-09 03:07:11</last_mod>
+						<path>Colori/</path>
+						<ref_id>2701</ref_id>
+						<no_del>0</no_del>
+						<permessi/>
+						<ref_id_ver>0</ref_id_ver>
+						<version>0</version>
+						<ref_ext/>
+					</node>
+				</node>
+			</colore>
+		</node>
+		<node>
+			<id>13</id>
+			<nome_it>T-SHIRT UNISEX ARANCIO</nome_it>
+			<prezzo>10.9</prezzo>
+			<larghezza>0</larghezza>
+			<altezza>0</altezza>
+			<peso>0</peso>
+			<lati>2</lati>
+			<chiaro>0</chiaro>
+			<ref_colore>10</ref_colore>
+			<g1>10</g1>
+			<g2>4</g2>
+			<g3>4</g3>
+			<g4>2</g4>
+			<xs>0</xs>
+			<s>1</s>
+			<m>1</m>
+			<l>1</l>
+			<xl>1</xl>
+			<regola>0</regola>
+			<unica>0</unica>
+			<cod_art>T-SHIRT UNISEX ARANCIO</cod_art>
+			<descr_it>&lt;p&gt;165 g/m&amp;sup2; (bianco: 160 g/m&amp;sup2;), 100 % cotone (filato Belcoro&amp;reg;) pre-ristretto per un mantenimento ottimale della forma (ash: 99 % cotone, 1 % poliestere, heather grey: 97 % cotone, 3 % poliestere)&#xD;
+ impunture sul bordo delle maniche, sul girocollo e sulla base, tubolare.&lt;/p&gt;</descr_it>
+			<ref_tipo>12</ref_tipo>
+			<nome_en>T-SHIRT UNISEX ORANGE</nome_en>
+			<descr_en>&lt;p&gt;165 gsm (White: 160 gsm), 100 % cotton (Belcoro&amp;reg; yarn), (Ash: 99 % cotton, 1 % polyester, Heather Grey: 97 % cotton, 3 % polyester),&#xD;
+neckband, double seam at sleeves, neck and hem, preshrunk tubular fabric for optimum shape retention.&lt;/p&gt;</descr_en>
+			<d_xs_it/>
+			<d_s_it>A 47.3 cm x B 69.4 cm  	 TAGLIA 44-46</d_s_it>
+			<d_m_it>A 55 cm x B 71.7 cm 	TAGLIA 48-50</d_m_it>
+			<d_l_it>A 55.5 cm x B 76.5 cm 	TAGLIA 50-52</d_l_it>
+			<d_xl_it>A 60.3 cm x B 77 cm 	TAGLIA 54-56</d_xl_it>
+			<d_unica_it/>
+			<d_regola_it/>
+			<xxl>1</xxl>
+			<xxxl>0</xxxl>
+			<d_xxl_it>A 66 cm x B 79.5 cm 	TAGLIA 56-58</d_xxl_it>
+			<d_xxxl_it/>
+			<d_xs_en/>
+			<d_s_en>A 47.3 cm x B 69.4 cm  U.S. SIZE 34-36</d_s_en>
+			<d_m_en>A 55 cm x B 71.7 cm 	U.S. SIZE 36-38</d_m_en>
+			<d_l_en>A 55.5 cm x B 76.5 cm U.S. SIZE 40-42 </d_l_en>
+			<d_xl_en>A 60.3 cm x B 77 cm 	U.S. SIZE  44-46</d_xl_en>
+			<d_xxl_en>66 cm x B 79.5 cm 	U.S. SIZE 48</d_xxl_en>
+			<d_xxxl_en/>
+			<d_unica_en/>
+			<d_regola_en/>
+			<attivo>1</attivo>
+			<g_nome_it>T-SHIRT UNISEX PROVA</g_nome_it>
+			<g_nome_en>T-SHIRT UNISEX TEST</g_nome_en>
+			<g_descrizione_it>PROVA INSERIMENTO DATI</g_descrizione_it>
+			<g_descrizione_en>VUAZZ AMERICAN BOIS</g_descrizione_en>
+			<gid>12</gid>
+			<viste>
+				<fronte>
+					<node>
+						<node>
+							<id>2763</id>
+							<filename>13-tee-rossa-fronte.png</filename>
+							<type>1</type>
+							<size>822037</size>
+							<last_mod>2010-09-14 16:18:33</last_mod>
+							<path>Prodotto/</path>
+							<ref_id>2681</ref_id>
+							<no_del>0</no_del>
+							<permessi/>
+							<ref_id_ver>0</ref_id_ver>
+							<version>0</version>
+							<ref_ext/>
+						</node>
+					</node>
+				</fronte>
+				<retro>
+					<node>
+						<node>
+							<id>2764</id>
+							<filename>13-tee-rossa-retro.png</filename>
+							<type>1</type>
+							<size>716691</size>
+							<last_mod>2010-09-14 16:18:34</last_mod>
+							<path>ProdottoBack/</path>
+							<ref_id>2691</ref_id>
+							<no_del>0</no_del>
+							<permessi/>
+							<ref_id_ver>0</ref_id_ver>
+							<version>0</version>
+							<ref_ext/>
+						</node>
+					</node>
+				</retro>
+			</viste>
+			<colore>
+				<node>
+					<node>
+						<id>2715</id>
+						<filename>10-arancio.png</filename>
+						<type>1</type>
+						<size>3088</size>
+						<last_mod>2010-07-25 00:30:18</last_mod>
+						<path>Colori/</path>
+						<ref_id>2701</ref_id>
+						<no_del>0</no_del>
+						<permessi/>
+						<ref_id_ver>0</ref_id_ver>
+						<version>0</version>
+						<ref_ext/>
+					</node>
+				</node>
+			</colore>
+		</node>
+	</node>
+	<node>
+		<node>
+			<id>8</id>
+			<nome_it>T-SHIRT BICOLORE BIANCO NERA</nome_it>
+			<prezzo>10.9</prezzo>
+			<larghezza>0</larghezza>
+			<altezza>0</altezza>
+			<peso>0</peso>
+			<lati>2</lati>
+			<chiaro>1</chiaro>
+			<ref_colore>12</ref_colore>
+			<g1>8</g1>
+			<g2>4</g2>
+			<g3>2</g3>
+			<g4>2</g4>
+			<xs>0</xs>
+			<s>1</s>
+			<m>1</m>
+			<l>1</l>
+			<xl>1</xl>
+			<regola>0</regola>
+			<unica>0</unica>
+			<cod_art>T-SHIRT BICOLORE BIANCO NERA</cod_art>
+			<descr_it>&lt;p&gt;160 g/m&amp;sup2;, 100 % cotone (filato Belcoro&amp;reg;),&#xD;
+girocollo con bordino stretto a costine 1x1 e maniche raglan in colore contrastante, impunture sul girocollo, sul bordo delle maniche e sulla base, tubolare.&lt;/p&gt;</descr_it>
+			<ref_tipo>14</ref_tipo>
+			<nome_en>T-SHIRT BASEBALL WHITE/BLACK</nome_en>
+			<descr_en>&lt;p&gt;160 gsm, 100 % cotton (Belcoro&amp;reg; yarn), contrast colour 1x1 narrow neck rib with Lycra, contrast colour raglan sleeves, double-needle stitched neckline, sleeve ends and bottom hem, tubular fabric.&lt;/p&gt;</descr_en>
+			<d_xs_it/>
+			<d_s_it>A 46 cm x B 69 cm   TAGLIA  42-44  	</d_s_it>
+			<d_m_it>A 47.5 cm x B 71.5 cm 	TAGLIA 46-48</d_m_it>
+			<d_l_it>A 53 cm x B 72.5 cm 	TAGLIA 48-50</d_l_it>
+			<d_xl_it>A 58.5 cm x B 76.5 cm 	TAGLIA 52-54</d_xl_it>
+			<d_unica_it/>
+			<d_regola_it/>
+			<xxl>0</xxl>
+			<xxxl>0</xxxl>
+			<d_xxl_it/>
+			<d_xxxl_it/>
+			<d_xs_en/>
+			<d_s_en>A 46 cm x B 69 cm   U.S. SIZE 34- 36</d_s_en>
+			<d_m_en>A 47.5 cm x B 71.5 cm 	U.S. SIZE 38-40</d_m_en>
+			<d_l_en>A 53 cm x B 72.5 cm 	U.S. SIZE 42</d_l_en>
+			<d_xl_en>A 58.5 cm x B 76.5 cm 	U.S. SIZE  44</d_xl_en>
+			<d_xxl_en/>
+			<d_xxxl_en/>
+			<d_unica_en/>
+			<d_regola_en/>
+			<attivo>1</attivo>
+			<g_nome_it>T-SHIRT BICOLORE BIANCO NERA PROVA</g_nome_it>
+			<g_nome_en>T-SHIRT BASEBALL WHITE/BLACK TEST</g_nome_en>
+			<g_descrizione_it>T-shirt bicolore Fruit of the Loom</g_descrizione_it>
+			<g_descrizione_en>T-shirt baseball Fruit of the Loom</g_descrizione_en>
+			<gid>14</gid>
+			<viste>
+				<fronte>
+					<node>
+						<node>
+							<id>2731</id>
+							<filename>8-t-shirt bicolore bianca-nera fronte.png</filename>
+							<type>1</type>
+							<size>91224</size>
+							<last_mod>2010-07-27 00:11:34</last_mod>
+							<path>Prodotto/</path>
+							<ref_id>2681</ref_id>
+							<no_del>0</no_del>
+							<permessi/>
+							<ref_id_ver>0</ref_id_ver>
+							<version>0</version>
+							<ref_ext/>
+						</node>
+					</node>
+				</fronte>
+				<retro>
+					<node>
+						<node>
+							<id>2732</id>
+							<filename>8-t-shirt bicolore bianca-nera retro.png</filename>
+							<type>1</type>
+							<size>92990</size>
+							<last_mod>2010-07-27 00:11:34</last_mod>
+							<path>ProdottoBack/</path>
+							<ref_id>2691</ref_id>
+							<no_del>0</no_del>
+							<permessi/>
+							<ref_id_ver>0</ref_id_ver>
+							<version>0</version>
+							<ref_ext/>
+						</node>
+					</node>
+				</retro>
+			</viste>
+			<colore>
+				<node>
+					<node>
+						<id>2733</id>
+						<filename>12-Bianco-Nero.png</filename>
+						<type>1</type>
+						<size>5208</size>
+						<last_mod>2010-07-27 00:15:02</last_mod>
+						<path>Colori/</path>
+						<ref_id>2701</ref_id>
+						<no_del>0</no_del>
+						<permessi/>
+						<ref_id_ver>0</ref_id_ver>
+						<version>0</version>
+						<ref_ext/>
+					</node>
+				</node>
+			</colore>
+		</node>
+	</node>
+	<node>
+		<node>
+			<id>10</id>
+			<nome_it>T-SHIRT MANICA LUNGA BIANCA</nome_it>
+			<prezzo>12.9</prezzo>
+			<larghezza>0</larghezza>
+			<altezza>0</altezza>
+			<peso>0</peso>
+			<lati>2</lati>
+			<chiaro>1</chiaro>
+			<ref_colore>13</ref_colore>
+			<g1>8</g1>
+			<g2>4</g2>
+			<g3>4</g3>
+			<g4>2</g4>
+			<xs>0</xs>
+			<s>1</s>
+			<m>1</m>
+			<l>1</l>
+			<xl>1</xl>
+			<regola>0</regola>
+			<unica>0</unica>
+			<cod_art>T-SHIRT MANICA LUNGA BIANCA</cod_art>
+			<descr_it>&lt;p&gt;165 g/m&amp;sup2; (bianco: 160 g/m&amp;sup2;), 100 % cotone (filato Belcoro&amp;reg;), (heather grey: 97 % cotone, 3 % poliestere), doppia cucitura sul collo, sul bordo delle maniche e sulla base, tubolare.&lt;/p&gt;</descr_it>
+			<ref_tipo>13</ref_tipo>
+			<nome_en>T-SHIRT LONG SLEEVE WHITE</nome_en>
+			<descr_en>&lt;p&gt;165 gsm (White: 160 gsm), 100 % cotton (Belcoro&amp;reg; yarn), (Heather Grey: 97 % cotton, 3 % polyester), neckband, double seam at neck, sleeves and hem, tubular fabric.&lt;/p&gt;</descr_en>
+			<d_xs_it/>
+			<d_s_it>A 48 cm x B 67.5 cm 	TAGLIA 46&#xD;
+</d_s_it>
+			<d_m_it>A 53 cm x B 71 cm  TAGLIA 48-50</d_m_it>
+			<d_l_it>A 55.5 cm x B 74 cm   TAGLIA 50-52</d_l_it>
+			<d_xl_it>A 59.5 cm x B 75 cm 	TAGLIA 54-56</d_xl_it>
+			<d_unica_it/>
+			<d_regola_it/>
+			<xxl>0</xxl>
+			<xxxl>0</xxxl>
+			<d_xxl_it/>
+			<d_xxxl_it/>
+			<d_xs_en/>
+			<d_s_en>A 48 cm x B 67.5 cm 	U.S. SIZE 34&#xD;
+</d_s_en>
+			<d_m_en>A 53 cm x B 71 cm 	U.S. SIZE 36-38</d_m_en>
+			<d_l_en>A 55.5 cm x B 74 cm 	U.S. SIZE 40-42</d_l_en>
+			<d_xl_en>A 59.5 cm x B 75 cm 	U.S. SIZE 44</d_xl_en>
+			<d_xxl_en/>
+			<d_xxxl_en/>
+			<d_unica_en/>
+			<d_regola_en/>
+			<attivo>1</attivo>
+			<g_nome_it>T-SHIRT MANICA LUNGA PROVA</g_nome_it>
+			<g_nome_en>T-SHIRT LONG SLEEVE</g_nome_en>
+			<g_descrizione_it>T-SHIRT MANICA LUNGA PROVA</g_descrizione_it>
+			<g_descrizione_en>T-SHIRT LONG SLEEVES TEST</g_descrizione_en>
+			<gid>13</gid>
+			<viste>
+				<fronte>
+					<node>
+						<node>
+							<id>2740</id>
+							<filename>10-t-shirt manica lunga  bianca fronte.png</filename>
+							<type>1</type>
+							<size>152640</size>
+							<last_mod>2010-08-09 03:03:03</last_mod>
+							<path>Prodotto/</path>
+							<ref_id>2681</ref_id>
+							<no_del>0</no_del>
+							<permessi/>
+							<ref_id_ver>0</ref_id_ver>
+							<version>0</version>
+							<ref_ext/>
+						</node>
+					</node>
+				</fronte>
+				<retro>
+					<node>
+						<node>
+							<id>2741</id>
+							<filename>10-t-shirt manica lunga  bianca RETRO.png</filename>
+							<type>1</type>
+							<size>160349</size>
+							<last_mod>2010-08-09 03:03:03</last_mod>
+							<path>ProdottoBack/</path>
+							<ref_id>2691</ref_id>
+							<no_del>0</no_del>
+							<permessi/>
+							<ref_id_ver>0</ref_id_ver>
+							<version>0</version>
+							<ref_ext/>
+						</node>
+					</node>
+				</retro>
+			</viste>
+			<colore>
+				<node>
+					<node>
+						<id>2743</id>
+						<filename>13-0colore.png</filename>
+						<type>1</type>
+						<size>144</size>
+						<last_mod>2010-08-09 03:07:11</last_mod>
+						<path>Colori/</path>
+						<ref_id>2701</ref_id>
+						<no_del>0</no_del>
+						<permessi/>
+						<ref_id_ver>0</ref_id_ver>
+						<version>0</version>
+						<ref_ext/>
+					</node>
+				</node>
+			</colore>
+		</node>
+	</node>
+</products>

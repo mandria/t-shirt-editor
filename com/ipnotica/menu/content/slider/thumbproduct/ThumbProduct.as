@@ -1,0 +1,93 @@
+// thumb to handle products list and color selection
+
+package com.ipnotica.menu.content.slider.thumbproduct {
+	
+	import com.ipnotica.content.blackboard.producs.product.Product;
+	import com.ipnotica.content.blackboard.producs.product.item.Item;
+	import com.ipnotica.menu.content.slider.thumbproduct.colors.ColorBoxContainer;
+	import com.ipnotica.utils.Config;
+	import com.ipnotica.utils.CustomEvents;
+	
+	import flash.display.MovieClip;
+	import flash.events.Event;
+	import flash.events.MouseEvent;
+	
+	public class ThumbProduct extends MovieClip	{
+		
+		// VISUAL
+		public var image:ThumbProductImage;    			/**< Image container of the product **/
+		public var colors:ColorBoxContainer;		/**< Container for all product's colors **/
+		
+		// INSTANCE
+		public var currentProduct:XML;				/**< Current product selected **/
+		public var products:XMLList;				/**< List of all products **/
+		
+		
+		/***********
+		 * INIT
+		 ***********/  
+		
+		public function ThumbProduct(item:XML) {
+			super();
+			this.currentProduct = item.node[0];
+			this.products = item.node;
+			init();
+		}
+		
+		private function init():void {
+			initThumb();
+			initColors();
+			initEvents();
+		}
+		
+		private function initThumb():void {
+			var path:String = currentProduct.viste[0].node.node.path + currentProduct.viste[0].node.node.filename;
+			image.initImage(path);
+		}
+		
+		/***********
+		 * EVENTS
+		 ***********/  
+		
+		private function initEvents():void {
+			addEventListener(MouseEvent.CLICK, onClickThumb);
+		}
+		
+		// click
+		private function onClickThumb(e:Event):void {
+			// Config.productToLoad = true;
+			cleanPreviousItems();
+			Config.doc.dispatchEvent(new CustomEvents(CustomEvents.THUMB_CLICKED, {type: "product", id: currentProduct.id, item: currentProduct}));
+		}
+		
+		
+		/*******************************
+		 * Visual definition color list
+		 *******************************/  
+		
+		private function initColors():void { 
+			colors.init(products);
+		}
+		
+		
+		/**********
+		 * HELPERS
+		 **********/
+		
+		private function cleanPreviousItems():void {
+			var products:Array = Config.body.content.blackboard.products.list;
+			for (var i:int=0; i<products.length; i++) {
+				var product:Product = products[i];
+				var items:Array = product.items.customization.items;
+				for (var j:int=0; j<items.length; j++) {
+					stage.removeEventListener(MouseEvent.MOUSE_UP, Item(items[j]).myResizableMovieClip.handleStageMouseUp);
+					Item(items[j]).removeChild(Item(items[j]).myResizableMovieClip);
+					Item(items[j]).myResizableMovieClip = null;
+					product.items.removeChild(items[j]);
+					items[j] = null;
+				}
+			}
+		}
+		
+	}
+}
