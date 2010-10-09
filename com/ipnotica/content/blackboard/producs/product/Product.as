@@ -12,17 +12,19 @@ package com.ipnotica.content.blackboard.producs.product {
 	public class Product extends MovieClip {
 		
 		public var id:String;
+		public var XMLView:XML;
 		public var image:ProductImage;
 		public var items:ProductItems;
 		
-		public function Product(id:String) {
+		public function Product(id:String, XMLView:XML) {
 			super();
 			this.id = id;
+			this.XMLView = XMLView;
 			init();
 		}
 		
 		private function init():void {
-			image.addImage(id);
+			image.addImage(id, XMLView);
 		}
 		
 	}

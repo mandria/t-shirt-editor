@@ -19,20 +19,27 @@
 	public class ProductImage extends MovieClip {
 		
 		public var id:String;
+		public var path:String;
 		
 		public function ProductImage() {
 			super();
 		}
 				
 		// load image with specific ID
-		public function addImage(id:String):void {
+		public function addImage(id:String, XMLView:XML):void {
 			this.id = id;
-			var url:String = Config.flashvars.httpDomain + Config.flashvars.assets + "images/products/normals/" + Config.productID + "/" + id + "-" + Config.currentColor.@id + ".png";
+			this.path = XMLView.path.text() + XMLView.filename.text();
+			loadImage(path);
+		}
+		
+		private function loadImage(path:String):void {
+			var url:String = Config.flashvars.httpDomain + Config.flashvars.assets + "images/products/normals/" + path;
 			var loader:Loader = new Loader();
 			loader.load(new URLRequest(url));
 			loader.contentLoaderInfo.addEventListener(Event.COMPLETE, onLoadedImage);
 			loader.contentLoaderInfo.addEventListener(IOErrorEvent.IO_ERROR, Utils.onIOError);
 		}
+
 		
 		// add background to the stage
 		private function onLoadedImage(e:Event):void {

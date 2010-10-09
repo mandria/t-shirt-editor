@@ -70,6 +70,7 @@ neckband, double seam at sleeves, neck and hem, preshrunk tubular fabric for opt
 							<permessi/>
 							<ref_id_ver>0</ref_id_ver>
 							<version>0</version>
+							<description>fronte</description>
 							<ref_ext/>
 						</node>
 					</node>
@@ -82,12 +83,13 @@ neckband, double seam at sleeves, neck and hem, preshrunk tubular fabric for opt
 							<type>1</type>
 							<size>1315646</size>
 							<last_mod>2010-09-14 16:12:12</last_mod>
-							<path>ProdottoBack/</path>
+							<path>Prodotto/</path>
 							<ref_id>2691</ref_id>
 							<no_del>0</no_del>
 							<permessi/>
 							<ref_id_ver>0</ref_id_ver>
 							<version>0</version>
+							<description>retro</description>
 							<ref_ext/>
 						</node>
 					</node>

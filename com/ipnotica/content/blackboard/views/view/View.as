@@ -14,16 +14,18 @@ package com.ipnotica.content.blackboard.views.view {
 	public class View extends MovieClip {
 		
 		public var id:String;
+		public var XMLView:XML;
 		public var image:ViewImage;
 		
-		public function View(id:String) {
+		public function View(id:String, XMLView:XML) {
 			super();
 			this.id = id;
+			this.XMLView = XMLView;
 			init();
 		}
 		
 		private function init():void {
-			image.addImage(id);
+			image.addImage(id, XMLView);
 		}
 		
 	}

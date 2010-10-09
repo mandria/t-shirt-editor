@@ -23,13 +23,13 @@
 		/** Add all products view */
 		public function addProducts():void {
 			for (var i:uint=0; i<Config.views.length(); i++) 
-				addProduct(Config.views[i].@id);
+				addProduct(Config.views[i].node.node.id, Config.views[i].node.node[0]);
 			showSelectedView();
 		}
 		
 		// Add a single product view
-		private function addProduct(id:String):void {
-			var product:Product = new Product(id);
+		private function addProduct(id:String, XMLView:XML):void {
+			var product:Product = new Product(id, XMLView);
 			product.visible = false;
 			product.name = id;
 			addChild(product);
@@ -46,7 +46,7 @@
 		// Hide all views
 		private function hideAllViews():void {
 			for (var i:uint=0; i<Config.views.length(); i++) {
-				getChildByName(Config.views[i].@id).visible = false;
+				getChildByName(Config.views[i].node.node.id).visible = false;
 			}
 		}
 		

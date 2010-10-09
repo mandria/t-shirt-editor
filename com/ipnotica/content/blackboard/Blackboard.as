@@ -38,7 +38,7 @@ package com.ipnotica.content.blackboard {
 		public function loadProduct(e:CustomEvents):void {
 			if (Config.productToLoad) {
 				products.addProducts();
-				views.addViews();
+				views.addViews(); 
 				Config.productToLoad = false;
 			}
 			

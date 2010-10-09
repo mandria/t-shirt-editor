@@ -45,14 +45,14 @@ package com.ipnotica.content.blackboard.views {
 		/** Add all views */
 		public function addViews():void {
 			for (var i:uint=0; i<Config.views.length(); i++) 
-				addView(Config.views[i].@id);
+				addView(Config.views[i].node.node.id, Config.views[i].node.node[0]);
 			showSelectedView();
 			showSelector();
 		}
 		
 		// Add a single product view
-		private function addView(id:String):void {
-			var view:View = new View(id);
+		private function addView(id:String, XMLView:XML):void {
+			var view:View = new View(id, XMLView);
 			view.visible = false;
 			view.name = id;
 			addChild(view);
@@ -68,7 +68,7 @@ package com.ipnotica.content.blackboard.views {
 		// Hide all views
 		private function hideAllViews():void {
 			for (var i:uint=0; i<Config.views.length(); i++) {
-				getChildByName(Config.views[i].@id).visible = false;
+				getChildByName(Config.views[i].node.node.id).visible = false;
 			}
 		}
 		
