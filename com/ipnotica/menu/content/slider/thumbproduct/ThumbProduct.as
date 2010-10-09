@@ -65,11 +65,15 @@ package com.ipnotica.menu.content.slider.thumbproduct {
 		// click
 		public function onClickThumb(e:Event = null):void {
 			Config.productToLoad = true;
-			initThumb() // reload the thumb
-			cleanPreviousItems(); // remove all objects (texts, png, swf) loaded on the product
+			
+			// reload the thumb
+			initThumb()
+			
+			// remove all objects (texts, png, swf) loaded on the product
+			cleanPreviousItems(); 
 			Config.body.content.update();
-			////////////////////////
-			//Config.doc.dispatchEvent(new CustomEvents(CustomEvents.THUMB_CLICKED, {type: "product", id: currentProduct.id, item: currentProduct}));
+			
+			Config.doc.dispatchEvent(new CustomEvents(CustomEvents.THUMB_CLICKED, {type: "product", id: currentProduct.id, item: currentProduct}));
 		}
 		
 		

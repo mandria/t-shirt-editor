@@ -1,75 +1,83 @@
 <?xml version="1.0"?>
-<product id="12">
+<product id="13">
 	<views>
 		<view id="0">
 			<objects>
-				<object id="22" type="png">
-					<alpha>1</alpha>
-					<height>50</height>
-					<width>50</width>
-					<color>9961522</color>
-					<x>115</x>
-					<y>19</y>
-					<rotation>0</rotation>
-					<path>Grafica/22-52small.png</path>
-				</object>
 				<object id="27" type="png">
 					<alpha>1</alpha>
-					<height>43.1</height>
-					<width>43.1</width>
-					<color>13382194</color>
-					<x>114</x>
-					<y>19</y>
+					<height>40</height>
+					<width>40</width>
+					<color>16750642</color>
+					<x>146</x>
+					<y>27</y>
 					<rotation>0</rotation>
 					<path>Grafica/27-yin-yang10001.png</path>
 				</object>
-				<object id="one" type="texts">
-					<alpha>1</alpha>
-					<height>26.85</height>
-					<width>40.35</width>
-					<color>9961522</color>
-					<x>115</x>
-					<y>78</y>
-					<rotation>0</rotation>
-					<font>Verdana</font>
-				</object>
-				<object id="Two" type="texts">
-					<alpha>1</alpha>
-					<height>22.95</height>
-					<width>42.6</width>
-					<color>16737536</color>
-					<x>116</x>
-					<y>113</y>
-					<rotation>0</rotation>
-					<font>Herculanum</font>
-				</object>
-				<object id="Three" type="texts">
-					<alpha>1</alpha>
-					<height>66</height>
-					<width>141.6</width>
-					<color>16763904</color>
-					<x>117</x>
-					<y>161</y>
-					<rotation>0</rotation>
-					<font>Hobo Std Medium</font>
-				</object>
 				<object id="27" type="png">
 					<alpha>1</alpha>
-					<height>144</height>
-					<width>144</width>
-					<color>16737536</color>
+					<height>44</height>
+					<width>44</width>
+					<color>13369394</color>
+					<x>86</x>
+					<y>27</y>
+					<rotation>0</rotation>
+					<path>Grafica/27-yin-yang10001.png</path>
+				</object>
+				<object id="19" type="png">
+					<alpha>1</alpha>
+					<height>38</height>
+					<width>38</width>
+					<color>38912</color>
 					<x>118</x>
-					<y>279</y>
-					<rotation>0</rotation>
-					<path>Grafica/27-yin-yang10001.png</path>
+					<y>26</y>
+					<rotation>43.23760897633949</rotation>
+					<path>Grafica/19-59small.png</path>
 				</object>
 			</objects>
 		</view>
 		<view id="1">
-			<objects/>
-		</view>
-		<view id="2">
-			<objects/>
+			<objects>
+				<object id="27" type="png">
+					<alpha>1</alpha>
+					<height>112</height>
+					<width>112</width>
+					<color>0</color>
+					<x>119</x>
+					<y>416</y>
+					<rotation>0</rotation>
+					<path>Grafica/27-yin-yang10001.png</path>
+				</object>
+				<object id="Ma" type="texts">
+					<alpha>1</alpha>
+					<height>98</height>
+					<width>155.4</width>
+					<color>13172785</color>
+					<x>123</x>
+					<y>411</y>
+					<rotation>0</rotation>
+					<font>Herculanum</font>
+				</object>
+				<object id="ro" type="texts">
+					<alpha>1</alpha>
+					<height>62</height>
+					<width>58.4</width>
+					<color>16763904</color>
+					<x>119</x>
+					<y>443</y>
+					<rotation>0</rotation>
+					<font>Hobo Std Medium</font>
+				</object>
+				<object id="19" type="png">
+					<alpha>1</alpha>
+					<height>26</height>
+					<width>26</width>
+					<color>13369548</color>
+					<x>109</x>
+					<y>401</y>
+					<rotation>51.81570580695022</rotation>
+					<path>Grafica/19-59small.png</path>
+				</object>
+			</objects>
 		</view>
 	</views>
 </product>

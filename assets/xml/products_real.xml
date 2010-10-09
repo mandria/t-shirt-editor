@@ -183,6 +183,7 @@ neckband, double seam at sleeves, neck and hem, preshrunk tubular fabric for opt
 							<permessi/>
 							<ref_id_ver>0</ref_id_ver>
 							<version>0</version>
+							<description>fronte</description>
 							<ref_ext/>
 						</node>
 					</node>
@@ -195,12 +196,13 @@ neckband, double seam at sleeves, neck and hem, preshrunk tubular fabric for opt
 							<type>1</type>
 							<size>716691</size>
 							<last_mod>2010-09-14 16:18:34</last_mod>
-							<path>ProdottoBack/</path>
+							<path>Prodotto/</path>
 							<ref_id>2691</ref_id>
 							<no_del>0</no_del>
 							<permessi/>
 							<ref_id_ver>0</ref_id_ver>
 							<version>0</version>
+							<description>retro</description>
 							<ref_ext/>
 						</node>
 					</node>
@@ -307,7 +309,7 @@ girocollo con bordino stretto a costine 1x1 e maniche raglan in colore contrasta
 							<type>1</type>
 							<size>92990</size>
 							<last_mod>2010-07-27 00:11:34</last_mod>
-							<path>ProdottoBack/</path>
+							<path>Prodotto/</path>
 							<ref_id>2691</ref_id>
 							<no_del>0</no_del>
 							<permessi/>
@@ -408,6 +410,7 @@ girocollo con bordino stretto a costine 1x1 e maniche raglan in colore contrasta
 							<permessi/>
 							<ref_id_ver>0</ref_id_ver>
 							<version>0</version>
+							<description>fronte</description>
 							<ref_ext/>
 						</node>
 					</node>
@@ -420,12 +423,13 @@ girocollo con bordino stretto a costine 1x1 e maniche raglan in colore contrasta
 							<type>1</type>
 							<size>160349</size>
 							<last_mod>2010-08-09 03:03:03</last_mod>
-							<path>ProdottoBack/</path>
+							<path>Prodotto/</path>
 							<ref_id>2691</ref_id>
 							<no_del>0</no_del>
 							<permessi/>
 							<ref_id_ver>0</ref_id_ver>
 							<version>0</version>
+							<description>retro</description>
 							<ref_ext/>
 						</node>
 					</node>
