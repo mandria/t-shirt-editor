@@ -65,14 +65,11 @@ package com.ipnotica.menu.content.slider.thumbproduct {
 		// click
 		public function onClickThumb(e:Event = null):void {
 			Config.productToLoad = true;
-			
 			// reload the thumb
 			initThumb()
-			
 			// remove all objects (texts, png, swf) loaded on the product
 			cleanPreviousItems(); 
 			Config.body.content.update();
-			
 			Config.doc.dispatchEvent(new CustomEvents(CustomEvents.THUMB_CLICKED, {type: "product", id: currentProduct.id, item: currentProduct}));
 		}
 		
@@ -82,6 +79,8 @@ package com.ipnotica.menu.content.slider.thumbproduct {
 		 *******************************/  
 		
 		private function initColors():void { 
+			// Eventually allow the visualization of color (the container with 
+			// a transparency in the case you need more space)
 			colors.init(products);
 		}
 		

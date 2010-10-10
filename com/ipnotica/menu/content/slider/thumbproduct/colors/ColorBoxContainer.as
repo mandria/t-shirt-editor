@@ -35,6 +35,7 @@ package com.ipnotica.menu.content.slider.thumbproduct.colors {
 		 **********/
 		
 		private function initVisuals():void {
+			onOut(null);
 		}
 		
 		
