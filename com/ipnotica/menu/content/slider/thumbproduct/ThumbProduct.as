@@ -49,7 +49,7 @@ package com.ipnotica.menu.content.slider.thumbproduct {
 		}
 		
 		private function initThumb():void {
-			var path:String = currentView.node.node.path.text() + currentView.node.node.filename.text();
+			var path:String = currentView.node.node.path.text() + "thumb60-" + currentView.node.node.filename.text();
 			image.initImage(path);
 		}
 		
