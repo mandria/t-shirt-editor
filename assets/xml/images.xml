@@ -495,4 +495,36 @@
 		</image>
 		<type>png</type>
 	</node>
+	<node>
+		<id>3</id>
+		<gid>upload</gid>
+		<ref_cat>upload</ref_cat>
+		<nome_it>Tua immagine numero 3</nome_it>
+		<nome_en>Your Upload number 3</nome_en>
+		<type>png</type>
+		<image>
+			<node>
+				<node>
+					<filename>2010.11.09-1289324875.png</filename>
+					<path>upload/xjrnypdH6J/</path>
+				</node>
+			</node>
+		</image>
+	</node>
+	<node>
+		<id>4</id>
+		<gid>upload</gid>
+		<ref_cat>upload</ref_cat>
+		<nome_it>Tua immagine numero 4</nome_it>
+		<nome_en>Your Upload number 4</nome_en>
+		<type>png</type>
+		<image>
+			<node>
+				<node>
+					<filename>2010.11.09-1289324851.png</filename>
+					<path>upload/xjrnypdH6J/</path>
+				</node>
+			</node>
+		</image>
+	</node>
 </graphics>
