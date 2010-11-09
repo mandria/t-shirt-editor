@@ -9,8 +9,11 @@ package com.ipnotica.preloader {
 	import flash.events.Event;
 	import flash.events.IOErrorEvent;
 	import flash.net.URLRequest;
+	import flash.text.TextField;
 	
 	public class Preloader extends MovieClip {
+		
+		public var label:TextField;
 		
 		public function Preloader() {
 			super();

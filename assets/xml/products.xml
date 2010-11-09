@@ -2,132 +2,19 @@
 <products>
 	<node>
 		<node>
-			<id>12</id>
-			<nome_it>T-SHIRT UNISEX BIANCA</nome_it>
-			<prezzo>10.9</prezzo>
-			<larghezza>0</larghezza>
-			<altezza>0</altezza>
-			<peso>0</peso>
-			<lati>2</lati>
-			<chiaro>1</chiaro>
-			<ref_colore>13</ref_colore>
-			<g1>8</g1>
-			<g2>4</g2>
-			<g3>2</g3>
-			<g4>2</g4>
-			<xs>0</xs>
-			<s>1</s>
-			<m>1</m>
-			<l>1</l>
-			<xl>1</xl>
-			<regola>0</regola>
-			<unica>0</unica>
-			<cod_art>T-SHIRT UNISEX BIANCA</cod_art>
-			<descr_it>&lt;p&gt;165 g/m&amp;sup2; (bianco: 160 g/m&amp;sup2;), 100 % cotone (filato Belcoro&amp;reg;) pre-ristretto per un mantenimento ottimale della forma (ash: 99 % cotone, 1 % poliestere, heather grey: 97 % cotone, 3 % poliestere)&#xD;
- impunture sul bordo delle maniche, sul girocollo e sulla base, tubolare.&lt;/p&gt;</descr_it>
-			<ref_tipo>12</ref_tipo>
-			<nome_en>T-SHIRT UNISEX WHITE</nome_en>
-			<descr_en>&lt;p&gt;165 gsm (White: 160 gsm), 100 % cotton (Belcoro&amp;reg; yarn), (Ash: 99 % cotton, 1 % polyester, Heather Grey: 97 % cotton, 3 % polyester),&#xD;
-neckband, double seam at sleeves, neck and hem, preshrunk tubular fabric for optimum shape retention.&lt;/p&gt;</descr_en>
-			<d_xs_it/>
-			<d_s_it>A 47.3 cm x B 69.4 cm  	 TAGLIA 44-46</d_s_it>
-			<d_m_it>A 55 cm x B 71.7 cm 	TAGLIA 48-50</d_m_it>
-			<d_l_it>A 55.5 cm x B 76.5 cm 	TAGLIA 50-52</d_l_it>
-			<d_xl_it>A 60.3 cm x B 77 cm 	TAGLIA 54-56</d_xl_it>
-			<d_unica_it/>
-			<d_regola_it/>
-			<xxl>1</xxl>
-			<xxxl>1</xxxl>
-			<d_xxl_it>A 66 cm x B 79.5 cm 	TAGLIA 56-58</d_xxl_it>
-			<d_xxxl_it>A 71.2 cm x B 79.5 cm 	TAGLIA 58-60</d_xxxl_it>
-			<d_xs_en/>
-			<d_s_en>A 47.3 cm x B 69.4 cm  U.S. SIZE 34-36</d_s_en>
-			<d_m_en>A 55 cm x B 71.7 cm 	U.S. SIZE 36-38</d_m_en>
-			<d_l_en>A 55.5 cm x B 76.5 cm 	U.S. SIZE 40-42</d_l_en>
-			<d_xl_en>A 60.3 cm x B 77 cm 	U.S. SIZE  44-46</d_xl_en>
-			<d_xxl_en>A 66 cm x B 79.5 cm 	U.S. SIZE 48</d_xxl_en>
-			<d_xxxl_en>A 71.2 cm x B 79.5 cm 	U.S. SIZE 50</d_xxxl_en>
-			<d_unica_en/>
-			<d_regola_en/>
-			<attivo>1</attivo>
-			<g_nome_it>T-SHIRT UNISEX PROVA</g_nome_it>
-			<g_nome_en>T-SHIRT UNISEX TEST</g_nome_en>
-			<g_descrizione_it>PROVA INSERIMENTO DATI</g_descrizione_it>
-			<g_descrizione_en>VUAZZ AMERICAN BOIS</g_descrizione_en>
-			<gid>12</gid>
-			<viste>
-				<fronte>
-					<node>
-						<node>
-							<id>2761</id>
-							<filename>12-Senza-titolo-10.png</filename>
-							<type>1</type>
-							<size>1432793</size>
-							<last_mod>2010-09-14 16:12:11</last_mod>
-							<path>Prodotto/</path>
-							<ref_id>2681</ref_id>
-							<no_del>0</no_del>
-							<permessi/>
-							<ref_id_ver>0</ref_id_ver>
-							<version>0</version>
-							<description>fronte</description>
-							<ref_ext/>
-						</node>
-					</node>
-				</fronte>
-				<retro>
-					<node>
-						<node>
-							<id>2762</id>
-							<filename>12-tee-bianca-retro.png</filename>
-							<type>1</type>
-							<size>1315646</size>
-							<last_mod>2010-09-14 16:12:12</last_mod>
-							<path>Prodotto/</path>
-							<ref_id>2691</ref_id>
-							<no_del>0</no_del>
-							<permessi/>
-							<ref_id_ver>0</ref_id_ver>
-							<version>0</version>
-							<description>retro</description>
-							<ref_ext/>
-						</node>
-					</node>
-				</retro>
-			</viste>
-			<colore>
-				<node>
-					<node>
-						<id>2743</id>
-						<filename>13-0colore.png</filename>
-						<type>1</type>
-						<size>144</size>
-						<last_mod>2010-08-09 03:07:11</last_mod>
-						<path>Colori/</path>
-						<ref_id>2701</ref_id>
-						<no_del>0</no_del>
-						<permessi/>
-						<ref_id_ver>0</ref_id_ver>
-						<version>0</version>
-						<ref_ext/>
-					</node>
-				</node>
-			</colore>
-		</node>
-		<node>
-			<id>13</id>
-			<nome_it>T-SHIRT UNISEX ARANCIO</nome_it>
-			<prezzo>10.9</prezzo>
+			<id>29</id>
+			<nome_it>T-SHIRT BICOLORE MANICA LUNGA BIANCA ROSSA</nome_it>
+			<prezzo>12.9</prezzo>
 			<larghezza>0</larghezza>
 			<altezza>0</altezza>
 			<peso>0</peso>
 			<lati>2</lati>
 			<chiaro>0</chiaro>
-			<ref_colore>10</ref_colore>
-			<g1>10</g1>
-			<g2>4</g2>
-			<g3>4</g3>
-			<g4>2</g4>
+			<ref_colore>31</ref_colore>
+			<g1>0</g1>
+			<g2>0</g2>
+			<g3>0</g3>
+			<g4>0</g4>
 			<xs>0</xs>
 			<s>1</s>
 			<m>1</m>
@@ -135,132 +22,16 @@ neckband, double seam at sleeves, neck and hem, preshrunk tubular fabric for opt
 			<xl>1</xl>
 			<regola>0</regola>
 			<unica>0</unica>
-			<cod_art>T-SHIRT UNISEX ARANCIO</cod_art>
-			<descr_it>&lt;p&gt;165 g/m&amp;sup2; (bianco: 160 g/m&amp;sup2;), 100 % cotone (filato Belcoro&amp;reg;) pre-ristretto per un mantenimento ottimale della forma (ash: 99 % cotone, 1 % poliestere, heather grey: 97 % cotone, 3 % poliestere)&#xD;
- impunture sul bordo delle maniche, sul girocollo e sulla base, tubolare.&lt;/p&gt;</descr_it>
-			<ref_tipo>12</ref_tipo>
-			<nome_en>T-SHIRT UNISEX ORANGE</nome_en>
-			<descr_en>&lt;p&gt;165 gsm (White: 160 gsm), 100 % cotton (Belcoro&amp;reg; yarn), (Ash: 99 % cotton, 1 % polyester, Heather Grey: 97 % cotton, 3 % polyester),&#xD;
-neckband, double seam at sleeves, neck and hem, preshrunk tubular fabric for optimum shape retention.&lt;/p&gt;</descr_en>
+			<cod_art>T-SHIRT BICOLORE MANICA LUNGA BIANCA ROSSA</cod_art>
+			<descr_it>&lt;html /&gt;</descr_it>
+			<ref_tipo>24</ref_tipo>
+			<nome_en>T-SHIRT BICOLORE MANICA LUNGA BIANCA ROSSA</nome_en>
+			<descr_en>&lt;html /&gt;</descr_en>
 			<d_xs_it/>
-			<d_s_it>A 47.3 cm x B 69.4 cm  	 TAGLIA 44-46</d_s_it>
-			<d_m_it>A 55 cm x B 71.7 cm 	TAGLIA 48-50</d_m_it>
-			<d_l_it>A 55.5 cm x B 76.5 cm 	TAGLIA 50-52</d_l_it>
-			<d_xl_it>A 60.3 cm x B 77 cm 	TAGLIA 54-56</d_xl_it>
-			<d_unica_it/>
-			<d_regola_it/>
-			<xxl>1</xxl>
-			<xxxl>0</xxxl>
-			<d_xxl_it>A 66 cm x B 79.5 cm 	TAGLIA 56-58</d_xxl_it>
-			<d_xxxl_it/>
-			<d_xs_en/>
-			<d_s_en>A 47.3 cm x B 69.4 cm  U.S. SIZE 34-36</d_s_en>
-			<d_m_en>A 55 cm x B 71.7 cm 	U.S. SIZE 36-38</d_m_en>
-			<d_l_en>A 55.5 cm x B 76.5 cm U.S. SIZE 40-42 </d_l_en>
-			<d_xl_en>A 60.3 cm x B 77 cm 	U.S. SIZE  44-46</d_xl_en>
-			<d_xxl_en>66 cm x B 79.5 cm 	U.S. SIZE 48</d_xxl_en>
-			<d_xxxl_en/>
-			<d_unica_en/>
-			<d_regola_en/>
-			<attivo>1</attivo>
-			<g_nome_it>T-SHIRT UNISEX PROVA</g_nome_it>
-			<g_nome_en>T-SHIRT UNISEX TEST</g_nome_en>
-			<g_descrizione_it>PROVA INSERIMENTO DATI</g_descrizione_it>
-			<g_descrizione_en>VUAZZ AMERICAN BOIS</g_descrizione_en>
-			<gid>12</gid>
-			<viste>
-				<fronte>
-					<node>
-						<node>
-							<id>2763</id>
-							<filename>13-tee-rossa-fronte.png</filename>
-							<type>1</type>
-							<size>822037</size>
-							<last_mod>2010-09-14 16:18:33</last_mod>
-							<path>Prodotto/</path>
-							<ref_id>2681</ref_id>
-							<no_del>0</no_del>
-							<permessi/>
-							<ref_id_ver>0</ref_id_ver>
-							<version>0</version>
-							<description>fronte</description>
-							<ref_ext/>
-						</node>
-					</node>
-				</fronte>
-				<retro>
-					<node>
-						<node>
-							<id>2764</id>
-							<filename>13-tee-rossa-retro.png</filename>
-							<type>1</type>
-							<size>716691</size>
-							<last_mod>2010-09-14 16:18:34</last_mod>
-							<path>Prodotto/</path>
-							<ref_id>2691</ref_id>
-							<no_del>0</no_del>
-							<permessi/>
-							<ref_id_ver>0</ref_id_ver>
-							<version>0</version>
-							<description>retro</description>
-							<ref_ext/>
-						</node>
-					</node>
-				</retro>
-			</viste>
-			<colore>
-				<node>
-					<node>
-						<id>2715</id>
-						<filename>10-arancio.png</filename>
-						<type>1</type>
-						<size>3088</size>
-						<last_mod>2010-07-25 00:30:18</last_mod>
-						<path>Colori/</path>
-						<ref_id>2701</ref_id>
-						<no_del>0</no_del>
-						<permessi/>
-						<ref_id_ver>0</ref_id_ver>
-						<version>0</version>
-						<ref_ext/>
-					</node>
-				</node>
-			</colore>
-		</node>
-	</node>
-	<node>
-		<node>
-			<id>8</id>
-			<nome_it>T-SHIRT BICOLORE BIANCO NERA</nome_it>
-			<prezzo>10.9</prezzo>
-			<larghezza>0</larghezza>
-			<altezza>0</altezza>
-			<peso>0</peso>
-			<lati>2</lati>
-			<chiaro>1</chiaro>
-			<ref_colore>12</ref_colore>
-			<g1>8</g1>
-			<g2>4</g2>
-			<g3>2</g3>
-			<g4>2</g4>
-			<xs>0</xs>
-			<s>1</s>
-			<m>1</m>
-			<l>1</l>
-			<xl>1</xl>
-			<regola>0</regola>
-			<unica>0</unica>
-			<cod_art>T-SHIRT BICOLORE BIANCO NERA</cod_art>
-			<descr_it>&lt;p&gt;160 g/m&amp;sup2;, 100 % cotone (filato Belcoro&amp;reg;),&#xD;
-girocollo con bordino stretto a costine 1x1 e maniche raglan in colore contrastante, impunture sul girocollo, sul bordo delle maniche e sulla base, tubolare.&lt;/p&gt;</descr_it>
-			<ref_tipo>14</ref_tipo>
-			<nome_en>T-SHIRT BASEBALL WHITE/BLACK</nome_en>
-			<descr_en>&lt;p&gt;160 gsm, 100 % cotton (Belcoro&amp;reg; yarn), contrast colour 1x1 narrow neck rib with Lycra, contrast colour raglan sleeves, double-needle stitched neckline, sleeve ends and bottom hem, tubular fabric.&lt;/p&gt;</descr_en>
-			<d_xs_it/>
-			<d_s_it>A 46 cm x B 69 cm   TAGLIA  42-44  	</d_s_it>
-			<d_m_it>A 47.5 cm x B 71.5 cm 	TAGLIA 46-48</d_m_it>
-			<d_l_it>A 53 cm x B 72.5 cm 	TAGLIA 48-50</d_l_it>
-			<d_xl_it>A 58.5 cm x B 76.5 cm 	TAGLIA 52-54</d_xl_it>
+			<d_s_it/>
+			<d_m_it/>
+			<d_l_it/>
+			<d_xl_it/>
 			<d_unica_it/>
 			<d_regola_it/>
 			<xxl>0</xxl>
@@ -268,35 +39,36 @@ girocollo con bordino stretto a costine 1x1 e maniche raglan in colore contrasta
 			<d_xxl_it/>
 			<d_xxxl_it/>
 			<d_xs_en/>
-			<d_s_en>A 46 cm x B 69 cm   U.S. SIZE 34- 36</d_s_en>
-			<d_m_en>A 47.5 cm x B 71.5 cm 	U.S. SIZE 38-40</d_m_en>
-			<d_l_en>A 53 cm x B 72.5 cm 	U.S. SIZE 42</d_l_en>
-			<d_xl_en>A 58.5 cm x B 76.5 cm 	U.S. SIZE  44</d_xl_en>
+			<d_s_en/>
+			<d_m_en/>
+			<d_l_en/>
+			<d_xl_en/>
 			<d_xxl_en/>
 			<d_xxxl_en/>
 			<d_unica_en/>
 			<d_regola_en/>
 			<attivo>1</attivo>
-			<g_nome_it>T-SHIRT BICOLORE BIANCO NERA PROVA</g_nome_it>
-			<g_nome_en>T-SHIRT BASEBALL WHITE/BLACK TEST</g_nome_en>
-			<g_descrizione_it>T-shirt bicolore Fruit of the Loom</g_descrizione_it>
-			<g_descrizione_en>T-shirt baseball Fruit of the Loom</g_descrizione_en>
-			<gid>14</gid>
+			<g_nome_it>BICOLORE MANICA LUNGA</g_nome_it>
+			<g_nome_en>BICOLORE MANICA LUNGA</g_nome_en>
+			<g_descrizione_it>&lt;html /&gt;</g_descrizione_it>
+			<g_descrizione_en>&lt;html /&gt;</g_descrizione_en>
+			<gid>24</gid>
 			<viste>
 				<fronte>
 					<node>
 						<node>
-							<id>2731</id>
-							<filename>8-t-shirt bicolore bianca-nera fronte.png</filename>
+							<id>3035</id>
+							<filename>29-fronte bicolore ml bianca rossa.png</filename>
 							<type>1</type>
-							<size>91224</size>
-							<last_mod>2010-07-27 00:11:34</last_mod>
+							<size>1733964</size>
+							<last_mod>2010-10-14 20:51:05</last_mod>
 							<path>Prodotto/</path>
 							<ref_id>2681</ref_id>
 							<no_del>0</no_del>
 							<permessi/>
 							<ref_id_ver>0</ref_id_ver>
 							<version>0</version>
+							<description>Front</description>
 							<ref_ext/>
 						</node>
 					</node>
@@ -304,17 +76,18 @@ girocollo con bordino stretto a costine 1x1 e maniche raglan in colore contrasta
 				<retro>
 					<node>
 						<node>
-							<id>2732</id>
-							<filename>8-t-shirt bicolore bianca-nera retro.png</filename>
+							<id>3036</id>
+							<filename>29-retro bicolore ml bianca rossa.png</filename>
 							<type>1</type>
-							<size>92990</size>
-							<last_mod>2010-07-27 00:11:34</last_mod>
-							<path>Prodotto/</path>
+							<size>1719984</size>
+							<last_mod>2010-10-14 20:51:05</last_mod>
+							<path>ProdottoBack/</path>
 							<ref_id>2691</ref_id>
 							<no_del>0</no_del>
 							<permessi/>
 							<ref_id_ver>0</ref_id_ver>
 							<version>0</version>
+							<description>Back</description>
 							<ref_ext/>
 						</node>
 					</node>
@@ -323,17 +96,130 @@ girocollo con bordino stretto a costine 1x1 e maniche raglan in colore contrasta
 			<colore>
 				<node>
 					<node>
-						<id>2733</id>
-						<filename>12-Bianco-Nero.png</filename>
+						<id>2983</id>
+						<filename>31-BIANCO-ROSSO.png</filename>
 						<type>1</type>
-						<size>5208</size>
-						<last_mod>2010-07-27 00:15:02</last_mod>
+						<size>17281</size>
+						<last_mod>2010-10-14 11:49:14</last_mod>
 						<path>Colori/</path>
 						<ref_id>2701</ref_id>
 						<no_del>0</no_del>
 						<permessi/>
 						<ref_id_ver>0</ref_id_ver>
 						<version>0</version>
+						<description/>
+						<ref_ext/>
+					</node>
+				</node>
+			</colore>
+		</node>
+		<node>
+			<id>30</id>
+			<nome_it>T-SHIRT BICOLORE MANICA LUNGA BIANCA NERA</nome_it>
+			<prezzo>12.9</prezzo>
+			<larghezza>0</larghezza>
+			<altezza>0</altezza>
+			<peso>0</peso>
+			<lati>2</lati>
+			<chiaro>0</chiaro>
+			<ref_colore>30</ref_colore>
+			<g1>0</g1>
+			<g2>0</g2>
+			<g3>0</g3>
+			<g4>0</g4>
+			<xs>0</xs>
+			<s>1</s>
+			<m>1</m>
+			<l>1</l>
+			<xl>1</xl>
+			<regola>0</regola>
+			<unica>0</unica>
+			<cod_art>T-SHIRT BICOLORE MANICA LUNGA BIANCA NERA</cod_art>
+			<descr_it>&lt;html /&gt;</descr_it>
+			<ref_tipo>24</ref_tipo>
+			<nome_en>T-SHIRT BICOLORE MANICA LUNGA BIANCA NERA</nome_en>
+			<descr_en>&lt;html /&gt;</descr_en>
+			<d_xs_it/>
+			<d_s_it/>
+			<d_m_it/>
+			<d_l_it/>
+			<d_xl_it/>
+			<d_unica_it/>
+			<d_regola_it/>
+			<xxl>0</xxl>
+			<xxxl>0</xxxl>
+			<d_xxl_it/>
+			<d_xxxl_it/>
+			<d_xs_en/>
+			<d_s_en/>
+			<d_m_en/>
+			<d_l_en/>
+			<d_xl_en/>
+			<d_xxl_en/>
+			<d_xxxl_en/>
+			<d_unica_en/>
+			<d_regola_en/>
+			<attivo>1</attivo>
+			<g_nome_it>BICOLORE MANICA LUNGA</g_nome_it>
+			<g_nome_en>BICOLORE MANICA LUNGA</g_nome_en>
+			<g_descrizione_it>&lt;html /&gt;</g_descrizione_it>
+			<g_descrizione_en>&lt;html /&gt;</g_descrizione_en>
+			<gid>24</gid>
+			<viste>
+				<fronte>
+					<node>
+						<node>
+							<id>3034</id>
+							<filename>30-fronte bicolore ml bianca nera.png</filename>
+							<type>1</type>
+							<size>1076648</size>
+							<last_mod>2010-10-14 20:43:45</last_mod>
+							<path>Prodotto/</path>
+							<ref_id>2681</ref_id>
+							<no_del>0</no_del>
+							<permessi/>
+							<ref_id_ver>0</ref_id_ver>
+							<version>0</version>
+							<description>Front</description>
+							<ref_ext/>
+						</node>
+					</node>
+				</fronte>
+				<retro>
+					<node>
+						<node>
+							<id>3107</id>
+							<filename>30-retro bicolore ml bianca nera.png</filename>
+							<type>1</type>
+							<size>756825</size>
+							<last_mod>2010-10-18 17:13:37</last_mod>
+							<path>ProdottoBack/</path>
+							<ref_id>2691</ref_id>
+							<no_del>0</no_del>
+							<permessi/>
+							<ref_id_ver>0</ref_id_ver>
+							<version>0</version>
+							<description>Back</description>
+							<ref_ext/>
+						</node>
+					</node>
+				</retro>
+			</viste>
+			<colore>
+				<node>
+					<node>
+						<id>3250</id>
+						<filename>30-30-BIANCO-NERO.png</filename>
+						<type>1</type>
+						<size>17292</size>
+						<last_mod>2010-11-08 01:21:20</last_mod>
+						<path>Colori/</path>
+						<ref_id>2701</ref_id>
+						<no_del>0</no_del>
+						<permessi/>
+						<ref_id_ver>0</ref_id_ver>
+						<version>0</version>
+						<description/>
 						<ref_ext/>
 					</node>
 				</node>
@@ -350,7 +236,7 @@ girocollo con bordino stretto a costine 1x1 e maniche raglan in colore contrasta
 			<peso>0</peso>
 			<lati>2</lati>
 			<chiaro>1</chiaro>
-			<ref_colore>13</ref_colore>
+			<ref_colore>15</ref_colore>
 			<g1>8</g1>
 			<g2>4</g2>
 			<g3>4</g3>
@@ -364,7 +250,7 @@ girocollo con bordino stretto a costine 1x1 e maniche raglan in colore contrasta
 			<unica>0</unica>
 			<cod_art>T-SHIRT MANICA LUNGA BIANCA</cod_art>
 			<descr_it>&lt;p&gt;165 g/m&amp;sup2; (bianco: 160 g/m&amp;sup2;), 100 % cotone (filato Belcoro&amp;reg;), (heather grey: 97 % cotone, 3 % poliestere), doppia cucitura sul collo, sul bordo delle maniche e sulla base, tubolare.&lt;/p&gt;</descr_it>
-			<ref_tipo>13</ref_tipo>
+			<ref_tipo>25</ref_tipo>
 			<nome_en>T-SHIRT LONG SLEEVE WHITE</nome_en>
 			<descr_en>&lt;p&gt;165 gsm (White: 160 gsm), 100 % cotton (Belcoro&amp;reg; yarn), (Heather Grey: 97 % cotton, 3 % polyester), neckband, double seam at neck, sleeves and hem, tubular fabric.&lt;/p&gt;</descr_en>
 			<d_xs_it/>
@@ -390,27 +276,27 @@ girocollo con bordino stretto a costine 1x1 e maniche raglan in colore contrasta
 			<d_unica_en/>
 			<d_regola_en/>
 			<attivo>1</attivo>
-			<g_nome_it>T-SHIRT MANICA LUNGA PROVA</g_nome_it>
-			<g_nome_en>T-SHIRT LONG SLEEVE</g_nome_en>
-			<g_descrizione_it>T-SHIRT MANICA LUNGA PROVA</g_descrizione_it>
-			<g_descrizione_en>T-SHIRT LONG SLEEVES TEST</g_descrizione_en>
-			<gid>13</gid>
+			<g_nome_it>T-SHIRT VALUWEIGHT MANICA LUNGA</g_nome_it>
+			<g_nome_en>T-SHIRT VALUWEIGHT MANICA LUNGA</g_nome_en>
+			<g_descrizione_it>&lt;html /&gt;</g_descrizione_it>
+			<g_descrizione_en>&lt;html /&gt;</g_descrizione_en>
+			<gid>25</gid>
 			<viste>
 				<fronte>
 					<node>
 						<node>
-							<id>2740</id>
-							<filename>10-t-shirt manica lunga bianca fronte.png</filename>
+							<id>3053</id>
+							<filename>10-uomo fronte ml bianca.png</filename>
 							<type>1</type>
-							<size>152640</size>
-							<last_mod>2010-08-09 03:03:03</last_mod>
+							<size>2090521</size>
+							<last_mod>2010-10-14 21:24:48</last_mod>
 							<path>Prodotto/</path>
 							<ref_id>2681</ref_id>
 							<no_del>0</no_del>
 							<permessi/>
 							<ref_id_ver>0</ref_id_ver>
 							<version>0</version>
-							<description>fronte</description>
+							<description>Front</description>
 							<ref_ext/>
 						</node>
 					</node>
@@ -418,18 +304,18 @@ girocollo con bordino stretto a costine 1x1 e maniche raglan in colore contrasta
 				<retro>
 					<node>
 						<node>
-							<id>2741</id>
-							<filename>10-t-shirt manica lunga  bianca RETRO.png</filename>
+							<id>3054</id>
+							<filename>10-uomo retro ml bianca.png</filename>
 							<type>1</type>
-							<size>160349</size>
-							<last_mod>2010-08-09 03:03:03</last_mod>
-							<path>Prodotto/</path>
+							<size>2078448</size>
+							<last_mod>2010-10-14 21:24:49</last_mod>
+							<path>ProdottoBack/</path>
 							<ref_id>2691</ref_id>
 							<no_del>0</no_del>
 							<permessi/>
 							<ref_id_ver>0</ref_id_ver>
 							<version>0</version>
-							<description>retro</description>
+							<description>Back</description>
 							<ref_ext/>
 						</node>
 					</node>
@@ -438,17 +324,5908 @@ girocollo con bordino stretto a costine 1x1 e maniche raglan in colore contrasta
 			<colore>
 				<node>
 					<node>
-						<id>2743</id>
-						<filename>13-01colore.png</filename>
+						<id>2967</id>
+						<filename>15-BIANCO.png</filename>
 						<type>1</type>
-						<size>144</size>
-						<last_mod>2010-08-09 03:07:11</last_mod>
+						<size>491820</size>
+						<last_mod>2010-10-14 11:35:12</last_mod>
 						<path>Colori/</path>
 						<ref_id>2701</ref_id>
 						<no_del>0</no_del>
 						<permessi/>
 						<ref_id_ver>0</ref_id_ver>
 						<version>0</version>
+						<description/>
+						<ref_ext/>
+					</node>
+				</node>
+			</colore>
+		</node>
+		<node>
+			<id>14</id>
+			<nome_it>T-SHIRT MANICA LUNGA NERA</nome_it>
+			<prezzo>12.9</prezzo>
+			<larghezza>0</larghezza>
+			<altezza>0</altezza>
+			<peso>0</peso>
+			<lati>2</lati>
+			<chiaro>0</chiaro>
+			<ref_colore>16</ref_colore>
+			<g1>0</g1>
+			<g2>0</g2>
+			<g3>0</g3>
+			<g4>0</g4>
+			<xs>0</xs>
+			<s>1</s>
+			<m>1</m>
+			<l>1</l>
+			<xl>1</xl>
+			<regola>0</regola>
+			<unica>0</unica>
+			<cod_art>T-SHIRT MANICA LUNGA NERA</cod_art>
+			<descr_it>&lt;html /&gt;</descr_it>
+			<ref_tipo>25</ref_tipo>
+			<nome_en>T-SHIRT MANICA LUNGA NERA</nome_en>
+			<descr_en>&lt;html /&gt;</descr_en>
+			<d_xs_it/>
+			<d_s_it/>
+			<d_m_it/>
+			<d_l_it/>
+			<d_xl_it/>
+			<d_unica_it/>
+			<d_regola_it/>
+			<xxl>0</xxl>
+			<xxxl>0</xxxl>
+			<d_xxl_it/>
+			<d_xxxl_it/>
+			<d_xs_en/>
+			<d_s_en/>
+			<d_m_en/>
+			<d_l_en/>
+			<d_xl_en/>
+			<d_xxl_en/>
+			<d_xxxl_en/>
+			<d_unica_en/>
+			<d_regola_en/>
+			<attivo>1</attivo>
+			<g_nome_it>T-SHIRT VALUWEIGHT MANICA LUNGA</g_nome_it>
+			<g_nome_en>T-SHIRT VALUWEIGHT MANICA LUNGA</g_nome_en>
+			<g_descrizione_it>&lt;html /&gt;</g_descrizione_it>
+			<g_descrizione_en>&lt;html /&gt;</g_descrizione_en>
+			<gid>25</gid>
+			<viste>
+				<fronte>
+					<node>
+						<node>
+							<id>3055</id>
+							<filename>14-uomo fronte ml nera.png</filename>
+							<type>1</type>
+							<size>1638134</size>
+							<last_mod>2010-10-14 21:27:08</last_mod>
+							<path>Prodotto/</path>
+							<ref_id>2681</ref_id>
+							<no_del>0</no_del>
+							<permessi/>
+							<ref_id_ver>0</ref_id_ver>
+							<version>0</version>
+							<description>Front</description>
+							<ref_ext/>
+						</node>
+					</node>
+				</fronte>
+				<retro>
+					<node>
+						<node>
+							<id>3056</id>
+							<filename>14-uomo retro ml nera.png</filename>
+							<type>1</type>
+							<size>1169463</size>
+							<last_mod>2010-10-14 21:27:09</last_mod>
+							<path>ProdottoBack/</path>
+							<ref_id>2691</ref_id>
+							<no_del>0</no_del>
+							<permessi/>
+							<ref_id_ver>0</ref_id_ver>
+							<version>0</version>
+							<description>Back</description>
+							<ref_ext/>
+						</node>
+					</node>
+				</retro>
+			</viste>
+			<colore>
+				<node>
+					<node>
+						<id>2968</id>
+						<filename>16-NERO.png</filename>
+						<type>1</type>
+						<size>357850</size>
+						<last_mod>2010-10-14 11:35:33</last_mod>
+						<path>Colori/</path>
+						<ref_id>2701</ref_id>
+						<no_del>0</no_del>
+						<permessi/>
+						<ref_id_ver>0</ref_id_ver>
+						<version>0</version>
+						<description/>
+						<ref_ext/>
+					</node>
+				</node>
+			</colore>
+		</node>
+	</node>
+	<node>
+		<node>
+			<id>12</id>
+			<nome_it>T-SHIRT UNISEX BIANCA</nome_it>
+			<prezzo>10.9</prezzo>
+			<larghezza>0</larghezza>
+			<altezza>0</altezza>
+			<peso>0</peso>
+			<lati>2</lati>
+			<chiaro>1</chiaro>
+			<ref_colore>15</ref_colore>
+			<g1>8</g1>
+			<g2>4</g2>
+			<g3>2</g3>
+			<g4>2</g4>
+			<xs>0</xs>
+			<s>1</s>
+			<m>1</m>
+			<l>1</l>
+			<xl>1</xl>
+			<regola>0</regola>
+			<unica>0</unica>
+			<cod_art>T-SHIRT UNISEX BIANCA</cod_art>
+			<descr_it>&lt;p&gt;165 g/m&amp;sup2; (bianco: 160 g/m&amp;sup2;), 100 % cotone (filato Belcoro&amp;reg;) pre-ristretto per un mantenimento ottimale della forma (ash: 99 % cotone, 1 % poliestere, heather grey: 97 % cotone, 3 % poliestere) impunture sul bordo delle maniche, sul girocollo e sulla base, tubolare.&lt;/p&gt;</descr_it>
+			<ref_tipo>18</ref_tipo>
+			<nome_en>T-SHIRT UNISEX WHITE</nome_en>
+			<descr_en>&lt;p&gt;165 gsm (White: 160 gsm), 100 % cotton (Belcoro&amp;reg; yarn), (Ash: 99 % cotton, 1 % polyester, Heather Grey: 97 % cotton, 3 % polyester), neckband, double seam at sleeves, neck and hem, preshrunk tubular fabric for optimum shape retention.&lt;/p&gt;</descr_en>
+			<d_xs_it/>
+			<d_s_it>A 47.3 cm x B 69.4 cm  	 TAGLIA 44-46</d_s_it>
+			<d_m_it>A 55 cm x B 71.7 cm 	TAGLIA 48-50</d_m_it>
+			<d_l_it>A 55.5 cm x B 76.5 cm 	TAGLIA 50-52</d_l_it>
+			<d_xl_it>A 60.3 cm x B 77 cm 	TAGLIA 54-56</d_xl_it>
+			<d_unica_it/>
+			<d_regola_it/>
+			<xxl>1</xxl>
+			<xxxl>1</xxxl>
+			<d_xxl_it>A 66 cm x B 79.5 cm 	TAGLIA 56-58</d_xxl_it>
+			<d_xxxl_it>A 71.2 cm x B 79.5 cm 	TAGLIA 58-60</d_xxxl_it>
+			<d_xs_en/>
+			<d_s_en>A 47.3 cm x B 69.4 cm  U.S. SIZE 34-36</d_s_en>
+			<d_m_en>A 55 cm x B 71.7 cm 	U.S. SIZE 36-38</d_m_en>
+			<d_l_en>A 55.5 cm x B 76.5 cm 	U.S. SIZE 40-42</d_l_en>
+			<d_xl_en>A 60.3 cm x B 77 cm 	U.S. SIZE  44-46</d_xl_en>
+			<d_xxl_en>A 66 cm x B 79.5 cm 	U.S. SIZE 48</d_xxl_en>
+			<d_xxxl_en>A 71.2 cm x B 79.5 cm 	U.S. SIZE 50</d_xxxl_en>
+			<d_unica_en/>
+			<d_regola_en/>
+			<attivo>1</attivo>
+			<g_nome_it>T-SHIRT VALUWEIGHT UOMO</g_nome_it>
+			<g_nome_en>-SHIRT VALUWEIGHT MAN</g_nome_en>
+			<g_descrizione_it>&lt;html /&gt;</g_descrizione_it>
+			<g_descrizione_en>&lt;html /&gt;</g_descrizione_en>
+			<gid>18</gid>
+			<viste>
+				<fronte>
+					<node>
+						<node>
+							<id>3059</id>
+							<filename>12-uomo fronte mc bianca .png</filename>
+							<type>1</type>
+							<size>1678164</size>
+							<last_mod>2010-10-14 21:37:24</last_mod>
+							<path>Prodotto/</path>
+							<ref_id>2681</ref_id>
+							<no_del>0</no_del>
+							<permessi/>
+							<ref_id_ver>0</ref_id_ver>
+							<version>0</version>
+							<description>Front</description>
+							<ref_ext/>
+						</node>
+					</node>
+				</fronte>
+				<retro>
+					<node>
+						<node>
+							<id>3060</id>
+							<filename>12-uomo retro mc bianca .png</filename>
+							<type>1</type>
+							<size>1646555</size>
+							<last_mod>2010-10-14 21:37:24</last_mod>
+							<path>ProdottoBack/</path>
+							<ref_id>2691</ref_id>
+							<no_del>0</no_del>
+							<permessi/>
+							<ref_id_ver>0</ref_id_ver>
+							<version>0</version>
+							<description>Back</description>
+							<ref_ext/>
+						</node>
+					</node>
+				</retro>
+			</viste>
+			<colore>
+				<node>
+					<node>
+						<id>2967</id>
+						<filename>15-BIANCO.png</filename>
+						<type>1</type>
+						<size>491820</size>
+						<last_mod>2010-10-14 11:35:12</last_mod>
+						<path>Colori/</path>
+						<ref_id>2701</ref_id>
+						<no_del>0</no_del>
+						<permessi/>
+						<ref_id_ver>0</ref_id_ver>
+						<version>0</version>
+						<description/>
+						<ref_ext/>
+					</node>
+				</node>
+			</colore>
+		</node>
+		<node>
+			<id>13</id>
+			<nome_it>T-SHIRT UNISEX ARANCIO</nome_it>
+			<prezzo>10.9</prezzo>
+			<larghezza>0</larghezza>
+			<altezza>0</altezza>
+			<peso>0</peso>
+			<lati>2</lati>
+			<chiaro>0</chiaro>
+			<ref_colore>18</ref_colore>
+			<g1>10</g1>
+			<g2>4</g2>
+			<g3>4</g3>
+			<g4>2</g4>
+			<xs>0</xs>
+			<s>1</s>
+			<m>1</m>
+			<l>1</l>
+			<xl>1</xl>
+			<regola>0</regola>
+			<unica>0</unica>
+			<cod_art>T-SHIRT UNISEX ARANCIO</cod_art>
+			<descr_it>&lt;p&gt;165 g/m&amp;sup2; (bianco: 160 g/m&amp;sup2;), 100 % cotone (filato Belcoro&amp;reg;) pre-ristretto per un mantenimento ottimale della forma (ash: 99 % cotone, 1 % poliestere, heather grey: 97 % cotone, 3 % poliestere) impunture sul bordo delle maniche, sul girocollo e sulla base, tubolare.&lt;/p&gt;</descr_it>
+			<ref_tipo>18</ref_tipo>
+			<nome_en>T-SHIRT UNISEX ORANGE</nome_en>
+			<descr_en>&lt;p&gt;165 gsm (White: 160 gsm), 100 % cotton (Belcoro&amp;reg; yarn), (Ash: 99 % cotton, 1 % polyester, Heather Grey: 97 % cotton, 3 % polyester), neckband, double seam at sleeves, neck and hem, preshrunk tubular fabric for optimum shape retention.&lt;/p&gt;</descr_en>
+			<d_xs_it/>
+			<d_s_it>A 47.3 cm x B 69.4 cm  	 TAGLIA 44-46</d_s_it>
+			<d_m_it>A 55 cm x B 71.7 cm 	TAGLIA 48-50</d_m_it>
+			<d_l_it>A 55.5 cm x B 76.5 cm 	TAGLIA 50-52</d_l_it>
+			<d_xl_it>A 60.3 cm x B 77 cm 	TAGLIA 54-56</d_xl_it>
+			<d_unica_it/>
+			<d_regola_it/>
+			<xxl>1</xxl>
+			<xxxl>0</xxxl>
+			<d_xxl_it>A 66 cm x B 79.5 cm 	TAGLIA 56-58</d_xxl_it>
+			<d_xxxl_it/>
+			<d_xs_en/>
+			<d_s_en>A 47.3 cm x B 69.4 cm  U.S. SIZE 34-36</d_s_en>
+			<d_m_en>A 55 cm x B 71.7 cm 	U.S. SIZE 36-38</d_m_en>
+			<d_l_en>A 55.5 cm x B 76.5 cm U.S. SIZE 40-42 </d_l_en>
+			<d_xl_en>A 60.3 cm x B 77 cm 	U.S. SIZE  44-46</d_xl_en>
+			<d_xxl_en>66 cm x B 79.5 cm 	U.S. SIZE 48</d_xxl_en>
+			<d_xxxl_en/>
+			<d_unica_en/>
+			<d_regola_en/>
+			<attivo>1</attivo>
+			<g_nome_it>T-SHIRT VALUWEIGHT UOMO</g_nome_it>
+			<g_nome_en>-SHIRT VALUWEIGHT MAN</g_nome_en>
+			<g_descrizione_it>&lt;html /&gt;</g_descrizione_it>
+			<g_descrizione_en>&lt;html /&gt;</g_descrizione_en>
+			<gid>18</gid>
+			<viste>
+				<fronte>
+					<node>
+						<node>
+							<id>3057</id>
+							<filename>13-uomo fronte mc arancione .png</filename>
+							<type>1</type>
+							<size>3191180</size>
+							<last_mod>2010-10-14 21:30:18</last_mod>
+							<path>Prodotto/</path>
+							<ref_id>2681</ref_id>
+							<no_del>0</no_del>
+							<permessi/>
+							<ref_id_ver>0</ref_id_ver>
+							<version>0</version>
+							<description>Front</description>
+							<ref_ext/>
+						</node>
+					</node>
+				</fronte>
+				<retro>
+					<node>
+						<node>
+							<id>3058</id>
+							<filename>13-uomo retro mc arancione .png</filename>
+							<type>1</type>
+							<size>3226639</size>
+							<last_mod>2010-10-14 21:30:19</last_mod>
+							<path>ProdottoBack/</path>
+							<ref_id>2691</ref_id>
+							<no_del>0</no_del>
+							<permessi/>
+							<ref_id_ver>0</ref_id_ver>
+							<version>0</version>
+							<description>Back</description>
+							<ref_ext/>
+						</node>
+					</node>
+				</retro>
+			</viste>
+			<colore>
+				<node>
+					<node>
+						<id>2970</id>
+						<filename>18-ARANCIONE.png</filename>
+						<type>1</type>
+						<size>1004323</size>
+						<last_mod>2010-10-14 11:36:29</last_mod>
+						<path>Colori/</path>
+						<ref_id>2701</ref_id>
+						<no_del>0</no_del>
+						<permessi/>
+						<ref_id_ver>0</ref_id_ver>
+						<version>0</version>
+						<description/>
+						<ref_ext/>
+					</node>
+				</node>
+			</colore>
+		</node>
+		<node>
+			<id>16</id>
+			<nome_it>T-SHIRT UNISEX BLU NAVY</nome_it>
+			<prezzo>10.9</prezzo>
+			<larghezza>0</larghezza>
+			<altezza>0</altezza>
+			<peso>0</peso>
+			<lati>2</lati>
+			<chiaro>0</chiaro>
+			<ref_colore>21</ref_colore>
+			<g1>0</g1>
+			<g2>0</g2>
+			<g3>0</g3>
+			<g4>0</g4>
+			<xs>0</xs>
+			<s>1</s>
+			<m>1</m>
+			<l>1</l>
+			<xl>1</xl>
+			<regola>0</regola>
+			<unica>0</unica>
+			<cod_art>T-SHIRT UNISEX BLU NAVY</cod_art>
+			<descr_it>&lt;html /&gt;</descr_it>
+			<ref_tipo>18</ref_tipo>
+			<nome_en>T-SHIRT UNISEX BLU NAVY</nome_en>
+			<descr_en>&lt;html /&gt;</descr_en>
+			<d_xs_it/>
+			<d_s_it/>
+			<d_m_it/>
+			<d_l_it/>
+			<d_xl_it/>
+			<d_unica_it/>
+			<d_regola_it/>
+			<xxl>1</xxl>
+			<xxxl>0</xxxl>
+			<d_xxl_it/>
+			<d_xxxl_it/>
+			<d_xs_en/>
+			<d_s_en/>
+			<d_m_en/>
+			<d_l_en/>
+			<d_xl_en/>
+			<d_xxl_en/>
+			<d_xxxl_en/>
+			<d_unica_en/>
+			<d_regola_en/>
+			<attivo>1</attivo>
+			<g_nome_it>T-SHIRT VALUWEIGHT UOMO</g_nome_it>
+			<g_nome_en>-SHIRT VALUWEIGHT MAN</g_nome_en>
+			<g_descrizione_it>&lt;html /&gt;</g_descrizione_it>
+			<g_descrizione_en>&lt;html /&gt;</g_descrizione_en>
+			<gid>18</gid>
+			<viste>
+				<fronte>
+					<node>
+						<node>
+							<id>3063</id>
+							<filename>16-uomo fronte mc blu navy .png</filename>
+							<type>1</type>
+							<size>2571590</size>
+							<last_mod>2010-10-14 21:44:31</last_mod>
+							<path>Prodotto/</path>
+							<ref_id>2681</ref_id>
+							<no_del>0</no_del>
+							<permessi/>
+							<ref_id_ver>0</ref_id_ver>
+							<version>0</version>
+							<description>Front</description>
+							<ref_ext/>
+						</node>
+					</node>
+				</fronte>
+				<retro>
+					<node>
+						<node>
+							<id>3064</id>
+							<filename>16-uomo retro mc blu navy .png</filename>
+							<type>1</type>
+							<size>2584232</size>
+							<last_mod>2010-10-14 21:44:31</last_mod>
+							<path>ProdottoBack/</path>
+							<ref_id>2691</ref_id>
+							<no_del>0</no_del>
+							<permessi/>
+							<ref_id_ver>0</ref_id_ver>
+							<version>0</version>
+							<description>Back</description>
+							<ref_ext/>
+						</node>
+					</node>
+				</retro>
+			</viste>
+			<colore>
+				<node>
+					<node>
+						<id>2973</id>
+						<filename>21-BLU NAVY.png</filename>
+						<type>1</type>
+						<size>777999</size>
+						<last_mod>2010-10-14 11:38:43</last_mod>
+						<path>Colori/</path>
+						<ref_id>2701</ref_id>
+						<no_del>0</no_del>
+						<permessi/>
+						<ref_id_ver>0</ref_id_ver>
+						<version>0</version>
+						<description/>
+						<ref_ext/>
+					</node>
+				</node>
+			</colore>
+		</node>
+		<node>
+			<id>17</id>
+			<nome_it>T-SHIRT UNISEX BORDEAUX</nome_it>
+			<prezzo>10.9</prezzo>
+			<larghezza>0</larghezza>
+			<altezza>0</altezza>
+			<peso>0</peso>
+			<lati>2</lati>
+			<chiaro>0</chiaro>
+			<ref_colore>26</ref_colore>
+			<g1>0</g1>
+			<g2>0</g2>
+			<g3>0</g3>
+			<g4>0</g4>
+			<xs>0</xs>
+			<s>1</s>
+			<m>1</m>
+			<l>1</l>
+			<xl>1</xl>
+			<regola>0</regola>
+			<unica>0</unica>
+			<cod_art>T-SHIRT UNISEX BORDEAUX</cod_art>
+			<descr_it>&lt;html /&gt;</descr_it>
+			<ref_tipo>18</ref_tipo>
+			<nome_en>T-SHIRT UNISEX BORDEAUX</nome_en>
+			<descr_en>&lt;html /&gt;</descr_en>
+			<d_xs_it/>
+			<d_s_it/>
+			<d_m_it/>
+			<d_l_it/>
+			<d_xl_it/>
+			<d_unica_it/>
+			<d_regola_it/>
+			<xxl>1</xxl>
+			<xxxl>0</xxxl>
+			<d_xxl_it/>
+			<d_xxxl_it/>
+			<d_xs_en/>
+			<d_s_en/>
+			<d_m_en/>
+			<d_l_en/>
+			<d_xl_en/>
+			<d_xxl_en/>
+			<d_xxxl_en/>
+			<d_unica_en/>
+			<d_regola_en/>
+			<attivo>1</attivo>
+			<g_nome_it>T-SHIRT VALUWEIGHT UOMO</g_nome_it>
+			<g_nome_en>-SHIRT VALUWEIGHT MAN</g_nome_en>
+			<g_descrizione_it>&lt;html /&gt;</g_descrizione_it>
+			<g_descrizione_en>&lt;html /&gt;</g_descrizione_en>
+			<gid>18</gid>
+			<viste>
+				<fronte>
+					<node>
+						<node>
+							<id>3065</id>
+							<filename>17-uomo fronte mc bordeaux .png</filename>
+							<type>1</type>
+							<size>3532985</size>
+							<last_mod>2010-10-14 21:46:18</last_mod>
+							<path>Prodotto/</path>
+							<ref_id>2681</ref_id>
+							<no_del>0</no_del>
+							<permessi/>
+							<ref_id_ver>0</ref_id_ver>
+							<version>0</version>
+							<description>Front</description>
+							<ref_ext/>
+						</node>
+					</node>
+				</fronte>
+				<retro>
+					<node>
+						<node>
+							<id>3066</id>
+							<filename>17-uomo retro mc bordeaux .png</filename>
+							<type>1</type>
+							<size>3024970</size>
+							<last_mod>2010-10-14 21:46:18</last_mod>
+							<path>ProdottoBack/</path>
+							<ref_id>2691</ref_id>
+							<no_del>0</no_del>
+							<permessi/>
+							<ref_id_ver>0</ref_id_ver>
+							<version>0</version>
+							<description>Back</description>
+							<ref_ext/>
+						</node>
+					</node>
+				</retro>
+			</viste>
+			<colore>
+				<node>
+					<node>
+						<id>2978</id>
+						<filename>26-BORDEAUX.png</filename>
+						<type>1</type>
+						<size>694110</size>
+						<last_mod>2010-10-14 11:44:06</last_mod>
+						<path>Colori/</path>
+						<ref_id>2701</ref_id>
+						<no_del>0</no_del>
+						<permessi/>
+						<ref_id_ver>0</ref_id_ver>
+						<version>0</version>
+						<description/>
+						<ref_ext/>
+					</node>
+				</node>
+			</colore>
+		</node>
+		<node>
+			<id>18</id>
+			<nome_it>T-SHIRT UNISEX NERA</nome_it>
+			<prezzo>10.9</prezzo>
+			<larghezza>0</larghezza>
+			<altezza>0</altezza>
+			<peso>0</peso>
+			<lati>2</lati>
+			<chiaro>0</chiaro>
+			<ref_colore>16</ref_colore>
+			<g1>0</g1>
+			<g2>0</g2>
+			<g3>0</g3>
+			<g4>0</g4>
+			<xs>0</xs>
+			<s>1</s>
+			<m>1</m>
+			<l>1</l>
+			<xl>1</xl>
+			<regola>0</regola>
+			<unica>0</unica>
+			<cod_art>T-SHIRT UNISEX NERA</cod_art>
+			<descr_it>&lt;html /&gt;</descr_it>
+			<ref_tipo>18</ref_tipo>
+			<nome_en>T-SHIRT UNISEX NERA</nome_en>
+			<descr_en>&lt;html /&gt;</descr_en>
+			<d_xs_it/>
+			<d_s_it/>
+			<d_m_it/>
+			<d_l_it/>
+			<d_xl_it/>
+			<d_unica_it/>
+			<d_regola_it/>
+			<xxl>1</xxl>
+			<xxxl>0</xxxl>
+			<d_xxl_it/>
+			<d_xxxl_it/>
+			<d_xs_en/>
+			<d_s_en/>
+			<d_m_en/>
+			<d_l_en/>
+			<d_xl_en/>
+			<d_xxl_en/>
+			<d_xxxl_en/>
+			<d_unica_en/>
+			<d_regola_en/>
+			<attivo>1</attivo>
+			<g_nome_it>T-SHIRT VALUWEIGHT UOMO</g_nome_it>
+			<g_nome_en>-SHIRT VALUWEIGHT MAN</g_nome_en>
+			<g_descrizione_it>&lt;html /&gt;</g_descrizione_it>
+			<g_descrizione_en>&lt;html /&gt;</g_descrizione_en>
+			<gid>18</gid>
+			<viste>
+				<fronte>
+					<node>
+						<node>
+							<id>3075</id>
+							<filename>18-uomo fronte mc nera.png</filename>
+							<type>1</type>
+							<size>1366999</size>
+							<last_mod>2010-10-14 21:56:34</last_mod>
+							<path>Prodotto/</path>
+							<ref_id>2681</ref_id>
+							<no_del>0</no_del>
+							<permessi/>
+							<ref_id_ver>0</ref_id_ver>
+							<version>0</version>
+							<description>Front</description>
+							<ref_ext/>
+						</node>
+					</node>
+				</fronte>
+				<retro>
+					<node>
+						<node>
+							<id>3076</id>
+							<filename>18-uomo retro mc nera.png</filename>
+							<type>1</type>
+							<size>1351775</size>
+							<last_mod>2010-10-14 21:56:35</last_mod>
+							<path>ProdottoBack/</path>
+							<ref_id>2691</ref_id>
+							<no_del>0</no_del>
+							<permessi/>
+							<ref_id_ver>0</ref_id_ver>
+							<version>0</version>
+							<description>Back</description>
+							<ref_ext/>
+						</node>
+					</node>
+				</retro>
+			</viste>
+			<colore>
+				<node>
+					<node>
+						<id>2968</id>
+						<filename>16-NERO.png</filename>
+						<type>1</type>
+						<size>357850</size>
+						<last_mod>2010-10-14 11:35:33</last_mod>
+						<path>Colori/</path>
+						<ref_id>2701</ref_id>
+						<no_del>0</no_del>
+						<permessi/>
+						<ref_id_ver>0</ref_id_ver>
+						<version>0</version>
+						<description/>
+						<ref_ext/>
+					</node>
+				</node>
+			</colore>
+		</node>
+		<node>
+			<id>19</id>
+			<nome_it>T-SHIRT UNISEX ROSSA</nome_it>
+			<prezzo>10.9</prezzo>
+			<larghezza>0</larghezza>
+			<altezza>0</altezza>
+			<peso>0</peso>
+			<lati>2</lati>
+			<chiaro>0</chiaro>
+			<ref_colore>20</ref_colore>
+			<g1>0</g1>
+			<g2>0</g2>
+			<g3>0</g3>
+			<g4>0</g4>
+			<xs>0</xs>
+			<s>1</s>
+			<m>1</m>
+			<l>1</l>
+			<xl>1</xl>
+			<regola>0</regola>
+			<unica>0</unica>
+			<cod_art>T-SHIRT UNISEX ROSSA</cod_art>
+			<descr_it>&lt;html /&gt;</descr_it>
+			<ref_tipo>18</ref_tipo>
+			<nome_en>T-SHIRT UNISEX ROSSA</nome_en>
+			<descr_en>&lt;html /&gt;</descr_en>
+			<d_xs_it/>
+			<d_s_it/>
+			<d_m_it/>
+			<d_l_it/>
+			<d_xl_it/>
+			<d_unica_it/>
+			<d_regola_it/>
+			<xxl>1</xxl>
+			<xxxl>0</xxxl>
+			<d_xxl_it/>
+			<d_xxxl_it/>
+			<d_xs_en/>
+			<d_s_en/>
+			<d_m_en/>
+			<d_l_en/>
+			<d_xl_en/>
+			<d_xxl_en/>
+			<d_xxxl_en/>
+			<d_unica_en/>
+			<d_regola_en/>
+			<attivo>1</attivo>
+			<g_nome_it>T-SHIRT VALUWEIGHT UOMO</g_nome_it>
+			<g_nome_en>-SHIRT VALUWEIGHT MAN</g_nome_en>
+			<g_descrizione_it>&lt;html /&gt;</g_descrizione_it>
+			<g_descrizione_en>&lt;html /&gt;</g_descrizione_en>
+			<gid>18</gid>
+			<viste>
+				<fronte>
+					<node>
+						<node>
+							<id>3077</id>
+							<filename>19-uomo fronte mc rossa.png</filename>
+							<type>1</type>
+							<size>2103776</size>
+							<last_mod>2010-10-14 21:58:36</last_mod>
+							<path>Prodotto/</path>
+							<ref_id>2681</ref_id>
+							<no_del>0</no_del>
+							<permessi/>
+							<ref_id_ver>0</ref_id_ver>
+							<version>0</version>
+							<description>Front</description>
+							<ref_ext/>
+						</node>
+					</node>
+				</fronte>
+				<retro>
+					<node>
+						<node>
+							<id>3078</id>
+							<filename>19-uomo retro mc rossa.png</filename>
+							<type>1</type>
+							<size>2077422</size>
+							<last_mod>2010-10-14 21:58:37</last_mod>
+							<path>ProdottoBack/</path>
+							<ref_id>2691</ref_id>
+							<no_del>0</no_del>
+							<permessi/>
+							<ref_id_ver>0</ref_id_ver>
+							<version>0</version>
+							<description>Back</description>
+							<ref_ext/>
+						</node>
+					</node>
+				</retro>
+			</viste>
+			<colore>
+				<node>
+					<node>
+						<id>2972</id>
+						<filename>20-ROSSO.png</filename>
+						<type>1</type>
+						<size>539449</size>
+						<last_mod>2010-10-14 11:37:55</last_mod>
+						<path>Colori/</path>
+						<ref_id>2701</ref_id>
+						<no_del>0</no_del>
+						<permessi/>
+						<ref_id_ver>0</ref_id_ver>
+						<version>0</version>
+						<description/>
+						<ref_ext/>
+					</node>
+				</node>
+			</colore>
+		</node>
+		<node>
+			<id>20</id>
+			<nome_it>T-SHIRT UNISEX GRIGIO CHIARO</nome_it>
+			<prezzo>10.9</prezzo>
+			<larghezza>0</larghezza>
+			<altezza>0</altezza>
+			<peso>0</peso>
+			<lati>2</lati>
+			<chiaro>0</chiaro>
+			<ref_colore>22</ref_colore>
+			<g1>0</g1>
+			<g2>0</g2>
+			<g3>0</g3>
+			<g4>0</g4>
+			<xs>0</xs>
+			<s>1</s>
+			<m>1</m>
+			<l>1</l>
+			<xl>1</xl>
+			<regola>0</regola>
+			<unica>0</unica>
+			<cod_art>T-SHIRT UNISEX GRIGIO CHIARO</cod_art>
+			<descr_it>&lt;html /&gt;</descr_it>
+			<ref_tipo>18</ref_tipo>
+			<nome_en>T-SHIRT UNISEX GRIGIO CHIARO</nome_en>
+			<descr_en>&lt;html /&gt;</descr_en>
+			<d_xs_it/>
+			<d_s_it/>
+			<d_m_it/>
+			<d_l_it/>
+			<d_xl_it/>
+			<d_unica_it/>
+			<d_regola_it/>
+			<xxl>1</xxl>
+			<xxxl>0</xxxl>
+			<d_xxl_it/>
+			<d_xxxl_it/>
+			<d_xs_en/>
+			<d_s_en/>
+			<d_m_en/>
+			<d_l_en/>
+			<d_xl_en/>
+			<d_xxl_en/>
+			<d_xxxl_en/>
+			<d_unica_en/>
+			<d_regola_en/>
+			<attivo>1</attivo>
+			<g_nome_it>T-SHIRT VALUWEIGHT UOMO</g_nome_it>
+			<g_nome_en>-SHIRT VALUWEIGHT MAN</g_nome_en>
+			<g_descrizione_it>&lt;html /&gt;</g_descrizione_it>
+			<g_descrizione_en>&lt;html /&gt;</g_descrizione_en>
+			<gid>18</gid>
+			<viste>
+				<fronte>
+					<node>
+						<node>
+							<id>3069</id>
+							<filename>20-uomo fronte mc grigio chiaro .png</filename>
+							<type>1</type>
+							<size>1581961</size>
+							<last_mod>2010-10-14 21:50:29</last_mod>
+							<path>Prodotto/</path>
+							<ref_id>2681</ref_id>
+							<no_del>0</no_del>
+							<permessi/>
+							<ref_id_ver>0</ref_id_ver>
+							<version>0</version>
+							<description>Front</description>
+							<ref_ext/>
+						</node>
+					</node>
+				</fronte>
+				<retro>
+					<node>
+						<node>
+							<id>3070</id>
+							<filename>20-uomo retro mc grigio chiaro .png</filename>
+							<type>1</type>
+							<size>1438346</size>
+							<last_mod>2010-10-14 21:50:29</last_mod>
+							<path>ProdottoBack/</path>
+							<ref_id>2691</ref_id>
+							<no_del>0</no_del>
+							<permessi/>
+							<ref_id_ver>0</ref_id_ver>
+							<version>0</version>
+							<description>Back</description>
+							<ref_ext/>
+						</node>
+					</node>
+				</retro>
+			</viste>
+			<colore>
+				<node>
+					<node>
+						<id>2974</id>
+						<filename>22-GRIGIO MELANGE.png</filename>
+						<type>1</type>
+						<size>459355</size>
+						<last_mod>2010-10-14 11:40:36</last_mod>
+						<path>Colori/</path>
+						<ref_id>2701</ref_id>
+						<no_del>0</no_del>
+						<permessi/>
+						<ref_id_ver>0</ref_id_ver>
+						<version>0</version>
+						<description/>
+						<ref_ext/>
+					</node>
+				</node>
+			</colore>
+		</node>
+		<node>
+			<id>21</id>
+			<nome_it>T-SHIRT UNISEX GRIGIO SCURO</nome_it>
+			<prezzo>10.9</prezzo>
+			<larghezza>0</larghezza>
+			<altezza>0</altezza>
+			<peso>0</peso>
+			<lati>2</lati>
+			<chiaro>0</chiaro>
+			<ref_colore>23</ref_colore>
+			<g1>0</g1>
+			<g2>0</g2>
+			<g3>0</g3>
+			<g4>0</g4>
+			<xs>0</xs>
+			<s>1</s>
+			<m>1</m>
+			<l>1</l>
+			<xl>1</xl>
+			<regola>0</regola>
+			<unica>0</unica>
+			<cod_art>T-SHIRT UNISEX GRIGIO SCURO</cod_art>
+			<descr_it>&lt;html /&gt;</descr_it>
+			<ref_tipo>18</ref_tipo>
+			<nome_en>T-SHIRT UNISEX GRIGIO SCURO</nome_en>
+			<descr_en>&lt;html /&gt;</descr_en>
+			<d_xs_it/>
+			<d_s_it/>
+			<d_m_it/>
+			<d_l_it/>
+			<d_xl_it/>
+			<d_unica_it/>
+			<d_regola_it/>
+			<xxl>1</xxl>
+			<xxxl>0</xxxl>
+			<d_xxl_it/>
+			<d_xxxl_it/>
+			<d_xs_en/>
+			<d_s_en/>
+			<d_m_en/>
+			<d_l_en/>
+			<d_xl_en/>
+			<d_xxl_en/>
+			<d_xxxl_en/>
+			<d_unica_en/>
+			<d_regola_en/>
+			<attivo>1</attivo>
+			<g_nome_it>T-SHIRT VALUWEIGHT UOMO</g_nome_it>
+			<g_nome_en>-SHIRT VALUWEIGHT MAN</g_nome_en>
+			<g_descrizione_it>&lt;html /&gt;</g_descrizione_it>
+			<g_descrizione_en>&lt;html /&gt;</g_descrizione_en>
+			<gid>18</gid>
+			<viste>
+				<fronte>
+					<node>
+						<node>
+							<id>3071</id>
+							<filename>21-uomo fronte mc grigia scura .png</filename>
+							<type>1</type>
+							<size>1400038</size>
+							<last_mod>2010-10-14 21:52:54</last_mod>
+							<path>Prodotto/</path>
+							<ref_id>2681</ref_id>
+							<no_del>0</no_del>
+							<permessi/>
+							<ref_id_ver>0</ref_id_ver>
+							<version>0</version>
+							<description>Front</description>
+							<ref_ext/>
+						</node>
+					</node>
+				</fronte>
+				<retro>
+					<node>
+						<node>
+							<id>3072</id>
+							<filename>21-uomo retro mc grigio chiaro .png</filename>
+							<type>1</type>
+							<size>1438346</size>
+							<last_mod>2010-10-14 21:52:54</last_mod>
+							<path>ProdottoBack/</path>
+							<ref_id>2691</ref_id>
+							<no_del>0</no_del>
+							<permessi/>
+							<ref_id_ver>0</ref_id_ver>
+							<version>0</version>
+							<description>Back</description>
+							<ref_ext/>
+						</node>
+					</node>
+				</retro>
+			</viste>
+			<colore>
+				<node>
+					<node>
+						<id>2975</id>
+						<filename>23-GRIGIO GRAFFITE.png</filename>
+						<type>1</type>
+						<size>345282</size>
+						<last_mod>2010-10-14 11:41:25</last_mod>
+						<path>Colori/</path>
+						<ref_id>2701</ref_id>
+						<no_del>0</no_del>
+						<permessi/>
+						<ref_id_ver>0</ref_id_ver>
+						<version>0</version>
+						<description/>
+						<ref_ext/>
+					</node>
+				</node>
+			</colore>
+		</node>
+		<node>
+			<id>22</id>
+			<nome_it>T-SHIRT UNISEX VERDONE</nome_it>
+			<prezzo>10.9</prezzo>
+			<larghezza>0</larghezza>
+			<altezza>0</altezza>
+			<peso>0</peso>
+			<lati>2</lati>
+			<chiaro>0</chiaro>
+			<ref_colore>27</ref_colore>
+			<g1>0</g1>
+			<g2>0</g2>
+			<g3>0</g3>
+			<g4>0</g4>
+			<xs>0</xs>
+			<s>1</s>
+			<m>1</m>
+			<l>1</l>
+			<xl>1</xl>
+			<regola>0</regola>
+			<unica>0</unica>
+			<cod_art>T-SHIRT UNISEX VERDONE</cod_art>
+			<descr_it>&lt;html /&gt;</descr_it>
+			<ref_tipo>18</ref_tipo>
+			<nome_en>T-SHIRT UNISEX VERDONE</nome_en>
+			<descr_en>&lt;html /&gt;</descr_en>
+			<d_xs_it/>
+			<d_s_it/>
+			<d_m_it/>
+			<d_l_it/>
+			<d_xl_it/>
+			<d_unica_it/>
+			<d_regola_it/>
+			<xxl>1</xxl>
+			<xxxl>0</xxxl>
+			<d_xxl_it/>
+			<d_xxxl_it/>
+			<d_xs_en/>
+			<d_s_en/>
+			<d_m_en/>
+			<d_l_en/>
+			<d_xl_en/>
+			<d_xxl_en/>
+			<d_xxxl_en/>
+			<d_unica_en/>
+			<d_regola_en/>
+			<attivo>1</attivo>
+			<g_nome_it>T-SHIRT VALUWEIGHT UOMO</g_nome_it>
+			<g_nome_en>-SHIRT VALUWEIGHT MAN</g_nome_en>
+			<g_descrizione_it>&lt;html /&gt;</g_descrizione_it>
+			<g_descrizione_en>&lt;html /&gt;</g_descrizione_en>
+			<gid>18</gid>
+			<viste>
+				<fronte>
+					<node>
+						<node>
+							<id>3079</id>
+							<filename>22-uomo fronte mc verdone.png</filename>
+							<type>1</type>
+							<size>1747668</size>
+							<last_mod>2010-10-14 22:00:29</last_mod>
+							<path>Prodotto/</path>
+							<ref_id>2681</ref_id>
+							<no_del>0</no_del>
+							<permessi/>
+							<ref_id_ver>0</ref_id_ver>
+							<version>0</version>
+							<description>Front</description>
+							<ref_ext/>
+						</node>
+					</node>
+				</fronte>
+				<retro>
+					<node>
+						<node>
+							<id>3080</id>
+							<filename>22-uomo retro mc verdone.png</filename>
+							<type>1</type>
+							<size>1781660</size>
+							<last_mod>2010-10-14 22:00:29</last_mod>
+							<path>ProdottoBack/</path>
+							<ref_id>2691</ref_id>
+							<no_del>0</no_del>
+							<permessi/>
+							<ref_id_ver>0</ref_id_ver>
+							<version>0</version>
+							<description>Back</description>
+							<ref_ext/>
+						</node>
+					</node>
+				</retro>
+			</viste>
+			<colore>
+				<node>
+					<node>
+						<id>2979</id>
+						<filename>27-VERDE SCURO.png</filename>
+						<type>1</type>
+						<size>509075</size>
+						<last_mod>2010-10-14 11:46:22</last_mod>
+						<path>Colori/</path>
+						<ref_id>2701</ref_id>
+						<no_del>0</no_del>
+						<permessi/>
+						<ref_id_ver>0</ref_id_ver>
+						<version>0</version>
+						<description/>
+						<ref_ext/>
+					</node>
+				</node>
+			</colore>
+		</node>
+		<node>
+			<id>23</id>
+			<nome_it>T-SHIRT UNISEX VERE CHIARO</nome_it>
+			<prezzo>10.9</prezzo>
+			<larghezza>0</larghezza>
+			<altezza>0</altezza>
+			<peso>0</peso>
+			<lati>2</lati>
+			<chiaro>0</chiaro>
+			<ref_colore>28</ref_colore>
+			<g1>0</g1>
+			<g2>0</g2>
+			<g3>0</g3>
+			<g4>0</g4>
+			<xs>0</xs>
+			<s>1</s>
+			<m>1</m>
+			<l>1</l>
+			<xl>1</xl>
+			<regola>0</regola>
+			<unica>0</unica>
+			<cod_art>T-SHIRT UNISEX VERE CHIARO</cod_art>
+			<descr_it>&lt;html /&gt;</descr_it>
+			<ref_tipo>18</ref_tipo>
+			<nome_en>T-SHIRT UNISEX VERE CHIARO</nome_en>
+			<descr_en>&lt;html /&gt;</descr_en>
+			<d_xs_it/>
+			<d_s_it/>
+			<d_m_it/>
+			<d_l_it/>
+			<d_xl_it/>
+			<d_unica_it/>
+			<d_regola_it/>
+			<xxl>1</xxl>
+			<xxxl>0</xxxl>
+			<d_xxl_it/>
+			<d_xxxl_it/>
+			<d_xs_en/>
+			<d_s_en/>
+			<d_m_en/>
+			<d_l_en/>
+			<d_xl_en/>
+			<d_xxl_en/>
+			<d_xxxl_en/>
+			<d_unica_en/>
+			<d_regola_en/>
+			<attivo>1</attivo>
+			<g_nome_it>T-SHIRT VALUWEIGHT UOMO</g_nome_it>
+			<g_nome_en>-SHIRT VALUWEIGHT MAN</g_nome_en>
+			<g_descrizione_it>&lt;html /&gt;</g_descrizione_it>
+			<g_descrizione_en>&lt;html /&gt;</g_descrizione_en>
+			<gid>18</gid>
+			<viste>
+				<fronte>
+					<node>
+						<node>
+							<id>3081</id>
+							<filename>23-uomo fronte mc verdino.png</filename>
+							<type>1</type>
+							<size>3337150</size>
+							<last_mod>2010-10-14 22:02:34</last_mod>
+							<path>Prodotto/</path>
+							<ref_id>2681</ref_id>
+							<no_del>0</no_del>
+							<permessi/>
+							<ref_id_ver>0</ref_id_ver>
+							<version>0</version>
+							<description>Front</description>
+							<ref_ext/>
+						</node>
+					</node>
+				</fronte>
+				<retro>
+					<node>
+						<node>
+							<id>3082</id>
+							<filename>23-uomo retro mc verdino.png</filename>
+							<type>1</type>
+							<size>3347850</size>
+							<last_mod>2010-10-14 22:02:34</last_mod>
+							<path>ProdottoBack/</path>
+							<ref_id>2691</ref_id>
+							<no_del>0</no_del>
+							<permessi/>
+							<ref_id_ver>0</ref_id_ver>
+							<version>0</version>
+							<description>Back</description>
+							<ref_ext/>
+						</node>
+					</node>
+				</retro>
+			</viste>
+			<colore>
+				<node>
+					<node>
+						<id>2980</id>
+						<filename>28-VERDE CHIARO.png</filename>
+						<type>1</type>
+						<size>894897</size>
+						<last_mod>2010-10-14 11:46:50</last_mod>
+						<path>Colori/</path>
+						<ref_id>2701</ref_id>
+						<no_del>0</no_del>
+						<permessi/>
+						<ref_id_ver>0</ref_id_ver>
+						<version>0</version>
+						<description/>
+						<ref_ext/>
+					</node>
+				</node>
+			</colore>
+		</node>
+		<node>
+			<id>25</id>
+			<nome_it>T-SHIRT UNISEX GIALLA</nome_it>
+			<prezzo>10.9</prezzo>
+			<larghezza>0</larghezza>
+			<altezza>0</altezza>
+			<peso>0</peso>
+			<lati>2</lati>
+			<chiaro>0</chiaro>
+			<ref_colore>17</ref_colore>
+			<g1>0</g1>
+			<g2>0</g2>
+			<g3>0</g3>
+			<g4>0</g4>
+			<xs>0</xs>
+			<s>1</s>
+			<m>1</m>
+			<l>1</l>
+			<xl>1</xl>
+			<regola>0</regola>
+			<unica>0</unica>
+			<cod_art>T-SHIRT UNISEX GIALLA</cod_art>
+			<descr_it>&lt;html /&gt;</descr_it>
+			<ref_tipo>18</ref_tipo>
+			<nome_en>T-SHIRT UNISEX GIALLA</nome_en>
+			<descr_en>&lt;html /&gt;</descr_en>
+			<d_xs_it/>
+			<d_s_it/>
+			<d_m_it/>
+			<d_l_it/>
+			<d_xl_it/>
+			<d_unica_it/>
+			<d_regola_it/>
+			<xxl>1</xxl>
+			<xxxl>0</xxxl>
+			<d_xxl_it/>
+			<d_xxxl_it/>
+			<d_xs_en/>
+			<d_s_en/>
+			<d_m_en/>
+			<d_l_en/>
+			<d_xl_en/>
+			<d_xxl_en/>
+			<d_xxxl_en/>
+			<d_unica_en/>
+			<d_regola_en/>
+			<attivo>1</attivo>
+			<g_nome_it>T-SHIRT VALUWEIGHT UOMO</g_nome_it>
+			<g_nome_en>-SHIRT VALUWEIGHT MAN</g_nome_en>
+			<g_descrizione_it>&lt;html /&gt;</g_descrizione_it>
+			<g_descrizione_en>&lt;html /&gt;</g_descrizione_en>
+			<gid>18</gid>
+			<viste>
+				<fronte>
+					<node>
+						<node>
+							<id>3067</id>
+							<filename>25-uomo fronte mc gialla .png</filename>
+							<type>1</type>
+							<size>3300108</size>
+							<last_mod>2010-10-14 21:48:37</last_mod>
+							<path>Prodotto/</path>
+							<ref_id>2681</ref_id>
+							<no_del>0</no_del>
+							<permessi/>
+							<ref_id_ver>0</ref_id_ver>
+							<version>0</version>
+							<description>Front</description>
+							<ref_ext/>
+						</node>
+					</node>
+				</fronte>
+				<retro>
+					<node>
+						<node>
+							<id>3068</id>
+							<filename>25-uomo retro mc gialla .png</filename>
+							<type>1</type>
+							<size>3278546</size>
+							<last_mod>2010-10-14 21:48:37</last_mod>
+							<path>ProdottoBack/</path>
+							<ref_id>2691</ref_id>
+							<no_del>0</no_del>
+							<permessi/>
+							<ref_id_ver>0</ref_id_ver>
+							<version>0</version>
+							<description>Back</description>
+							<ref_ext/>
+						</node>
+					</node>
+				</retro>
+			</viste>
+			<colore>
+				<node>
+					<node>
+						<id>2969</id>
+						<filename>17-GIALLO.png</filename>
+						<type>1</type>
+						<size>1125503</size>
+						<last_mod>2010-10-14 11:36:04</last_mod>
+						<path>Colori/</path>
+						<ref_id>2701</ref_id>
+						<no_del>0</no_del>
+						<permessi/>
+						<ref_id_ver>0</ref_id_ver>
+						<version>0</version>
+						<description/>
+						<ref_ext/>
+					</node>
+				</node>
+			</colore>
+		</node>
+		<node>
+			<id>26</id>
+			<nome_it>T-SHIRT UNISEX BLU ELETTRICA</nome_it>
+			<prezzo>10.9</prezzo>
+			<larghezza>0</larghezza>
+			<altezza>0</altezza>
+			<peso>0</peso>
+			<lati>2</lati>
+			<chiaro>0</chiaro>
+			<ref_colore>25</ref_colore>
+			<g1>0</g1>
+			<g2>0</g2>
+			<g3>0</g3>
+			<g4>0</g4>
+			<xs>0</xs>
+			<s>1</s>
+			<m>1</m>
+			<l>1</l>
+			<xl>1</xl>
+			<regola>0</regola>
+			<unica>0</unica>
+			<cod_art>T-SHIRT UNISEX BLU ELETTRICA</cod_art>
+			<descr_it>&lt;html /&gt;</descr_it>
+			<ref_tipo>18</ref_tipo>
+			<nome_en>T-SHIRT UNISEX BLU ELETTRICA</nome_en>
+			<descr_en>&lt;html /&gt;</descr_en>
+			<d_xs_it/>
+			<d_s_it/>
+			<d_m_it/>
+			<d_l_it/>
+			<d_xl_it/>
+			<d_unica_it/>
+			<d_regola_it/>
+			<xxl>1</xxl>
+			<xxxl>0</xxxl>
+			<d_xxl_it/>
+			<d_xxxl_it/>
+			<d_xs_en/>
+			<d_s_en/>
+			<d_m_en/>
+			<d_l_en/>
+			<d_xl_en/>
+			<d_xxl_en/>
+			<d_xxxl_en/>
+			<d_unica_en/>
+			<d_regola_en/>
+			<attivo>1</attivo>
+			<g_nome_it>T-SHIRT VALUWEIGHT UOMO</g_nome_it>
+			<g_nome_en>-SHIRT VALUWEIGHT MAN</g_nome_en>
+			<g_descrizione_it>&lt;html /&gt;</g_descrizione_it>
+			<g_descrizione_en>&lt;html /&gt;</g_descrizione_en>
+			<gid>18</gid>
+			<viste>
+				<fronte>
+					<node>
+						<node>
+							<id>3061</id>
+							<filename>26-uomo fronte mc blu elettrica .png</filename>
+							<type>1</type>
+							<size>2490756</size>
+							<last_mod>2010-10-14 21:42:01</last_mod>
+							<path>Prodotto/</path>
+							<ref_id>2681</ref_id>
+							<no_del>0</no_del>
+							<permessi/>
+							<ref_id_ver>0</ref_id_ver>
+							<version>0</version>
+							<description>Front</description>
+							<ref_ext/>
+						</node>
+					</node>
+				</fronte>
+				<retro>
+					<node>
+						<node>
+							<id>3062</id>
+							<filename>26-uomo retro mc blu elettrica .png</filename>
+							<type>1</type>
+							<size>2485600</size>
+							<last_mod>2010-10-14 21:42:01</last_mod>
+							<path>ProdottoBack/</path>
+							<ref_id>2691</ref_id>
+							<no_del>0</no_del>
+							<permessi/>
+							<ref_id_ver>0</ref_id_ver>
+							<version>0</version>
+							<description>Back</description>
+							<ref_ext/>
+						</node>
+					</node>
+				</retro>
+			</viste>
+			<colore>
+				<node>
+					<node>
+						<id>2977</id>
+						<filename>25-BLU ELETTRICO.png</filename>
+						<type>1</type>
+						<size>780535</size>
+						<last_mod>2010-10-14 11:43:24</last_mod>
+						<path>Colori/</path>
+						<ref_id>2701</ref_id>
+						<no_del>0</no_del>
+						<permessi/>
+						<ref_id_ver>0</ref_id_ver>
+						<version>0</version>
+						<description/>
+						<ref_ext/>
+					</node>
+				</node>
+			</colore>
+		</node>
+		<node>
+			<id>27</id>
+			<nome_it>T-SHIRT UNISEX VIOLA</nome_it>
+			<prezzo>10.9</prezzo>
+			<larghezza>0</larghezza>
+			<altezza>0</altezza>
+			<peso>0</peso>
+			<lati>2</lati>
+			<chiaro>0</chiaro>
+			<ref_colore>29</ref_colore>
+			<g1>0</g1>
+			<g2>0</g2>
+			<g3>0</g3>
+			<g4>0</g4>
+			<xs>0</xs>
+			<s>1</s>
+			<m>1</m>
+			<l>1</l>
+			<xl>1</xl>
+			<regola>0</regola>
+			<unica>0</unica>
+			<cod_art>T-SHIRT UNISEX VIOLA</cod_art>
+			<descr_it>&lt;html /&gt;</descr_it>
+			<ref_tipo>18</ref_tipo>
+			<nome_en>T-SHIRT UNISEX VIOLA</nome_en>
+			<descr_en>&lt;html /&gt;</descr_en>
+			<d_xs_it/>
+			<d_s_it/>
+			<d_m_it/>
+			<d_l_it/>
+			<d_xl_it/>
+			<d_unica_it/>
+			<d_regola_it/>
+			<xxl>1</xxl>
+			<xxxl>0</xxxl>
+			<d_xxl_it/>
+			<d_xxxl_it/>
+			<d_xs_en/>
+			<d_s_en/>
+			<d_m_en/>
+			<d_l_en/>
+			<d_xl_en/>
+			<d_xxl_en/>
+			<d_xxxl_en/>
+			<d_unica_en/>
+			<d_regola_en/>
+			<attivo>1</attivo>
+			<g_nome_it>T-SHIRT VALUWEIGHT UOMO</g_nome_it>
+			<g_nome_en>-SHIRT VALUWEIGHT MAN</g_nome_en>
+			<g_descrizione_it>&lt;html /&gt;</g_descrizione_it>
+			<g_descrizione_en>&lt;html /&gt;</g_descrizione_en>
+			<gid>18</gid>
+			<viste>
+				<fronte>
+					<node>
+						<node>
+							<id>3083</id>
+							<filename>27-uomo fronte mc viola.png</filename>
+							<type>1</type>
+							<size>1914992</size>
+							<last_mod>2010-10-14 22:04:20</last_mod>
+							<path>Prodotto/</path>
+							<ref_id>2681</ref_id>
+							<no_del>0</no_del>
+							<permessi/>
+							<ref_id_ver>0</ref_id_ver>
+							<version>0</version>
+							<description>Front</description>
+							<ref_ext/>
+						</node>
+					</node>
+				</fronte>
+				<retro>
+					<node>
+						<node>
+							<id>3084</id>
+							<filename>27-uomo retro mc viola.png</filename>
+							<type>1</type>
+							<size>1905580</size>
+							<last_mod>2010-10-14 22:04:20</last_mod>
+							<path>ProdottoBack/</path>
+							<ref_id>2691</ref_id>
+							<no_del>0</no_del>
+							<permessi/>
+							<ref_id_ver>0</ref_id_ver>
+							<version>0</version>
+							<description>Back</description>
+							<ref_ext/>
+						</node>
+					</node>
+				</retro>
+			</viste>
+			<colore>
+				<node>
+					<node>
+						<id>2981</id>
+						<filename>29-VIOLA.png</filename>
+						<type>1</type>
+						<size>531137</size>
+						<last_mod>2010-10-14 11:48:23</last_mod>
+						<path>Colori/</path>
+						<ref_id>2701</ref_id>
+						<no_del>0</no_del>
+						<permessi/>
+						<ref_id_ver>0</ref_id_ver>
+						<version>0</version>
+						<description/>
+						<ref_ext/>
+					</node>
+				</node>
+			</colore>
+		</node>
+		<node>
+			<id>28</id>
+			<nome_it>T-SHIRT UNISEX MARRONE</nome_it>
+			<prezzo>10.9</prezzo>
+			<larghezza>0</larghezza>
+			<altezza>0</altezza>
+			<peso>0</peso>
+			<lati>2</lati>
+			<chiaro>0</chiaro>
+			<ref_colore>24</ref_colore>
+			<g1>0</g1>
+			<g2>0</g2>
+			<g3>0</g3>
+			<g4>0</g4>
+			<xs>0</xs>
+			<s>1</s>
+			<m>1</m>
+			<l>1</l>
+			<xl>1</xl>
+			<regola>0</regola>
+			<unica>0</unica>
+			<cod_art>T-SHIRT UNISEX MARRONE</cod_art>
+			<descr_it>&lt;html /&gt;</descr_it>
+			<ref_tipo>18</ref_tipo>
+			<nome_en>T-SHIRT UNISEX MARRONE</nome_en>
+			<descr_en>&lt;html /&gt;</descr_en>
+			<d_xs_it/>
+			<d_s_it/>
+			<d_m_it/>
+			<d_l_it/>
+			<d_xl_it/>
+			<d_unica_it/>
+			<d_regola_it/>
+			<xxl>0</xxl>
+			<xxxl>0</xxxl>
+			<d_xxl_it/>
+			<d_xxxl_it/>
+			<d_xs_en/>
+			<d_s_en/>
+			<d_m_en/>
+			<d_l_en/>
+			<d_xl_en/>
+			<d_xxl_en/>
+			<d_xxxl_en/>
+			<d_unica_en/>
+			<d_regola_en/>
+			<attivo>1</attivo>
+			<g_nome_it>T-SHIRT VALUWEIGHT UOMO</g_nome_it>
+			<g_nome_en>-SHIRT VALUWEIGHT MAN</g_nome_en>
+			<g_descrizione_it>&lt;html /&gt;</g_descrizione_it>
+			<g_descrizione_en>&lt;html /&gt;</g_descrizione_en>
+			<gid>18</gid>
+			<viste>
+				<fronte>
+					<node>
+						<node>
+							<id>3073</id>
+							<filename>28-uomo fronte mc marrone.png</filename>
+							<type>1</type>
+							<size>1734296</size>
+							<last_mod>2010-10-14 21:55:00</last_mod>
+							<path>Prodotto/</path>
+							<ref_id>2681</ref_id>
+							<no_del>0</no_del>
+							<permessi/>
+							<ref_id_ver>0</ref_id_ver>
+							<version>0</version>
+							<description>Front</description>
+							<ref_ext/>
+						</node>
+					</node>
+				</fronte>
+				<retro>
+					<node>
+						<node>
+							<id>3074</id>
+							<filename>28-uomo retro mc marrone.png</filename>
+							<type>1</type>
+							<size>1792223</size>
+							<last_mod>2010-10-14 21:55:00</last_mod>
+							<path>ProdottoBack/</path>
+							<ref_id>2691</ref_id>
+							<no_del>0</no_del>
+							<permessi/>
+							<ref_id_ver>0</ref_id_ver>
+							<version>0</version>
+							<description>Back</description>
+							<ref_ext/>
+						</node>
+					</node>
+				</retro>
+			</viste>
+			<colore>
+				<node>
+					<node>
+						<id>2976</id>
+						<filename>24-MARRONE.png</filename>
+						<type>1</type>
+						<size>402173</size>
+						<last_mod>2010-10-14 11:41:56</last_mod>
+						<path>Colori/</path>
+						<ref_id>2701</ref_id>
+						<no_del>0</no_del>
+						<permessi/>
+						<ref_id_ver>0</ref_id_ver>
+						<version>0</version>
+						<description/>
+						<ref_ext/>
+					</node>
+				</node>
+			</colore>
+		</node>
+	</node>
+	<node>
+		<node>
+			<id>48</id>
+			<nome_it>T-SHIRT DONNA NERA</nome_it>
+			<prezzo>10.9</prezzo>
+			<larghezza>0</larghezza>
+			<altezza>0</altezza>
+			<peso>0</peso>
+			<lati>2</lati>
+			<chiaro>0</chiaro>
+			<ref_colore>16</ref_colore>
+			<g1>0</g1>
+			<g2>0</g2>
+			<g3>0</g3>
+			<g4>0</g4>
+			<xs>1</xs>
+			<s>1</s>
+			<m>1</m>
+			<l>1</l>
+			<xl>1</xl>
+			<regola>0</regola>
+			<unica>0</unica>
+			<cod_art>T-SHIRT DONNA NERA</cod_art>
+			<descr_it>&lt;html /&gt;</descr_it>
+			<ref_tipo>19</ref_tipo>
+			<nome_en>T-SHIRT DONNA NERA</nome_en>
+			<descr_en>&lt;html /&gt;</descr_en>
+			<d_xs_it/>
+			<d_s_it/>
+			<d_m_it/>
+			<d_l_it/>
+			<d_xl_it/>
+			<d_unica_it/>
+			<d_regola_it/>
+			<xxl>0</xxl>
+			<xxxl>0</xxxl>
+			<d_xxl_it/>
+			<d_xxxl_it/>
+			<d_xs_en/>
+			<d_s_en/>
+			<d_m_en/>
+			<d_l_en/>
+			<d_xl_en/>
+			<d_xxl_en/>
+			<d_xxxl_en/>
+			<d_unica_en/>
+			<d_regola_en/>
+			<attivo>1</attivo>
+			<g_nome_it>T-SHIRT WALUWEIGHT DONNA</g_nome_it>
+			<g_nome_en>T-SHIRT WALUWEIGHT WOMAN</g_nome_en>
+			<g_descrizione_it>&lt;html /&gt;</g_descrizione_it>
+			<g_descrizione_en>&lt;html /&gt;</g_descrizione_en>
+			<gid>19</gid>
+			<viste>
+				<fronte>
+					<node>
+						<node>
+							<id>3047</id>
+							<filename>48-donna fronte mc nera.png</filename>
+							<type>1</type>
+							<size>817807</size>
+							<last_mod>2010-10-14 21:17:48</last_mod>
+							<path>Prodotto/</path>
+							<ref_id>2681</ref_id>
+							<no_del>0</no_del>
+							<permessi/>
+							<ref_id_ver>0</ref_id_ver>
+							<version>0</version>
+							<description>Front</description>
+							<ref_ext/>
+						</node>
+					</node>
+				</fronte>
+				<retro>
+					<node>
+						<node>
+							<id>3048</id>
+							<filename>48-donna retro mc nera.png</filename>
+							<type>1</type>
+							<size>793577</size>
+							<last_mod>2010-10-14 21:17:49</last_mod>
+							<path>ProdottoBack/</path>
+							<ref_id>2691</ref_id>
+							<no_del>0</no_del>
+							<permessi/>
+							<ref_id_ver>0</ref_id_ver>
+							<version>0</version>
+							<description>Back</description>
+							<ref_ext/>
+						</node>
+					</node>
+				</retro>
+			</viste>
+			<colore>
+				<node>
+					<node>
+						<id>2968</id>
+						<filename>16-NERO.png</filename>
+						<type>1</type>
+						<size>357850</size>
+						<last_mod>2010-10-14 11:35:33</last_mod>
+						<path>Colori/</path>
+						<ref_id>2701</ref_id>
+						<no_del>0</no_del>
+						<permessi/>
+						<ref_id_ver>0</ref_id_ver>
+						<version>0</version>
+						<description/>
+						<ref_ext/>
+					</node>
+				</node>
+			</colore>
+		</node>
+		<node>
+			<id>49</id>
+			<nome_it>T-SHIRT DONNA BIANCA</nome_it>
+			<prezzo>10.9</prezzo>
+			<larghezza>0</larghezza>
+			<altezza>0</altezza>
+			<peso>0</peso>
+			<lati>2</lati>
+			<chiaro>0</chiaro>
+			<ref_colore>15</ref_colore>
+			<g1>0</g1>
+			<g2>0</g2>
+			<g3>0</g3>
+			<g4>0</g4>
+			<xs>1</xs>
+			<s>1</s>
+			<m>1</m>
+			<l>1</l>
+			<xl>1</xl>
+			<regola>0</regola>
+			<unica>0</unica>
+			<cod_art>T-SHIRT DONNA BIANCA</cod_art>
+			<descr_it>&lt;html /&gt;</descr_it>
+			<ref_tipo>19</ref_tipo>
+			<nome_en>T-SHIRT DONNA BIANCA</nome_en>
+			<descr_en>&lt;html /&gt;</descr_en>
+			<d_xs_it/>
+			<d_s_it/>
+			<d_m_it/>
+			<d_l_it/>
+			<d_xl_it/>
+			<d_unica_it/>
+			<d_regola_it/>
+			<xxl>0</xxl>
+			<xxxl>0</xxxl>
+			<d_xxl_it/>
+			<d_xxxl_it/>
+			<d_xs_en/>
+			<d_s_en/>
+			<d_m_en/>
+			<d_l_en/>
+			<d_xl_en/>
+			<d_xxl_en/>
+			<d_xxxl_en/>
+			<d_unica_en/>
+			<d_regola_en/>
+			<attivo>1</attivo>
+			<g_nome_it>T-SHIRT WALUWEIGHT DONNA</g_nome_it>
+			<g_nome_en>T-SHIRT WALUWEIGHT WOMAN</g_nome_en>
+			<g_descrizione_it>&lt;html /&gt;</g_descrizione_it>
+			<g_descrizione_en>&lt;html /&gt;</g_descrizione_en>
+			<gid>19</gid>
+			<viste>
+				<fronte>
+					<node>
+						<node>
+							<id>3039</id>
+							<filename>49-donna fronte mc bianca.png</filename>
+							<type>1</type>
+							<size>1211049</size>
+							<last_mod>2010-10-14 21:05:20</last_mod>
+							<path>Prodotto/</path>
+							<ref_id>2681</ref_id>
+							<no_del>0</no_del>
+							<permessi/>
+							<ref_id_ver>0</ref_id_ver>
+							<version>0</version>
+							<description>Front</description>
+							<ref_ext/>
+						</node>
+					</node>
+				</fronte>
+				<retro>
+					<node>
+						<node>
+							<id>3040</id>
+							<filename>49-donna retro mc bianca.png</filename>
+							<type>1</type>
+							<size>1159087</size>
+							<last_mod>2010-10-14 21:05:20</last_mod>
+							<path>ProdottoBack/</path>
+							<ref_id>2691</ref_id>
+							<no_del>0</no_del>
+							<permessi/>
+							<ref_id_ver>0</ref_id_ver>
+							<version>0</version>
+							<description>Back</description>
+							<ref_ext/>
+						</node>
+					</node>
+				</retro>
+			</viste>
+			<colore>
+				<node>
+					<node>
+						<id>2967</id>
+						<filename>15-BIANCO.png</filename>
+						<type>1</type>
+						<size>491820</size>
+						<last_mod>2010-10-14 11:35:12</last_mod>
+						<path>Colori/</path>
+						<ref_id>2701</ref_id>
+						<no_del>0</no_del>
+						<permessi/>
+						<ref_id_ver>0</ref_id_ver>
+						<version>0</version>
+						<description/>
+						<ref_ext/>
+					</node>
+				</node>
+			</colore>
+		</node>
+		<node>
+			<id>50</id>
+			<nome_it>T-SHIRT DONNA AZZURRA</nome_it>
+			<prezzo>10.9</prezzo>
+			<larghezza>0</larghezza>
+			<altezza>0</altezza>
+			<peso>0</peso>
+			<lati>2</lati>
+			<chiaro>0</chiaro>
+			<ref_colore>19</ref_colore>
+			<g1>0</g1>
+			<g2>0</g2>
+			<g3>0</g3>
+			<g4>0</g4>
+			<xs>1</xs>
+			<s>1</s>
+			<m>1</m>
+			<l>1</l>
+			<xl>1</xl>
+			<regola>0</regola>
+			<unica>0</unica>
+			<cod_art>T-SHIRT DONNA AZZURRA</cod_art>
+			<descr_it>&lt;html /&gt;</descr_it>
+			<ref_tipo>19</ref_tipo>
+			<nome_en>T-SHIRT DONNA AZZURRA</nome_en>
+			<descr_en>&lt;html /&gt;</descr_en>
+			<d_xs_it/>
+			<d_s_it/>
+			<d_m_it/>
+			<d_l_it/>
+			<d_xl_it/>
+			<d_unica_it/>
+			<d_regola_it/>
+			<xxl>0</xxl>
+			<xxxl>0</xxxl>
+			<d_xxl_it/>
+			<d_xxxl_it/>
+			<d_xs_en/>
+			<d_s_en/>
+			<d_m_en/>
+			<d_l_en/>
+			<d_xl_en/>
+			<d_xxl_en/>
+			<d_xxxl_en/>
+			<d_unica_en/>
+			<d_regola_en/>
+			<attivo>1</attivo>
+			<g_nome_it>T-SHIRT WALUWEIGHT DONNA</g_nome_it>
+			<g_nome_en>T-SHIRT WALUWEIGHT WOMAN</g_nome_en>
+			<g_descrizione_it>&lt;html /&gt;</g_descrizione_it>
+			<g_descrizione_en>&lt;html /&gt;</g_descrizione_en>
+			<gid>19</gid>
+			<viste>
+				<fronte>
+					<node>
+						<node>
+							<id>3037</id>
+							<filename>50-donna fronte mc azzurra.png</filename>
+							<type>1</type>
+							<size>1541542</size>
+							<last_mod>2010-10-14 20:54:42</last_mod>
+							<path>Prodotto/</path>
+							<ref_id>2681</ref_id>
+							<no_del>0</no_del>
+							<permessi/>
+							<ref_id_ver>0</ref_id_ver>
+							<version>0</version>
+							<description>Front</description>
+							<ref_ext/>
+						</node>
+					</node>
+				</fronte>
+				<retro>
+					<node>
+						<node>
+							<id>3038</id>
+							<filename>50-donna retro mc azzurra.png</filename>
+							<type>1</type>
+							<size>1560188</size>
+							<last_mod>2010-10-14 20:54:42</last_mod>
+							<path>ProdottoBack/</path>
+							<ref_id>2691</ref_id>
+							<no_del>0</no_del>
+							<permessi/>
+							<ref_id_ver>0</ref_id_ver>
+							<version>0</version>
+							<description>Back</description>
+							<ref_ext/>
+						</node>
+					</node>
+				</retro>
+			</viste>
+			<colore>
+				<node>
+					<node>
+						<id>2971</id>
+						<filename>19-AZZURRO.png</filename>
+						<type>1</type>
+						<size>1086859</size>
+						<last_mod>2010-10-14 11:36:52</last_mod>
+						<path>Colori/</path>
+						<ref_id>2701</ref_id>
+						<no_del>0</no_del>
+						<permessi/>
+						<ref_id_ver>0</ref_id_ver>
+						<version>0</version>
+						<description/>
+						<ref_ext/>
+					</node>
+				</node>
+			</colore>
+		</node>
+		<node>
+			<id>51</id>
+			<nome_it>T-SHIRT DONNA GIALLA</nome_it>
+			<prezzo>10.9</prezzo>
+			<larghezza>0</larghezza>
+			<altezza>0</altezza>
+			<peso>0</peso>
+			<lati>2</lati>
+			<chiaro>0</chiaro>
+			<ref_colore>17</ref_colore>
+			<g1>0</g1>
+			<g2>0</g2>
+			<g3>0</g3>
+			<g4>0</g4>
+			<xs>1</xs>
+			<s>1</s>
+			<m>1</m>
+			<l>1</l>
+			<xl>1</xl>
+			<regola>0</regola>
+			<unica>0</unica>
+			<cod_art>T-SHIRT DONNA GIALLA</cod_art>
+			<descr_it>&lt;html /&gt;</descr_it>
+			<ref_tipo>19</ref_tipo>
+			<nome_en>T-SHIRT DONNA GIALLA</nome_en>
+			<descr_en>&lt;html /&gt;</descr_en>
+			<d_xs_it/>
+			<d_s_it/>
+			<d_m_it/>
+			<d_l_it/>
+			<d_xl_it/>
+			<d_unica_it/>
+			<d_regola_it/>
+			<xxl>0</xxl>
+			<xxxl>0</xxxl>
+			<d_xxl_it/>
+			<d_xxxl_it/>
+			<d_xs_en/>
+			<d_s_en/>
+			<d_m_en/>
+			<d_l_en/>
+			<d_xl_en/>
+			<d_xxl_en/>
+			<d_xxxl_en/>
+			<d_unica_en/>
+			<d_regola_en/>
+			<attivo>1</attivo>
+			<g_nome_it>T-SHIRT WALUWEIGHT DONNA</g_nome_it>
+			<g_nome_en>T-SHIRT WALUWEIGHT WOMAN</g_nome_en>
+			<g_descrizione_it>&lt;html /&gt;</g_descrizione_it>
+			<g_descrizione_en>&lt;html /&gt;</g_descrizione_en>
+			<gid>19</gid>
+			<viste>
+				<fronte>
+					<node>
+						<node>
+							<id>3045</id>
+							<filename>51-donna fronte mc gialla.png</filename>
+							<type>1</type>
+							<size>1032805</size>
+							<last_mod>2010-10-14 21:16:10</last_mod>
+							<path>Prodotto/</path>
+							<ref_id>2681</ref_id>
+							<no_del>0</no_del>
+							<permessi/>
+							<ref_id_ver>0</ref_id_ver>
+							<version>0</version>
+							<description>Front</description>
+							<ref_ext/>
+						</node>
+					</node>
+				</fronte>
+				<retro>
+					<node>
+						<node>
+							<id>3046</id>
+							<filename>51-donna retro mc gialla.png</filename>
+							<type>1</type>
+							<size>993054</size>
+							<last_mod>2010-10-14 21:16:10</last_mod>
+							<path>ProdottoBack/</path>
+							<ref_id>2691</ref_id>
+							<no_del>0</no_del>
+							<permessi/>
+							<ref_id_ver>0</ref_id_ver>
+							<version>0</version>
+							<description>Back</description>
+							<ref_ext/>
+						</node>
+					</node>
+				</retro>
+			</viste>
+			<colore>
+				<node>
+					<node>
+						<id>2969</id>
+						<filename>17-GIALLO.png</filename>
+						<type>1</type>
+						<size>1125503</size>
+						<last_mod>2010-10-14 11:36:04</last_mod>
+						<path>Colori/</path>
+						<ref_id>2701</ref_id>
+						<no_del>0</no_del>
+						<permessi/>
+						<ref_id_ver>0</ref_id_ver>
+						<version>0</version>
+						<description/>
+						<ref_ext/>
+					</node>
+				</node>
+			</colore>
+		</node>
+		<node>
+			<id>52</id>
+			<nome_it>T-SHIRT DONNA ROSA</nome_it>
+			<prezzo>10.9</prezzo>
+			<larghezza>0</larghezza>
+			<altezza>0</altezza>
+			<peso>0</peso>
+			<lati>2</lati>
+			<chiaro>0</chiaro>
+			<ref_colore>32</ref_colore>
+			<g1>0</g1>
+			<g2>0</g2>
+			<g3>0</g3>
+			<g4>0</g4>
+			<xs>1</xs>
+			<s>1</s>
+			<m>1</m>
+			<l>1</l>
+			<xl>1</xl>
+			<regola>0</regola>
+			<unica>0</unica>
+			<cod_art>T-SHIRT DONNA ROSA</cod_art>
+			<descr_it>&lt;html /&gt;</descr_it>
+			<ref_tipo>19</ref_tipo>
+			<nome_en>T-SHIRT DONNA ROSA</nome_en>
+			<descr_en>&lt;html /&gt;</descr_en>
+			<d_xs_it/>
+			<d_s_it/>
+			<d_m_it/>
+			<d_l_it/>
+			<d_xl_it/>
+			<d_unica_it/>
+			<d_regola_it/>
+			<xxl>0</xxl>
+			<xxxl>0</xxxl>
+			<d_xxl_it/>
+			<d_xxxl_it/>
+			<d_xs_en/>
+			<d_s_en/>
+			<d_m_en/>
+			<d_l_en/>
+			<d_xl_en/>
+			<d_xxl_en/>
+			<d_xxxl_en/>
+			<d_unica_en/>
+			<d_regola_en/>
+			<attivo>1</attivo>
+			<g_nome_it>T-SHIRT WALUWEIGHT DONNA</g_nome_it>
+			<g_nome_en>T-SHIRT WALUWEIGHT WOMAN</g_nome_en>
+			<g_descrizione_it>&lt;html /&gt;</g_descrizione_it>
+			<g_descrizione_en>&lt;html /&gt;</g_descrizione_en>
+			<gid>19</gid>
+			<viste>
+				<fronte>
+					<node>
+						<node>
+							<id>3049</id>
+							<filename>52-donna fronte mc rosa.png</filename>
+							<type>1</type>
+							<size>991157</size>
+							<last_mod>2010-10-14 21:19:58</last_mod>
+							<path>Prodotto/</path>
+							<ref_id>2681</ref_id>
+							<no_del>0</no_del>
+							<permessi/>
+							<ref_id_ver>0</ref_id_ver>
+							<version>0</version>
+							<description>Front</description>
+							<ref_ext/>
+						</node>
+					</node>
+				</fronte>
+				<retro>
+					<node>
+						<node>
+							<id>3050</id>
+							<filename>52-donna retro mc rosa.png</filename>
+							<type>1</type>
+							<size>1002094</size>
+							<last_mod>2010-10-14 21:19:59</last_mod>
+							<path>ProdottoBack/</path>
+							<ref_id>2691</ref_id>
+							<no_del>0</no_del>
+							<permessi/>
+							<ref_id_ver>0</ref_id_ver>
+							<version>0</version>
+							<description>Back</description>
+							<ref_ext/>
+						</node>
+					</node>
+				</retro>
+			</viste>
+			<colore>
+				<node>
+					<node>
+						<id>2984</id>
+						<filename>32-ROSA.png</filename>
+						<type>1</type>
+						<size>153914</size>
+						<last_mod>2010-10-14 11:50:00</last_mod>
+						<path>Colori/</path>
+						<ref_id>2701</ref_id>
+						<no_del>0</no_del>
+						<permessi/>
+						<ref_id_ver>0</ref_id_ver>
+						<version>0</version>
+						<description/>
+						<ref_ext/>
+					</node>
+				</node>
+			</colore>
+		</node>
+		<node>
+			<id>53</id>
+			<nome_it>T-SHIRT DONNA FUXIA</nome_it>
+			<prezzo>10.9</prezzo>
+			<larghezza>0</larghezza>
+			<altezza>0</altezza>
+			<peso>0</peso>
+			<lati>2</lati>
+			<chiaro>0</chiaro>
+			<ref_colore>33</ref_colore>
+			<g1>0</g1>
+			<g2>0</g2>
+			<g3>0</g3>
+			<g4>0</g4>
+			<xs>1</xs>
+			<s>1</s>
+			<m>1</m>
+			<l>1</l>
+			<xl>1</xl>
+			<regola>0</regola>
+			<unica>0</unica>
+			<cod_art>T-SHIRT DONNA FUXIA</cod_art>
+			<descr_it>&lt;html /&gt;</descr_it>
+			<ref_tipo>19</ref_tipo>
+			<nome_en>T-SHIRT DONNA FUXIA</nome_en>
+			<descr_en>&lt;html /&gt;</descr_en>
+			<d_xs_it/>
+			<d_s_it/>
+			<d_m_it/>
+			<d_l_it/>
+			<d_xl_it/>
+			<d_unica_it/>
+			<d_regola_it/>
+			<xxl>0</xxl>
+			<xxxl>0</xxxl>
+			<d_xxl_it/>
+			<d_xxxl_it/>
+			<d_xs_en/>
+			<d_s_en/>
+			<d_m_en/>
+			<d_l_en/>
+			<d_xl_en/>
+			<d_xxl_en/>
+			<d_xxxl_en/>
+			<d_unica_en/>
+			<d_regola_en/>
+			<attivo>1</attivo>
+			<g_nome_it>T-SHIRT WALUWEIGHT DONNA</g_nome_it>
+			<g_nome_en>T-SHIRT WALUWEIGHT WOMAN</g_nome_en>
+			<g_descrizione_it>&lt;html /&gt;</g_descrizione_it>
+			<g_descrizione_en>&lt;html /&gt;</g_descrizione_en>
+			<gid>19</gid>
+			<viste>
+				<fronte>
+					<node>
+						<node>
+							<id>3043</id>
+							<filename>53-donna fronte mc fuxia.png</filename>
+							<type>1</type>
+							<size>1113377</size>
+							<last_mod>2010-10-14 21:14:15</last_mod>
+							<path>Prodotto/</path>
+							<ref_id>2681</ref_id>
+							<no_del>0</no_del>
+							<permessi/>
+							<ref_id_ver>0</ref_id_ver>
+							<version>0</version>
+							<description>Front</description>
+							<ref_ext/>
+						</node>
+					</node>
+				</fronte>
+				<retro>
+					<node>
+						<node>
+							<id>3044</id>
+							<filename>53-donna retro mc fuxia.png</filename>
+							<type>1</type>
+							<size>1064359</size>
+							<last_mod>2010-10-14 21:14:16</last_mod>
+							<path>ProdottoBack/</path>
+							<ref_id>2691</ref_id>
+							<no_del>0</no_del>
+							<permessi/>
+							<ref_id_ver>0</ref_id_ver>
+							<version>0</version>
+							<description>Back</description>
+							<ref_ext/>
+						</node>
+					</node>
+				</retro>
+			</viste>
+			<colore>
+				<node>
+					<node>
+						<id>2985</id>
+						<filename>33-FUXIA.png</filename>
+						<type>1</type>
+						<size>123042</size>
+						<last_mod>2010-10-14 11:51:00</last_mod>
+						<path>Colori/</path>
+						<ref_id>2701</ref_id>
+						<no_del>0</no_del>
+						<permessi/>
+						<ref_id_ver>0</ref_id_ver>
+						<version>0</version>
+						<description/>
+						<ref_ext/>
+					</node>
+				</node>
+			</colore>
+		</node>
+		<node>
+			<id>54</id>
+			<nome_it>T-SHIRT DONNA BLU NAVY</nome_it>
+			<prezzo>10.9</prezzo>
+			<larghezza>0</larghezza>
+			<altezza>0</altezza>
+			<peso>0</peso>
+			<lati>2</lati>
+			<chiaro>0</chiaro>
+			<ref_colore>21</ref_colore>
+			<g1>0</g1>
+			<g2>0</g2>
+			<g3>0</g3>
+			<g4>0</g4>
+			<xs>1</xs>
+			<s>1</s>
+			<m>1</m>
+			<l>1</l>
+			<xl>1</xl>
+			<regola>0</regola>
+			<unica>0</unica>
+			<cod_art>T-SHIRT DONNA BLU NAVY</cod_art>
+			<descr_it>&lt;html /&gt;</descr_it>
+			<ref_tipo>19</ref_tipo>
+			<nome_en>T-SHIRT DONNA BLU NAVY</nome_en>
+			<descr_en>&lt;html /&gt;</descr_en>
+			<d_xs_it/>
+			<d_s_it/>
+			<d_m_it/>
+			<d_l_it/>
+			<d_xl_it/>
+			<d_unica_it/>
+			<d_regola_it/>
+			<xxl>0</xxl>
+			<xxxl>0</xxxl>
+			<d_xxl_it/>
+			<d_xxxl_it/>
+			<d_xs_en/>
+			<d_s_en/>
+			<d_m_en/>
+			<d_l_en/>
+			<d_xl_en/>
+			<d_xxl_en/>
+			<d_xxxl_en/>
+			<d_unica_en/>
+			<d_regola_en/>
+			<attivo>1</attivo>
+			<g_nome_it>T-SHIRT WALUWEIGHT DONNA</g_nome_it>
+			<g_nome_en>T-SHIRT WALUWEIGHT WOMAN</g_nome_en>
+			<g_descrizione_it>&lt;html /&gt;</g_descrizione_it>
+			<g_descrizione_en>&lt;html /&gt;</g_descrizione_en>
+			<gid>19</gid>
+			<viste>
+				<fronte>
+					<node>
+						<node>
+							<id>3041</id>
+							<filename>54-donna fronte mc blu navy.png</filename>
+							<type>1</type>
+							<size>741673</size>
+							<last_mod>2010-10-14 21:11:18</last_mod>
+							<path>Prodotto/</path>
+							<ref_id>2681</ref_id>
+							<no_del>0</no_del>
+							<permessi/>
+							<ref_id_ver>0</ref_id_ver>
+							<version>0</version>
+							<description>Front</description>
+							<ref_ext/>
+						</node>
+					</node>
+				</fronte>
+				<retro>
+					<node>
+						<node>
+							<id>3042</id>
+							<filename>54-donna retro mc blu navy.png</filename>
+							<type>1</type>
+							<size>712508</size>
+							<last_mod>2010-10-14 21:11:19</last_mod>
+							<path>ProdottoBack/</path>
+							<ref_id>2691</ref_id>
+							<no_del>0</no_del>
+							<permessi/>
+							<ref_id_ver>0</ref_id_ver>
+							<version>0</version>
+							<description>Back</description>
+							<ref_ext/>
+						</node>
+					</node>
+				</retro>
+			</viste>
+			<colore>
+				<node>
+					<node>
+						<id>2973</id>
+						<filename>21-BLU NAVY.png</filename>
+						<type>1</type>
+						<size>777999</size>
+						<last_mod>2010-10-14 11:38:43</last_mod>
+						<path>Colori/</path>
+						<ref_id>2701</ref_id>
+						<no_del>0</no_del>
+						<permessi/>
+						<ref_id_ver>0</ref_id_ver>
+						<version>0</version>
+						<description/>
+						<ref_ext/>
+					</node>
+				</node>
+			</colore>
+		</node>
+		<node>
+			<id>55</id>
+			<nome_it>T-SHIRT DONNA ROSSA</nome_it>
+			<prezzo>10.9</prezzo>
+			<larghezza>0</larghezza>
+			<altezza>0</altezza>
+			<peso>0</peso>
+			<lati>2</lati>
+			<chiaro>0</chiaro>
+			<ref_colore>20</ref_colore>
+			<g1>0</g1>
+			<g2>0</g2>
+			<g3>0</g3>
+			<g4>0</g4>
+			<xs>1</xs>
+			<s>1</s>
+			<m>1</m>
+			<l>1</l>
+			<xl>1</xl>
+			<regola>0</regola>
+			<unica>0</unica>
+			<cod_art>T-SHIRT DONNA ROSSA</cod_art>
+			<descr_it>&lt;html /&gt;</descr_it>
+			<ref_tipo>19</ref_tipo>
+			<nome_en>T-SHIRT DONNA ROSSA</nome_en>
+			<descr_en>&lt;html /&gt;</descr_en>
+			<d_xs_it/>
+			<d_s_it/>
+			<d_m_it/>
+			<d_l_it/>
+			<d_xl_it/>
+			<d_unica_it/>
+			<d_regola_it/>
+			<xxl>0</xxl>
+			<xxxl>0</xxxl>
+			<d_xxl_it/>
+			<d_xxxl_it/>
+			<d_xs_en/>
+			<d_s_en/>
+			<d_m_en/>
+			<d_l_en/>
+			<d_xl_en/>
+			<d_xxl_en/>
+			<d_xxxl_en/>
+			<d_unica_en/>
+			<d_regola_en/>
+			<attivo>1</attivo>
+			<g_nome_it>T-SHIRT WALUWEIGHT DONNA</g_nome_it>
+			<g_nome_en>T-SHIRT WALUWEIGHT WOMAN</g_nome_en>
+			<g_descrizione_it>&lt;html /&gt;</g_descrizione_it>
+			<g_descrizione_en>&lt;html /&gt;</g_descrizione_en>
+			<gid>19</gid>
+			<viste>
+				<fronte>
+					<node>
+						<node>
+							<id>3051</id>
+							<filename>55-donna fronte mc rossa.png</filename>
+							<type>1</type>
+							<size>742102</size>
+							<last_mod>2010-10-14 21:22:36</last_mod>
+							<path>Prodotto/</path>
+							<ref_id>2681</ref_id>
+							<no_del>0</no_del>
+							<permessi/>
+							<ref_id_ver>0</ref_id_ver>
+							<version>0</version>
+							<description>Front</description>
+							<ref_ext/>
+						</node>
+					</node>
+				</fronte>
+				<retro>
+					<node>
+						<node>
+							<id>3052</id>
+							<filename>55-donna retro mc rossa.png</filename>
+							<type>1</type>
+							<size>725448</size>
+							<last_mod>2010-10-14 21:22:36</last_mod>
+							<path>ProdottoBack/</path>
+							<ref_id>2691</ref_id>
+							<no_del>0</no_del>
+							<permessi/>
+							<ref_id_ver>0</ref_id_ver>
+							<version>0</version>
+							<description>Back</description>
+							<ref_ext/>
+						</node>
+					</node>
+				</retro>
+			</viste>
+			<colore>
+				<node>
+					<node>
+						<id>2972</id>
+						<filename>20-ROSSO.png</filename>
+						<type>1</type>
+						<size>539449</size>
+						<last_mod>2010-10-14 11:37:55</last_mod>
+						<path>Colori/</path>
+						<ref_id>2701</ref_id>
+						<no_del>0</no_del>
+						<permessi/>
+						<ref_id_ver>0</ref_id_ver>
+						<version>0</version>
+						<description/>
+						<ref_ext/>
+					</node>
+				</node>
+			</colore>
+		</node>
+	</node>
+	<node>
+		<node>
+			<id>42</id>
+			<nome_it>KWAY AZZURRO </nome_it>
+			<prezzo>16.9</prezzo>
+			<larghezza>0</larghezza>
+			<altezza>0</altezza>
+			<peso>0</peso>
+			<lati>0</lati>
+			<chiaro>0</chiaro>
+			<ref_colore>19</ref_colore>
+			<g1>0</g1>
+			<g2>0</g2>
+			<g3>0</g3>
+			<g4>0</g4>
+			<xs>0</xs>
+			<s>1</s>
+			<m>1</m>
+			<l>1</l>
+			<xl>1</xl>
+			<regola>0</regola>
+			<unica>0</unica>
+			<cod_art>KWAY AZZURRO </cod_art>
+			<descr_it>&lt;html /&gt;</descr_it>
+			<ref_tipo>20</ref_tipo>
+			<nome_en>KWAY AZZURRO </nome_en>
+			<descr_en>&lt;html /&gt;</descr_en>
+			<d_xs_it/>
+			<d_s_it/>
+			<d_m_it/>
+			<d_l_it/>
+			<d_xl_it/>
+			<d_unica_it/>
+			<d_regola_it/>
+			<xxl>0</xxl>
+			<xxxl>0</xxxl>
+			<d_xxl_it/>
+			<d_xxxl_it/>
+			<d_xs_en/>
+			<d_s_en/>
+			<d_m_en/>
+			<d_l_en/>
+			<d_xl_en/>
+			<d_xxl_en/>
+			<d_xxxl_en/>
+			<d_unica_en/>
+			<d_regola_en/>
+			<attivo>1</attivo>
+			<g_nome_it>KWAY</g_nome_it>
+			<g_nome_en>KWAY</g_nome_en>
+			<g_descrizione_it>&lt;html /&gt;</g_descrizione_it>
+			<g_descrizione_en>&lt;html /&gt;</g_descrizione_en>
+			<gid>20</gid>
+			<viste>
+				<fronte>
+					<node>
+						<node>
+							<id>3024</id>
+							<filename>42-kway fronte azzurro scuro.png</filename>
+							<type>1</type>
+							<size>6227512</size>
+							<last_mod>2010-10-14 20:16:55</last_mod>
+							<path>Prodotto/</path>
+							<ref_id>2681</ref_id>
+							<no_del>0</no_del>
+							<permessi/>
+							<ref_id_ver>0</ref_id_ver>
+							<version>0</version>
+							<description>Front</description>
+							<ref_ext/>
+						</node>
+					</node>
+				</fronte>
+				<retro>
+					<node>
+						<node>
+							<id>3025</id>
+							<filename>42-kway retro azzurro scuro.png</filename>
+							<type>1</type>
+							<size>6946681</size>
+							<last_mod>2010-10-14 20:16:56</last_mod>
+							<path>ProdottoBack/</path>
+							<ref_id>2691</ref_id>
+							<no_del>0</no_del>
+							<permessi/>
+							<ref_id_ver>0</ref_id_ver>
+							<version>0</version>
+							<description>Back</description>
+							<ref_ext/>
+						</node>
+					</node>
+				</retro>
+			</viste>
+			<colore>
+				<node>
+					<node>
+						<id>2971</id>
+						<filename>19-AZZURRO.png</filename>
+						<type>1</type>
+						<size>1086859</size>
+						<last_mod>2010-10-14 11:36:52</last_mod>
+						<path>Colori/</path>
+						<ref_id>2701</ref_id>
+						<no_del>0</no_del>
+						<permessi/>
+						<ref_id_ver>0</ref_id_ver>
+						<version>0</version>
+						<description/>
+						<ref_ext/>
+					</node>
+				</node>
+			</colore>
+		</node>
+		<node>
+			<id>43</id>
+			<nome_it>KWAY NERO</nome_it>
+			<prezzo>16.9</prezzo>
+			<larghezza>0</larghezza>
+			<altezza>0</altezza>
+			<peso>0</peso>
+			<lati>2</lati>
+			<chiaro>0</chiaro>
+			<ref_colore>16</ref_colore>
+			<g1>0</g1>
+			<g2>0</g2>
+			<g3>0</g3>
+			<g4>0</g4>
+			<xs>0</xs>
+			<s>1</s>
+			<m>1</m>
+			<l>1</l>
+			<xl>1</xl>
+			<regola>0</regola>
+			<unica>0</unica>
+			<cod_art>KWAY NERO</cod_art>
+			<descr_it>&lt;html /&gt;</descr_it>
+			<ref_tipo>20</ref_tipo>
+			<nome_en>KWAY NERO</nome_en>
+			<descr_en>&lt;html /&gt;</descr_en>
+			<d_xs_it/>
+			<d_s_it/>
+			<d_m_it/>
+			<d_l_it/>
+			<d_xl_it/>
+			<d_unica_it/>
+			<d_regola_it/>
+			<xxl>0</xxl>
+			<xxxl>0</xxxl>
+			<d_xxl_it/>
+			<d_xxxl_it/>
+			<d_xs_en/>
+			<d_s_en/>
+			<d_m_en/>
+			<d_l_en/>
+			<d_xl_en/>
+			<d_xxl_en/>
+			<d_xxxl_en/>
+			<d_unica_en/>
+			<d_regola_en/>
+			<attivo>1</attivo>
+			<g_nome_it>KWAY</g_nome_it>
+			<g_nome_en>KWAY</g_nome_en>
+			<g_descrizione_it>&lt;html /&gt;</g_descrizione_it>
+			<g_descrizione_en>&lt;html /&gt;</g_descrizione_en>
+			<gid>20</gid>
+			<viste>
+				<fronte>
+					<node>
+						<node>
+							<id>3026</id>
+							<filename>43-kway fronte nero.png</filename>
+							<type>1</type>
+							<size>1566526</size>
+							<last_mod>2010-10-14 20:23:42</last_mod>
+							<path>Prodotto/</path>
+							<ref_id>2681</ref_id>
+							<no_del>0</no_del>
+							<permessi/>
+							<ref_id_ver>0</ref_id_ver>
+							<version>0</version>
+							<description>Front</description>
+							<ref_ext/>
+						</node>
+					</node>
+				</fronte>
+				<retro>
+					<node>
+						<node>
+							<id>3027</id>
+							<filename>43-kway retro nero.png</filename>
+							<type>1</type>
+							<size>1589424</size>
+							<last_mod>2010-10-14 20:23:44</last_mod>
+							<path>ProdottoBack/</path>
+							<ref_id>2691</ref_id>
+							<no_del>0</no_del>
+							<permessi/>
+							<ref_id_ver>0</ref_id_ver>
+							<version>0</version>
+							<description>Back</description>
+							<ref_ext/>
+						</node>
+					</node>
+				</retro>
+			</viste>
+			<colore>
+				<node>
+					<node>
+						<id>2968</id>
+						<filename>16-NERO.png</filename>
+						<type>1</type>
+						<size>357850</size>
+						<last_mod>2010-10-14 11:35:33</last_mod>
+						<path>Colori/</path>
+						<ref_id>2701</ref_id>
+						<no_del>0</no_del>
+						<permessi/>
+						<ref_id_ver>0</ref_id_ver>
+						<version>0</version>
+						<description/>
+						<ref_ext/>
+					</node>
+				</node>
+			</colore>
+		</node>
+		<node>
+			<id>44</id>
+			<nome_it>KWAY VERDE CHIARO</nome_it>
+			<prezzo>16.9</prezzo>
+			<larghezza>0</larghezza>
+			<altezza>0</altezza>
+			<peso>0</peso>
+			<lati>2</lati>
+			<chiaro>0</chiaro>
+			<ref_colore>28</ref_colore>
+			<g1>0</g1>
+			<g2>0</g2>
+			<g3>0</g3>
+			<g4>0</g4>
+			<xs>0</xs>
+			<s>1</s>
+			<m>1</m>
+			<l>1</l>
+			<xl>1</xl>
+			<regola>0</regola>
+			<unica>0</unica>
+			<cod_art>KWAY VERDE CHIARO</cod_art>
+			<descr_it>&lt;html /&gt;</descr_it>
+			<ref_tipo>20</ref_tipo>
+			<nome_en>KWAY VERDE CHIARO</nome_en>
+			<descr_en>&lt;html /&gt;</descr_en>
+			<d_xs_it/>
+			<d_s_it/>
+			<d_m_it/>
+			<d_l_it/>
+			<d_xl_it/>
+			<d_unica_it/>
+			<d_regola_it/>
+			<xxl>0</xxl>
+			<xxxl>0</xxxl>
+			<d_xxl_it/>
+			<d_xxxl_it/>
+			<d_xs_en/>
+			<d_s_en/>
+			<d_m_en/>
+			<d_l_en/>
+			<d_xl_en/>
+			<d_xxl_en/>
+			<d_xxxl_en/>
+			<d_unica_en/>
+			<d_regola_en/>
+			<attivo>1</attivo>
+			<g_nome_it>KWAY</g_nome_it>
+			<g_nome_en>KWAY</g_nome_en>
+			<g_descrizione_it>&lt;html /&gt;</g_descrizione_it>
+			<g_descrizione_en>&lt;html /&gt;</g_descrizione_en>
+			<gid>20</gid>
+			<viste>
+				<fronte>
+					<node>
+						<node>
+							<id>3028</id>
+							<filename>44-kway fronte verdino.png</filename>
+							<type>1</type>
+							<size>6260913</size>
+							<last_mod>2010-10-14 20:28:10</last_mod>
+							<path>Prodotto/</path>
+							<ref_id>2681</ref_id>
+							<no_del>0</no_del>
+							<permessi/>
+							<ref_id_ver>0</ref_id_ver>
+							<version>0</version>
+							<description>Front</description>
+							<ref_ext/>
+						</node>
+					</node>
+				</fronte>
+				<retro>
+					<node>
+						<node>
+							<id>3029</id>
+							<filename>44-kway retro verdino.png</filename>
+							<type>1</type>
+							<size>6451300</size>
+							<last_mod>2010-10-14 20:28:11</last_mod>
+							<path>ProdottoBack/</path>
+							<ref_id>2691</ref_id>
+							<no_del>0</no_del>
+							<permessi/>
+							<ref_id_ver>0</ref_id_ver>
+							<version>0</version>
+							<description>Back</description>
+							<ref_ext/>
+						</node>
+					</node>
+				</retro>
+			</viste>
+			<colore>
+				<node>
+					<node>
+						<id>2980</id>
+						<filename>28-VERDE CHIARO.png</filename>
+						<type>1</type>
+						<size>894897</size>
+						<last_mod>2010-10-14 11:46:50</last_mod>
+						<path>Colori/</path>
+						<ref_id>2701</ref_id>
+						<no_del>0</no_del>
+						<permessi/>
+						<ref_id_ver>0</ref_id_ver>
+						<version>0</version>
+						<description/>
+						<ref_ext/>
+					</node>
+				</node>
+			</colore>
+		</node>
+		<node>
+			<id>45</id>
+			<nome_it>KWAY VIOLA</nome_it>
+			<prezzo>16.9</prezzo>
+			<larghezza>0</larghezza>
+			<altezza>0</altezza>
+			<peso>0</peso>
+			<lati>2</lati>
+			<chiaro>0</chiaro>
+			<ref_colore>29</ref_colore>
+			<g1>0</g1>
+			<g2>0</g2>
+			<g3>0</g3>
+			<g4>0</g4>
+			<xs>0</xs>
+			<s>1</s>
+			<m>1</m>
+			<l>1</l>
+			<xl>1</xl>
+			<regola>0</regola>
+			<unica>0</unica>
+			<cod_art>KWAY VIOLA</cod_art>
+			<descr_it>&lt;html /&gt;</descr_it>
+			<ref_tipo>20</ref_tipo>
+			<nome_en>KWAY VIOLA</nome_en>
+			<descr_en>&lt;html /&gt;</descr_en>
+			<d_xs_it/>
+			<d_s_it/>
+			<d_m_it/>
+			<d_l_it/>
+			<d_xl_it/>
+			<d_unica_it/>
+			<d_regola_it/>
+			<xxl>0</xxl>
+			<xxxl>0</xxxl>
+			<d_xxl_it/>
+			<d_xxxl_it/>
+			<d_xs_en/>
+			<d_s_en/>
+			<d_m_en/>
+			<d_l_en/>
+			<d_xl_en/>
+			<d_xxl_en/>
+			<d_xxxl_en/>
+			<d_unica_en/>
+			<d_regola_en/>
+			<attivo>1</attivo>
+			<g_nome_it>KWAY</g_nome_it>
+			<g_nome_en>KWAY</g_nome_en>
+			<g_descrizione_it>&lt;html /&gt;</g_descrizione_it>
+			<g_descrizione_en>&lt;html /&gt;</g_descrizione_en>
+			<gid>20</gid>
+			<viste>
+				<fronte>
+					<node>
+						<node>
+							<id>2845</id>
+							<filename>45-kway fronte viola.png</filename>
+							<type>1</type>
+							<size>5808091</size>
+							<last_mod>2010-10-11 17:40:03</last_mod>
+							<path>Prodotto/</path>
+							<ref_id>2681</ref_id>
+							<no_del>0</no_del>
+							<permessi/>
+							<ref_id_ver>0</ref_id_ver>
+							<version>0</version>
+							<description>Front</description>
+							<ref_ext/>
+						</node>
+					</node>
+				</fronte>
+				<retro>
+					<node>
+						<node>
+							<id>2846</id>
+							<filename>45-kway retro viola.png</filename>
+							<type>1</type>
+							<size>5997611</size>
+							<last_mod>2010-10-11 17:40:04</last_mod>
+							<path>ProdottoBack/</path>
+							<ref_id>2691</ref_id>
+							<no_del>0</no_del>
+							<permessi/>
+							<ref_id_ver>0</ref_id_ver>
+							<version>0</version>
+							<description>Back</description>
+							<ref_ext/>
+						</node>
+					</node>
+				</retro>
+			</viste>
+			<colore>
+				<node>
+					<node>
+						<id>2981</id>
+						<filename>29-VIOLA.png</filename>
+						<type>1</type>
+						<size>531137</size>
+						<last_mod>2010-10-14 11:48:23</last_mod>
+						<path>Colori/</path>
+						<ref_id>2701</ref_id>
+						<no_del>0</no_del>
+						<permessi/>
+						<ref_id_ver>0</ref_id_ver>
+						<version>0</version>
+						<description/>
+						<ref_ext/>
+					</node>
+				</node>
+			</colore>
+		</node>
+	</node>
+	<node>
+		<node>
+			<id>32</id>
+			<nome_it>FELPA CON CAPPUCCIO ROSSA</nome_it>
+			<prezzo>29.9</prezzo>
+			<larghezza>0</larghezza>
+			<altezza>0</altezza>
+			<peso>0</peso>
+			<lati>2</lati>
+			<chiaro>0</chiaro>
+			<ref_colore>20</ref_colore>
+			<g1>0</g1>
+			<g2>0</g2>
+			<g3>0</g3>
+			<g4>0</g4>
+			<xs>0</xs>
+			<s>1</s>
+			<m>1</m>
+			<l>1</l>
+			<xl>1</xl>
+			<regola>0</regola>
+			<unica>0</unica>
+			<cod_art>FELPA CON CAPPUCCIO ROSSA</cod_art>
+			<descr_it>&lt;p&gt;&amp;nbsp;&lt;/p&gt;</descr_it>
+			<ref_tipo>21</ref_tipo>
+			<nome_en>FELPA CON CAPPUCCIO ROSSA</nome_en>
+			<descr_en>&lt;p&gt;&amp;nbsp;&lt;/p&gt;</descr_en>
+			<d_xs_it/>
+			<d_s_it/>
+			<d_m_it/>
+			<d_l_it/>
+			<d_xl_it/>
+			<d_unica_it/>
+			<d_regola_it/>
+			<xxl>1</xxl>
+			<xxxl>0</xxxl>
+			<d_xxl_it/>
+			<d_xxxl_it/>
+			<d_xs_en/>
+			<d_s_en/>
+			<d_m_en/>
+			<d_l_en/>
+			<d_xl_en/>
+			<d_xxl_en/>
+			<d_xxxl_en/>
+			<d_unica_en/>
+			<d_regola_en/>
+			<attivo>1</attivo>
+			<g_nome_it>FELPA  CAPPUCCIO UNISEX</g_nome_it>
+			<g_nome_en>FELPA CAPPUCCIO UNISEX</g_nome_en>
+			<g_descrizione_it>&lt;html /&gt;</g_descrizione_it>
+			<g_descrizione_en>&lt;html /&gt;</g_descrizione_en>
+			<gid>21</gid>
+			<viste>
+				<fronte>
+					<node>
+						<node>
+							<id>2994</id>
+							<filename>32-felpa_cappuccio_fronte_rossa.png</filename>
+							<type>1</type>
+							<size>4167284</size>
+							<last_mod>2010-10-14 18:24:11</last_mod>
+							<path>Prodotto/</path>
+							<ref_id>2681</ref_id>
+							<no_del>0</no_del>
+							<permessi/>
+							<ref_id_ver>0</ref_id_ver>
+							<version>0</version>
+							<description>Front</description>
+							<ref_ext/>
+						</node>
+					</node>
+				</fronte>
+				<retro>
+					<node>
+						<node>
+							<id>2995</id>
+							<filename>32-felpa_cappuccio_retro_rossa.png</filename>
+							<type>1</type>
+							<size>2269770</size>
+							<last_mod>2010-10-14 18:24:12</last_mod>
+							<path>ProdottoBack/</path>
+							<ref_id>2691</ref_id>
+							<no_del>0</no_del>
+							<permessi/>
+							<ref_id_ver>0</ref_id_ver>
+							<version>0</version>
+							<description>Back</description>
+							<ref_ext/>
+						</node>
+					</node>
+				</retro>
+			</viste>
+			<colore>
+				<node>
+					<node>
+						<id>2972</id>
+						<filename>20-ROSSO.png</filename>
+						<type>1</type>
+						<size>539449</size>
+						<last_mod>2010-10-14 11:37:55</last_mod>
+						<path>Colori/</path>
+						<ref_id>2701</ref_id>
+						<no_del>0</no_del>
+						<permessi/>
+						<ref_id_ver>0</ref_id_ver>
+						<version>0</version>
+						<description/>
+						<ref_ext/>
+					</node>
+				</node>
+			</colore>
+		</node>
+		<node>
+			<id>107</id>
+			<nome_it>FELPA CON CAPPUCCIO VERDONE</nome_it>
+			<prezzo>29.9</prezzo>
+			<larghezza>0</larghezza>
+			<altezza>0</altezza>
+			<peso>0</peso>
+			<lati>2</lati>
+			<chiaro>0</chiaro>
+			<ref_colore>27</ref_colore>
+			<g1>0</g1>
+			<g2>0</g2>
+			<g3>0</g3>
+			<g4>0</g4>
+			<xs>0</xs>
+			<s>1</s>
+			<m>1</m>
+			<l>1</l>
+			<xl>1</xl>
+			<regola>0</regola>
+			<unica>0</unica>
+			<cod_art>FELPA CON CAPPUCCIO VERDONE</cod_art>
+			<descr_it>&lt;html /&gt;</descr_it>
+			<ref_tipo>21</ref_tipo>
+			<nome_en>FELPA CON CAPPUCCIO VERDONE</nome_en>
+			<descr_en>&lt;html /&gt;</descr_en>
+			<d_xs_it/>
+			<d_s_it/>
+			<d_m_it/>
+			<d_l_it/>
+			<d_xl_it/>
+			<d_unica_it/>
+			<d_regola_it/>
+			<xxl>1</xxl>
+			<xxxl>0</xxxl>
+			<d_xxl_it/>
+			<d_xxxl_it/>
+			<d_xs_en/>
+			<d_s_en/>
+			<d_m_en/>
+			<d_l_en/>
+			<d_xl_en/>
+			<d_xxl_en/>
+			<d_xxxl_en/>
+			<d_unica_en/>
+			<d_regola_en/>
+			<attivo>1</attivo>
+			<g_nome_it>FELPA  CAPPUCCIO UNISEX</g_nome_it>
+			<g_nome_en>FELPA CAPPUCCIO UNISEX</g_nome_en>
+			<g_descrizione_it>&lt;html /&gt;</g_descrizione_it>
+			<g_descrizione_en>&lt;html /&gt;</g_descrizione_en>
+			<gid>21</gid>
+			<viste>
+				<fronte>
+					<node>
+						<node>
+							<id>3097</id>
+							<filename>107-felpa cappuccio fronte verdone.png</filename>
+							<type>1</type>
+							<size>2192738</size>
+							<last_mod>2010-10-18 16:39:15</last_mod>
+							<path>Prodotto/</path>
+							<ref_id>2681</ref_id>
+							<no_del>0</no_del>
+							<permessi/>
+							<ref_id_ver>0</ref_id_ver>
+							<version>0</version>
+							<description>Front</description>
+							<ref_ext/>
+						</node>
+					</node>
+				</fronte>
+				<retro>
+					<node>
+						<node>
+							<id>3098</id>
+							<filename>107-felpa cappuccio retro verdone.png</filename>
+							<type>1</type>
+							<size>2960160</size>
+							<last_mod>2010-10-18 16:39:18</last_mod>
+							<path>ProdottoBack/</path>
+							<ref_id>2691</ref_id>
+							<no_del>0</no_del>
+							<permessi/>
+							<ref_id_ver>0</ref_id_ver>
+							<version>0</version>
+							<description>Back</description>
+							<ref_ext/>
+						</node>
+					</node>
+				</retro>
+			</viste>
+			<colore>
+				<node>
+					<node>
+						<id>2979</id>
+						<filename>27-VERDE SCURO.png</filename>
+						<type>1</type>
+						<size>509075</size>
+						<last_mod>2010-10-14 11:46:22</last_mod>
+						<path>Colori/</path>
+						<ref_id>2701</ref_id>
+						<no_del>0</no_del>
+						<permessi/>
+						<ref_id_ver>0</ref_id_ver>
+						<version>0</version>
+						<description/>
+						<ref_ext/>
+					</node>
+				</node>
+			</colore>
+		</node>
+		<node>
+			<id>109</id>
+			<nome_it>FELPA CON CAPPUCCIO BIANCA</nome_it>
+			<prezzo>29.9</prezzo>
+			<larghezza>0</larghezza>
+			<altezza>0</altezza>
+			<peso>0</peso>
+			<lati>2</lati>
+			<chiaro>0</chiaro>
+			<ref_colore>15</ref_colore>
+			<g1>0</g1>
+			<g2>0</g2>
+			<g3>0</g3>
+			<g4>0</g4>
+			<xs>0</xs>
+			<s>1</s>
+			<m>1</m>
+			<l>1</l>
+			<xl>1</xl>
+			<regola>0</regola>
+			<unica>0</unica>
+			<cod_art>FELPA CON CAPPUCCIO BIANCA</cod_art>
+			<descr_it>&lt;html /&gt;</descr_it>
+			<ref_tipo>21</ref_tipo>
+			<nome_en>FELPA CON CAPPUCCIO BIANCA</nome_en>
+			<descr_en>&lt;html /&gt;</descr_en>
+			<d_xs_it/>
+			<d_s_it/>
+			<d_m_it/>
+			<d_l_it/>
+			<d_xl_it/>
+			<d_unica_it/>
+			<d_regola_it/>
+			<xxl>1</xxl>
+			<xxxl>0</xxxl>
+			<d_xxl_it/>
+			<d_xxxl_it/>
+			<d_xs_en/>
+			<d_s_en/>
+			<d_m_en/>
+			<d_l_en/>
+			<d_xl_en/>
+			<d_xxl_en/>
+			<d_xxxl_en/>
+			<d_unica_en/>
+			<d_regola_en/>
+			<attivo>1</attivo>
+			<g_nome_it>FELPA  CAPPUCCIO UNISEX</g_nome_it>
+			<g_nome_en>FELPA CAPPUCCIO UNISEX</g_nome_en>
+			<g_descrizione_it>&lt;html /&gt;</g_descrizione_it>
+			<g_descrizione_en>&lt;html /&gt;</g_descrizione_en>
+			<gid>21</gid>
+			<viste>
+				<fronte>
+					<node>
+						<node>
+							<id>3101</id>
+							<filename>109-felpa cappuccio fronte bianca.png</filename>
+							<type>1</type>
+							<size>4696721</size>
+							<last_mod>2010-10-18 16:41:23</last_mod>
+							<path>Prodotto/</path>
+							<ref_id>2681</ref_id>
+							<no_del>0</no_del>
+							<permessi/>
+							<ref_id_ver>0</ref_id_ver>
+							<version>0</version>
+							<description>Front</description>
+							<ref_ext/>
+						</node>
+					</node>
+				</fronte>
+				<retro>
+					<node>
+						<node>
+							<id>3102</id>
+							<filename>109-felpa cappuccio retro bianca.png</filename>
+							<type>1</type>
+							<size>5289167</size>
+							<last_mod>2010-10-18 16:41:24</last_mod>
+							<path>ProdottoBack/</path>
+							<ref_id>2691</ref_id>
+							<no_del>0</no_del>
+							<permessi/>
+							<ref_id_ver>0</ref_id_ver>
+							<version>0</version>
+							<description>Back</description>
+							<ref_ext/>
+						</node>
+					</node>
+				</retro>
+			</viste>
+			<colore>
+				<node>
+					<node>
+						<id>2967</id>
+						<filename>15-BIANCO.png</filename>
+						<type>1</type>
+						<size>491820</size>
+						<last_mod>2010-10-14 11:35:12</last_mod>
+						<path>Colori/</path>
+						<ref_id>2701</ref_id>
+						<no_del>0</no_del>
+						<permessi/>
+						<ref_id_ver>0</ref_id_ver>
+						<version>0</version>
+						<description/>
+						<ref_ext/>
+					</node>
+				</node>
+			</colore>
+		</node>
+		<node>
+			<id>110</id>
+			<nome_it>FELPA CON CAPPUCCIO GRIGIO CHIARO</nome_it>
+			<prezzo>29.9</prezzo>
+			<larghezza>0</larghezza>
+			<altezza>0</altezza>
+			<peso>0</peso>
+			<lati>2</lati>
+			<chiaro>0</chiaro>
+			<ref_colore>22</ref_colore>
+			<g1>0</g1>
+			<g2>0</g2>
+			<g3>0</g3>
+			<g4>0</g4>
+			<xs>0</xs>
+			<s>1</s>
+			<m>1</m>
+			<l>1</l>
+			<xl>1</xl>
+			<regola>0</regola>
+			<unica>0</unica>
+			<cod_art>FELPA CON CAPPUCCIO GRIGIO CHIARO</cod_art>
+			<descr_it>&lt;html /&gt;</descr_it>
+			<ref_tipo>21</ref_tipo>
+			<nome_en>FELPA CON CAPPUCCIO GRIGIO CHIARO</nome_en>
+			<descr_en>&lt;html /&gt;</descr_en>
+			<d_xs_it/>
+			<d_s_it/>
+			<d_m_it/>
+			<d_l_it/>
+			<d_xl_it/>
+			<d_unica_it/>
+			<d_regola_it/>
+			<xxl>1</xxl>
+			<xxxl>0</xxxl>
+			<d_xxl_it/>
+			<d_xxxl_it/>
+			<d_xs_en/>
+			<d_s_en/>
+			<d_m_en/>
+			<d_l_en/>
+			<d_xl_en/>
+			<d_xxl_en/>
+			<d_xxxl_en/>
+			<d_unica_en/>
+			<d_regola_en/>
+			<attivo>1</attivo>
+			<g_nome_it>FELPA  CAPPUCCIO UNISEX</g_nome_it>
+			<g_nome_en>FELPA CAPPUCCIO UNISEX</g_nome_en>
+			<g_descrizione_it>&lt;html /&gt;</g_descrizione_it>
+			<g_descrizione_en>&lt;html /&gt;</g_descrizione_en>
+			<gid>21</gid>
+			<viste>
+				<fronte>
+					<node>
+						<node>
+							<id>3103</id>
+							<filename>110-felpa cappuccio fronte grigia.png</filename>
+							<type>1</type>
+							<size>5651753</size>
+							<last_mod>2010-10-18 16:43:05</last_mod>
+							<path>Prodotto/</path>
+							<ref_id>2681</ref_id>
+							<no_del>0</no_del>
+							<permessi/>
+							<ref_id_ver>0</ref_id_ver>
+							<version>0</version>
+							<description>Front</description>
+							<ref_ext/>
+						</node>
+					</node>
+				</fronte>
+				<retro>
+					<node>
+						<node>
+							<id>3104</id>
+							<filename>110-felpa cappuccio retro grigia.png</filename>
+							<type>1</type>
+							<size>2533527</size>
+							<last_mod>2010-10-18 16:43:05</last_mod>
+							<path>ProdottoBack/</path>
+							<ref_id>2691</ref_id>
+							<no_del>0</no_del>
+							<permessi/>
+							<ref_id_ver>0</ref_id_ver>
+							<version>0</version>
+							<description>Back</description>
+							<ref_ext/>
+						</node>
+					</node>
+				</retro>
+			</viste>
+			<colore>
+				<node>
+					<node>
+						<id>2974</id>
+						<filename>22-GRIGIO MELANGE.png</filename>
+						<type>1</type>
+						<size>459355</size>
+						<last_mod>2010-10-14 11:40:36</last_mod>
+						<path>Colori/</path>
+						<ref_id>2701</ref_id>
+						<no_del>0</no_del>
+						<permessi/>
+						<ref_id_ver>0</ref_id_ver>
+						<version>0</version>
+						<description/>
+						<ref_ext/>
+					</node>
+				</node>
+			</colore>
+		</node>
+		<node>
+			<id>111</id>
+			<nome_it>FELPA CON CAPPUCCIO NERA</nome_it>
+			<prezzo>29.9</prezzo>
+			<larghezza>0</larghezza>
+			<altezza>0</altezza>
+			<peso>0</peso>
+			<lati>2</lati>
+			<chiaro>0</chiaro>
+			<ref_colore>16</ref_colore>
+			<g1>0</g1>
+			<g2>0</g2>
+			<g3>0</g3>
+			<g4>0</g4>
+			<xs>0</xs>
+			<s>1</s>
+			<m>1</m>
+			<l>1</l>
+			<xl>1</xl>
+			<regola>0</regola>
+			<unica>0</unica>
+			<cod_art>FELPA CON CAPPUCCIO NERA</cod_art>
+			<descr_it>&lt;html /&gt;</descr_it>
+			<ref_tipo>21</ref_tipo>
+			<nome_en>FELPA CON CAPPUCCIO NERA</nome_en>
+			<descr_en>&lt;html /&gt;</descr_en>
+			<d_xs_it/>
+			<d_s_it/>
+			<d_m_it/>
+			<d_l_it/>
+			<d_xl_it/>
+			<d_unica_it/>
+			<d_regola_it/>
+			<xxl>1</xxl>
+			<xxxl>0</xxxl>
+			<d_xxl_it/>
+			<d_xxxl_it/>
+			<d_xs_en/>
+			<d_s_en/>
+			<d_m_en/>
+			<d_l_en/>
+			<d_xl_en/>
+			<d_xxl_en/>
+			<d_xxxl_en/>
+			<d_unica_en/>
+			<d_regola_en/>
+			<attivo>1</attivo>
+			<g_nome_it>FELPA  CAPPUCCIO UNISEX</g_nome_it>
+			<g_nome_en>FELPA CAPPUCCIO UNISEX</g_nome_en>
+			<g_descrizione_it>&lt;html /&gt;</g_descrizione_it>
+			<g_descrizione_en>&lt;html /&gt;</g_descrizione_en>
+			<gid>21</gid>
+			<viste>
+				<fronte>
+					<node>
+						<node>
+							<id>3105</id>
+							<filename>111-felpa cappuccio fronte nera.png</filename>
+							<type>1</type>
+							<size>3101627</size>
+							<last_mod>2010-10-18 16:43:45</last_mod>
+							<path>Prodotto/</path>
+							<ref_id>2681</ref_id>
+							<no_del>0</no_del>
+							<permessi/>
+							<ref_id_ver>0</ref_id_ver>
+							<version>0</version>
+							<description>Front</description>
+							<ref_ext/>
+						</node>
+					</node>
+				</fronte>
+				<retro>
+					<node>
+						<node>
+							<id>3106</id>
+							<filename>111-felpa cappuccio retro nera.png</filename>
+							<type>1</type>
+							<size>2879838</size>
+							<last_mod>2010-10-18 16:43:46</last_mod>
+							<path>ProdottoBack/</path>
+							<ref_id>2691</ref_id>
+							<no_del>0</no_del>
+							<permessi/>
+							<ref_id_ver>0</ref_id_ver>
+							<version>0</version>
+							<description>Back</description>
+							<ref_ext/>
+						</node>
+					</node>
+				</retro>
+			</viste>
+			<colore>
+				<node>
+					<node>
+						<id>2968</id>
+						<filename>16-NERO.png</filename>
+						<type>1</type>
+						<size>357850</size>
+						<last_mod>2010-10-14 11:35:33</last_mod>
+						<path>Colori/</path>
+						<ref_id>2701</ref_id>
+						<no_del>0</no_del>
+						<permessi/>
+						<ref_id_ver>0</ref_id_ver>
+						<version>0</version>
+						<description/>
+						<ref_ext/>
+					</node>
+				</node>
+			</colore>
+		</node>
+	</node>
+	<node>
+		<node>
+			<id>46</id>
+			<nome_it>GIACCA UOMO NERA</nome_it>
+			<prezzo>64.9</prezzo>
+			<larghezza>0</larghezza>
+			<altezza>0</altezza>
+			<peso>0</peso>
+			<lati>2</lati>
+			<chiaro>0</chiaro>
+			<ref_colore>16</ref_colore>
+			<g1>0</g1>
+			<g2>0</g2>
+			<g3>0</g3>
+			<g4>0</g4>
+			<xs>0</xs>
+			<s>1</s>
+			<m>1</m>
+			<l>1</l>
+			<xl>1</xl>
+			<regola>0</regola>
+			<unica>0</unica>
+			<cod_art>GIACCA UOMO NERA</cod_art>
+			<descr_it>&lt;html /&gt;</descr_it>
+			<ref_tipo>22</ref_tipo>
+			<nome_en>GIACCA UOMO NERA</nome_en>
+			<descr_en>&lt;html /&gt;</descr_en>
+			<d_xs_it/>
+			<d_s_it/>
+			<d_m_it/>
+			<d_l_it/>
+			<d_xl_it/>
+			<d_unica_it/>
+			<d_regola_it/>
+			<xxl>0</xxl>
+			<xxxl>0</xxxl>
+			<d_xxl_it/>
+			<d_xxxl_it/>
+			<d_xs_en/>
+			<d_s_en/>
+			<d_m_en/>
+			<d_l_en/>
+			<d_xl_en/>
+			<d_xxl_en/>
+			<d_xxxl_en/>
+			<d_unica_en/>
+			<d_regola_en/>
+			<attivo>1</attivo>
+			<g_nome_it>GIACCA</g_nome_it>
+			<g_nome_en>GIACCA</g_nome_en>
+			<g_descrizione_it>&lt;html /&gt;</g_descrizione_it>
+			<g_descrizione_en>&lt;html /&gt;</g_descrizione_en>
+			<gid>22</gid>
+			<viste>
+				<fronte>
+					<node>
+						<node>
+							<id>3022</id>
+							<filename>46-uomo giacca fronte nera.png</filename>
+							<type>1</type>
+							<size>3726597</size>
+							<last_mod>2010-10-14 20:14:33</last_mod>
+							<path>Prodotto/</path>
+							<ref_id>2681</ref_id>
+							<no_del>0</no_del>
+							<permessi/>
+							<ref_id_ver>0</ref_id_ver>
+							<version>0</version>
+							<description>Front</description>
+							<ref_ext/>
+						</node>
+					</node>
+				</fronte>
+				<retro>
+					<node>
+						<node>
+							<id>3023</id>
+							<filename>46-uomo giacca retro nera.png</filename>
+							<type>1</type>
+							<size>2877114</size>
+							<last_mod>2010-10-14 20:14:34</last_mod>
+							<path>ProdottoBack/</path>
+							<ref_id>2691</ref_id>
+							<no_del>0</no_del>
+							<permessi/>
+							<ref_id_ver>0</ref_id_ver>
+							<version>0</version>
+							<description>Back</description>
+							<ref_ext/>
+						</node>
+					</node>
+				</retro>
+			</viste>
+			<colore>
+				<node>
+					<node>
+						<id>2968</id>
+						<filename>16-NERO.png</filename>
+						<type>1</type>
+						<size>357850</size>
+						<last_mod>2010-10-14 11:35:33</last_mod>
+						<path>Colori/</path>
+						<ref_id>2701</ref_id>
+						<no_del>0</no_del>
+						<permessi/>
+						<ref_id_ver>0</ref_id_ver>
+						<version>0</version>
+						<description/>
+						<ref_ext/>
+					</node>
+				</node>
+			</colore>
+		</node>
+		<node>
+			<id>47</id>
+			<nome_it>GIACCA UOMO BIANCA</nome_it>
+			<prezzo>64.9</prezzo>
+			<larghezza>0</larghezza>
+			<altezza>0</altezza>
+			<peso>0</peso>
+			<lati>2</lati>
+			<chiaro>0</chiaro>
+			<ref_colore>15</ref_colore>
+			<g1>0</g1>
+			<g2>0</g2>
+			<g3>0</g3>
+			<g4>0</g4>
+			<xs>0</xs>
+			<s>1</s>
+			<m>1</m>
+			<l>1</l>
+			<xl>1</xl>
+			<regola>0</regola>
+			<unica>0</unica>
+			<cod_art>GIACCA UOMO BIANCA</cod_art>
+			<descr_it>&lt;html /&gt;</descr_it>
+			<ref_tipo>22</ref_tipo>
+			<nome_en>GIACCA UOMO BIANCA</nome_en>
+			<descr_en>&lt;html /&gt;</descr_en>
+			<d_xs_it/>
+			<d_s_it/>
+			<d_m_it/>
+			<d_l_it/>
+			<d_xl_it/>
+			<d_unica_it/>
+			<d_regola_it/>
+			<xxl>0</xxl>
+			<xxxl>0</xxxl>
+			<d_xxl_it/>
+			<d_xxxl_it/>
+			<d_xs_en/>
+			<d_s_en/>
+			<d_m_en/>
+			<d_l_en/>
+			<d_xl_en/>
+			<d_xxl_en/>
+			<d_xxxl_en/>
+			<d_unica_en/>
+			<d_regola_en/>
+			<attivo>1</attivo>
+			<g_nome_it>GIACCA</g_nome_it>
+			<g_nome_en>GIACCA</g_nome_en>
+			<g_descrizione_it>&lt;html /&gt;</g_descrizione_it>
+			<g_descrizione_en>&lt;html /&gt;</g_descrizione_en>
+			<gid>22</gid>
+			<viste>
+				<fronte>
+					<node>
+						<node>
+							<id>3020</id>
+							<filename>47-uomo giacca fronte bianca.png</filename>
+							<type>1</type>
+							<size>4466902</size>
+							<last_mod>2010-10-14 20:10:59</last_mod>
+							<path>Prodotto/</path>
+							<ref_id>2681</ref_id>
+							<no_del>0</no_del>
+							<permessi/>
+							<ref_id_ver>0</ref_id_ver>
+							<version>0</version>
+							<description>Front</description>
+							<ref_ext/>
+						</node>
+					</node>
+				</fronte>
+				<retro>
+					<node>
+						<node>
+							<id>3021</id>
+							<filename>47-uomo giacca retro bianca.png</filename>
+							<type>1</type>
+							<size>4788332</size>
+							<last_mod>2010-10-14 20:11:00</last_mod>
+							<path>ProdottoBack/</path>
+							<ref_id>2691</ref_id>
+							<no_del>0</no_del>
+							<permessi/>
+							<ref_id_ver>0</ref_id_ver>
+							<version>0</version>
+							<description>Back</description>
+							<ref_ext/>
+						</node>
+					</node>
+				</retro>
+			</viste>
+			<colore>
+				<node>
+					<node>
+						<id>2967</id>
+						<filename>15-BIANCO.png</filename>
+						<type>1</type>
+						<size>491820</size>
+						<last_mod>2010-10-14 11:35:12</last_mod>
+						<path>Colori/</path>
+						<ref_id>2701</ref_id>
+						<no_del>0</no_del>
+						<permessi/>
+						<ref_id_ver>0</ref_id_ver>
+						<version>0</version>
+						<description/>
+						<ref_ext/>
+					</node>
+				</node>
+			</colore>
+		</node>
+	</node>
+	<node>
+		<node>
+			<id>8</id>
+			<nome_it>T-SHIRT BICOLORE MANICA CORTA BIANCO NERA</nome_it>
+			<prezzo>10.9</prezzo>
+			<larghezza>0</larghezza>
+			<altezza>0</altezza>
+			<peso>0</peso>
+			<lati>2</lati>
+			<chiaro>1</chiaro>
+			<ref_colore>30</ref_colore>
+			<g1>8</g1>
+			<g2>4</g2>
+			<g3>2</g3>
+			<g4>2</g4>
+			<xs>0</xs>
+			<s>1</s>
+			<m>1</m>
+			<l>1</l>
+			<xl>1</xl>
+			<regola>0</regola>
+			<unica>0</unica>
+			<cod_art>T-SHIRT BICOLORE MANICA CORTA BIANCO NERA</cod_art>
+			<descr_it>&lt;p&gt;160 g/m&amp;sup2;, 100 % cotone (filato Belcoro&amp;reg;), girocollo con bordino stretto a costine 1x1 e maniche raglan in colore contrastante, impunture sul girocollo, sul bordo delle maniche e sulla base, tubolare.&lt;/p&gt;</descr_it>
+			<ref_tipo>23</ref_tipo>
+			<nome_en>T-SHIRT BASEBALL WHITE/BLACK</nome_en>
+			<descr_en>&lt;p&gt;160 gsm, 100 % cotton (Belcoro&amp;reg; yarn), contrast colour 1x1 narrow neck rib with Lycra, contrast colour raglan sleeves, double-needle stitched neckline, sleeve ends and bottom hem, tubular fabric.&lt;/p&gt;</descr_en>
+			<d_xs_it/>
+			<d_s_it>A 46 cm x B 69 cm   TAGLIA  42-44  	</d_s_it>
+			<d_m_it>A 47.5 cm x B 71.5 cm 	TAGLIA 46-48</d_m_it>
+			<d_l_it>A 53 cm x B 72.5 cm 	TAGLIA 48-50</d_l_it>
+			<d_xl_it>A 58.5 cm x B 76.5 cm 	TAGLIA 52-54</d_xl_it>
+			<d_unica_it/>
+			<d_regola_it/>
+			<xxl>0</xxl>
+			<xxxl>0</xxxl>
+			<d_xxl_it/>
+			<d_xxxl_it/>
+			<d_xs_en/>
+			<d_s_en>A 46 cm x B 69 cm   U.S. SIZE 34- 36</d_s_en>
+			<d_m_en>A 47.5 cm x B 71.5 cm 	U.S. SIZE 38-40</d_m_en>
+			<d_l_en>A 53 cm x B 72.5 cm 	U.S. SIZE 42</d_l_en>
+			<d_xl_en>A 58.5 cm x B 76.5 cm 	U.S. SIZE  44</d_xl_en>
+			<d_xxl_en/>
+			<d_xxxl_en/>
+			<d_unica_en/>
+			<d_regola_en/>
+			<attivo>1</attivo>
+			<g_nome_it>BICOLORE MANICA CORTA</g_nome_it>
+			<g_nome_en>BICOLORE MANICA CORTA</g_nome_en>
+			<g_descrizione_it>&lt;html /&gt;</g_descrizione_it>
+			<g_descrizione_en>&lt;html /&gt;</g_descrizione_en>
+			<gid>23</gid>
+			<viste>
+				<fronte>
+					<node>
+						<node>
+							<id>3032</id>
+							<filename>8-fronte bicolore mc bianca nera.png</filename>
+							<type>1</type>
+							<size>2352516</size>
+							<last_mod>2010-10-14 20:39:56</last_mod>
+							<path>Prodotto/</path>
+							<ref_id>2681</ref_id>
+							<no_del>0</no_del>
+							<permessi/>
+							<ref_id_ver>0</ref_id_ver>
+							<version>0</version>
+							<description>Front</description>
+							<ref_ext/>
+						</node>
+					</node>
+				</fronte>
+				<retro>
+					<node>
+						<node>
+							<id>3033</id>
+							<filename>8-retro bicolore mc bianca nera.png</filename>
+							<type>1</type>
+							<size>2380342</size>
+							<last_mod>2010-10-14 20:39:57</last_mod>
+							<path>ProdottoBack/</path>
+							<ref_id>2691</ref_id>
+							<no_del>0</no_del>
+							<permessi/>
+							<ref_id_ver>0</ref_id_ver>
+							<version>0</version>
+							<description>Back</description>
+							<ref_ext/>
+						</node>
+					</node>
+				</retro>
+			</viste>
+			<colore>
+				<node>
+					<node>
+						<id>3250</id>
+						<filename>30-30-BIANCO-NERO.png</filename>
+						<type>1</type>
+						<size>17292</size>
+						<last_mod>2010-11-08 01:21:20</last_mod>
+						<path>Colori/</path>
+						<ref_id>2701</ref_id>
+						<no_del>0</no_del>
+						<permessi/>
+						<ref_id_ver>0</ref_id_ver>
+						<version>0</version>
+						<description/>
+						<ref_ext/>
+					</node>
+				</node>
+			</colore>
+		</node>
+		<node>
+			<id>15</id>
+			<nome_it>T-SHIRT BICOLORE MANICA CORTA BIANCA ROSSA</nome_it>
+			<prezzo>10.9</prezzo>
+			<larghezza>0</larghezza>
+			<altezza>0</altezza>
+			<peso>0</peso>
+			<lati>2</lati>
+			<chiaro>0</chiaro>
+			<ref_colore>31</ref_colore>
+			<g1>0</g1>
+			<g2>0</g2>
+			<g3>0</g3>
+			<g4>0</g4>
+			<xs>0</xs>
+			<s>1</s>
+			<m>1</m>
+			<l>1</l>
+			<xl>1</xl>
+			<regola>0</regola>
+			<unica>0</unica>
+			<cod_art>T-SHIRT BICOLORE MANICA CORTA BIANCA ROSSA</cod_art>
+			<descr_it>&lt;html /&gt;</descr_it>
+			<ref_tipo>23</ref_tipo>
+			<nome_en> bicolore mc bianca rossa</nome_en>
+			<descr_en>&lt;html /&gt;</descr_en>
+			<d_xs_it/>
+			<d_s_it/>
+			<d_m_it/>
+			<d_l_it/>
+			<d_xl_it/>
+			<d_unica_it/>
+			<d_regola_it/>
+			<xxl>0</xxl>
+			<xxxl>0</xxxl>
+			<d_xxl_it/>
+			<d_xxxl_it/>
+			<d_xs_en/>
+			<d_s_en/>
+			<d_m_en/>
+			<d_l_en/>
+			<d_xl_en/>
+			<d_xxl_en/>
+			<d_xxxl_en/>
+			<d_unica_en/>
+			<d_regola_en/>
+			<attivo>1</attivo>
+			<g_nome_it>BICOLORE MANICA CORTA</g_nome_it>
+			<g_nome_en>BICOLORE MANICA CORTA</g_nome_en>
+			<g_descrizione_it>&lt;html /&gt;</g_descrizione_it>
+			<g_descrizione_en>&lt;html /&gt;</g_descrizione_en>
+			<gid>23</gid>
+			<viste>
+				<fronte>
+					<node>
+						<node>
+							<id>3030</id>
+							<filename>15-fronte bicolore mc bianca rossa.png</filename>
+							<type>1</type>
+							<size>4362313</size>
+							<last_mod>2010-10-14 20:31:46</last_mod>
+							<path>Prodotto/</path>
+							<ref_id>2681</ref_id>
+							<no_del>0</no_del>
+							<permessi/>
+							<ref_id_ver>0</ref_id_ver>
+							<version>0</version>
+							<description>Front</description>
+							<ref_ext/>
+						</node>
+					</node>
+				</fronte>
+				<retro>
+					<node>
+						<node>
+							<id>3031</id>
+							<filename>15-retro bicolore mc bianca rossa.png</filename>
+							<type>1</type>
+							<size>3337395</size>
+							<last_mod>2010-10-14 20:31:47</last_mod>
+							<path>ProdottoBack/</path>
+							<ref_id>2691</ref_id>
+							<no_del>0</no_del>
+							<permessi/>
+							<ref_id_ver>0</ref_id_ver>
+							<version>0</version>
+							<description>Back</description>
+							<ref_ext/>
+						</node>
+					</node>
+				</retro>
+			</viste>
+			<colore>
+				<node>
+					<node>
+						<id>2983</id>
+						<filename>31-BIANCO-ROSSO.png</filename>
+						<type>1</type>
+						<size>17281</size>
+						<last_mod>2010-10-14 11:49:14</last_mod>
+						<path>Colori/</path>
+						<ref_id>2701</ref_id>
+						<no_del>0</no_del>
+						<permessi/>
+						<ref_id_ver>0</ref_id_ver>
+						<version>0</version>
+						<description/>
+						<ref_ext/>
+					</node>
+				</node>
+			</colore>
+		</node>
+	</node>
+	<node>
+		<node>
+			<id>37</id>
+			<nome_it>FELPA NINJA NERA</nome_it>
+			<prezzo>39.9</prezzo>
+			<larghezza>0</larghezza>
+			<altezza>0</altezza>
+			<peso>0</peso>
+			<lati>2</lati>
+			<chiaro>0</chiaro>
+			<ref_colore>16</ref_colore>
+			<g1>0</g1>
+			<g2>0</g2>
+			<g3>0</g3>
+			<g4>0</g4>
+			<xs>0</xs>
+			<s>1</s>
+			<m>1</m>
+			<l>1</l>
+			<xl>1</xl>
+			<regola>0</regola>
+			<unica>0</unica>
+			<cod_art>FELPA NINJA NERA</cod_art>
+			<descr_it>&lt;html /&gt;</descr_it>
+			<ref_tipo>26</ref_tipo>
+			<nome_en>FELPA NINJA NERA</nome_en>
+			<descr_en>&lt;html /&gt;</descr_en>
+			<d_xs_it/>
+			<d_s_it/>
+			<d_m_it/>
+			<d_l_it/>
+			<d_xl_it/>
+			<d_unica_it/>
+			<d_regola_it/>
+			<xxl>1</xxl>
+			<xxxl>0</xxxl>
+			<d_xxl_it/>
+			<d_xxxl_it/>
+			<d_xs_en/>
+			<d_s_en/>
+			<d_m_en/>
+			<d_l_en/>
+			<d_xl_en/>
+			<d_xxl_en/>
+			<d_xxxl_en/>
+			<d_unica_en/>
+			<d_regola_en/>
+			<attivo>1</attivo>
+			<g_nome_it>FELPA NINJA</g_nome_it>
+			<g_nome_en>FELPA NINJA</g_nome_en>
+			<g_descrizione_it>&lt;html /&gt;</g_descrizione_it>
+			<g_descrizione_en>&lt;html /&gt;</g_descrizione_en>
+			<gid>26</gid>
+			<viste>
+				<fronte>
+					<node>
+						<node>
+							<id>3016</id>
+							<filename>37-felpa ninja fronte nera.png</filename>
+							<type>1</type>
+							<size>1627419</size>
+							<last_mod>2010-10-14 20:00:53</last_mod>
+							<path>Prodotto/</path>
+							<ref_id>2681</ref_id>
+							<no_del>0</no_del>
+							<permessi/>
+							<ref_id_ver>0</ref_id_ver>
+							<version>0</version>
+							<description>Front</description>
+							<ref_ext/>
+						</node>
+					</node>
+				</fronte>
+				<retro>
+					<node>
+						<node>
+							<id>3017</id>
+							<filename>37-felpa ninja retro nera.png</filename>
+							<type>1</type>
+							<size>1819933</size>
+							<last_mod>2010-10-14 20:00:53</last_mod>
+							<path>ProdottoBack/</path>
+							<ref_id>2691</ref_id>
+							<no_del>0</no_del>
+							<permessi/>
+							<ref_id_ver>0</ref_id_ver>
+							<version>0</version>
+							<description>Back</description>
+							<ref_ext/>
+						</node>
+					</node>
+				</retro>
+			</viste>
+			<colore>
+				<node>
+					<node>
+						<id>2968</id>
+						<filename>16-NERO.png</filename>
+						<type>1</type>
+						<size>357850</size>
+						<last_mod>2010-10-14 11:35:33</last_mod>
+						<path>Colori/</path>
+						<ref_id>2701</ref_id>
+						<no_del>0</no_del>
+						<permessi/>
+						<ref_id_ver>0</ref_id_ver>
+						<version>0</version>
+						<description/>
+						<ref_ext/>
+					</node>
+				</node>
+			</colore>
+		</node>
+		<node>
+			<id>38</id>
+			<nome_it>FELPA NINJA VERDINO</nome_it>
+			<prezzo>39.9</prezzo>
+			<larghezza>0</larghezza>
+			<altezza>0</altezza>
+			<peso>0</peso>
+			<lati>2</lati>
+			<chiaro>0</chiaro>
+			<ref_colore>28</ref_colore>
+			<g1>0</g1>
+			<g2>0</g2>
+			<g3>0</g3>
+			<g4>0</g4>
+			<xs>0</xs>
+			<s>1</s>
+			<m>1</m>
+			<l>1</l>
+			<xl>1</xl>
+			<regola>0</regola>
+			<unica>0</unica>
+			<cod_art>FELPA NINJA VERDINO</cod_art>
+			<descr_it>&lt;html /&gt;</descr_it>
+			<ref_tipo>26</ref_tipo>
+			<nome_en>FELPA NINJA VERDINO</nome_en>
+			<descr_en>&lt;html /&gt;</descr_en>
+			<d_xs_it/>
+			<d_s_it/>
+			<d_m_it/>
+			<d_l_it/>
+			<d_xl_it/>
+			<d_unica_it/>
+			<d_regola_it/>
+			<xxl>1</xxl>
+			<xxxl>0</xxxl>
+			<d_xxl_it/>
+			<d_xxxl_it/>
+			<d_xs_en/>
+			<d_s_en/>
+			<d_m_en/>
+			<d_l_en/>
+			<d_xl_en/>
+			<d_xxl_en/>
+			<d_xxxl_en/>
+			<d_unica_en/>
+			<d_regola_en/>
+			<attivo>1</attivo>
+			<g_nome_it>FELPA NINJA</g_nome_it>
+			<g_nome_en>FELPA NINJA</g_nome_en>
+			<g_descrizione_it>&lt;html /&gt;</g_descrizione_it>
+			<g_descrizione_en>&lt;html /&gt;</g_descrizione_en>
+			<gid>26</gid>
+			<viste>
+				<fronte>
+					<node>
+						<node>
+							<id>3018</id>
+							<filename>38-felpa ninja fronte verdeino.png</filename>
+							<type>1</type>
+							<size>3509502</size>
+							<last_mod>2010-10-14 20:07:02</last_mod>
+							<path>Prodotto/</path>
+							<ref_id>2681</ref_id>
+							<no_del>0</no_del>
+							<permessi/>
+							<ref_id_ver>0</ref_id_ver>
+							<version>0</version>
+							<description>Front</description>
+							<ref_ext/>
+						</node>
+					</node>
+				</fronte>
+				<retro>
+					<node>
+						<node>
+							<id>3019</id>
+							<filename>38-felpa ninja retro verdeino.png</filename>
+							<type>1</type>
+							<size>3436660</size>
+							<last_mod>2010-10-14 20:07:03</last_mod>
+							<path>ProdottoBack/</path>
+							<ref_id>2691</ref_id>
+							<no_del>0</no_del>
+							<permessi/>
+							<ref_id_ver>0</ref_id_ver>
+							<version>0</version>
+							<description>Back</description>
+							<ref_ext/>
+						</node>
+					</node>
+				</retro>
+			</viste>
+			<colore>
+				<node>
+					<node>
+						<id>2980</id>
+						<filename>28-VERDE CHIARO.png</filename>
+						<type>1</type>
+						<size>894897</size>
+						<last_mod>2010-10-14 11:46:50</last_mod>
+						<path>Colori/</path>
+						<ref_id>2701</ref_id>
+						<no_del>0</no_del>
+						<permessi/>
+						<ref_id_ver>0</ref_id_ver>
+						<version>0</version>
+						<description/>
+						<ref_ext/>
+					</node>
+				</node>
+			</colore>
+		</node>
+		<node>
+			<id>39</id>
+			<nome_it>FELPA NINJA GRIGIONE</nome_it>
+			<prezzo>39.9</prezzo>
+			<larghezza>0</larghezza>
+			<altezza>0</altezza>
+			<peso>0</peso>
+			<lati>2</lati>
+			<chiaro>0</chiaro>
+			<ref_colore>23</ref_colore>
+			<g1>0</g1>
+			<g2>0</g2>
+			<g3>0</g3>
+			<g4>0</g4>
+			<xs>0</xs>
+			<s>1</s>
+			<m>1</m>
+			<l>1</l>
+			<xl>1</xl>
+			<regola>0</regola>
+			<unica>0</unica>
+			<cod_art>FELPA NINJA GRIGIONE</cod_art>
+			<descr_it>&lt;html /&gt;</descr_it>
+			<ref_tipo>26</ref_tipo>
+			<nome_en>FELPA NINJA GRIGIONE</nome_en>
+			<descr_en>&lt;html /&gt;</descr_en>
+			<d_xs_it/>
+			<d_s_it/>
+			<d_m_it/>
+			<d_l_it/>
+			<d_xl_it/>
+			<d_unica_it/>
+			<d_regola_it/>
+			<xxl>1</xxl>
+			<xxxl>0</xxxl>
+			<d_xxl_it/>
+			<d_xxxl_it/>
+			<d_xs_en/>
+			<d_s_en/>
+			<d_m_en/>
+			<d_l_en/>
+			<d_xl_en/>
+			<d_xxl_en/>
+			<d_xxxl_en/>
+			<d_unica_en/>
+			<d_regola_en/>
+			<attivo>1</attivo>
+			<g_nome_it>FELPA NINJA</g_nome_it>
+			<g_nome_en>FELPA NINJA</g_nome_en>
+			<g_descrizione_it>&lt;html /&gt;</g_descrizione_it>
+			<g_descrizione_en>&lt;html /&gt;</g_descrizione_en>
+			<gid>26</gid>
+			<viste>
+				<fronte>
+					<node>
+						<node>
+							<id>3014</id>
+							<filename>39-felpa ninja fronte grigio scuro.png</filename>
+							<type>1</type>
+							<size>2224831</size>
+							<last_mod>2010-10-14 19:51:59</last_mod>
+							<path>Prodotto/</path>
+							<ref_id>2681</ref_id>
+							<no_del>0</no_del>
+							<permessi/>
+							<ref_id_ver>0</ref_id_ver>
+							<version>0</version>
+							<description>Front</description>
+							<ref_ext/>
+						</node>
+					</node>
+				</fronte>
+				<retro>
+					<node>
+						<node>
+							<id>3015</id>
+							<filename>39-felpa ninja retro grigio scuro.png</filename>
+							<type>1</type>
+							<size>2350175</size>
+							<last_mod>2010-10-14 19:52:00</last_mod>
+							<path>ProdottoBack/</path>
+							<ref_id>2691</ref_id>
+							<no_del>0</no_del>
+							<permessi/>
+							<ref_id_ver>0</ref_id_ver>
+							<version>0</version>
+							<description>Back</description>
+							<ref_ext/>
+						</node>
+					</node>
+				</retro>
+			</viste>
+			<colore>
+				<node>
+					<node>
+						<id>2975</id>
+						<filename>23-GRIGIO GRAFFITE.png</filename>
+						<type>1</type>
+						<size>345282</size>
+						<last_mod>2010-10-14 11:41:25</last_mod>
+						<path>Colori/</path>
+						<ref_id>2701</ref_id>
+						<no_del>0</no_del>
+						<permessi/>
+						<ref_id_ver>0</ref_id_ver>
+						<version>0</version>
+						<description/>
+						<ref_ext/>
+					</node>
+				</node>
+			</colore>
+		</node>
+		<node>
+			<id>40</id>
+			<nome_it>FELPA NINJA GRIGIO CHIARO</nome_it>
+			<prezzo>39.9</prezzo>
+			<larghezza>0</larghezza>
+			<altezza>0</altezza>
+			<peso>0</peso>
+			<lati>2</lati>
+			<chiaro>0</chiaro>
+			<ref_colore>22</ref_colore>
+			<g1>0</g1>
+			<g2>0</g2>
+			<g3>0</g3>
+			<g4>0</g4>
+			<xs>0</xs>
+			<s>1</s>
+			<m>1</m>
+			<l>1</l>
+			<xl>1</xl>
+			<regola>0</regola>
+			<unica>0</unica>
+			<cod_art>FELPA NINJA GRIGIO CHIARO</cod_art>
+			<descr_it>&lt;html /&gt;</descr_it>
+			<ref_tipo>26</ref_tipo>
+			<nome_en>FELPA NINJA GRIGIO CHIARO</nome_en>
+			<descr_en>&lt;html /&gt;</descr_en>
+			<d_xs_it/>
+			<d_s_it/>
+			<d_m_it/>
+			<d_l_it/>
+			<d_xl_it/>
+			<d_unica_it/>
+			<d_regola_it/>
+			<xxl>1</xxl>
+			<xxxl>0</xxxl>
+			<d_xxl_it/>
+			<d_xxxl_it/>
+			<d_xs_en/>
+			<d_s_en/>
+			<d_m_en/>
+			<d_l_en/>
+			<d_xl_en/>
+			<d_xxl_en/>
+			<d_xxxl_en/>
+			<d_unica_en/>
+			<d_regola_en/>
+			<attivo>1</attivo>
+			<g_nome_it>FELPA NINJA</g_nome_it>
+			<g_nome_en>FELPA NINJA</g_nome_en>
+			<g_descrizione_it>&lt;html /&gt;</g_descrizione_it>
+			<g_descrizione_en>&lt;html /&gt;</g_descrizione_en>
+			<gid>26</gid>
+			<viste>
+				<fronte>
+					<node>
+						<node>
+							<id>3012</id>
+							<filename>40-felpa ninja fronte grigia chiara.png</filename>
+							<type>1</type>
+							<size>2437923</size>
+							<last_mod>2010-10-14 19:42:35</last_mod>
+							<path>Prodotto/</path>
+							<ref_id>2681</ref_id>
+							<no_del>0</no_del>
+							<permessi/>
+							<ref_id_ver>0</ref_id_ver>
+							<version>0</version>
+							<description>Front</description>
+							<ref_ext/>
+						</node>
+					</node>
+				</fronte>
+				<retro>
+					<node>
+						<node>
+							<id>3013</id>
+							<filename>40-felpa ninja retro grigia chiara.png</filename>
+							<type>1</type>
+							<size>2380014</size>
+							<last_mod>2010-10-14 19:42:35</last_mod>
+							<path>ProdottoBack/</path>
+							<ref_id>2691</ref_id>
+							<no_del>0</no_del>
+							<permessi/>
+							<ref_id_ver>0</ref_id_ver>
+							<version>0</version>
+							<description>Back</description>
+							<ref_ext/>
+						</node>
+					</node>
+				</retro>
+			</viste>
+			<colore>
+				<node>
+					<node>
+						<id>2974</id>
+						<filename>22-GRIGIO MELANGE.png</filename>
+						<type>1</type>
+						<size>459355</size>
+						<last_mod>2010-10-14 11:40:36</last_mod>
+						<path>Colori/</path>
+						<ref_id>2701</ref_id>
+						<no_del>0</no_del>
+						<permessi/>
+						<ref_id_ver>0</ref_id_ver>
+						<version>0</version>
+						<description/>
+						<ref_ext/>
+					</node>
+				</node>
+			</colore>
+		</node>
+		<node>
+			<id>41</id>
+			<nome_it>FELPA NINJA BLU ELETTRICA</nome_it>
+			<prezzo>39.9</prezzo>
+			<larghezza>0</larghezza>
+			<altezza>0</altezza>
+			<peso>0</peso>
+			<lati>2</lati>
+			<chiaro>0</chiaro>
+			<ref_colore>25</ref_colore>
+			<g1>0</g1>
+			<g2>0</g2>
+			<g3>0</g3>
+			<g4>0</g4>
+			<xs>0</xs>
+			<s>1</s>
+			<m>1</m>
+			<l>1</l>
+			<xl>1</xl>
+			<regola>0</regola>
+			<unica>0</unica>
+			<cod_art>FELPA NINJA BLU ELETTRICA</cod_art>
+			<descr_it>&lt;html /&gt;</descr_it>
+			<ref_tipo>26</ref_tipo>
+			<nome_en>FELPA NINJA BLU ELETTRICA</nome_en>
+			<descr_en>&lt;html /&gt;</descr_en>
+			<d_xs_it/>
+			<d_s_it/>
+			<d_m_it/>
+			<d_l_it/>
+			<d_xl_it/>
+			<d_unica_it/>
+			<d_regola_it/>
+			<xxl>1</xxl>
+			<xxxl>0</xxxl>
+			<d_xxl_it/>
+			<d_xxxl_it/>
+			<d_xs_en/>
+			<d_s_en/>
+			<d_m_en/>
+			<d_l_en/>
+			<d_xl_en/>
+			<d_xxl_en/>
+			<d_xxxl_en/>
+			<d_unica_en/>
+			<d_regola_en/>
+			<attivo>1</attivo>
+			<g_nome_it>FELPA NINJA</g_nome_it>
+			<g_nome_en>FELPA NINJA</g_nome_en>
+			<g_descrizione_it>&lt;html /&gt;</g_descrizione_it>
+			<g_descrizione_en>&lt;html /&gt;</g_descrizione_en>
+			<gid>26</gid>
+			<viste>
+				<fronte>
+					<node>
+						<node>
+							<id>3010</id>
+							<filename>41-felpa ninja fronte blu elettrica.png</filename>
+							<type>1</type>
+							<size>3033300</size>
+							<last_mod>2010-10-14 19:31:42</last_mod>
+							<path>Prodotto/</path>
+							<ref_id>2681</ref_id>
+							<no_del>0</no_del>
+							<permessi/>
+							<ref_id_ver>0</ref_id_ver>
+							<version>0</version>
+							<description>Front</description>
+							<ref_ext/>
+						</node>
+					</node>
+				</fronte>
+				<retro>
+					<node>
+						<node>
+							<id>3011</id>
+							<filename>41-felpa ninja retro blu elettrica.png</filename>
+							<type>1</type>
+							<size>2919679</size>
+							<last_mod>2010-10-14 19:31:42</last_mod>
+							<path>ProdottoBack/</path>
+							<ref_id>2691</ref_id>
+							<no_del>0</no_del>
+							<permessi/>
+							<ref_id_ver>0</ref_id_ver>
+							<version>0</version>
+							<description>Back</description>
+							<ref_ext/>
+						</node>
+					</node>
+				</retro>
+			</viste>
+			<colore>
+				<node>
+					<node>
+						<id>2977</id>
+						<filename>25-BLU ELETTRICO.png</filename>
+						<type>1</type>
+						<size>780535</size>
+						<last_mod>2010-10-14 11:43:24</last_mod>
+						<path>Colori/</path>
+						<ref_id>2701</ref_id>
+						<no_del>0</no_del>
+						<permessi/>
+						<ref_id_ver>0</ref_id_ver>
+						<version>0</version>
+						<description/>
+						<ref_ext/>
+					</node>
+				</node>
+			</colore>
+		</node>
+	</node>
+	<node>
+		<node>
+			<id>112</id>
+			<nome_it>CUSCINO</nome_it>
+			<prezzo>11</prezzo>
+			<larghezza>0</larghezza>
+			<altezza>0</altezza>
+			<peso>0</peso>
+			<lati>1</lati>
+			<chiaro>0</chiaro>
+			<ref_colore>15</ref_colore>
+			<g1>0</g1>
+			<g2>0</g2>
+			<g3>0</g3>
+			<g4>0</g4>
+			<xs>0</xs>
+			<s>0</s>
+			<m>0</m>
+			<l>0</l>
+			<xl>0</xl>
+			<regola>0</regola>
+			<unica>1</unica>
+			<cod_art>CUSCINO</cod_art>
+			<descr_it>&lt;p&gt;&amp;nbsp;&lt;/p&gt;</descr_it>
+			<ref_tipo>27</ref_tipo>
+			<nome_en>CUSCINO</nome_en>
+			<descr_en>&lt;p&gt;&amp;nbsp;&lt;/p&gt;</descr_en>
+			<d_xs_it/>
+			<d_s_it/>
+			<d_m_it/>
+			<d_l_it/>
+			<d_xl_it/>
+			<d_unica_it/>
+			<d_regola_it/>
+			<xxl>0</xxl>
+			<xxxl>0</xxxl>
+			<d_xxl_it/>
+			<d_xxxl_it/>
+			<d_xs_en/>
+			<d_s_en/>
+			<d_m_en/>
+			<d_l_en/>
+			<d_xl_en/>
+			<d_xxl_en/>
+			<d_xxxl_en/>
+			<d_unica_en/>
+			<d_regola_en/>
+			<attivo>1</attivo>
+			<g_nome_it>GADGET</g_nome_it>
+			<g_nome_en>GADGET</g_nome_en>
+			<g_descrizione_it>&lt;html /&gt;</g_descrizione_it>
+			<g_descrizione_en>&lt;html /&gt;</g_descrizione_en>
+			<gid>27</gid>
+			<viste>
+				<fronte>
+					<node>
+						<node>
+							<id>3233</id>
+							<filename>112-1pillow.png</filename>
+							<type>1</type>
+							<size>5349423</size>
+							<last_mod>2010-11-01 13:45:55</last_mod>
+							<path>Prodotto/</path>
+							<ref_id>2681</ref_id>
+							<no_del>0</no_del>
+							<permessi/>
+							<ref_id_ver>0</ref_id_ver>
+							<version>0</version>
+							<description/>
+							<ref_ext/>
+						</node>
+					</node>
+				</fronte>
+				<retro>
+					<node/>
+				</retro>
+			</viste>
+			<colore>
+				<node>
+					<node>
+						<id>2967</id>
+						<filename>15-BIANCO.png</filename>
+						<type>1</type>
+						<size>491820</size>
+						<last_mod>2010-10-14 11:35:12</last_mod>
+						<path>Colori/</path>
+						<ref_id>2701</ref_id>
+						<no_del>0</no_del>
+						<permessi/>
+						<ref_id_ver>0</ref_id_ver>
+						<version>0</version>
+						<description/>
+						<ref_ext/>
+					</node>
+				</node>
+			</colore>
+		</node>
+		<node>
+			<id>113</id>
+			<nome_it>BORSA TELA</nome_it>
+			<prezzo>10</prezzo>
+			<larghezza>0</larghezza>
+			<altezza>0</altezza>
+			<peso>0</peso>
+			<lati>1</lati>
+			<chiaro>0</chiaro>
+			<ref_colore>15</ref_colore>
+			<g1>0</g1>
+			<g2>0</g2>
+			<g3>0</g3>
+			<g4>0</g4>
+			<xs>0</xs>
+			<s>0</s>
+			<m>0</m>
+			<l>0</l>
+			<xl>0</xl>
+			<regola>0</regola>
+			<unica>1</unica>
+			<cod_art>BORSA TELA</cod_art>
+			<descr_it>&lt;p&gt;&amp;nbsp;&lt;/p&gt;</descr_it>
+			<ref_tipo>27</ref_tipo>
+			<nome_en>BORSA TELA</nome_en>
+			<descr_en>&lt;p&gt;&amp;nbsp;&lt;/p&gt;</descr_en>
+			<d_xs_it/>
+			<d_s_it/>
+			<d_m_it/>
+			<d_l_it/>
+			<d_xl_it/>
+			<d_unica_it/>
+			<d_regola_it/>
+			<xxl>0</xxl>
+			<xxxl>0</xxxl>
+			<d_xxl_it/>
+			<d_xxxl_it/>
+			<d_xs_en/>
+			<d_s_en/>
+			<d_m_en/>
+			<d_l_en/>
+			<d_xl_en/>
+			<d_xxl_en/>
+			<d_xxxl_en/>
+			<d_unica_en/>
+			<d_regola_en/>
+			<attivo>1</attivo>
+			<g_nome_it>GADGET</g_nome_it>
+			<g_nome_en>GADGET</g_nome_en>
+			<g_descrizione_it>&lt;html /&gt;</g_descrizione_it>
+			<g_descrizione_en>&lt;html /&gt;</g_descrizione_en>
+			<gid>27</gid>
+			<viste>
+				<fronte>
+					<node>
+						<node>
+							<id>3115</id>
+							<filename>113-borsa tela.png</filename>
+							<type>1</type>
+							<size>4080323</size>
+							<last_mod>2010-10-26 11:12:39</last_mod>
+							<path>Prodotto/</path>
+							<ref_id>2681</ref_id>
+							<no_del>0</no_del>
+							<permessi/>
+							<ref_id_ver>0</ref_id_ver>
+							<version>0</version>
+							<description/>
+							<ref_ext/>
+						</node>
+					</node>
+				</fronte>
+				<retro>
+					<node>
+						<node>
+							<id>3116</id>
+							<filename>113-borsa tela.png</filename>
+							<type>1</type>
+							<size>4080323</size>
+							<last_mod>2010-10-26 11:12:40</last_mod>
+							<path>ProdottoBack/</path>
+							<ref_id>2691</ref_id>
+							<no_del>0</no_del>
+							<permessi/>
+							<ref_id_ver>0</ref_id_ver>
+							<version>0</version>
+							<description/>
+							<ref_ext/>
+						</node>
+					</node>
+				</retro>
+			</viste>
+			<colore>
+				<node>
+					<node>
+						<id>2967</id>
+						<filename>15-BIANCO.png</filename>
+						<type>1</type>
+						<size>491820</size>
+						<last_mod>2010-10-14 11:35:12</last_mod>
+						<path>Colori/</path>
+						<ref_id>2701</ref_id>
+						<no_del>0</no_del>
+						<permessi/>
+						<ref_id_ver>0</ref_id_ver>
+						<version>0</version>
+						<description/>
+						<ref_ext/>
+					</node>
+				</node>
+			</colore>
+		</node>
+		<node>
+			<id>114</id>
+			<nome_it>INFRADITO</nome_it>
+			<prezzo>12</prezzo>
+			<larghezza>0</larghezza>
+			<altezza>0</altezza>
+			<peso>0</peso>
+			<lati>0</lati>
+			<chiaro>0</chiaro>
+			<ref_colore>15</ref_colore>
+			<g1>0</g1>
+			<g2>0</g2>
+			<g3>0</g3>
+			<g4>0</g4>
+			<xs>0</xs>
+			<s>1</s>
+			<m>1</m>
+			<l>1</l>
+			<xl>0</xl>
+			<regola>0</regola>
+			<unica>0</unica>
+			<cod_art>INFRADITO</cod_art>
+			<descr_it>&lt;html /&gt;</descr_it>
+			<ref_tipo>27</ref_tipo>
+			<nome_en>INFRADITO</nome_en>
+			<descr_en>&lt;html /&gt;</descr_en>
+			<d_xs_it/>
+			<d_s_it/>
+			<d_m_it/>
+			<d_l_it/>
+			<d_xl_it/>
+			<d_unica_it/>
+			<d_regola_it/>
+			<xxl>0</xxl>
+			<xxxl>0</xxxl>
+			<d_xxl_it/>
+			<d_xxxl_it/>
+			<d_xs_en/>
+			<d_s_en/>
+			<d_m_en/>
+			<d_l_en/>
+			<d_xl_en/>
+			<d_xxl_en/>
+			<d_xxxl_en/>
+			<d_unica_en/>
+			<d_regola_en/>
+			<attivo>1</attivo>
+			<g_nome_it>GADGET</g_nome_it>
+			<g_nome_en>GADGET</g_nome_en>
+			<g_descrizione_it>&lt;html /&gt;</g_descrizione_it>
+			<g_descrizione_en>&lt;html /&gt;</g_descrizione_en>
+			<gid>27</gid>
+			<viste>
+				<fronte>
+					<node>
+						<node>
+							<id>3117</id>
+							<filename>114-infradito.png</filename>
+							<type>1</type>
+							<size>5253509</size>
+							<last_mod>2010-10-26 11:13:57</last_mod>
+							<path>Prodotto/</path>
+							<ref_id>2681</ref_id>
+							<no_del>0</no_del>
+							<permessi/>
+							<ref_id_ver>0</ref_id_ver>
+							<version>0</version>
+							<description/>
+							<ref_ext/>
+						</node>
+					</node>
+				</fronte>
+				<retro>
+					<node/>
+				</retro>
+			</viste>
+			<colore>
+				<node>
+					<node>
+						<id>2967</id>
+						<filename>15-BIANCO.png</filename>
+						<type>1</type>
+						<size>491820</size>
+						<last_mod>2010-10-14 11:35:12</last_mod>
+						<path>Colori/</path>
+						<ref_id>2701</ref_id>
+						<no_del>0</no_del>
+						<permessi/>
+						<ref_id_ver>0</ref_id_ver>
+						<version>0</version>
+						<description/>
+						<ref_ext/>
+					</node>
+				</node>
+			</colore>
+		</node>
+		<node>
+			<id>115</id>
+			<nome_it>GREMBIULE</nome_it>
+			<prezzo>0</prezzo>
+			<larghezza>0</larghezza>
+			<altezza>0</altezza>
+			<peso>0</peso>
+			<lati>0</lati>
+			<chiaro>0</chiaro>
+			<ref_colore>15</ref_colore>
+			<g1>0</g1>
+			<g2>0</g2>
+			<g3>0</g3>
+			<g4>0</g4>
+			<xs>0</xs>
+			<s>0</s>
+			<m>0</m>
+			<l>0</l>
+			<xl>0</xl>
+			<regola>0</regola>
+			<unica>1</unica>
+			<cod_art>GREMBIULE</cod_art>
+			<descr_it>&lt;html /&gt;</descr_it>
+			<ref_tipo>27</ref_tipo>
+			<nome_en>GREMBIULE</nome_en>
+			<descr_en>&lt;html /&gt;</descr_en>
+			<d_xs_it/>
+			<d_s_it/>
+			<d_m_it/>
+			<d_l_it/>
+			<d_xl_it/>
+			<d_unica_it/>
+			<d_regola_it/>
+			<xxl>0</xxl>
+			<xxxl>0</xxxl>
+			<d_xxl_it/>
+			<d_xxxl_it/>
+			<d_xs_en/>
+			<d_s_en/>
+			<d_m_en/>
+			<d_l_en/>
+			<d_xl_en/>
+			<d_xxl_en/>
+			<d_xxxl_en/>
+			<d_unica_en/>
+			<d_regola_en/>
+			<attivo>1</attivo>
+			<g_nome_it>GADGET</g_nome_it>
+			<g_nome_en>GADGET</g_nome_en>
+			<g_descrizione_it>&lt;html /&gt;</g_descrizione_it>
+			<g_descrizione_en>&lt;html /&gt;</g_descrizione_en>
+			<gid>27</gid>
+			<viste>
+				<fronte>
+					<node>
+						<node>
+							<id>3118</id>
+							<filename>115-grembiule.png</filename>
+							<type>1</type>
+							<size>3416668</size>
+							<last_mod>2010-10-26 11:15:04</last_mod>
+							<path>Prodotto/</path>
+							<ref_id>2681</ref_id>
+							<no_del>0</no_del>
+							<permessi/>
+							<ref_id_ver>0</ref_id_ver>
+							<version>0</version>
+							<description/>
+							<ref_ext/>
+						</node>
+					</node>
+				</fronte>
+				<retro>
+					<node/>
+				</retro>
+			</viste>
+			<colore>
+				<node>
+					<node>
+						<id>2967</id>
+						<filename>15-BIANCO.png</filename>
+						<type>1</type>
+						<size>491820</size>
+						<last_mod>2010-10-14 11:35:12</last_mod>
+						<path>Colori/</path>
+						<ref_id>2701</ref_id>
+						<no_del>0</no_del>
+						<permessi/>
+						<ref_id_ver>0</ref_id_ver>
+						<version>0</version>
+						<description/>
+						<ref_ext/>
+					</node>
+				</node>
+			</colore>
+		</node>
+		<node>
+			<id>116</id>
+			<nome_it>MOUSEPAD RETTANGOLARE</nome_it>
+			<prezzo>0</prezzo>
+			<larghezza>0</larghezza>
+			<altezza>0</altezza>
+			<peso>0</peso>
+			<lati>0</lati>
+			<chiaro>0</chiaro>
+			<ref_colore>15</ref_colore>
+			<g1>0</g1>
+			<g2>0</g2>
+			<g3>0</g3>
+			<g4>0</g4>
+			<xs>0</xs>
+			<s>0</s>
+			<m>0</m>
+			<l>0</l>
+			<xl>0</xl>
+			<regola>0</regola>
+			<unica>0</unica>
+			<cod_art>MOUSEPAD RETTANGOLARE</cod_art>
+			<descr_it>&lt;html /&gt;</descr_it>
+			<ref_tipo>27</ref_tipo>
+			<nome_en>MOUSEPAD RETTANGOLARE</nome_en>
+			<descr_en>&lt;html /&gt;</descr_en>
+			<d_xs_it/>
+			<d_s_it/>
+			<d_m_it/>
+			<d_l_it/>
+			<d_xl_it/>
+			<d_unica_it/>
+			<d_regola_it/>
+			<xxl>0</xxl>
+			<xxxl>0</xxxl>
+			<d_xxl_it/>
+			<d_xxxl_it/>
+			<d_xs_en/>
+			<d_s_en/>
+			<d_m_en/>
+			<d_l_en/>
+			<d_xl_en/>
+			<d_xxl_en/>
+			<d_xxxl_en/>
+			<d_unica_en/>
+			<d_regola_en/>
+			<attivo>1</attivo>
+			<g_nome_it>GADGET</g_nome_it>
+			<g_nome_en>GADGET</g_nome_en>
+			<g_descrizione_it>&lt;html /&gt;</g_descrizione_it>
+			<g_descrizione_en>&lt;html /&gt;</g_descrizione_en>
+			<gid>27</gid>
+			<viste>
+				<fronte>
+					<node>
+						<node>
+							<id>3119</id>
+							<filename>116-mousepad rettangolare.png</filename>
+							<type>1</type>
+							<size>117126</size>
+							<last_mod>2010-10-26 11:20:02</last_mod>
+							<path>Prodotto/</path>
+							<ref_id>2681</ref_id>
+							<no_del>0</no_del>
+							<permessi/>
+							<ref_id_ver>0</ref_id_ver>
+							<version>0</version>
+							<description/>
+							<ref_ext/>
+						</node>
+					</node>
+				</fronte>
+				<retro>
+					<node/>
+				</retro>
+			</viste>
+			<colore>
+				<node>
+					<node>
+						<id>2967</id>
+						<filename>15-BIANCO.png</filename>
+						<type>1</type>
+						<size>491820</size>
+						<last_mod>2010-10-14 11:35:12</last_mod>
+						<path>Colori/</path>
+						<ref_id>2701</ref_id>
+						<no_del>0</no_del>
+						<permessi/>
+						<ref_id_ver>0</ref_id_ver>
+						<version>0</version>
+						<description/>
+						<ref_ext/>
+					</node>
+				</node>
+			</colore>
+		</node>
+		<node>
+			<id>117</id>
+			<nome_it>MOUSEPAD ROTONDO</nome_it>
+			<prezzo>0</prezzo>
+			<larghezza>0</larghezza>
+			<altezza>0</altezza>
+			<peso>0</peso>
+			<lati>0</lati>
+			<chiaro>0</chiaro>
+			<ref_colore>15</ref_colore>
+			<g1>0</g1>
+			<g2>0</g2>
+			<g3>0</g3>
+			<g4>0</g4>
+			<xs>0</xs>
+			<s>0</s>
+			<m>0</m>
+			<l>0</l>
+			<xl>0</xl>
+			<regola>0</regola>
+			<unica>0</unica>
+			<cod_art>MOUSEPAD ROTONDO</cod_art>
+			<descr_it>&lt;html /&gt;</descr_it>
+			<ref_tipo>27</ref_tipo>
+			<nome_en>MOUSEPAD ROTONDO</nome_en>
+			<descr_en>&lt;html /&gt;</descr_en>
+			<d_xs_it/>
+			<d_s_it/>
+			<d_m_it/>
+			<d_l_it/>
+			<d_xl_it/>
+			<d_unica_it/>
+			<d_regola_it/>
+			<xxl>0</xxl>
+			<xxxl>0</xxxl>
+			<d_xxl_it/>
+			<d_xxxl_it/>
+			<d_xs_en/>
+			<d_s_en/>
+			<d_m_en/>
+			<d_l_en/>
+			<d_xl_en/>
+			<d_xxl_en/>
+			<d_xxxl_en/>
+			<d_unica_en/>
+			<d_regola_en/>
+			<attivo>1</attivo>
+			<g_nome_it>GADGET</g_nome_it>
+			<g_nome_en>GADGET</g_nome_en>
+			<g_descrizione_it>&lt;html /&gt;</g_descrizione_it>
+			<g_descrizione_en>&lt;html /&gt;</g_descrizione_en>
+			<gid>27</gid>
+			<viste>
+				<fronte>
+					<node>
+						<node>
+							<id>3120</id>
+							<filename>117-mousepad rotondo.png</filename>
+							<type>1</type>
+							<size>222317</size>
+							<last_mod>2010-10-26 11:21:00</last_mod>
+							<path>Prodotto/</path>
+							<ref_id>2681</ref_id>
+							<no_del>0</no_del>
+							<permessi/>
+							<ref_id_ver>0</ref_id_ver>
+							<version>0</version>
+							<description/>
+							<ref_ext/>
+						</node>
+					</node>
+				</fronte>
+				<retro>
+					<node/>
+				</retro>
+			</viste>
+			<colore>
+				<node>
+					<node>
+						<id>2967</id>
+						<filename>15-BIANCO.png</filename>
+						<type>1</type>
+						<size>491820</size>
+						<last_mod>2010-10-14 11:35:12</last_mod>
+						<path>Colori/</path>
+						<ref_id>2701</ref_id>
+						<no_del>0</no_del>
+						<permessi/>
+						<ref_id_ver>0</ref_id_ver>
+						<version>0</version>
+						<description/>
+						<ref_ext/>
+					</node>
+				</node>
+			</colore>
+		</node>
+		<node>
+			<id>118</id>
+			<nome_it>OROLOGIO </nome_it>
+			<prezzo>0</prezzo>
+			<larghezza>0</larghezza>
+			<altezza>0</altezza>
+			<peso>0</peso>
+			<lati>0</lati>
+			<chiaro>0</chiaro>
+			<ref_colore>15</ref_colore>
+			<g1>0</g1>
+			<g2>0</g2>
+			<g3>0</g3>
+			<g4>0</g4>
+			<xs>0</xs>
+			<s>0</s>
+			<m>0</m>
+			<l>0</l>
+			<xl>0</xl>
+			<regola>0</regola>
+			<unica>0</unica>
+			<cod_art>OROLOGIO </cod_art>
+			<descr_it>&lt;html /&gt;</descr_it>
+			<ref_tipo>27</ref_tipo>
+			<nome_en>OROLOGIO </nome_en>
+			<descr_en>&lt;html /&gt;</descr_en>
+			<d_xs_it/>
+			<d_s_it/>
+			<d_m_it/>
+			<d_l_it/>
+			<d_xl_it/>
+			<d_unica_it/>
+			<d_regola_it/>
+			<xxl>0</xxl>
+			<xxxl>0</xxxl>
+			<d_xxl_it/>
+			<d_xxxl_it/>
+			<d_xs_en/>
+			<d_s_en/>
+			<d_m_en/>
+			<d_l_en/>
+			<d_xl_en/>
+			<d_xxl_en/>
+			<d_xxxl_en/>
+			<d_unica_en/>
+			<d_regola_en/>
+			<attivo>1</attivo>
+			<g_nome_it>GADGET</g_nome_it>
+			<g_nome_en>GADGET</g_nome_en>
+			<g_descrizione_it>&lt;html /&gt;</g_descrizione_it>
+			<g_descrizione_en>&lt;html /&gt;</g_descrizione_en>
+			<gid>27</gid>
+			<viste>
+				<fronte>
+					<node>
+						<node>
+							<id>3121</id>
+							<filename>118-orologio a3.png</filename>
+							<type>1</type>
+							<size>1337775</size>
+							<last_mod>2010-10-26 11:21:51</last_mod>
+							<path>Prodotto/</path>
+							<ref_id>2681</ref_id>
+							<no_del>0</no_del>
+							<permessi/>
+							<ref_id_ver>0</ref_id_ver>
+							<version>0</version>
+							<description/>
+							<ref_ext/>
+						</node>
+					</node>
+				</fronte>
+				<retro>
+					<node/>
+				</retro>
+			</viste>
+			<colore>
+				<node>
+					<node>
+						<id>2967</id>
+						<filename>15-BIANCO.png</filename>
+						<type>1</type>
+						<size>491820</size>
+						<last_mod>2010-10-14 11:35:12</last_mod>
+						<path>Colori/</path>
+						<ref_id>2701</ref_id>
+						<no_del>0</no_del>
+						<permessi/>
+						<ref_id_ver>0</ref_id_ver>
+						<version>0</version>
+						<description/>
+						<ref_ext/>
+					</node>
+				</node>
+			</colore>
+		</node>
+		<node>
+			<id>119</id>
+			<nome_it>PUZZLE</nome_it>
+			<prezzo>0</prezzo>
+			<larghezza>0</larghezza>
+			<altezza>0</altezza>
+			<peso>0</peso>
+			<lati>0</lati>
+			<chiaro>0</chiaro>
+			<ref_colore>15</ref_colore>
+			<g1>0</g1>
+			<g2>0</g2>
+			<g3>0</g3>
+			<g4>0</g4>
+			<xs>0</xs>
+			<s>0</s>
+			<m>0</m>
+			<l>0</l>
+			<xl>0</xl>
+			<regola>0</regola>
+			<unica>0</unica>
+			<cod_art>PUZZLE</cod_art>
+			<descr_it>&lt;html /&gt;</descr_it>
+			<ref_tipo>27</ref_tipo>
+			<nome_en>PUZZLE</nome_en>
+			<descr_en>&lt;html /&gt;</descr_en>
+			<d_xs_it/>
+			<d_s_it/>
+			<d_m_it/>
+			<d_l_it/>
+			<d_xl_it/>
+			<d_unica_it/>
+			<d_regola_it/>
+			<xxl>0</xxl>
+			<xxxl>0</xxxl>
+			<d_xxl_it/>
+			<d_xxxl_it/>
+			<d_xs_en/>
+			<d_s_en/>
+			<d_m_en/>
+			<d_l_en/>
+			<d_xl_en/>
+			<d_xxl_en/>
+			<d_xxxl_en/>
+			<d_unica_en/>
+			<d_regola_en/>
+			<attivo>1</attivo>
+			<g_nome_it>GADGET</g_nome_it>
+			<g_nome_en>GADGET</g_nome_en>
+			<g_descrizione_it>&lt;html /&gt;</g_descrizione_it>
+			<g_descrizione_en>&lt;html /&gt;</g_descrizione_en>
+			<gid>27</gid>
+			<viste>
+				<fronte>
+					<node>
+						<node>
+							<id>3122</id>
+							<filename>119-puzzle.png</filename>
+							<type>1</type>
+							<size>2099697</size>
+							<last_mod>2010-10-26 11:22:54</last_mod>
+							<path>Prodotto/</path>
+							<ref_id>2681</ref_id>
+							<no_del>0</no_del>
+							<permessi/>
+							<ref_id_ver>0</ref_id_ver>
+							<version>0</version>
+							<description/>
+							<ref_ext/>
+						</node>
+					</node>
+				</fronte>
+				<retro>
+					<node/>
+				</retro>
+			</viste>
+			<colore>
+				<node>
+					<node>
+						<id>2967</id>
+						<filename>15-BIANCO.png</filename>
+						<type>1</type>
+						<size>491820</size>
+						<last_mod>2010-10-14 11:35:12</last_mod>
+						<path>Colori/</path>
+						<ref_id>2701</ref_id>
+						<no_del>0</no_del>
+						<permessi/>
+						<ref_id_ver>0</ref_id_ver>
+						<version>0</version>
+						<description/>
+						<ref_ext/>
+					</node>
+				</node>
+			</colore>
+		</node>
+		<node>
+			<id>120</id>
+			<nome_it>TAZZA</nome_it>
+			<prezzo>10</prezzo>
+			<larghezza>0</larghezza>
+			<altezza>0</altezza>
+			<peso>0</peso>
+			<lati>1</lati>
+			<chiaro>0</chiaro>
+			<ref_colore>15</ref_colore>
+			<g1>0</g1>
+			<g2>0</g2>
+			<g3>0</g3>
+			<g4>0</g4>
+			<xs>0</xs>
+			<s>0</s>
+			<m>0</m>
+			<l>0</l>
+			<xl>0</xl>
+			<regola>0</regola>
+			<unica>1</unica>
+			<cod_art>TAZZA</cod_art>
+			<descr_it>&lt;p&gt;&amp;nbsp;&lt;/p&gt;</descr_it>
+			<ref_tipo>27</ref_tipo>
+			<nome_en>TAZZA</nome_en>
+			<descr_en>&lt;p&gt;&amp;nbsp;&lt;/p&gt;</descr_en>
+			<d_xs_it/>
+			<d_s_it/>
+			<d_m_it/>
+			<d_l_it/>
+			<d_xl_it/>
+			<d_unica_it/>
+			<d_regola_it/>
+			<xxl>0</xxl>
+			<xxxl>0</xxxl>
+			<d_xxl_it/>
+			<d_xxxl_it/>
+			<d_xs_en/>
+			<d_s_en/>
+			<d_m_en/>
+			<d_l_en/>
+			<d_xl_en/>
+			<d_xxl_en/>
+			<d_xxxl_en/>
+			<d_unica_en/>
+			<d_regola_en/>
+			<attivo>1</attivo>
+			<g_nome_it>GADGET</g_nome_it>
+			<g_nome_en>GADGET</g_nome_en>
+			<g_descrizione_it>&lt;html /&gt;</g_descrizione_it>
+			<g_descrizione_en>&lt;html /&gt;</g_descrizione_en>
+			<gid>27</gid>
+			<viste>
+				<fronte>
+					<node>
+						<node>
+							<id>3123</id>
+							<filename>120-tazza.png</filename>
+							<type>1</type>
+							<size>3509530</size>
+							<last_mod>2010-10-26 11:24:39</last_mod>
+							<path>Prodotto/</path>
+							<ref_id>2681</ref_id>
+							<no_del>0</no_del>
+							<permessi/>
+							<ref_id_ver>0</ref_id_ver>
+							<version>0</version>
+							<description/>
+							<ref_ext/>
+						</node>
+					</node>
+				</fronte>
+				<retro>
+					<node>
+						<node>
+							<id>3124</id>
+							<filename>120-tazza2.png</filename>
+							<type>1</type>
+							<size>3936174</size>
+							<last_mod>2010-10-26 11:24:40</last_mod>
+							<path>ProdottoBack/</path>
+							<ref_id>2691</ref_id>
+							<no_del>0</no_del>
+							<permessi/>
+							<ref_id_ver>0</ref_id_ver>
+							<version>0</version>
+							<description/>
+							<ref_ext/>
+						</node>
+					</node>
+				</retro>
+			</viste>
+			<colore>
+				<node>
+					<node>
+						<id>2967</id>
+						<filename>15-BIANCO.png</filename>
+						<type>1</type>
+						<size>491820</size>
+						<last_mod>2010-10-14 11:35:12</last_mod>
+						<path>Colori/</path>
+						<ref_id>2701</ref_id>
+						<no_del>0</no_del>
+						<permessi/>
+						<ref_id_ver>0</ref_id_ver>
+						<version>0</version>
+						<description/>
+						<ref_ext/>
+					</node>
+				</node>
+			</colore>
+		</node>
+		<node>
+			<id>121</id>
+			<nome_it>SPILLA 3.7</nome_it>
+			<prezzo>0</prezzo>
+			<larghezza>0</larghezza>
+			<altezza>0</altezza>
+			<peso>0</peso>
+			<lati>0</lati>
+			<chiaro>0</chiaro>
+			<ref_colore>15</ref_colore>
+			<g1>0</g1>
+			<g2>0</g2>
+			<g3>0</g3>
+			<g4>0</g4>
+			<xs>0</xs>
+			<s>0</s>
+			<m>0</m>
+			<l>0</l>
+			<xl>0</xl>
+			<regola>0</regola>
+			<unica>0</unica>
+			<cod_art>SPILLA 3.7</cod_art>
+			<descr_it>&lt;html /&gt;</descr_it>
+			<ref_tipo>27</ref_tipo>
+			<nome_en>SPILLA 3.7</nome_en>
+			<descr_en>&lt;html /&gt;</descr_en>
+			<d_xs_it/>
+			<d_s_it/>
+			<d_m_it/>
+			<d_l_it/>
+			<d_xl_it/>
+			<d_unica_it/>
+			<d_regola_it/>
+			<xxl>0</xxl>
+			<xxxl>0</xxxl>
+			<d_xxl_it/>
+			<d_xxxl_it/>
+			<d_xs_en/>
+			<d_s_en/>
+			<d_m_en/>
+			<d_l_en/>
+			<d_xl_en/>
+			<d_xxl_en/>
+			<d_xxxl_en/>
+			<d_unica_en/>
+			<d_regola_en/>
+			<attivo>1</attivo>
+			<g_nome_it>GADGET</g_nome_it>
+			<g_nome_en>GADGET</g_nome_en>
+			<g_descrizione_it>&lt;html /&gt;</g_descrizione_it>
+			<g_descrizione_en>&lt;html /&gt;</g_descrizione_en>
+			<gid>27</gid>
+			<viste>
+				<fronte>
+					<node>
+						<node>
+							<id>3125</id>
+							<filename>121-spille 2 formati2.png</filename>
+							<type>1</type>
+							<size>489980</size>
+							<last_mod>2010-10-26 11:25:53</last_mod>
+							<path>Prodotto/</path>
+							<ref_id>2681</ref_id>
+							<no_del>0</no_del>
+							<permessi/>
+							<ref_id_ver>0</ref_id_ver>
+							<version>0</version>
+							<description/>
+							<ref_ext/>
+						</node>
+					</node>
+				</fronte>
+				<retro>
+					<node/>
+				</retro>
+			</viste>
+			<colore>
+				<node>
+					<node>
+						<id>2967</id>
+						<filename>15-BIANCO.png</filename>
+						<type>1</type>
+						<size>491820</size>
+						<last_mod>2010-10-14 11:35:12</last_mod>
+						<path>Colori/</path>
+						<ref_id>2701</ref_id>
+						<no_del>0</no_del>
+						<permessi/>
+						<ref_id_ver>0</ref_id_ver>
+						<version>0</version>
+						<description/>
+						<ref_ext/>
+					</node>
+				</node>
+			</colore>
+		</node>
+		<node>
+			<id>122</id>
+			<nome_it>SPILLA 5.6</nome_it>
+			<prezzo>0</prezzo>
+			<larghezza>0</larghezza>
+			<altezza>0</altezza>
+			<peso>0</peso>
+			<lati>0</lati>
+			<chiaro>0</chiaro>
+			<ref_colore>15</ref_colore>
+			<g1>0</g1>
+			<g2>0</g2>
+			<g3>0</g3>
+			<g4>0</g4>
+			<xs>0</xs>
+			<s>0</s>
+			<m>0</m>
+			<l>0</l>
+			<xl>0</xl>
+			<regola>0</regola>
+			<unica>0</unica>
+			<cod_art>SPILLA 5.6</cod_art>
+			<descr_it>&lt;html /&gt;</descr_it>
+			<ref_tipo>27</ref_tipo>
+			<nome_en>SPILLA 5.6</nome_en>
+			<descr_en>&lt;html /&gt;</descr_en>
+			<d_xs_it/>
+			<d_s_it/>
+			<d_m_it/>
+			<d_l_it/>
+			<d_xl_it/>
+			<d_unica_it/>
+			<d_regola_it/>
+			<xxl>0</xxl>
+			<xxxl>0</xxxl>
+			<d_xxl_it/>
+			<d_xxxl_it/>
+			<d_xs_en/>
+			<d_s_en/>
+			<d_m_en/>
+			<d_l_en/>
+			<d_xl_en/>
+			<d_xxl_en/>
+			<d_xxxl_en/>
+			<d_unica_en/>
+			<d_regola_en/>
+			<attivo>1</attivo>
+			<g_nome_it>GADGET</g_nome_it>
+			<g_nome_en>GADGET</g_nome_en>
+			<g_descrizione_it>&lt;html /&gt;</g_descrizione_it>
+			<g_descrizione_en>&lt;html /&gt;</g_descrizione_en>
+			<gid>27</gid>
+			<viste>
+				<fronte>
+					<node>
+						<node>
+							<id>3126</id>
+							<filename>122-spille 2 formati2.png</filename>
+							<type>1</type>
+							<size>489980</size>
+							<last_mod>2010-10-26 11:26:25</last_mod>
+							<path>Prodotto/</path>
+							<ref_id>2681</ref_id>
+							<no_del>0</no_del>
+							<permessi/>
+							<ref_id_ver>0</ref_id_ver>
+							<version>0</version>
+							<description/>
+							<ref_ext/>
+						</node>
+					</node>
+				</fronte>
+				<retro>
+					<node/>
+				</retro>
+			</viste>
+			<colore>
+				<node>
+					<node>
+						<id>2967</id>
+						<filename>15-BIANCO.png</filename>
+						<type>1</type>
+						<size>491820</size>
+						<last_mod>2010-10-14 11:35:12</last_mod>
+						<path>Colori/</path>
+						<ref_id>2701</ref_id>
+						<no_del>0</no_del>
+						<permessi/>
+						<ref_id_ver>0</ref_id_ver>
+						<version>0</version>
+						<description/>
+						<ref_ext/>
+					</node>
+				</node>
+			</colore>
+		</node>
+	</node>
+	<node>
+		<node>
+			<id>123</id>
+			<nome_it>CAPPELLINO</nome_it>
+			<prezzo>10</prezzo>
+			<larghezza>0</larghezza>
+			<altezza>0</altezza>
+			<peso>0</peso>
+			<lati>1</lati>
+			<chiaro>0</chiaro>
+			<ref_colore>30</ref_colore>
+			<g1>0</g1>
+			<g2>0</g2>
+			<g3>0</g3>
+			<g4>0</g4>
+			<xs>0</xs>
+			<s>0</s>
+			<m>0</m>
+			<l>0</l>
+			<xl>0</xl>
+			<regola>0</regola>
+			<unica>1</unica>
+			<cod_art>CAPPELLINO </cod_art>
+			<descr_it>&lt;p&gt;&amp;nbsp;&lt;/p&gt;</descr_it>
+			<ref_tipo>28</ref_tipo>
+			<nome_en>CAPPELLINO</nome_en>
+			<descr_en>&lt;p&gt;&amp;nbsp;&lt;/p&gt;</descr_en>
+			<d_xs_it/>
+			<d_s_it/>
+			<d_m_it/>
+			<d_l_it/>
+			<d_xl_it/>
+			<d_unica_it/>
+			<d_regola_it/>
+			<xxl>0</xxl>
+			<xxxl>0</xxxl>
+			<d_xxl_it/>
+			<d_xxxl_it/>
+			<d_xs_en/>
+			<d_s_en/>
+			<d_m_en/>
+			<d_l_en/>
+			<d_xl_en/>
+			<d_xxl_en/>
+			<d_xxxl_en/>
+			<d_unica_en/>
+			<d_regola_en/>
+			<attivo>1</attivo>
+			<g_nome_it>CAPPELLINO</g_nome_it>
+			<g_nome_en>CAPPELLINO</g_nome_en>
+			<g_descrizione_it>&lt;html /&gt;</g_descrizione_it>
+			<g_descrizione_en>&lt;html /&gt;</g_descrizione_en>
+			<gid>28</gid>
+			<viste>
+				<fronte>
+					<node>
+						<node>
+							<id>3128</id>
+							<filename>123-bianco nero.png</filename>
+							<type>1</type>
+							<size>865887</size>
+							<last_mod>2010-10-26 11:39:05</last_mod>
+							<path>Prodotto/</path>
+							<ref_id>2681</ref_id>
+							<no_del>0</no_del>
+							<permessi/>
+							<ref_id_ver>0</ref_id_ver>
+							<version>0</version>
+							<description/>
+							<ref_ext/>
+						</node>
+					</node>
+				</fronte>
+				<retro>
+					<node/>
+				</retro>
+			</viste>
+			<colore>
+				<node>
+					<node>
+						<id>3250</id>
+						<filename>30-30-BIANCO-NERO.png</filename>
+						<type>1</type>
+						<size>17292</size>
+						<last_mod>2010-11-08 01:21:20</last_mod>
+						<path>Colori/</path>
+						<ref_id>2701</ref_id>
+						<no_del>0</no_del>
+						<permessi/>
+						<ref_id_ver>0</ref_id_ver>
+						<version>0</version>
+						<description/>
+						<ref_ext/>
+					</node>
+				</node>
+			</colore>
+		</node>
+		<node>
+			<id>124</id>
+			<nome_it>CAPPELLINO</nome_it>
+			<prezzo>0</prezzo>
+			<larghezza>0</larghezza>
+			<altezza>0</altezza>
+			<peso>0</peso>
+			<lati>0</lati>
+			<chiaro>0</chiaro>
+			<ref_colore>31</ref_colore>
+			<g1>0</g1>
+			<g2>0</g2>
+			<g3>0</g3>
+			<g4>0</g4>
+			<xs>0</xs>
+			<s>0</s>
+			<m>0</m>
+			<l>0</l>
+			<xl>0</xl>
+			<regola>1</regola>
+			<unica>0</unica>
+			<cod_art>CAPPELLINO</cod_art>
+			<descr_it>&lt;html /&gt;</descr_it>
+			<ref_tipo>28</ref_tipo>
+			<nome_en>CAPPELLINO</nome_en>
+			<descr_en>&lt;html /&gt;</descr_en>
+			<d_xs_it/>
+			<d_s_it/>
+			<d_m_it/>
+			<d_l_it/>
+			<d_xl_it/>
+			<d_unica_it/>
+			<d_regola_it/>
+			<xxl>0</xxl>
+			<xxxl>0</xxxl>
+			<d_xxl_it/>
+			<d_xxxl_it/>
+			<d_xs_en/>
+			<d_s_en/>
+			<d_m_en/>
+			<d_l_en/>
+			<d_xl_en/>
+			<d_xxl_en/>
+			<d_xxxl_en/>
+			<d_unica_en/>
+			<d_regola_en/>
+			<attivo>1</attivo>
+			<g_nome_it>CAPPELLINO</g_nome_it>
+			<g_nome_en>CAPPELLINO</g_nome_en>
+			<g_descrizione_it>&lt;html /&gt;</g_descrizione_it>
+			<g_descrizione_en>&lt;html /&gt;</g_descrizione_en>
+			<gid>28</gid>
+			<viste>
+				<fronte>
+					<node>
+						<node>
+							<id>3129</id>
+							<filename>124-bianco rosso.png</filename>
+							<type>1</type>
+							<size>967580</size>
+							<last_mod>2010-10-26 11:39:31</last_mod>
+							<path>Prodotto/</path>
+							<ref_id>2681</ref_id>
+							<no_del>0</no_del>
+							<permessi/>
+							<ref_id_ver>0</ref_id_ver>
+							<version>0</version>
+							<description/>
+							<ref_ext/>
+						</node>
+					</node>
+				</fronte>
+				<retro>
+					<node/>
+				</retro>
+			</viste>
+			<colore>
+				<node>
+					<node>
+						<id>2983</id>
+						<filename>31-BIANCO-ROSSO.png</filename>
+						<type>1</type>
+						<size>17281</size>
+						<last_mod>2010-10-14 11:49:14</last_mod>
+						<path>Colori/</path>
+						<ref_id>2701</ref_id>
+						<no_del>0</no_del>
+						<permessi/>
+						<ref_id_ver>0</ref_id_ver>
+						<version>0</version>
+						<description/>
 						<ref_ext/>
 					</node>
 				</node>

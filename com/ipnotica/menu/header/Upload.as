@@ -6,6 +6,7 @@ package com.ipnotica.menu.header {
 	import ascb.util.Tween;
 	
 	import com.greensock.TweenLite;
+	import com.greensock.easing.Strong;
 	import com.ipnotica.utils.Config;
 	import com.ipnotica.utils.Utils;
 	
@@ -14,6 +15,7 @@ package com.ipnotica.menu.header {
 	import flash.events.IOErrorEvent;
 	import flash.events.MouseEvent;
 	import flash.net.*;
+
 	//import flash.net.URLLoader;
 	//import flash.net.URLRequest;
 	//import flash.net.URLRequestMethod
@@ -45,7 +47,7 @@ package com.ipnotica.menu.header {
 		private function initEvents():void {
 			//addEventListener(MouseEvent.CLICK, onClickUpload);
 			file= new FileReference();
-			url="http://www.tshirtpersonalizzate.com/ajax/editor_upload/";
+			url = "http://www.tshirtpersonalizzate.com/ajax/editor_upload/";
 			//var url:String = "http://www.tshirtpersonalizzate.com/tinotest/upload.php";
 			// istanza di URLRequest che gestisce la comunicazione con il file esterno
 			request= new URLRequest(url);
@@ -105,6 +107,9 @@ function select(event:Event):void {
 	//errmsg.appendText("\n");
 	//errmsg.appendText("select function: name=" + file.name + " URL=" + request.url);
 	trace("select function: name=" + file.name + " URL=" + request.url);
+	Config.doc.preloader.label.text = "Uploading the image";
+	Config.doc.preloader.visible = true;
+	TweenLite.to(Config.doc.preloader, 0.5, { alpha:1, delay:0, ease: Strong.easeOut });
 	file.upload(request);
 }
 // Funzione richiamata ad inizio upload (o download)
@@ -141,8 +146,34 @@ function uploadCompleteData (event:DataEvent) {
 	//errmsg.appendText("data received : " + event.data);
 	trace("upload return data function : " + event);
 	trace("data received : " + event.data);
-	//trace(event.data.filename);
+	loadGraphics();
 }
+
+private function loadGraphics():void {
+	Config.doc.preloader.label.text = "Elaborating image";
+	trace(">> Starting loading new XML graphics");
+	// load request
+	//var request:URLRequest = new URLRequest(Config.flashvars.httpDomain + Config.flashvars.assets + Config.flashvars.xml + Config.flashvars.images); // real XML
+	var url:String = Config.flashvars.assets + Config.flashvars.xml + Config.flashvars.images + "&sid=" + Config.flashvars.sid + "&jid=" + Config.flashvars.jid
+	trace(">> The loading URL is", url);
+	var request:URLRequest = new URLRequest(url); // real XML
+	//request.method = URLRequestMethod.POST;
+	// load query string
+	//var variables:URLVariables = new URLVariables();
+	//variables.sid=Config.flashvars.sid;
+	//variables.jid=Config.flashvars.jid;
+	//request.data = variables;
+	// loader
+	var loader:URLLoader = new URLLoader(request);
+	loader.addEventListener(Event.COMPLETE, onGraphicsLoaded);
+}
+
+private function onGraphicsLoaded(e:Event = null):void {
+	trace(">> New XML graphics loaded");
+	Config.objects = new XML(e.target.data);
+	TweenLite.to(Config.doc.preloader, 0.5, { alpha:0, delay:0, ease: Strong.easeOut, onComplete: function():void { Config.doc.preloader.visible = false; } });
+}
+
 
 /* Array per specificare il tipo di dati da visualizzare per l' upload
 * L' array sarà composto da tante istanze di FileFilter quanti sono i tipi differenti di files da voler far uploadare.
