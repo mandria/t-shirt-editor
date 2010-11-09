@@ -5,22 +5,22 @@
 		<overSkin type="simpleColorBg" simpleColor="0x999999" strokeThickness="1" strokeColor="0xCCCCCC"/>
 		<downSkin type="simpleColorBg" simpleColor="0x99C1D7" strokeThickness="1" strokeColor="0xCCCCCC"/>
 	</item>
-	<item height="30" defaultPick="true" alpha="0.85" label="rock" address="6" title="#" font="verdana" color="0xFFFFFF" size="12" direction="ltr">
+	<item height="30" defaultPick="false" alpha="0.85" label="rock" address="6" title="#" font="verdana" color="0xFFFFFF" size="12" direction="ltr">
 		<upSkin type="simpleColorBg" simpleColor="0x666666" strokeThickness="1" strokeColor="0xCCCCCC"/>
 		<overSkin type="simpleColorBg" simpleColor="0x999999" strokeThickness="1" strokeColor="0xCCCCCC"/>
 		<downSkin type="simpleColorBg" simpleColor="0x99C1D7" strokeThickness="1" strokeColor="0xCCCCCC"/>
 	</item>
-	<item height="30" defaultPick="true" alpha="0.85" label="hip hop" address="7" title="#" font="verdana" color="0xFFFFFF" size="12" direction="ltr">
+	<item height="30" defaultPick="false" alpha="0.85" label="hip hop" address="7" title="#" font="verdana" color="0xFFFFFF" size="12" direction="ltr">
 		<upSkin type="simpleColorBg" simpleColor="0x666666" strokeThickness="1" strokeColor="0xCCCCCC"/>
 		<overSkin type="simpleColorBg" simpleColor="0x999999" strokeThickness="1" strokeColor="0xCCCCCC"/>
 		<downSkin type="simpleColorBg" simpleColor="0x99C1D7" strokeThickness="1" strokeColor="0xCCCCCC"/>
 	</item>
-	<item height="30" defaultPick="true" alpha="0.85" label="deejay" address="8" title="#" font="verdana" color="0xFFFFFF" size="12" direction="ltr">
+	<item height="30" defaultPick="false" alpha="0.85" label="deejay" address="8" title="#" font="verdana" color="0xFFFFFF" size="12" direction="ltr">
 		<upSkin type="simpleColorBg" simpleColor="0x666666" strokeThickness="1" strokeColor="0xCCCCCC"/>
 		<overSkin type="simpleColorBg" simpleColor="0x999999" strokeThickness="1" strokeColor="0xCCCCCC"/>
 		<downSkin type="simpleColorBg" simpleColor="0x99C1D7" strokeThickness="1" strokeColor="0xCCCCCC"/>
 	</item>
-	<item height="30" defaultPick="true" alpha="0.85" label="amore" address="13" title="#" font="verdana" color="0xFFFFFF" size="12" direction="ltr">
+	<item height="30" defaultPick="false" alpha="0.85" label="amore" address="13" title="#" font="verdana" color="0xFFFFFF" size="12" direction="ltr">
 		<upSkin type="simpleColorBg" simpleColor="0x666666" strokeThickness="1" strokeColor="0xCCCCCC"/>
 		<overSkin type="simpleColorBg" simpleColor="0x999999" strokeThickness="1" strokeColor="0xCCCCCC"/>
 		<downSkin type="simpleColorBg" simpleColor="0x99C1D7" strokeThickness="1" strokeColor="0xCCCCCC"/>

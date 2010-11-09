@@ -154,7 +154,7 @@ private function loadGraphics():void {
 	trace(">> Starting loading new XML graphics");
 	// load request
 	//var request:URLRequest = new URLRequest(Config.flashvars.httpDomain + Config.flashvars.assets + Config.flashvars.xml + Config.flashvars.images); // real XML
-	var url:String = Config.flashvars.assets + Config.flashvars.xml + Config.flashvars.images + "&sid=" + Config.flashvars.sid + "&jid=" + Config.flashvars.jid
+	var url:String = Config.flashvars.assets + Config.flashvars.xml + Config.flashvars.images;
 	trace(">> The loading URL is", url);
 	var request:URLRequest = new URLRequest(url); // real XML
 	//request.method = URLRequestMethod.POST;
@@ -171,6 +171,7 @@ private function loadGraphics():void {
 private function onGraphicsLoaded(e:Event = null):void {
 	trace(">> New XML graphics loaded");
 	Config.objects = new XML(e.target.data);
+	Config.menuItems = new XMLList(e.target.data).node;
 	TweenLite.to(Config.doc.preloader, 0.5, { alpha:0, delay:0, ease: Strong.easeOut, onComplete: function():void { Config.doc.preloader.visible = false; } });
 }
 
