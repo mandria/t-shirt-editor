@@ -78,15 +78,9 @@ package com.ipnotica.menu.header {
 		}
 		
 		/** If any, load the existing product we want to show */
-		private function onCategoriesLoaded(e:Event):void {
-			numberOfCategories = new XML(e.target.data).children().length() - 1;
-		}
-		
-		private function onClickUpload(e:MouseEvent):void {
-			
-			
+		private function onCategoriesLoaded():void {
+			numberOfCategories = Config.objects.children().length() - 1;
 			Config.body.menu.header.combo.pick(numberOfCategories)
-			// at this point the system raise the event and start to load
 		}
 		
 
@@ -173,6 +167,7 @@ private function onGraphicsLoaded(e:Event = null):void {
 	Config.objects = new XML(e.target.data);
 	Config.menuItems = new XMLList(e.target.data).node;
 	TweenLite.to(Config.doc.preloader, 0.5, { alpha:0, delay:0, ease: Strong.easeOut, onComplete: function():void { Config.doc.preloader.visible = false; } });
+	onCategoriesLoaded();
 }
 
 
