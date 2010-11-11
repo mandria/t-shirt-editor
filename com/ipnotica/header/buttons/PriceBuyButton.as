@@ -73,8 +73,13 @@ package com.ipnotica.header.buttons {
 	//variables.mjid=input_jid.text;
 	variables.sid=Config.flashvars.sid;
 	variables.jid=Config.flashvars.jid;
+	variables.productID=Config.productID;
+	variables.prezzo=Config.totalPrice;
+	variables.xml=structure;
+	
+	
 	for (var i:uint=0; i<Config.views.length(); i++) {
-				Snapshot.capture(getChildByName(Config.views[i].node.node.id), {
+				Snapshot.capture(getChildByName(Config.views[i].node.node.id), getChildByName(Config.views[i].node.node.id), {
 
 				format: Snapshot.JPG,
 
@@ -84,7 +89,13 @@ package com.ipnotica.header.buttons {
 				
 				sid: variables.sid,
 				
-				jid: variables.jid
+				jid: variables.jid,
+				
+				productID: variables.productID,
+				
+				prezzo: variables.prezzo,
+				
+				xml: variables.xml
 
 			});
 			

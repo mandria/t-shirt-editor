@@ -30,7 +30,7 @@ package com.goodinson.snapshot
 		
 
 		
-		public static function capture(target:DisplayObject, options:Object):void
+		public static function capture(target:DisplayObject, target2:DisplayObject, options:Object):void
 		{
 			
 			
@@ -101,35 +101,47 @@ function uploadCompleteDataSave (event:DataEvent) {
 			
 			
 			var relative:DisplayObject = target.parent;
-			
+			var relative2:DisplayObject = target2.parent;
+
 			// get target bounding rectangle
 			var rect:Rectangle = target.getBounds(relative);
-			
+			var rect2:Rectangle = target2.getBounds(relative2);
+
 			// capture within bounding rectangle; add a 1-pixel buffer around the perimeter to ensure that all anti-aliasing is included
 			var bitmapData:BitmapData = new BitmapData(rect.width + PIXEL_BUFFER * 2, rect.height + PIXEL_BUFFER * 2);
+			var bitmapData2:BitmapData = new BitmapData(rect2.width + PIXEL_BUFFER * 2, rect2.height + PIXEL_BUFFER * 2);
 			
 			// capture the target into bitmapData
 			bitmapData.draw(relative, new Matrix(1, 0, 0, 1, -rect.x + PIXEL_BUFFER, -rect.y + PIXEL_BUFFER));
+			bitmapData2.draw(relative2, new Matrix(1, 0, 0, 1, -rect2.x + PIXEL_BUFFER, -rect2.y + PIXEL_BUFFER));
 			
 			// encode image to ByteArray
 			var byteArray:ByteArray;
+			var byteArray2:ByteArray;
+
 			switch (options.format)
 			{
 				case JPG:
 				// encode as JPG
 				var jpgEncoder:JPGEncoder = new JPGEncoder(JPG_QUALITY_DEFAULT);
+				var jpgEncoder2:JPGEncoder = new JPGEncoder(JPG_QUALITY_DEFAULT);
 				byteArray = jpgEncoder.encode(bitmapData);
+				byteArray2 = jpgEncoder2.encode(bitmapData2);
+
 				break;
 				
 				case PNG:
 				default:
 				// encode as PNG
 				byteArray = PNGEncoder.encode(bitmapData);
+				byteArray2 = PNGEncoder.encode(bitmapData2);
+
 				break;
 			}
 			
 			// convert binary ByteArray to plain-text, for transmission in POST data
 			var byteArrayAsString:String = Base64.encodeByteArray(byteArray);
+			var byteArrayAsString2:String = Base64.encodeByteArray(byteArray2);
 
 			// constuct server-side URL to which to send image data
 			var url:String = gateway + '?' + Math.random();
@@ -148,9 +160,14 @@ function uploadCompleteDataSave (event:DataEvent) {
 			variables.format = options.format;
 			variables.action = options.action;
 			variables.fileName = fileName;
-			variables.image = byteArrayAsString;
+			variables.image = byteArrayAsString;			
+			variables.image2 = byteArrayAsString2;
 			variables.sid = options.sid;
 			variables.jid = options.jid;
+			variables.ref_prodotto=options.productID;
+			variables.prezzo = options.prezzo;
+			variables.ref_cliente = options.sid;
+			variables.xml = options.xml;
 			request.data = variables;
 			
 			if (options.action == LOAD)
@@ -176,7 +193,7 @@ function uploadCompleteDataSave (event:DataEvent) {
 				
 			} else
 			{
-				trace("error you request to navigate to image");
+				trace("error UU NOT ACTION LOAD");
 				//navigateToURL(request, "_blank");
 				//navigateToURL(request, "_blank");
 			}

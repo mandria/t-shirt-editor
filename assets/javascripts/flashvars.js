@@ -5,7 +5,7 @@ var baseUrl = location.href.substring(0,location.href.indexOf('/', 8)) +  "/";
 var flashvars = { 
 	"serverLocation": baseUrl, 
 	"secureServerLocation": baseUrl, 
-	"assets": "", 
+	"assets": "http://www.tshirtpersonalizzate.com/", 
 	"xml": "", 
 	"categories": "ajaxer.php?action=2",
 	"images": "ajaxer.php?action=1",
@@ -22,7 +22,7 @@ switch (flashvars.serverLocation) {
 		
 	// local website (with no active server)	          
 	case "file:///Users/":
-		flashvars.serverLocation = "file:///Users/reggie/dev/work/ipnotica/tshirt/"; 
+		flashvars.serverLocation = "http://www.tshirtpersonalizzate.com/"; 
 		//flashvars.secureServerLocation = "file:///Users/reggie/dev/work/ipnotica/tshirt/"; 
 		break;                               
 }
