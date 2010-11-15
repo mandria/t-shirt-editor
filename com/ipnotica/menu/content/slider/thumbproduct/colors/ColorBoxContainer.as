@@ -10,7 +10,7 @@ package com.ipnotica.menu.content.slider.thumbproduct.colors {
 		public var products:XMLList;
 
 		// CONFIGURATION
-		public var hiddenAlpha:Number = 0.2;		/**< Alpha value when the color icon is not selected **/
+		public var hiddenAlpha:Number = 0;		/**< Alpha value when the color icon is not selected **/
 		public var visibleAlpha:Number = 1;			/**< Alpha value when the color icon is over **/
 
 		
