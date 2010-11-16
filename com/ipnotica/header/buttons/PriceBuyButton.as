@@ -2,8 +2,15 @@ package com.ipnotica.header.buttons {
 	
 	import com.ipnotica.content.blackboard.producs.product.Product;
 	import com.ipnotica.content.blackboard.producs.product.item.Item;
+	import com.ipnotica.content.blackboard.views.view.View;
 	import com.ipnotica.utils.Config;
 	import com.goodinson.snapshot.*;
+	import com.ipnotica.utils.Utils;
+	
+	import ascb.util.Tween;
+	
+	import com.greensock.TweenLite;
+	import com.greensock.easing.Strong;
 	
 	import flash.display.MovieClip;
 	import flash.events.Event;
@@ -29,30 +36,43 @@ package com.ipnotica.header.buttons {
 		}
 		
 		private function onClick(e:Event):void {
+		Config.doc.preloader.label.text = "Uploading the image";
+		Config.doc.preloader.visible = true;
+		TweenLite.to(Config.doc.preloader, 0.5, { alpha:1, delay:0, ease: Strong.easeOut });
+		
 			initStructure();
 		}
 		
 		// Define the XML structure in a string, representing
 		// the definition of an entire product 
 		private function initStructure():void {
-			initialProductXML();
-			var views:Array = Config.body.content.blackboard.products.list;
-			for (var i:int = 0; i < views.length; i++) {
-				initialViewXML(i);
-				initStructureView(Product(views[i]).items.customization.items);
-				finalViewXML();
-			}
-			finalProductXML();
+			//initialProductXML();
+			//var views:Array = Config.body.content.blackboard.products.list;
+			//for (var i:int = 0; i < views.length; i++) {
+			//	initialViewXML(i);
+			//	initStructureView(Product(views[i]).items.customization.items);
+			//	finalViewXML();
+			//}
+			//finalProductXML();
 			sendFinalProduct();
 		}
 		
 	    
 		// send the personalized product
 		private function sendFinalProduct():void {
-			trace(">>", structure);
-			
-			
-			
+			//trace(">>", structure);
+			trace("inside send final product");
+			trace("parent is: "+parent);
+			trace("parent.parent is: "+parent.parent);
+			trace("child by name wiews 0: "+Config.views[0]);
+			trace("child by name wiews 1: "+Config.views[1]);
+			trace("child lenght: "+Config.views.length());
+			trace("config body content"+Config.body.content.blackboard.views);
+			trace("var views:Array = "+Config.body.content.blackboard.products.list);
+			var views:Array = Config.body.content.blackboard.products.list;
+			//trace("var views:Array = "+views[0].items.customization.items.length);
+			trace("var view 0? = "+views[0].items.customization);
+			//for (var i:int = 0; i < views.length; i++) { views[i].items.customization.items.length; }
 			
 			//var request:URLRequest = new URLRequest(Config.flashvars.httpDomain + "products.xml");
 			//request.method = URLRequestMethod.POST;
@@ -68,18 +88,20 @@ package com.ipnotica.header.buttons {
 			// capture as JPG and display prompt user to save/download //Snapshot.JPG  //Snapshot.PNG
 			//Snapshot.DISPLAY; Snapshot.PROMPT; Snapshot.LOAD;
 	var variables:URLVariables = new URLVariables();
-	
-	//variables.msid=input_sid.text;
-	//variables.mjid=input_jid.text;
 	variables.sid=Config.flashvars.sid;
 	variables.jid=Config.flashvars.jid;
 	variables.productID=Config.productID;
 	variables.prezzo=Config.totalPrice;
-	variables.xml=structure;
+	//variables.xml=structure;
 	
 	
-	for (var i:uint=0; i<Config.views.length(); i++) {
-				Snapshot.capture(getChildByName(Config.views[i].node.node.id), getChildByName(Config.views[i].node.node.id), {
+	//for (var i:uint=0; i<Config.views.length(); i++) {
+	//getChildByName(Config.views[i].node.node.id).visible = true;
+	//}
+	
+	
+	if (Config.views.length == 0)	{
+	Snapshot.capture(views[0], null, {
 
 				format: Snapshot.JPG,
 
@@ -98,10 +120,30 @@ package com.ipnotica.header.buttons {
 				xml: variables.xml
 
 			});
-			
-		
-		
-		}
+
+	
+	} else if(Config.views.length == 1){				
+	Snapshot.capture(views[0], views[1], {
+
+				format: Snapshot.JPG,
+
+				action: Snapshot.LOAD,
+				
+				err: this,
+				
+				sid: variables.sid,
+				
+				jid: variables.jid,
+				
+				productID: variables.productID,
+				
+				prezzo: variables.prezzo,
+				
+				xml: variables.xml
+
+			});
+			}
+
 	}
 	
 

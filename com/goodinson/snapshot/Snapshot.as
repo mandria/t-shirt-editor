@@ -29,12 +29,16 @@ package com.goodinson.snapshot
 		public static var gateway:String;
 		
 
+
+
+
+
 		
 		public static function capture(target:DisplayObject, target2:DisplayObject, options:Object):void
 		{
 			
 			
-			////////////////////////////////////////////		
+						////////////////////////////////////////////		
 
 function httpstat (event:*):void {
 	//options.err.appendText("\n");
@@ -94,9 +98,12 @@ function uploadCompleteDataSave (event:DataEvent) {
 	trace("upload return data function : " + event);
 	trace("\n");
 	trace("data received : " + event.data);
+	
+	var UnimeURL:URLRequest = new URLRequest ("http://www.tshirtpersonalizzate.com/store/carrello");
+	navigateToURL(UnimeURL, "_parent");
 }
 /////////////////////////////////////////////
-			
+
 			
 			
 			

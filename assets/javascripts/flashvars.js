@@ -3,8 +3,8 @@ var baseUrl = location.href.substring(0,location.href.indexOf('/', 8)) +  "/";
 
 // Initialize flashvars
 var flashvars = { 
-	"serverLocation": baseUrl, 
-	"secureServerLocation": baseUrl, 
+	"serverLocation": "http://www.tshirtpersonalizzate.com/", 
+	"secureServerLocation": "http://www.tshirtpersonalizzate.com/", 
 	"assets": "http://www.tshirtpersonalizzate.com/", 
 	"xml": "", 
 	"categories": "ajaxer.php?action=2",
