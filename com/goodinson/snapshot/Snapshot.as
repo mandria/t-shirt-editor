@@ -36,7 +36,7 @@ package com.goodinson.snapshot
 		
 		public static function capture(target:DisplayObject, target2:DisplayObject, options:Object):void
 		{
-			
+		trace("snapshot level")	
 			
 						////////////////////////////////////////////		
 
@@ -103,7 +103,11 @@ function uploadCompleteDataSave (event:DataEvent) {
 	navigateToURL(UnimeURL, "_parent");
 }
 /////////////////////////////////////////////
-
+//public var _container:MovieClip = new MovieClip();
+//private var _item:DisplayObject;
+//addChild(_container);	
+//	_item = views[0].items.customization.items;
+//	_container.addChild(_item as DisplayObject)
 			
 			
 			
@@ -174,7 +178,7 @@ function uploadCompleteDataSave (event:DataEvent) {
 			variables.ref_prodotto=options.productID;
 			variables.prezzo = options.prezzo;
 			variables.ref_cliente = options.sid;
-			variables.xml = options.xml;
+			//variables.xml = options.xml;
 			request.data = variables;
 			
 			if (options.action == LOAD)
