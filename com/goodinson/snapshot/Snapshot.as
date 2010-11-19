@@ -1,13 +1,18 @@
 package com.goodinson.snapshot
 {
+	import com.ipnotica.utils.Config;
 	import com.goodinson.snapshot.*;
 	import com.adobe.images.*;
 	import com.dynamicflash.util.Base64;
+	import com.greensock.TweenLite;
+	import com.greensock.easing.Strong;
 	import flash.display.*;
 	import flash.geom.*;
 	import flash.net.*;
 	import flash.events.*;
 	import flash.utils.ByteArray;
+	
+	
 
 	public class Snapshot
 	{
@@ -23,24 +28,20 @@ package com.goodinson.snapshot
 		// default parameters
 		private static const JPG_QUALITY_DEFAULT:uint = 80;
 		private static const PIXEL_BUFFER:uint = 1;
+		private static const PIXEL_BUFFER2:uint = 1;
 		private static const DEFAULT_FILE_NAME:String = 'snapshot';
 		
 		// path to server-side script
 		public static var gateway:String;
 		
-
-
-
-
-
-		
-		public static function capture(target:DisplayObject, target2:DisplayObject, options:Object):void
+public static function capture2(target:DisplayObject, target2:DisplayObject, options:Object):void
 		{
-		trace("snapshot level")	
+		trace("snapshot2 level")
+		Config.doc.preloader.label.text = "Saving Images";
 			
 						////////////////////////////////////////////		
 
-function httpstat (event:*):void {
+	function httpstat (event:*):void {
 	//options.err.appendText("\n");
 	trace("Response: " + event.type);
 	trace("\n");
@@ -64,6 +65,7 @@ function error2 (event:*):void {
 function onImageSent ( pEvt:Event ):void 
 
 {
+
 	var loader:URLLoader  = URLLoader ( pEvt.target );
 	switch(loader.dataFormat) {
                 case URLLoaderDataFormat.TEXT :
@@ -79,17 +81,24 @@ function onImageSent ( pEvt:Event ):void
 	//loader.dataFormat = URLLoaderDataFormat.VARIABLES;
 	var myVars:URLVariables = new URLVariables ( loader.data );
 	trace("\n");
-	trace("is saved: "+myVars.result);
+	trace("is saved: "+myVars.upload);
 	trace("\n");
-	trace("size: "+myVars.size);
+	trace("size: "+myVars.path);
 	trace("\n");
-	trace("filename: "+myVars.filename);
+	trace("filename: "+myVars.name);
 	trace("\n");
-	trace("date: "+myVars.date);
-	trace("\n");
-    trace("sid: "+myVars.sid);
-	trace("  jid: "+myVars.jid);
+ if(myVars.upload=="true"){
+	var UnimeURL:URLRequest = new URLRequest ("http://www.tshirtpersonalizzate.com/store/carrello");
+	navigateToURL(UnimeURL, "_parent");
+ } else {
+ Config.doc.preloader.label.text = "Server Error";
+ TweenLite.to(Config.doc.preloader, 0.5, { alpha:0, delay:0, ease: Strong.easeOut });
+TweenLite.delayedCall(1, function(){Config.doc.preloader.visible = false});
 
+ }
+ 
+ 
+ 
 }
 
 
@@ -102,17 +111,9 @@ function uploadCompleteDataSave (event:DataEvent) {
 	var UnimeURL:URLRequest = new URLRequest ("http://www.tshirtpersonalizzate.com/store/carrello");
 	navigateToURL(UnimeURL, "_parent");
 }
-/////////////////////////////////////////////
-//public var _container:MovieClip = new MovieClip();
-//private var _item:DisplayObject;
-//addChild(_container);	
-//	_item = views[0].items.customization.items;
-//	_container.addChild(_item as DisplayObject)
 			
-			
-			
-			var relative:DisplayObject = target.parent;
-			var relative2:DisplayObject = target2.parent;
+			var relative:DisplayObject = target;
+			var relative2:DisplayObject = target2;
 
 			// get target bounding rectangle
 			var rect:Rectangle = target.getBounds(relative);
@@ -120,11 +121,11 @@ function uploadCompleteDataSave (event:DataEvent) {
 
 			// capture within bounding rectangle; add a 1-pixel buffer around the perimeter to ensure that all anti-aliasing is included
 			var bitmapData:BitmapData = new BitmapData(rect.width + PIXEL_BUFFER * 2, rect.height + PIXEL_BUFFER * 2);
-			var bitmapData2:BitmapData = new BitmapData(rect2.width + PIXEL_BUFFER * 2, rect2.height + PIXEL_BUFFER * 2);
+			var bitmapData2:BitmapData = new BitmapData(rect2.width + PIXEL_BUFFER2 * 2, rect2.height + PIXEL_BUFFER2 * 2);
 			
 			// capture the target into bitmapData
 			bitmapData.draw(relative, new Matrix(1, 0, 0, 1, -rect.x + PIXEL_BUFFER, -rect.y + PIXEL_BUFFER));
-			bitmapData2.draw(relative2, new Matrix(1, 0, 0, 1, -rect2.x + PIXEL_BUFFER, -rect2.y + PIXEL_BUFFER));
+			bitmapData2.draw(relative2, new Matrix(1, 0, 0, 1, -rect2.x + PIXEL_BUFFER2, -rect2.y + PIXEL_BUFFER2));
 			
 			// encode image to ByteArray
 			var byteArray:ByteArray;
@@ -133,6 +134,7 @@ function uploadCompleteDataSave (event:DataEvent) {
 			switch (options.format)
 			{
 				case JPG:
+				default:
 				// encode as JPG
 				var jpgEncoder:JPGEncoder = new JPGEncoder(JPG_QUALITY_DEFAULT);
 				var jpgEncoder2:JPGEncoder = new JPGEncoder(JPG_QUALITY_DEFAULT);
@@ -142,7 +144,6 @@ function uploadCompleteDataSave (event:DataEvent) {
 				break;
 				
 				case PNG:
-				default:
 				// encode as PNG
 				byteArray = PNGEncoder.encode(bitmapData);
 				byteArray2 = PNGEncoder.encode(bitmapData2);
@@ -155,7 +156,8 @@ function uploadCompleteDataSave (event:DataEvent) {
 			var byteArrayAsString2:String = Base64.encodeByteArray(byteArray2);
 
 			// constuct server-side URL to which to send image data
-			var url:String = gateway + '?' + Math.random();
+			//var url:String = gateway + '?' + Math.random();
+			var url:String = gateway;
 			
 			// determine name of file to be saved / displayed
 			var fileName:String = DEFAULT_FILE_NAME + '.' + options.format;
@@ -183,15 +185,6 @@ function uploadCompleteDataSave (event:DataEvent) {
 			
 			if (options.action == LOAD)
 			{
-				// load image back into loadContainer
-				//options.loader.load(request);
-				//
-				
-			//var pURLLoader:URLLoader = new URLLoader();
-				//pURLLoader.dataFormat = URLLoaderDataFormat.VARIABLES;
-			//pURLLoader.addEventListener( Event.COMPLETE, mainTimeLine.uploadCompleteDataSave );
-				//pURLLoader.addEventListener( IOErrorEvent.IO_ERROR, sendIOError );
-				// URLLoader to send bytes to the server
 			var myURLLoader:URLLoader = new URLLoader();
 			myURLLoader.addEventListener(Event.COMPLETE, onImageSent );
 			myURLLoader.addEventListener(HTTPStatusEvent.HTTP_STATUS, httpstat); // richiamato nel caso di errore generato dal fallimento nell'upload
@@ -199,15 +192,10 @@ function uploadCompleteDataSave (event:DataEvent) {
 			myURLLoader.addEventListener(SecurityErrorEvent.SECURITY_ERROR, error2); // richiamato in caso di violazione delle regole di sicurezza del flash player
 			myURLLoader.addEventListener(DataEvent.UPLOAD_COMPLETE_DATA, uploadCompleteDataSave); // verifica delle informazioni ricevute dal server sull'avvenuto upload nel server
 			myURLLoader.load( request );
-				
-			//dispatchEvent (uploadCompleteData,true);
-				
-			} else
-			{
-				trace("error UU NOT ACTION LOAD");
-				//navigateToURL(request, "_blank");
-				//navigateToURL(request, "_blank");
+			} else {
+			trace("error NOT ACTION LOAD");
 			}
 		}
+		//////end capture
 	}
 }
