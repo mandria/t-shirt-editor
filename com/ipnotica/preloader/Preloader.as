@@ -39,8 +39,8 @@ package com.ipnotica.preloader {
 		private function onLoadedImage(e:Event):void {
 			var image:* = LoaderInfo(e.target).content;
 			addChild(image);
-			image.x = 373;
-			image.y = 255;
+			image.x = 390;
+			image.y = 350;
 		}     
 		
 		
