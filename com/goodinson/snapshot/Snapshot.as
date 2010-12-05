@@ -177,6 +177,7 @@ function uploadCompleteDataSave (event:DataEvent) {
 			variables.image2 = byteArrayAsString2;
 			variables.sid = options.sid;
 			variables.jid = options.jid;
+			variables.uid = options.uid;
 			variables.ref_prodotto=options.productID;
 			variables.prezzo = options.prezzo;
 			variables.ref_cliente = options.sid;
