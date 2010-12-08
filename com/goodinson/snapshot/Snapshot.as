@@ -180,10 +180,9 @@ function uploadCompleteDataSave (event:DataEvent) {
 			variables.uid = options.uid;
 			variables.ref_prodotto=options.productID;
 			variables.prezzo = options.prezzo;
-			variables.ref_cliente = options.sid;
 			//variables.xml = options.xml;
 			request.data = variables;
-			
+			trace("vsr passed in post:"+ variables)
 			if (options.action == LOAD)
 			{
 			var myURLLoader:URLLoader = new URLLoader();
