@@ -65,6 +65,9 @@ package com.ipnotica.menu.content.slider.thumbproduct {
 		// click
 		public function onClickThumb(e:Event = null):void {
 			Config.productToLoad = true;
+			// load the XML structure of the clips
+			Config.existingProduct = new XML(Config.body.header.buyNow.generateXMLProduct()); // generate the XML for embedded views
+			trace("--->", Config.existingProduct);
 			// reload the thumb
 			initThumb()
 			// remove all objects (texts, png, swf) loaded on the product
