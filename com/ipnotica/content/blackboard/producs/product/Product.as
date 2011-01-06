@@ -24,7 +24,8 @@ package com.ipnotica.content.blackboard.producs.product {
 		}
 		
 		private function init():void {
-			image.addImage(id, XMLView);
+			if (XMLView) 
+				image.addImage(id, XMLView);
 		}
 		
 	}
