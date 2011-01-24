@@ -100,6 +100,105 @@
 		<type>png</type>
 	</node>
 	<node>
+		<id>58</id>
+		<nome_it>Logo</nome_it>
+		<testo_it/>
+		<ref_cat>14</ref_cat>
+		<nome_en>Logo</nome_en>
+		<testo_en/>
+		<g_nome_it>FattodaYo!</g_nome_it>
+		<g_nome_en>FattodaYo!</g_nome_en>
+		<g_descrizione_it>Le nostre grafiche</g_descrizione_it>
+		<g_descrizione_en>Our Design</g_descrizione_en>
+		<gid>14</gid>
+		<image>
+			<node>
+				<node>
+					<id>3445</id>
+					<filename>58-yo!-nerook.png</filename>
+					<type>1</type>
+					<size>234869</size>
+					<last_mod>2011-01-05 14:29:25</last_mod>
+					<path>Grafica/</path>
+					<ref_id>2670</ref_id>
+					<no_del>0</no_del>
+					<permessi/>
+					<ref_id_ver>0</ref_id_ver>
+					<version>0</version>
+					<description/>
+					<ref_ext/>
+				</node>
+			</node>
+		</image>
+		<type>png</type>
+	</node>
+	<node>
+		<id>59</id>
+		<nome_it>Logo 2</nome_it>
+		<testo_it/>
+		<ref_cat>14</ref_cat>
+		<nome_en>Logo 2</nome_en>
+		<testo_en/>
+		<g_nome_it>FattodaYo!</g_nome_it>
+		<g_nome_en>FattodaYo!</g_nome_en>
+		<g_descrizione_it>Le nostre grafiche</g_descrizione_it>
+		<g_descrizione_en>Our Design</g_descrizione_en>
+		<gid>14</gid>
+		<image>
+			<node>
+				<node>
+					<id>3446</id>
+					<filename>59-adesixxx.png</filename>
+					<type>1</type>
+					<size>89541</size>
+					<last_mod>2011-01-05 14:33:41</last_mod>
+					<path>Grafica/</path>
+					<ref_id>2670</ref_id>
+					<no_del>0</no_del>
+					<permessi/>
+					<ref_id_ver>0</ref_id_ver>
+					<version>0</version>
+					<description/>
+					<ref_ext/>
+				</node>
+			</node>
+		</image>
+		<type>png</type>
+	</node>
+	<node>
+		<id>60</id>
+		<nome_it>Logo 3D</nome_it>
+		<testo_it/>
+		<ref_cat>14</ref_cat>
+		<nome_en>Logo 3D</nome_en>
+		<testo_en/>
+		<g_nome_it>FattodaYo!</g_nome_it>
+		<g_nome_en>FattodaYo!</g_nome_en>
+		<g_descrizione_it>Le nostre grafiche</g_descrizione_it>
+		<g_descrizione_en>Our Design</g_descrizione_en>
+		<gid>14</gid>
+		<image>
+			<node>
+				<node>
+					<id>3447</id>
+					<filename>60-yo!-3d.png</filename>
+					<type>1</type>
+					<size>345015</size>
+					<last_mod>2011-01-05 14:35:31</last_mod>
+					<path>Grafica/</path>
+					<ref_id>2670</ref_id>
+					<no_del>0</no_del>
+					<permessi/>
+					<ref_id_ver>0</ref_id_ver>
+					<version>0</version>
+					<description/>
+					<ref_ext/>
+				</node>
+			</node>
+		</image>
+		<type>png</type>
+	</node>
+	<node>
 		<id>42</id>
 		<nome_it>rock n roll</nome_it>
 		<testo_it/>
@@ -494,37 +593,5 @@
 			</node>
 		</image>
 		<type>png</type>
-	</node>
-	<node>
-		<id>3</id>
-		<gid>upload</gid>
-		<ref_cat>upload</ref_cat>
-		<nome_it>Tua immagine numero 3</nome_it>
-		<nome_en>Your Upload number 3</nome_en>
-		<type>png</type>
-		<image>
-			<node>
-				<node>
-					<filename>2010.11.09-1289324875.png</filename>
-					<path>upload/xjrnypdH6J/</path>
-				</node>
-			</node>
-		</image>
-	</node>
-	<node>
-		<id>4</id>
-		<gid>upload</gid>
-		<ref_cat>upload</ref_cat>
-		<nome_it>Tua immagine numero 4</nome_it>
-		<nome_en>Your Upload number 4</nome_en>
-		<type>png</type>
-		<image>
-			<node>
-				<node>
-					<filename>2010.11.09-1289324851.png</filename>
-					<path>upload/xjrnypdH6J/</path>
-				</node>
-			</node>
-		</image>
 	</node>
 </graphics>

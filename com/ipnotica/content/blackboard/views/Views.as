@@ -56,6 +56,10 @@ package com.ipnotica.content.blackboard.views {
 			view.visible = false;
 			view.name = id;
 			addChild(view);
+			if (Config.views.length() == 1) {
+				trace("..........................");
+				hideAllViews();
+			}
 		}
 		
 		

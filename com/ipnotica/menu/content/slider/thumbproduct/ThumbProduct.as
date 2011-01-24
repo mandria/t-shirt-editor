@@ -97,14 +97,13 @@ package com.ipnotica.menu.content.slider.thumbproduct {
 				var product:Product = products[i];
 				var items:Array = product.items.customization.items;
 				for (var j:int=0; j<items.length; j++) {
-					//if (Item(items[j]).myResizableMovieClip) {
+					if (Item(items[j]).myResizableMovieClip) {
 						stage.removeEventListener(MouseEvent.MOUSE_UP, Item(items[j]).myResizableMovieClip.handleStageMouseUp);
 						Item(items[j]).removeChild(Item(items[j]).myResizableMovieClip);
 						Item(items[j]).myResizableMovieClip = null;
 						product.items.removeChild(items[j]);
 						items[j] = null;
-					//}
-					
+					}
 				}
 			}
 		}
