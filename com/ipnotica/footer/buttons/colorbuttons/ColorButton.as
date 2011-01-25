@@ -3,6 +3,7 @@ package com.ipnotica.footer.buttons.colorbuttons {
 	import com.greensock.TweenLite;
 	import com.ipnotica.utils.Config;
 	import com.ipnotica.utils.CustomEvents;
+	import com.ipnotica.utils.Utils;
 	
 	import flash.display.MovieClip;
 
@@ -58,6 +59,7 @@ package com.ipnotica.footer.buttons.colorbuttons {
 			
 			// save the color in the item structure
 			Config.currentItem.structure.properties.color = color;
+			Utils.initXMLClips();
 		}
 		
 	}

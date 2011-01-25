@@ -1,6 +1,7 @@
 package com.ipnotica.footer.buttons.alphabuttons {
 	
 	import com.ipnotica.utils.Config;
+	import com.ipnotica.utils.Utils;
 	
 	import flash.display.MovieClip;
 	import flash.events.Event;
@@ -37,9 +38,21 @@ package com.ipnotica.footer.buttons.alphabuttons {
 			if (Config.currentItem.myResizableMovieClip) {
 				var alpha:Number 
 				if (Config.currentItem.myResizableMovieClip) {
-					if (alphaUp)   { if (Config.currentItem.content.alpha <= 1)    { alpha = Config.currentItem.content.alpha += 0.025; } }
-					if (alphaDown) { if (Config.currentItem.content.alpha > 0.1)   { alpha = Config.currentItem.content.alpha -= 0.025; } }
-					Config.currentItem.structure.properties.alpha = Config.currentItem.content.alpha;
+					if (alphaUp)   { 
+						if (Config.currentItem.content.alpha <= 1)    { 
+							alpha = Config.currentItem.content.alpha += 0.025; 
+							Config.currentItem.structure.properties.alpha = Config.currentItem.content.alpha;
+							Utils.initXMLClips();
+						} 
+					}
+					if (alphaDown) { 
+						if (Config.currentItem.content.alpha > 0.1)   { 
+							alpha = Config.currentItem.content.alpha -= 0.025; 
+							Config.currentItem.structure.properties.alpha = Config.currentItem.content.alpha;
+							Utils.initXMLClips();
+						} 
+					}
+					
 				}
 			}
 		}		
