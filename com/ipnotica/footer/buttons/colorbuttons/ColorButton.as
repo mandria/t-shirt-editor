@@ -38,7 +38,9 @@ package com.ipnotica.footer.buttons.colorbuttons {
 		
 		private function onMouse(e:Event):void {
 		
-		Utils.setTT(this, "colore", "clicca questo pulsante per cambiare colore");
+		//Utils.setTT(this, "colore", "clicca questo pulsante per cambiare colore");
+		Utils.setTT(this, "Color", "Click this button to change color");
+
 		}
 		
 		public function onColorSelected(e:CustomEvents):void {

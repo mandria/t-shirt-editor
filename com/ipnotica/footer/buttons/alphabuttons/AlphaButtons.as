@@ -40,11 +40,13 @@ package com.ipnotica.footer.buttons.alphabuttons {
 		
 		private function onMouseAp(e:Event):void {
 		
-		Utils.setTT(this, "trasparenza", "clicca questo pulsante per rendere meno trasparente l'immagine");
+		//Utils.setTT(this, "transparency", "clicca il pulsante per rendere meno trasparente l'immagine");
+		Utils.setTT(this, "Transparency", "Click this button to make the image less transparent");
+
 		}
 		private function onMouseAm(e:Event):void {
 		
-		Utils.setTT(this, "trasparenza", "clicca questo pulsante per rendere piu' trasparente l'immagine");
+		Utils.setTT(this, "Transparency", "Click this button to make the image more transparent");
 		}
 
 
