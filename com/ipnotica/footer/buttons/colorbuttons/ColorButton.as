@@ -6,6 +6,8 @@ package com.ipnotica.footer.buttons.colorbuttons {
 	import com.ipnotica.utils.Utils;
 	
 	import flash.display.MovieClip;
+	import flash.events.Event;
+
 
 	public class ColorButton extends MovieClip {
 		
@@ -31,6 +33,12 @@ package com.ipnotica.footer.buttons.colorbuttons {
 		
 		private function initListeners():void {
 			 Config.doc.addEventListener(CustomEvents.COLOR_SELECTED, onColorSelected);
+			 addEventListener(MouseEvent.MOUSE_OVER, onMouse);
+		}
+		
+		private function onMouse(e:Event):void {
+		
+		Utils.setTT(this, "colore", "clicca questo pulsante per cambiare colore");
 		}
 		
 		public function onColorSelected(e:CustomEvents):void {

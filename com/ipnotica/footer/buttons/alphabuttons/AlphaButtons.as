@@ -32,7 +32,24 @@ package com.ipnotica.footer.buttons.alphabuttons {
 			down.addEventListener(MouseEvent.MOUSE_DOWN, function():void  { alphaDown = true;  });
 			down.addEventListener(MouseEvent.MOUSE_UP,   function():void  { alphaDown = false; });
 			addEventListener(Event.ENTER_FRAME, alphaItem);
+			up.addEventListener(MouseEvent.MOUSE_OVER, onMouseAp);
+			down.addEventListener(MouseEvent.MOUSE_OVER, onMouseAm);
+
 		}
+		
+		
+		private function onMouseAp(e:Event):void {
+		
+		Utils.setTT(this, "trasparenza", "clicca questo pulsante per rendere meno trasparente l'immagine");
+		}
+		private function onMouseAm(e:Event):void {
+		
+		Utils.setTT(this, "trasparenza", "clicca questo pulsante per rendere piu' trasparente l'immagine");
+		}
+
+
+
+		
 				
 		private function alphaItem(e:Event):void {
 			if (Config.currentItem.myResizableMovieClip) {
