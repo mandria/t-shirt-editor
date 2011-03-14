@@ -37,7 +37,7 @@ package com.goodinson.snapshot
 public static function capture2(target:DisplayObject, target2:DisplayObject, options:Object):void
 		{
 		trace("snapshot2 level")
-		Config.doc.preloader.label.text = "Saving Images";
+		Config.doc.preloader.label.text = "Salvataggio ...";
 			
 						////////////////////////////////////////////		
 
@@ -203,7 +203,7 @@ function uploadCompleteDataSave (event:DataEvent) {
 		public static function capture(target:DisplayObject, options:Object):void
 		{
 		trace("snapshot1 level")
-		Config.doc.preloader.label.text = "Saving Image";
+		Config.doc.preloader.label.text = "Salvataggio ...";
 			
 						////////////////////////////////////////////		
 
