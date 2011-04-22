@@ -2,6 +2,7 @@
 
 package com.ipnotica.menu.content.slider.thumbproduct {
 	
+	import com.greensock.TweenLite;
 	import com.ipnotica.content.blackboard.producs.product.Product;
 	import com.ipnotica.content.blackboard.producs.product.item.Item;
 	import com.ipnotica.menu.content.slider.thumbproduct.colors.ColorBoxContainer;
@@ -73,6 +74,12 @@ package com.ipnotica.menu.content.slider.thumbproduct {
 			cleanPreviousItems(); 
 			Config.body.content.update();
 			Config.doc.dispatchEvent(new CustomEvents(CustomEvents.THUMB_CLICKED, {type: "product", id: currentProduct.id, item: currentProduct}));
+			TweenLite.delayedCall(1, reloadHeaderDescription)
+		}
+		
+		private function reloadHeaderDescription():void {
+			trace("::: RELOAD DESCRIPTION")
+			Config.doc.dispatchEvent(new CustomEvents(CustomEvents.VIEW_CHANGED, {}));
 		}
 		
 		
